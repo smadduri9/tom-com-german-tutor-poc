@@ -1,0 +1,163 @@
+import React, { useEffect, useMemo, useState } from 'react';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { router } from 'expo-router';
+import { Screen } from '../src/components/Screen';
+import { AppButton } from '../src/components/AppButton';
+import { AudioButtons } from '../src/components/AudioButtons';
+import { useApp } from '../src/state/AppContext';
+import { lesson1 } from '../src/data/lesson';
+import { buildSteps, clampStep } from '../src/logic/steps';
+import { pick, t } from '../src/i18n/t';
+import type { Lang, Phrase } from '../src/types';
+import { colors, space, type } from '../src/theme';
+
+function PhraseCard({ phrase, lang, n, total }: { phrase: Phrase; lang: Lang; n: number; total: number }) {
+  const [shown, setShown] = useState(false);
+  return (
+    <View>
+      <Text style={type.small}>{t(lang, 'phrasesTitle', { n, total })}</Text>
+      <View style={styles.card}>
+        <Text style={type.german}>{phrase.de}</Text>
+        <AudioButtons audioId={phrase.id} german={phrase.de} />
+        {shown ? (
+          <Text style={[type.heading, { marginTop: space.md }]}>{pick(phrase.meaning, lang)}</Text>
+        ) : (
+          <Pressable onPress={() => setShown(true)} accessibilityRole="button" style={styles.reveal}>
+            <Text style={styles.revealText}>{t(lang, 'showMeaning')}</Text>
+          </Pressable>
+        )}
+      </View>
+    </View>
+  );
+}
+
+export default function LessonScreen() {
+  const { lang, progress, saveStep } = useApp();
+  const steps = useMemo(() => buildSteps(lesson1), []);
+  const [idx, setIdx] = useState(() => clampStep(progress.step, steps.length));
+
+  useEffect(() => {
+    saveStep(idx);
+  }, [idx, saveStep]);
+
+  const step = steps[idx];
+  const isLast = idx === steps.length - 1;
+
+  let body: React.ReactNode = null;
+  if (step.kind === 'intro') {
+    body = (
+      <View>
+        <Text style={type.title}>{pick(lesson1.title, lang)}</Text>
+        <Text style={[type.heading, { marginTop: space.md }]}>{t(lang, 'introTitle')}</Text>
+        <Text style={type.body}>{pick(lesson1.intro, lang)}</Text>
+      </View>
+    );
+  } else if (step.kind === 'phrase') {
+    const phrase = lesson1.phrases[step.index];
+    // key resets the "show meaning" state for each new card
+    body = (
+      <PhraseCard key={phrase.id} phrase={phrase} lang={lang} n={step.index + 1} total={lesson1.phrases.length} />
+    );
+  } else if (step.kind === 'dialogue') {
+    body = (
+      <View>
+        <Text style={type.heading}>{t(lang, 'dialogueTitle')}</Text>
+        {lesson1.dialogue.map((line) => {
+          const isRavi = line.speaker === 'Ravi';
+          return (
+            <View key={line.id} style={[styles.bubble, isRavi ? styles.bubbleRight : styles.bubbleLeft]}>
+              <Text style={styles.speaker}>{line.speaker}</Text>
+              <Text style={[type.body, { fontWeight: '700', color: colors.primary }]}>{line.de}</Text>
+              <Text style={type.small}>{pick(line.meaning, lang)}</Text>
+              <AudioButtons audioId={line.id} german={line.de} />
+            </View>
+          );
+        })}
+      </View>
+    );
+  } else if (step.kind === 'grammar') {
+    body = (
+      <View>
+        <Text style={type.heading}>{pick(lesson1.grammar.title, lang)}</Text>
+        <Text style={[type.body, { marginTop: space.sm }]}>{pick(lesson1.grammar.body, lang)}</Text>
+        {lesson1.grammar.examples.map((ex) => (
+          <View key={ex.audioId} style={styles.card}>
+            <Text style={styles.speaker}>{pick(ex.label, lang)}</Text>
+            <Text style={type.german}>{ex.de}</Text>
+            <AudioButtons audioId={ex.audioId} german={ex.de} />
+          </View>
+        ))}
+      </View>
+    );
+  } else {
+    body = (
+      <View>
+        <Text style={type.heading}>{t(lang, 'pronTitle')}</Text>
+        {lesson1.pronunciation.map((p) => (
+          <View key={p.audioId + p.focus} style={styles.card}>
+            <Text style={styles.focus}>{p.focus}</Text>
+            <Text style={type.german}>{p.de}</Text>
+            <Text style={type.body}>{pick(p.tip, lang)}</Text>
+            <AudioButtons audioId={p.audioId} german={p.de} />
+          </View>
+        ))}
+      </View>
+    );
+  }
+
+  return (
+    <Screen>
+      <View style={styles.barTrack}>
+        <View style={[styles.barFill, { width: `${((idx + 1) / steps.length) * 100}%` }]} />
+      </View>
+      {body}
+      <View style={styles.nav}>
+        <View style={styles.navItem}>
+          <AppButton
+            title={t(lang, 'back')}
+            variant="secondary"
+            disabled={idx === 0}
+            onPress={() => setIdx((i) => Math.max(0, i - 1))}
+          />
+        </View>
+        <View style={styles.navItem}>
+          <AppButton
+            title={isLast ? t(lang, 'startQuiz') : t(lang, 'next')}
+            onPress={() => (isLast ? router.push('/quiz') : setIdx((i) => Math.min(steps.length - 1, i + 1)))}
+          />
+        </View>
+      </View>
+    </Screen>
+  );
+}
+
+const styles = StyleSheet.create({
+  barTrack: { height: 6, borderRadius: 3, backgroundColor: colors.border, marginBottom: space.md, overflow: 'hidden' },
+  barFill: { height: '100%', backgroundColor: colors.accent },
+  card: {
+    backgroundColor: colors.surface,
+    borderRadius: 16,
+    padding: space.md,
+    marginTop: space.sm,
+    borderWidth: 1,
+    borderColor: colors.border,
+  },
+  reveal: {
+    marginTop: space.md,
+    minHeight: 44,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderStyle: 'dashed',
+    borderColor: colors.muted,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  revealText: { fontSize: 16, lineHeight: 24, color: colors.muted, fontWeight: '600' },
+  bubble: { borderRadius: 14, padding: space.sm, marginTop: space.sm, maxWidth: '92%' },
+  bubbleLeft: { alignSelf: 'flex-start', backgroundColor: colors.surface },
+  bubbleRight: { alignSelf: 'flex-end', backgroundColor: '#EEF1FF' },
+  speaker: { fontSize: 13, lineHeight: 20, fontWeight: '700', color: colors.accent },
+  focus: { fontSize: 32, lineHeight: 40, fontWeight: '700', color: colors.accent },
+  nav: { flexDirection: 'row', gap: space.sm, marginTop: space.lg },
+  navItem: { flex: 1 },
+});
