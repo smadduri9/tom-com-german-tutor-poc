@@ -1,0 +1,152 @@
+{
+  "id": "lesson1",
+  "level": "A1",
+  "title": { "en": "Lesson 1 · Hallo!", "te": "పాఠం 1 · Hallo!", "hi": "पाठ 1 · Hallo!" },
+  "subtitle": {
+    "en": "Greetings & introducing yourself",
+    "te": "పలకరింపులు & మీ పరిచయం",
+    "hi": "अभिवादन और अपना परिचय"
+  },
+  "intro": {
+    "en": "Greet people at any time of day, say your name, say where you come from, and ask how someone is.",
+    "te": "రోజులో ఏ సమయంలోనైనా పలకరించడం, మీ పేరు చెప్పడం, మీరు ఎక్కడి నుండి వచ్చారో చెప్పడం, ఎవరైనా ఎలా ఉన్నారో అడగడం.",
+    "hi": "दिन के किसी भी समय अभिवादन करना, अपना नाम बताना, आप कहाँ से हैं यह बताना और किसी का हालचाल पूछना।"
+  },
+  "phrases": [
+    { "id": "p01", "de": "Hallo!", "meaning": { "en": "Hello!", "te": "హలో!", "hi": "नमस्ते!" } },
+    { "id": "p02", "de": "Guten Morgen!", "meaning": { "en": "Good morning!", "te": "శుభోదయం!", "hi": "सुप्रभात!" } },
+    { "id": "p03", "de": "Guten Tag!", "meaning": { "en": "Good day! (daytime greeting)", "te": "నమస్కారం! (పగటి పూట)", "hi": "नमस्ते! (दिन में)" } },
+    { "id": "p04", "de": "Guten Abend!", "meaning": { "en": "Good evening!", "te": "శుభ సాయంత్రం!", "hi": "शुभ संध्या!" } },
+    { "id": "p05", "de": "Tschüss!", "meaning": { "en": "Bye! (informal)", "te": "బై! (సన్నిహితులతో)", "hi": "अलविदा! (अनौपचारिक)" } },
+    { "id": "p06", "de": "Auf Wiedersehen!", "meaning": { "en": "Goodbye! (formal)", "te": "మళ్ళీ కలుద్దాం! (గౌరవంగా)", "hi": "फिर मिलेंगे! (औपचारिक)" } },
+    { "id": "p07", "de": "Danke!", "meaning": { "en": "Thank you!", "te": "ధన్యవాదాలు!", "hi": "धन्यवाद!" } },
+    { "id": "p08", "de": "Bitte!", "meaning": { "en": "Please! / You're welcome!", "te": "దయచేసి! / పర్వాలేదు!", "hi": "कृपया! / कोई बात नहीं!" } },
+    { "id": "p09", "de": "Ja / Nein", "meaning": { "en": "Yes / No", "te": "అవును / కాదు", "hi": "हाँ / नहीं" } },
+    { "id": "p10", "de": "Wie heißen Sie?", "meaning": { "en": "What is your name? (formal)", "te": "మీ పేరు ఏమిటి?", "hi": "आपका नाम क्या है?" } },
+    { "id": "p11", "de": "Ich heiße Ravi.", "meaning": { "en": "My name is Ravi.", "te": "నా పేరు రవి.", "hi": "मेरा नाम रवि है।" } },
+    { "id": "p12", "de": "Woher kommen Sie?", "meaning": { "en": "Where are you from? (formal)", "te": "మీరు ఎక్కడి నుండి వచ్చారు?", "hi": "आप कहाँ से हैं?" } },
+    { "id": "p13", "de": "Ich komme aus Indien.", "meaning": { "en": "I come from India.", "te": "నేను భారతదేశం నుండి వచ్చాను.", "hi": "मैं भारत से हूँ।" } },
+    { "id": "p14", "de": "Wie geht es Ihnen?", "meaning": { "en": "How are you? (formal)", "te": "మీరు ఎలా ఉన్నారు?", "hi": "आप कैसे हैं?" } },
+    { "id": "p15", "de": "Gut, danke!", "meaning": { "en": "Fine, thanks!", "te": "బాగున్నాను, ధన్యవాదాలు!", "hi": "अच्छा हूँ, धन्यवाद!" } }
+  ],
+  "dialogue": [
+    { "id": "d01", "speaker": "Frau Müller", "de": "Guten Morgen!", "meaning": { "en": "Good morning!", "te": "శుభోదయం!", "hi": "सुप्रभात!" } },
+    { "id": "d02", "speaker": "Ravi", "de": "Guten Morgen! Ich heiße Ravi. Wie heißen Sie?", "meaning": { "en": "Good morning! My name is Ravi. What is your name?", "te": "శుభోదయం! నా పేరు రవి. మీ పేరు ఏమిటి?", "hi": "सुप्रभात! मेरा नाम रवि है। आपका नाम क्या है?" } },
+    { "id": "d03", "speaker": "Frau Müller", "de": "Ich heiße Anna Müller. Woher kommen Sie?", "meaning": { "en": "My name is Anna Müller. Where are you from?", "te": "నా పేరు అన్నా ముల్లర్. మీరు ఎక్కడి నుండి వచ్చారు?", "hi": "मेरा नाम अन्ना मुलर है। आप कहाँ से हैं?" } },
+    { "id": "d04", "speaker": "Ravi", "de": "Ich komme aus Indien. Wie geht es Ihnen?", "meaning": { "en": "I come from India. How are you?", "te": "నేను భారతదేశం నుండి వచ్చాను. మీరు ఎలా ఉన్నారు?", "hi": "मैं भारत से हूँ। आप कैसी हैं?" } },
+    { "id": "d05", "speaker": "Frau Müller", "de": "Gut, danke! Und Ihnen?", "meaning": { "en": "Fine, thanks! And you?", "te": "బాగున్నాను, ధన్యవాదాలు! మరి మీరు?", "hi": "अच्छी हूँ, धन्यवाद! और आप?" } },
+    { "id": "d06", "speaker": "Ravi", "de": "Auch gut, danke. Auf Wiedersehen!", "meaning": { "en": "Also fine, thanks. Goodbye!", "te": "నేను కూడా బాగున్నాను, ధన్యవాదాలు. మళ్ళీ కలుద్దాం!", "hi": "मैं भी अच्छा हूँ, धन्यवाद। फिर मिलेंगे!" } }
+  ],
+  "grammar": {
+    "title": { "en": "Grammar: Sie or du?", "te": "వ్యాకరణం: Sie లేదా du?", "hi": "व्याकरण: Sie या du?" },
+    "body": {
+      "en": "German has two words for \"you\". Use Sie (formal) with strangers, elders and at work. Use du (informal) with friends, family and children. It works just like \"aap\" and \"tum\" in Hindi, or \"meeru\" and \"nuvvu\" in Telugu. Sie is always written with a capital S.",
+      "te": "జర్మన్‌లో \"మీరు/నువ్వు\" కి రెండు పదాలు ఉన్నాయి. తెలియని వారితో, పెద్దవారితో, ఆఫీసులో Sie (గౌరవంగా) వాడండి. స్నేహితులు, కుటుంబం, పిల్లలతో du (సన్నిహితంగా) వాడండి. ఇది తెలుగులో \"మీరు\" మరియు \"నువ్వు\" లాంటిదే. Sie ఎప్పుడూ పెద్ద S తో రాస్తారు.",
+      "hi": "जर्मन में \"आप/तुम\" के लिए दो शब्द हैं। अजनबियों, बड़ों और दफ़्तर में Sie (औपचारिक) का प्रयोग करें। दोस्तों, परिवार और बच्चों के साथ du (अनौपचारिक) का प्रयोग करें। यह हिंदी के \"आप\" और \"तुम\" जैसा ही है। Sie हमेशा बड़े S से लिखा जाता है।"
+    },
+    "examples": [
+      { "audioId": "p10", "de": "Wie heißen Sie?", "label": { "en": "formal", "te": "గౌరవంగా", "hi": "औपचारिक" } },
+      { "audioId": "g01", "de": "Wie heißt du?", "label": { "en": "informal", "te": "సన్నిహితంగా", "hi": "अनौपचारिक" } }
+    ]
+  },
+  "pronunciation": [
+    {
+      "audioId": "p05",
+      "de": "Tschüss",
+      "focus": "ü",
+      "tip": {
+        "en": "Say \"ee\" while rounding your lips as if saying \"oo\".",
+        "te": "\"ఈ\" అంటూ పెదవులను \"ఊ\" లాగా గుండ్రంగా చేయండి.",
+        "hi": "\"ई\" बोलते हुए होंठों को \"ऊ\" की तरह गोल करें।"
+      }
+    },
+    {
+      "audioId": "pr01",
+      "de": "heißen",
+      "focus": "ß",
+      "tip": {
+        "en": "ß is a sharp \"ss\" sound. heißen sounds like \"hy-sen\".",
+        "te": "ß అంటే గట్టి \"స్స్\" శబ్దం. heißen ని \"హై-సెన్\" లాగా పలకండి.",
+        "hi": "ß एक तेज़ \"स्स\" ध्वनि है। heißen को \"हाइ-सेन\" जैसा बोलें।"
+      }
+    },
+    {
+      "audioId": "pr02",
+      "de": "Nein",
+      "focus": "ei",
+      "tip": {
+        "en": "ei sounds like the English word \"eye\". Nein sounds like \"nine\".",
+        "te": "ei ని \"ఐ\" లాగా పలకండి. Nein ని \"నైన్\" లాగా పలకండి.",
+        "hi": "ei को \"आइ\" जैसा बोलें। Nein को \"नाइन\" जैसा बोलें।"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": { "en": "Listen. What does it mean?", "te": "వినండి. దీని అర్థం ఏమిటి?", "hi": "सुनें। इसका क्या अर्थ है?" },
+      "audioId": "p02",
+      "options": [
+        { "text": { "en": "Good morning!", "te": "శుభోదయం!", "hi": "सुप्रभात!" } },
+        { "text": { "en": "Good evening!", "te": "శుభ సాయంత్రం!", "hi": "शुभ संध्या!" } },
+        { "text": { "en": "Goodbye!", "te": "మళ్ళీ కలుద్దాం!", "hi": "फिर मिलेंगे!" } },
+        { "text": { "en": "Thank you!", "te": "ధన్యవాదాలు!", "hi": "धन्यवाद!" } }
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "prompt": { "en": "How do you say \"Thank you\" in German?", "te": "జర్మన్‌లో \"ధన్యవాదాలు\" ఎలా చెబుతారు?", "hi": "जर्मन में \"धन्यवाद\" कैसे कहते हैं?" },
+      "options": [{ "de": "Bitte!" }, { "de": "Danke!" }, { "de": "Hallo!" }, { "de": "Tschüss!" }],
+      "correctIndex": 1
+    },
+    {
+      "id": "q3",
+      "prompt": { "en": "Which goodbye is formal?", "te": "ఏ వీడ్కోలు గౌరవపూర్వకమైనది?", "hi": "कौन-सा अलविदा औपचारिक है?" },
+      "options": [{ "de": "Tschüss!" }, { "de": "Auf Wiedersehen!" }, { "de": "Hallo!" }, { "de": "Guten Morgen!" }],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "prompt": { "en": "Complete: Ich ___ Ravi.", "te": "ఖాళీ నింపండి: Ich ___ Ravi.", "hi": "रिक्त स्थान भरें: Ich ___ Ravi." },
+      "options": [{ "de": "heiße" }, { "de": "komme" }, { "de": "heißen" }, { "de": "kommen" }],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "prompt": {
+        "en": "You meet your new manager. How do you ask their name?",
+        "te": "మీ కొత్త మేనేజర్‌ని కలిశారు. వారి పేరు ఎలా అడుగుతారు?",
+        "hi": "आप अपने नए मैनेजर से मिलते हैं। उनका नाम कैसे पूछेंगे?"
+      },
+      "options": [{ "de": "Wie heißen Sie?" }, { "de": "Wie heißt du?" }, { "de": "Woher kommen Sie?" }, { "de": "Tschüss!" }],
+      "correctIndex": 0
+    }
+  ],
+  "audio": [
+    { "id": "p01", "text": "Hallo!", "voice": "female", "slow": true },
+    { "id": "p02", "text": "Guten Morgen!", "voice": "female", "slow": true },
+    { "id": "p03", "text": "Guten Tag!", "voice": "female", "slow": true },
+    { "id": "p04", "text": "Guten Abend!", "voice": "female", "slow": true },
+    { "id": "p05", "text": "Tschüss!", "voice": "female", "slow": true },
+    { "id": "p06", "text": "Auf Wiedersehen!", "voice": "female", "slow": true },
+    { "id": "p07", "text": "Danke!", "voice": "female", "slow": true },
+    { "id": "p08", "text": "Bitte!", "voice": "female", "slow": true },
+    { "id": "p09", "text": "Ja. Nein.", "voice": "female", "slow": true },
+    { "id": "p10", "text": "Wie heißen Sie?", "voice": "female", "slow": true },
+    { "id": "p11", "text": "Ich heiße Ravi.", "voice": "male", "slow": true },
+    { "id": "p12", "text": "Woher kommen Sie?", "voice": "female", "slow": true },
+    { "id": "p13", "text": "Ich komme aus Indien.", "voice": "male", "slow": true },
+    { "id": "p14", "text": "Wie geht es Ihnen?", "voice": "female", "slow": true },
+    { "id": "p15", "text": "Gut, danke!", "voice": "male", "slow": true },
+    { "id": "d01", "text": "Guten Morgen!", "voice": "female", "slow": false },
+    { "id": "d02", "text": "Guten Morgen! Ich heiße Ravi. Wie heißen Sie?", "voice": "male", "slow": false },
+    { "id": "d03", "text": "Ich heiße Anna Müller. Woher kommen Sie?", "voice": "female", "slow": false },
+    { "id": "d04", "text": "Ich komme aus Indien. Wie geht es Ihnen?", "voice": "male", "slow": false },
+    { "id": "d05", "text": "Gut, danke! Und Ihnen?", "voice": "female", "slow": false },
+    { "id": "d06", "text": "Auch gut, danke. Auf Wiedersehen!", "voice": "male", "slow": false },
+    { "id": "g01", "text": "Wie heißt du?", "voice": "female", "slow": true },
+    { "id": "pr01", "text": "heißen", "voice": "female", "slow": true },
+    { "id": "pr02", "text": "Nein", "voice": "female", "slow": true }
+  ]
+}

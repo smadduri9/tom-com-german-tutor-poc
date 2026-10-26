@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Deutsch Lernen",
+    "slug": "deutsch-lernen-poc",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "deutschlernen",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "ios": { "supportsTablet": false },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "plugins": ["expo-router"]
+  }
+}
