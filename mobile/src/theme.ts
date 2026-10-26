@@ -1,9 +1,17 @@
+// Palette: block-print blue (primary), marigold (audio, progress), brass (borders, labels).
 export const colors = {
-  primary: '#1F2A60',
-  accent: '#E85C5C',
+  primary: '#1F4A75',
+  primarySoft: '#2E5D8C',
+  primaryTint: '#C9D6E4',
+  accent: '#F28C00',
+  accentText: '#A85F00', // marigold is too light for text on white
+  onAccent: '#2B1A00',
+  brass: '#B59A6D',
+  brassText: '#8C7550',
+  brassLight: '#D8C49A',
   bg: '#FFFFFF',
-  surface: '#F4F6FB',
-  border: '#D9DEEA',
+  surface: '#FBF8F2',
+  border: '#E6DCC8',
   text: '#1A1A1A',
   muted: '#5B6275',
   success: '#1E7B4F',

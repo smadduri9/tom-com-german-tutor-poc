@@ -130,14 +130,14 @@ node tools/generate-audio.mjs
 ```
 
 This must have produced:
-- `generated/audio/` with **42** `.mp3` files
+- `generated/audio/` with **42** `.wav` files
 - `generated/audioMap.ts`
 - `generated/voices.json`
 
 **Haiku: check this first.**
 
 ```bash
-ls generated/audio/*.mp3 | wc -l    # must print 42
+ls generated/audio/*.wav | wc -l    # must print 42
 test -f generated/audioMap.ts && echo OK
 ```
 
@@ -180,7 +180,7 @@ Set `"main"` and add `test` / `typecheck` scripts and the `jest` block. Keep eve
   "jest": {
     "preset": "jest-expo",
     "moduleNameMapper": {
-      "\\.(mp3)$": "<rootDir>/__mocks__/fileMock.js"
+      "\\.(mp3|wav)$": "<rootDir>/__mocks__/fileMock.js"
     }
   }
 }
@@ -232,14 +232,14 @@ From the repository root:
 
 ```bash
 mkdir -p mobile/assets/audio mobile/src/data
-cp generated/audio/*.mp3 mobile/assets/audio/
+cp generated/audio/*.wav mobile/assets/audio/
 cp generated/audioMap.ts mobile/src/data/audioMap.ts
 cp content/lesson1.json mobile/src/data/lesson1.json
 ```
 
 **Verify (Phase 1):**
 ```bash
-cd mobile && ls assets/audio/*.mp3 | wc -l   # 42
+cd mobile && ls assets/audio/*.wav | wc -l   # 42
 ```
 Ship: run the PR loop in section G using this phase's row of the table.
 

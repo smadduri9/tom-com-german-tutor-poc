@@ -41,8 +41,20 @@ describe('parsePersisted', () => {
     expect(parsePersisted('not json')).toEqual(DEFAULT_STATE);
     expect(parsePersisted('{"lang":"fr","progress":{"step":-1,"quizBest":9}}')).toEqual(DEFAULT_STATE);
   });
-  it('keeps valid data', () => {
-    const v = { lang: 'te', session: { email: 'a@b.co' }, progress: { step: 4, quizBest: 3, passed: false } };
+  it('keeps valid data, per email', () => {
+    const v = {
+      lang: 'te',
+      session: { email: 'a@b.co' },
+      progressByEmail: { 'a@b.co': { step: 4, quizBest: 3, passed: false }, 'c@d.co': { step: 0, quizBest: 5, passed: true } },
+    };
     expect(parsePersisted(JSON.stringify(v))).toEqual(v);
+  });
+  it('moves old shared progress to the signed-in email', () => {
+    const old = { lang: 'en', session: { email: 'A@B.co' }, progress: { step: 7, quizBest: 2, passed: false } };
+    expect(parsePersisted(JSON.stringify(old)).progressByEmail).toEqual({ 'a@b.co': { step: 7, quizBest: 2, passed: false } });
+  });
+  it('drops old shared progress when nobody is signed in', () => {
+    const old = { lang: 'en', session: null, progress: { step: 7, quizBest: 2, passed: false } };
+    expect(parsePersisted(JSON.stringify(old)).progressByEmail).toEqual({});
   });
 });

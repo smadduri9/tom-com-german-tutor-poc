@@ -1,9 +1,10 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { router } from 'expo-router';
+import { router, Stack } from 'expo-router';
 import { Screen } from '../src/components/Screen';
 import { AppButton } from '../src/components/AppButton';
 import { AudioButtons } from '../src/components/AudioButtons';
+import { LessonProgressTitle } from '../src/components/LessonProgressTitle';
 import { useApp } from '../src/state/AppContext';
 import { lesson1 } from '../src/data/lesson';
 import { buildSteps, clampStep } from '../src/logic/steps';
@@ -107,9 +108,17 @@ export default function LessonScreen() {
 
   return (
     <Screen>
-      <View style={styles.barTrack}>
-        <View style={[styles.barFill, { width: `${((idx + 1) / steps.length) * 100}%` }]} />
-      </View>
+      <Stack.Screen
+        options={{
+          headerTitle: () => (
+            <LessonProgressTitle
+              title={t(lang, 'lessonTitle')}
+              fraction={(idx + 1) / steps.length}
+              label={`${idx + 1} / ${steps.length}`}
+            />
+          ),
+        }}
+      />
       {body}
       <View style={styles.nav}>
         <View style={styles.navItem}>
@@ -132,8 +141,6 @@ export default function LessonScreen() {
 }
 
 const styles = StyleSheet.create({
-  barTrack: { height: 6, borderRadius: 3, backgroundColor: colors.border, marginBottom: space.md, overflow: 'hidden' },
-  barFill: { height: '100%', backgroundColor: colors.accent },
   card: {
     backgroundColor: colors.surface,
     borderRadius: 16,
@@ -155,9 +162,9 @@ const styles = StyleSheet.create({
   revealText: { fontSize: 16, lineHeight: 24, color: colors.muted, fontWeight: '600' },
   bubble: { borderRadius: 14, padding: space.sm, marginTop: space.sm, maxWidth: '92%' },
   bubbleLeft: { alignSelf: 'flex-start', backgroundColor: colors.surface },
-  bubbleRight: { alignSelf: 'flex-end', backgroundColor: '#EEF1FF' },
-  speaker: { fontSize: 13, lineHeight: 20, fontWeight: '700', color: colors.accent },
-  focus: { fontSize: 32, lineHeight: 40, fontWeight: '700', color: colors.accent },
+  bubbleRight: { alignSelf: 'flex-end', backgroundColor: '#EAF0F6' },
+  speaker: { fontSize: 13, lineHeight: 20, fontWeight: '700', color: colors.accentText },
+  focus: { fontSize: 32, lineHeight: 40, fontWeight: '700', color: colors.accentText },
   nav: { flexDirection: 'row', gap: space.sm, marginTop: space.lg },
   navItem: { flex: 1 },
 });

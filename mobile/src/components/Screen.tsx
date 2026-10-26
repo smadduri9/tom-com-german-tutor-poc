@@ -9,6 +9,8 @@ export function Screen({ children }: { children: React.ReactNode }) {
         style={styles.flex}
         contentContainerStyle={styles.content}
         keyboardShouldPersistTaps="handled"
+        // iOS headers are translucent: let the scroll view inset content below the header.
+        contentInsetAdjustmentBehavior="automatic"
       >
         {children}
       </ScrollView>

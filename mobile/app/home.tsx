@@ -49,7 +49,7 @@ export default function Home() {
         variant="ghost"
         onPress={() => {
           logout();
-          router.replace('/login/email');
+          router.replace('/welcome');
         }}
       />
     </Screen>
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.border,
   },
-  level: { color: colors.accent, fontWeight: '700', fontSize: 14, lineHeight: 22 },
+  level: { color: colors.brassText, fontWeight: '700', fontSize: 14, lineHeight: 22 },
   barTrack: {
     height: 10,
     borderRadius: 5,
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     marginBottom: space.xs,
     overflow: 'hidden',
   },
-  barFill: { height: '100%', backgroundColor: colors.success },
+  barFill: { height: '100%', backgroundColor: colors.accent },
   badge: {
     alignSelf: 'flex-start',
     backgroundColor: colors.successBg,

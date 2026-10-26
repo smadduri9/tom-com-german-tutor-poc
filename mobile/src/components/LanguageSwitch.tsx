@@ -10,7 +10,8 @@ const OPTIONS: { lang: Lang; label: string; a11y: string }[] = [
   { lang: 'hi', label: 'हि', a11y: 'हिन्दी' },
 ];
 
-export function LanguageSwitch() {
+// onDark: for blue backgrounds (landing page).
+export function LanguageSwitch({ onDark = false }: { onDark?: boolean }) {
   const { lang, setLang } = useApp();
   return (
     <View style={styles.row}>
@@ -24,9 +25,9 @@ export function LanguageSwitch() {
             accessibilityLabel={o.a11y}
             accessibilityState={{ selected: active }}
             hitSlop={6}
-            style={[styles.pill, active && styles.active]}
+            style={[styles.pill, onDark && styles.pillDark, active && (onDark ? styles.activeDark : styles.active)]}
           >
-            <Text style={[styles.text, active && styles.activeText]}>{o.label}</Text>
+            <Text style={[styles.text, onDark && styles.textDark, active && (onDark ? styles.activeDarkText : styles.activeText)]}>{o.label}</Text>
           </Pressable>
         );
       })}
@@ -49,4 +50,8 @@ const styles = StyleSheet.create({
   active: { backgroundColor: colors.primary, borderColor: colors.primary },
   text: { fontSize: 14, lineHeight: 20, color: colors.primary, fontWeight: '600' },
   activeText: { color: colors.white },
+  pillDark: { borderColor: colors.brass },
+  activeDark: { backgroundColor: colors.white, borderColor: colors.white },
+  textDark: { color: colors.white },
+  activeDarkText: { color: colors.primary },
 });

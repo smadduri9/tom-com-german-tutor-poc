@@ -1,14 +1,42 @@
 import type { L10n } from '../types';
 
 export const strings = {
-  appName: { en: 'Deutsch Lernen', te: 'Deutsch Lernen', hi: 'Deutsch Lernen' },
-  chooseLanguage: { en: 'Choose your language', te: 'మీ భాషను ఎంచుకోండి', hi: 'अपनी भाषा चुनें' },
-  chooseLanguageHint: {
-    en: 'You can change this any time from the top of the screen.',
-    te: 'దీన్ని స్క్రీన్ పైభాగం నుండి ఎప్పుడైనా మార్చవచ్చు.',
-    hi: 'आप इसे स्क्रीन के ऊपर से कभी भी बदल सकते हैं।',
+  appName: { en: 'Learn German', te: 'జర్మన్ నేర్చుకోండి', hi: 'जर्मन सीखें' },
+  learnGerman: { en: 'Learn German', te: 'జర్మన్ నేర్చుకోండి', hi: 'जर्मन सीखें' },
+  landingHeadline: {
+    en: "I'll help you get to Germany.",
+    te: 'జర్మనీ చేరుకోవడానికి నేను మీకు సహాయం చేస్తాను.',
+    hi: 'जर्मनी पहुँचने में हम आपकी मदद करेंगे।',
   },
-  continue: { en: 'Continue', te: 'కొనసాగించు', hi: 'आगे बढ़ें' },
+  landingSub: {
+    en: 'Short German lessons, explained in your language.',
+    te: 'చిన్న జర్మన్ పాఠాలు, మీ భాషలో వివరణతో.',
+    hi: 'छोटे जर्मन पाठ, आपकी भाषा में समझाए गए।',
+  },
+  landingLevels: { en: 'Level A1 to B1', te: 'స్థాయి A1 నుండి B1 వరకు', hi: 'स्तर A1 से B1 तक' },
+  hearSample: { en: 'Hear a sample', te: 'నమూనా వినండి', hi: 'नमूना सुनें' },
+  getStarted: { en: 'Get started', te: 'ప్రారంభించండి', hi: 'शुरू करें' },
+  aboutApp: { en: 'About this app', te: 'ఈ యాప్ గురించి', hi: 'इस ऐप के बारे में' },
+  aboutWhyTitle: { en: 'Why', te: 'ఎందుకు', hi: 'क्यों' },
+  aboutWhy: {
+    en: 'Many Telugu speakers want to work, train or study in Germany. German classes are hard to find and expensive outside big cities.',
+    te: 'చాలా మంది తెలుగు వారు జర్మనీలో ఉద్యోగం, శిక్షణ లేదా చదువు కోసం వెళ్లాలనుకుంటున్నారు. పెద్ద నగరాల బయట జర్మన్ తరగతులు దొరకడం కష్టం, ఖర్చు కూడా ఎక్కువ.',
+    hi: 'कई तेलुगु भाषी जर्मनी में काम, प्रशिक्षण या पढ़ाई करना चाहते हैं। बड़े शहरों के बाहर जर्मन कक्षाएँ मिलना मुश्किल और महँगा है।',
+  },
+  aboutWhatTitle: { en: 'What', te: 'ఏమిటి', hi: 'क्या' },
+  aboutWhat: {
+    en: 'Short German lessons from A1 to B1, explained in Telugu, English or Hindi, with natural audio and quizzes.',
+    te: 'A1 నుండి B1 వరకు చిన్న జర్మన్ పాఠాలు, తెలుగు, ఇంగ్లీష్ లేదా హిందీలో వివరణతో, సహజమైన ఆడియో మరియు క్విజ్‌లతో.',
+    hi: 'A1 से B1 तक छोटे जर्मन पाठ, तेलुगु, अंग्रेज़ी या हिंदी में समझाए गए, स्वाभाविक ऑडियो और क्विज़ के साथ।',
+  },
+  aboutWhoTitle: { en: 'By whom', te: 'ఎవరు రూపొందించారు', hi: 'किसने बनाया' },
+  aboutWho: {
+    en: 'Made for TOMCOM (Telangana Overseas Manpower Company, Government of Telangana).',
+    te: 'TOMCOM (తెలంగాణ ఓవర్సీస్ మ్యాన్‌పవర్ కంపెనీ, తెలంగాణ ప్రభుత్వం) కోసం రూపొందించబడింది.',
+    hi: 'TOMCOM (तेलंगाना ओवरसीज़ मैनपावर कंपनी, तेलंगाना सरकार) के लिए बनाया गया।',
+  },
+  aboutPoc: { en: 'Proof of concept · Lesson 1 only', te: 'ప్రూఫ్ ఆఫ్ కాన్సెప్ట్ · పాఠం 1 మాత్రమే', hi: 'प्रूफ़ ऑफ़ कॉन्सेप्ट · केवल पाठ 1' },
+  close: { en: 'Close', te: 'మూసివేయండి', hi: 'बंद करें' },
   emailTitle: { en: 'Sign in with email', te: 'ఈమెయిల్‌తో లాగిన్ అవ్వండి', hi: 'ईमेल से साइन इन करें' },
   emailLabel: { en: 'Email address', te: 'ఈమెయిల్ చిరునామా', hi: 'ईमेल पता' },
   emailInvalid: {
