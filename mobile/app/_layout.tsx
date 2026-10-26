@@ -20,7 +20,7 @@ function AppStack() {
       }}
     >
       <Stack.Screen name="index" options={{ headerShown: false }} />
-      <Stack.Screen name="language" options={{ title: t(lang, 'appName') }} />
+      <Stack.Screen name="welcome" options={{ headerShown: false }} />
       <Stack.Screen name="login/email" options={{ title: t(lang, 'appName') }} />
       <Stack.Screen name="login/otp" options={{ title: t(lang, 'appName') }} />
       <Stack.Screen

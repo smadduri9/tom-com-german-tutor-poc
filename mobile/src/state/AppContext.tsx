@@ -2,14 +2,23 @@ import React, { createContext, useCallback, useContext, useEffect, useMemo, useS
 import type { Lang } from '../types';
 import type { OtpState } from '../logic/otp';
 import { isPass } from '../logic/quiz';
-import { DEFAULT_STATE, loadState, saveState, type Persisted, type Session } from './storage';
+import {
+  DEFAULT_PROGRESS,
+  DEFAULT_STATE,
+  emailKey,
+  loadState,
+  saveState,
+  type Persisted,
+  type Progress,
+  type Session,
+} from './storage';
 
 type AppCtx = {
   hydrated: boolean;
   lang: Lang; // always set; falls back to 'en' before the user chooses
   langChosen: boolean;
   session: Session | null;
-  progress: Persisted['progress'];
+  progress: Progress; // of the signed-in email
   otp: OtpState | null;
   setLang: (l: Lang) => void;
   setSession: (s: Session | null) => void;
@@ -45,21 +54,26 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
 
   const setLang = useCallback((lang: Lang) => setState((s) => ({ ...s, lang })), []);
   const setSession = useCallback((session: Session | null) => setState((s) => ({ ...s, session })), []);
-  const saveStep = useCallback(
-    (step: number) => setState((s) => (s.progress.step === step ? s : { ...s, progress: { ...s.progress, step } })),
+  // Updates the signed-in email's progress; does nothing when nobody is signed in.
+  const updateProgress = useCallback(
+    (fn: (p: Progress) => Progress) =>
+      setState((s) => {
+        if (!s.session) return s;
+        const key = emailKey(s.session.email);
+        const cur = s.progressByEmail[key] ?? DEFAULT_PROGRESS;
+        const next = fn(cur);
+        return next === cur ? s : { ...s, progressByEmail: { ...s.progressByEmail, [key]: next } };
+      }),
     [],
+  );
+  const saveStep = useCallback(
+    (step: number) => updateProgress((p) => (p.step === step ? p : { ...p, step })),
+    [updateProgress],
   );
   const recordQuiz = useCallback(
     (score: number) =>
-      setState((s) => ({
-        ...s,
-        progress: {
-          ...s.progress,
-          quizBest: Math.max(s.progress.quizBest, score),
-          passed: s.progress.passed || isPass(score),
-        },
-      })),
-    [],
+      updateProgress((p) => ({ ...p, quizBest: Math.max(p.quizBest, score), passed: p.passed || isPass(score) })),
+    [updateProgress],
   );
   const logout = useCallback(() => {
     setOtp(null);
@@ -72,7 +86,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       lang: state.lang ?? 'en',
       langChosen: state.lang !== null,
       session: state.session,
-      progress: state.progress,
+      progress: (state.session && state.progressByEmail[emailKey(state.session.email)]) || DEFAULT_PROGRESS,
       otp,
       setLang,
       setSession,

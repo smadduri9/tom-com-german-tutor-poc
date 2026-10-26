@@ -5,7 +5,7 @@ import { useApp } from '../src/state/AppContext';
 import { colors } from '../src/theme';
 
 export default function Gate() {
-  const { hydrated, langChosen, session } = useApp();
+  const { hydrated, session } = useApp();
   if (!hydrated) {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.bg }}>
@@ -13,7 +13,6 @@ export default function Gate() {
       </View>
     );
   }
-  if (!langChosen) return <Redirect href="/language" />;
-  if (!session) return <Redirect href="/login/email" />;
+  if (!session) return <Redirect href="/welcome" />;
   return <Redirect href="/home" />;
 }
