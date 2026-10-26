@@ -7,7 +7,9 @@
     "scheme": "deutschlernen",
     "userInterfaceStyle": "light",
     "icon": "./assets/icon.png",
-    "ios": { "supportsTablet": false },
+    "ios": {
+      "supportsTablet": false
+    },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -16,6 +18,9 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       }
     },
-    "plugins": ["expo-router"]
+    "plugins": [
+      "expo-router",
+      "expo-asset"
+    ]
   }
 }
