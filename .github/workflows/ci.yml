@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: No secrets or internal files
+        run: bash tools/check-secrets.sh --all
+
+      - name: Detect app
+        id: app
+        run: |
+          if [ -f mobile/package.json ]; then echo "present=true" >> "$GITHUB_OUTPUT"; else echo "present=false" >> "$GITHUB_OUTPUT"; fi
+
+      - uses: actions/setup-node@v4
+        if: steps.app.outputs.present == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: mobile/package-lock.json
+
+      - name: Install
+        if: steps.app.outputs.present == 'true'
+        working-directory: mobile
+        run: npm ci
+
+      - name: Typecheck
+        if: steps.app.outputs.present == 'true'
+        working-directory: mobile
+        run: npx tsc --noEmit
+
+      - name: Tests
+        if: steps.app.outputs.present == 'true' && hashFiles('mobile/__tests__/**') != ''
+        working-directory: mobile
+        run: npx jest --ci

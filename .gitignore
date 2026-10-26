@@ -1,0 +1,28 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.jks
+*.keystore
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+
+# Internal notes (pricing, client review): never commit
+internal/
+
+# Build output and caches
+node_modules/
+.expo/
+dist/
+web-build/
+.export-check/
+coverage/
+*.log
+.DS_Store
+.gstack/
+.claude/
