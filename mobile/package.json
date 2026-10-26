@@ -34,7 +34,7 @@
   "jest": {
     "preset": "jest-expo",
     "moduleNameMapper": {
-      "\\.(mp3)$": "<rootDir>/__mocks__/fileMock.js"
+      "\\.(mp3|wav)$": "<rootDir>/__mocks__/fileMock.js"
     }
   },
   "private": true
