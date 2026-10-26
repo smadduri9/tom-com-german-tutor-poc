@@ -16,6 +16,7 @@
     "react-native-screens": "~4.30.0"
   },
   "devDependencies": {
+    "@react-native/jest-preset": "^0.88.0",
     "@types/jest": "^30.0.0",
     "@types/react": "~19.3.0",
     "jest": "~30.5.2",
