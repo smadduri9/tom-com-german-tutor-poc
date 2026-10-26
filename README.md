@@ -17,17 +17,32 @@ A Telugu-first German learning app for Android and iOS, aligned with CEFR level 
 |---|---|
 | `mobile/` | The Expo (React Native) app |
 | `content/lesson1.json` | Lesson content: the single source for text and audio |
-| `tools/generate-audio.mjs` | Generates the German audio from the lesson content |
+| `demo.sh` | One-command setup and launch on the iOS Simulator |
+| `tools/generate-audio.mjs` | Generates the German audio (ElevenLabs) from the lesson content |
 | `generated/` | Generated audio files |
 | `docs/` | Build plan and audio setup |
 
-## Run the app
+## Run the demo (Mac, one command)
 
-Requires Node.js 18+ and the **Expo Go** app on your phone.
+```bash
+git clone https://github.com/smadduri9/tom-com-german-tutor-poc.git && cd tom-com-german-tutor-poc
+./demo.sh
+```
+
+The script shows a progress bar and walks through 5 steps: it checks Xcode and Node.js, installs the app packages, starts an **iPhone 15 Pro Max** simulator and opens the app in it. Run it again any time; finished steps are skipped, so later starts take seconds. Demo sign-in code: `123456`.
+
+You only need **Xcode** (free, App Store). If Node.js 22+ is missing, the script offers to install it with Homebrew, or tells you where to get it. No API keys are needed: the audio is already in the repo.
+
+- **Other simulator:** `DEMO_DEVICE="iPhone 16 Pro" ./demo.sh`. If your Xcode has no iOS runtime for the iPhone 15 Pro Max, the script picks the newest Pro Max it has and says so.
+- **Other simulators running** are shut down first, because Expo opens the app on the first running simulator.
+
+## Run on a phone (any computer)
+
+Install **Expo Go** on the phone, then:
 
 ```bash
 cd mobile
-npm install
+npm ci
 npx expo start
 ```
 
