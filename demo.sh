@@ -160,4 +160,6 @@ step "Opening the app"
 note "Expo installs Expo Go on the simulator the first time, then loads the app."
 note "Sign-in code for the demo: ${bold}123456${reset}${dim}. Press Ctrl+C here to stop.${reset}"
 cd "$APP"
+note "Building lesson content from content/ (no network needed)."
+npm run --silent content >/dev/null || die "Lesson content is invalid." "Run: cd mobile && npm run content"
 exec npx expo start --ios

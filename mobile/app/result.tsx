@@ -4,7 +4,7 @@ import { router, useLocalSearchParams } from 'expo-router';
 import { Screen } from '../src/components/Screen';
 import { AppButton } from '../src/components/AppButton';
 import { useApp } from '../src/state/AppContext';
-import { isPass } from '../src/logic/quiz';
+import { isPass, QUIZ_LENGTH } from '../src/logic/quiz';
 import { t } from '../src/i18n/t';
 import { colors, space, type } from '../src/theme';
 
@@ -12,7 +12,7 @@ export default function ResultScreen() {
   const { lang } = useApp();
   const params = useLocalSearchParams<{ score?: string }>();
   const parsed = Number.parseInt(String(params.score ?? '0'), 10);
-  const score = Number.isFinite(parsed) ? Math.min(5, Math.max(0, parsed)) : 0;
+  const score = Number.isFinite(parsed) ? Math.min(QUIZ_LENGTH, Math.max(0, parsed)) : 0;
   const passed = isPass(score);
 
   return (

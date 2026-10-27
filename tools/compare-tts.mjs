@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Generates ElevenLabs versions of a few lesson clips and a page to compare them with the Google clips.
-// Reads content/lesson1.json + generated/audio/*.wav -> writes compare/ (audio + index.html).
+// Reads content/lessons/A1/greetings.json + generated/audio/*.wav -> writes compare/ (audio + index.html).
 // Usage: node tools/compare-tts.mjs [--force]
 // Needs ELEVENLABS_API_KEY in .env. Optional: ELEVEN_VOICE_FEMALE / ELEVEN_VOICE_MALE (voice ids).
 
@@ -9,7 +9,7 @@ import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const LESSON_PATH = join(ROOT, 'content', 'lesson1.json');
+const LESSON_PATH = join(ROOT, 'content', 'lessons', 'A1', 'greetings.json');
 const GOOGLE_DIR = join(ROOT, 'generated', 'audio');
 const OUT_DIR = join(ROOT, 'compare');
 const API = 'https://api.elevenlabs.io/v1';

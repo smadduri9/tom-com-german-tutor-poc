@@ -29,7 +29,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "test": "jest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "content": "node ../tools/build-content.mjs && node ../tools/validate-content.mjs"
   },
   "jest": {
     "preset": "jest-expo",

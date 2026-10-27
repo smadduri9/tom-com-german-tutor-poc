@@ -16,7 +16,8 @@ A Telugu-first German learning app for Android and iOS, aligned with CEFR level 
 | Path | Contents |
 |---|---|
 | `mobile/` | The Expo (React Native) app |
-| `content/lesson1.json` | Lesson content: the single source for text and audio |
+| `content/lessons/<level>/<slug>.json` | One file per lesson: the single source for text and audio |
+| `content/curriculum.json` | The 48-lesson curriculum index (A1, A2, B1) |
 | `demo.sh` | One-command setup and launch on the iOS Simulator |
 | `tools/generate-audio.mjs` | Generates the German audio (ElevenLabs) from the lesson content |
 | `generated/` | Generated audio files |

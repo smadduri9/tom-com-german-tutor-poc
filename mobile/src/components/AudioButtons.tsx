@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { useAudio } from '../audio/AudioContext';
-import { hasSlow } from '../data/lesson';
+import { hasSlow } from '../logic/audio';
 import { useApp } from '../state/AppContext';
 import { t } from '../i18n/t';
 import { colors, space } from '../theme';
