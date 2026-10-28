@@ -3,6 +3,7 @@ import { ActivityIndicator, View } from 'react-native';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts, Fraunces_600SemiBold, Fraunces_700Bold } from '@expo-google-fonts/fraunces';
+import { Inter_400Regular, Inter_700Bold } from '@expo-google-fonts/inter';
 import { AppProvider, useApp } from '../src/state/AppContext';
 import { AudioProvider } from '../src/audio/AudioContext';
 import { TutorProvider } from '../src/state/TutorContext';
@@ -38,7 +39,7 @@ function AppStack() {
 }
 
 export default function RootLayout() {
-  const [fontsLoaded] = useFonts({ Fraunces_600SemiBold, Fraunces_700Bold });
+  const [fontsLoaded] = useFonts({ Fraunces_600SemiBold, Fraunces_700Bold, Inter_400Regular, Inter_700Bold });
   if (!fontsLoaded) {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.bg }}>

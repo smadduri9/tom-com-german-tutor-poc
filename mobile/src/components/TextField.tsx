@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderWidth: 2,
     borderColor: colors.border,
-    borderRadius: 12,
+    borderRadius: 16,
     backgroundColor: colors.white,
   },
   input: { flex: 1, minHeight: 52, paddingHorizontal: space.md, fontSize: 17, color: colors.text },
