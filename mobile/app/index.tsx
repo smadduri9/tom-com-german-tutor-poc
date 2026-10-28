@@ -5,7 +5,7 @@ import { useApp } from '../src/state/AppContext';
 import { colors } from '../src/theme';
 
 export default function Gate() {
-  const { hydrated, session } = useApp();
+  const { hydrated, user } = useApp();
   if (!hydrated) {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.bg }}>
@@ -13,6 +13,5 @@ export default function Gate() {
       </View>
     );
   }
-  if (!session) return <Redirect href="/welcome" />;
-  return <Redirect href="/home" />;
+  return <Redirect href={user ? '/learn' : '/welcome'} />;
 }

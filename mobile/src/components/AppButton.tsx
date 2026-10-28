@@ -5,7 +5,7 @@ import { colors, space } from '../theme';
 type Props = {
   title: string;
   onPress: () => void;
-  variant?: 'primary' | 'secondary' | 'ghost';
+  variant?: 'primary' | 'secondary' | 'ghost' | 'accent';
   disabled?: boolean;
   accessibilityLabel?: string;
 };
@@ -25,7 +25,7 @@ export function AppButton({ title, onPress, variant = 'primary', disabled = fals
         pressed && !disabled && styles.pressed,
       ]}
     >
-      <Text style={[styles.text, variant !== 'primary' && styles.textAlt]}>{title}</Text>
+      <Text style={[styles.text, variant === 'accent' ? styles.textAccent : variant !== 'primary' && styles.textAlt]}>{title}</Text>
     </Pressable>
   );
 }
@@ -42,8 +42,10 @@ const styles = StyleSheet.create({
   primary: { backgroundColor: colors.primary },
   secondary: { backgroundColor: colors.white, borderWidth: 2, borderColor: colors.primary },
   ghost: { backgroundColor: 'transparent' },
+  accent: { backgroundColor: colors.accent },
   disabled: { opacity: 0.4 },
   pressed: { opacity: 0.8 },
   text: { color: colors.white, fontSize: 17, lineHeight: 26, fontWeight: '600' },
   textAlt: { color: colors.primary },
+  textAccent: { color: colors.onAccent },
 });

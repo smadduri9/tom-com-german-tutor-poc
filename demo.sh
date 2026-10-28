@@ -35,7 +35,7 @@ ask() {
   [[ "$reply" =~ ^[Yy] ]]
 }
 
-printf '%sDeutsch Lernen · demo setup%s\n' "$bold" "$reset"
+printf '%sTOMCOM Deutsch · demo setup%s\n' "$bold" "$reset"
 
 # ---------------------------------------------------------------- 1. Mac + Xcode
 step "Checking Xcode and the iOS Simulator"
@@ -158,7 +158,7 @@ ok "$DEVICE_NAME is running"
 # ---------------------------------------------------------------- 5. App
 step "Opening the app"
 note "Expo installs Expo Go on the simulator the first time, then loads the app."
-note "Sign-in code for the demo: ${bold}123456${reset}${dim}. Press Ctrl+C here to stop.${reset}"
+note "Demo sign-in: ${bold}demo@tomcom.test / demo1234${reset}${dim} (pre-filled). Press Ctrl+C here to stop.${reset}"
 cd "$APP"
 note "Building lesson content from content/ (no network needed)."
 npm run --silent content >/dev/null || die "Lesson content is invalid." "Run: cd mobile && npm run content"
