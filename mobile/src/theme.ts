@@ -19,14 +19,20 @@ export const colors = {
   error: '#B3261E',
   errorBg: '#FCEBEA',
   white: '#FFFFFF',
+  gold: '#FFF4D6', // German answer bubbles in the tutor
+  goldBorder: '#E8B64C',
+  locked: '#9AA1B2',
 };
+
+// Headings use Fraunces (OFL), loaded in app/_layout.tsx; body text uses the system font.
+export const fonts = { serif: 'Fraunces_700Bold', serifMedium: 'Fraunces_600SemiBold' };
 
 export const space = { xs: 4, sm: 8, md: 16, lg: 24, xl: 32 };
 
 // Telugu and Devanagari need generous line height so marks are not clipped.
 export const type = {
-  title: { fontSize: 24, lineHeight: 34, fontWeight: '700' as const, color: colors.text },
-  heading: { fontSize: 20, lineHeight: 30, fontWeight: '700' as const, color: colors.text },
+  title: { fontSize: 26, lineHeight: 36, fontFamily: fonts.serif, color: colors.text },
+  heading: { fontSize: 20, lineHeight: 30, fontFamily: fonts.serifMedium, color: colors.text },
   body: { fontSize: 17, lineHeight: 27, color: colors.text },
   small: { fontSize: 14, lineHeight: 22, color: colors.muted },
   german: { fontSize: 30, lineHeight: 40, fontWeight: '700' as const, color: colors.primary },

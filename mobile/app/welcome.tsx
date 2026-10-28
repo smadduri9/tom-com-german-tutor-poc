@@ -1,53 +1,23 @@
-import React, { useCallback, useState } from 'react';
-import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import React, { useCallback } from 'react';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { router, useFocusEffect } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { setStatusBarStyle } from 'expo-status-bar';
 import { LanguageSwitch } from '../src/components/LanguageSwitch';
-import { AppButton } from '../src/components/AppButton';
 import { useAudio } from '../src/audio/AudioContext';
 import { useApp } from '../src/state/AppContext';
 import { pick, t } from '../src/i18n/t';
-import { lessons } from '../src/data/lessons';
-import { colors, space } from '../src/theme';
+import { curriculumData, lessons } from '../src/data/lessons';
+import { colors, fonts, space } from '../src/theme';
 
-// A short natural sentence so people hear the voice quality before signing in.
-const SAMPLE_AUDIO_ID = 'd02';
-const SAMPLE_LINE = lessons.A1.greetings.dialogue.lines.find((d) => d.id === SAMPLE_AUDIO_ID)!;
-
-function AboutSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
-  const { lang } = useApp();
-  const sections = [
-    { title: t(lang, 'aboutWhyTitle'), body: t(lang, 'aboutWhy') },
-    { title: t(lang, 'aboutWhatTitle'), body: t(lang, 'aboutWhat') },
-    { title: t(lang, 'aboutWhoTitle'), body: t(lang, 'aboutWho') },
-  ];
-  return (
-    <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
-      <Pressable style={styles.backdrop} onPress={onClose} accessibilityLabel={t(lang, 'close')} />
-      <SafeAreaView edges={['bottom']} style={styles.sheet}>
-        <View style={styles.grabber} />
-        <ScrollView contentContainerStyle={{ paddingBottom: space.sm }}>
-          <Text style={styles.sheetTitle}>{t(lang, 'aboutApp')}</Text>
-          {sections.map((s) => (
-            <View key={s.title} style={{ marginTop: space.md }}>
-              <Text style={styles.sectionTitle}>{s.title}</Text>
-              <Text style={styles.sectionBody}>{s.body}</Text>
-            </View>
-          ))}
-          <Text style={styles.poc}>{t(lang, 'aboutPoc')}</Text>
-        </ScrollView>
-        <AppButton title={t(lang, 'close')} variant="secondary" onPress={onClose} />
-      </SafeAreaView>
-    </Modal>
-  );
-}
+// Four short phrases from the free lesson, tappable to hear them.
+const SAMPLE_IDS = ['p01', 'p02', 'p07', 'p13'];
+const SAMPLES = lessons.A1.greetings.vocabulary.filter((v) => SAMPLE_IDS.includes(v.id));
+const LESSON_COUNT = curriculumData.A1.length + curriculumData.A2.length + curriculumData.B1.length;
 
 export default function WelcomeScreen() {
-  const { lang, setLang } = useApp();
+  const { lang } = useApp();
   const { play } = useAudio();
-  const [aboutOpen, setAboutOpen] = useState(false);
-  const [sampleShown, setSampleShown] = useState(false);
 
   // Light status bar text on the blue page only; other screens are white.
   useFocusEffect(
@@ -57,128 +27,110 @@ export default function WelcomeScreen() {
     }, []),
   );
 
+  const features = [
+    { icon: '🗣', title: t(lang, 'feature1Title'), body: t(lang, 'feature1Body') },
+    { icon: '🔊', title: t(lang, 'feature2Title'), body: t(lang, 'feature2Body') },
+    { icon: '🏅', title: t(lang, 'feature3Title'), body: t(lang, 'feature3Body') },
+  ];
+
   return (
-    <SafeAreaView style={styles.root}>
-      <View style={styles.top}>
-        <LanguageSwitch onDark />
-      </View>
+    <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
+      <ScrollView contentContainerStyle={styles.content}>
+        <View style={styles.topBar}>
+          <Text style={styles.logo} accessibilityRole="header">
+            TOMCOM <Text style={styles.logoAccent}>Deutsch</Text>
+          </Text>
+          <LanguageSwitch onDark />
+        </View>
 
-      <View style={styles.middle}>
-        <Text style={styles.brand}>{t(lang, 'learnGerman')}</Text>
-        <Text style={styles.headline}>{t(lang, 'landingHeadline')}</Text>
+        <Text style={styles.kicker}>{t(lang, 'heroLevels')}</Text>
+        <Text style={styles.title}>{t(lang, 'heroTitle')}</Text>
         <View style={styles.rule} />
-        <Text style={styles.sub}>{t(lang, 'landingSub')}</Text>
-        <Text style={styles.levels}>{t(lang, 'landingLevels')}</Text>
+        <Text style={styles.sub}>{t(lang, 'heroSub')}</Text>
 
-        <Pressable
-          onPress={() => {
-            play(SAMPLE_AUDIO_ID);
-            setSampleShown(true);
-          }}
-          accessibilityRole="button"
-          accessibilityLabel={t(lang, 'hearSample')}
-          style={({ pressed }) => [styles.sample, pressed && { opacity: 0.75 }]}
-        >
-          <View style={styles.sampleIcon}>
-            <Text style={styles.sampleIconText}>▶</Text>
+        <View style={styles.stats}>
+          {[
+            { v: String(LESSON_COUNT), l: t(lang, 'statLessons') },
+            { v: 'A1→B1', l: t(lang, 'statLevels') },
+            { v: '3', l: t(lang, 'statLanguages') },
+          ].map((s) => (
+            <View key={s.l} style={styles.stat}>
+              <Text style={styles.statValue}>{s.v}</Text>
+              <Text style={styles.statLabel}>{s.l}</Text>
+            </View>
+          ))}
+        </View>
+
+        <Text style={styles.section}>{t(lang, 'tapToHear')}</Text>
+        <View style={styles.samples}>
+          {SAMPLES.map((v) => (
+            <Pressable
+              key={v.id}
+              onPress={() => play(v.id, v.de)}
+              accessibilityRole="button"
+              accessibilityLabel={`${v.de}, ${pick(v.meaning, lang)}`}
+              style={({ pressed }) => [styles.sample, pressed && { opacity: 0.8 }]}
+            >
+              <Text style={styles.sampleDe}>🔊 {v.de}</Text>
+              <Text style={styles.sampleMeaning}>{pick(v.meaning, lang)}</Text>
+            </Pressable>
+          ))}
+        </View>
+
+        {features.map((f) => (
+          <View key={f.title} style={styles.feature}>
+            <Text style={styles.featureIcon}>{f.icon}</Text>
+            <View style={{ flex: 1 }}>
+              <Text style={styles.featureTitle}>{f.title}</Text>
+              <Text style={styles.featureBody}>{f.body}</Text>
+            </View>
           </View>
-          <Text style={styles.sampleText}>{t(lang, 'hearSample')}</Text>
-        </Pressable>
-        {/* Shows what is being said, so the sample makes sense even with the sound off. */}
-        {sampleShown && (
-          <View style={styles.caption}>
-            <Text style={styles.captionDe}>{SAMPLE_LINE.de}</Text>
-            <Text style={styles.captionMeaning}>{pick(SAMPLE_LINE.meaning, lang)}</Text>
-          </View>
-        )}
-      </View>
+        ))}
 
-      <View style={styles.bottom}>
-        <Pressable
-          onPress={() => {
-            setLang(lang); // marks the language as chosen
-            router.push('/login/email');
-          }}
-          accessibilityRole="button"
-          style={({ pressed }) => [styles.cta, pressed && { opacity: 0.85 }]}
-        >
-          <Text style={styles.ctaText}>{t(lang, 'getStarted')}</Text>
+        <Pressable onPress={() => router.push('/login/signup')} accessibilityRole="button" style={({ pressed }) => [styles.cta, pressed && { opacity: 0.85 }]}>
+          <Text style={styles.ctaText}>{t(lang, 'startFree')}</Text>
         </Pressable>
-        <Pressable onPress={() => setAboutOpen(true)} accessibilityRole="button" hitSlop={8}>
-          <Text style={styles.about}>{t(lang, 'aboutApp')}</Text>
+        <Pressable onPress={() => router.push('/preview')} accessibilityRole="button" style={({ pressed }) => [styles.secondary, pressed && { opacity: 0.85 }]}>
+          <Text style={styles.secondaryText}>{t(lang, 'previewLesson')}</Text>
         </Pressable>
-      </View>
+        <Pressable onPress={() => router.push('/login/email')} accessibilityRole="link" style={styles.link}>
+          <Text style={styles.linkText}>{t(lang, 'haveAccount')}</Text>
+        </Pressable>
 
-      <AboutSheet visible={aboutOpen} onClose={() => setAboutOpen(false)} />
+        <Text style={styles.publisher}>{t(lang, 'publisher')}</Text>
+      </ScrollView>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: colors.primary },
-  top: { flexDirection: 'row', justifyContent: 'flex-end', paddingHorizontal: space.md, paddingTop: space.sm },
-  middle: { flex: 1, justifyContent: 'center', paddingHorizontal: space.lg },
-  brand: { color: colors.brassLight, fontSize: 14, lineHeight: 22, fontWeight: '700', letterSpacing: 1.5, textTransform: 'uppercase' },
-  headline: { color: colors.white, fontSize: 32, lineHeight: 44, fontWeight: '700', marginTop: space.sm },
-  rule: { width: 48, height: 3, backgroundColor: colors.brass, marginVertical: space.md },
-  sub: { color: colors.primaryTint, fontSize: 17, lineHeight: 27 },
-  levels: { color: colors.brassLight, fontSize: 15, lineHeight: 24, fontWeight: '600', marginTop: space.sm },
-  sample: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    alignSelf: 'flex-start',
-    gap: space.sm,
-    marginTop: space.lg,
-    borderWidth: 1,
-    borderColor: colors.brass,
-    borderRadius: 28,
-    paddingVertical: 6,
-    paddingLeft: 6,
-    paddingRight: space.md,
-    minHeight: 48,
-  },
-  sampleIcon: {
-    width: 36,
-    height: 36,
-    borderRadius: 18,
-    backgroundColor: colors.accent,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  sampleIconText: { color: colors.onAccent, fontSize: 14, lineHeight: 18, marginLeft: 2 },
-  sampleText: { color: colors.white, fontSize: 16, lineHeight: 24, fontWeight: '600' },
-  caption: { marginTop: space.md, borderLeftWidth: 3, borderLeftColor: colors.accent, paddingLeft: space.sm },
-  captionDe: { color: colors.white, fontSize: 17, lineHeight: 26, fontWeight: '700' },
-  captionMeaning: { color: colors.primaryTint, fontSize: 15, lineHeight: 24 },
-  bottom: { paddingHorizontal: space.md, paddingBottom: space.md },
-  cta: {
-    minHeight: 52,
-    borderRadius: 12,
-    backgroundColor: colors.accent,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  ctaText: { color: colors.onAccent, fontSize: 17, lineHeight: 26, fontWeight: '700' },
-  about: {
-    color: colors.brassLight,
-    fontSize: 15,
-    lineHeight: 24,
-    textAlign: 'center',
-    textDecorationLine: 'underline',
-    marginTop: space.md,
-  },
-  backdrop: { flex: 1, backgroundColor: 'rgba(0,0,0,0.4)' },
-  sheet: {
-    backgroundColor: colors.white,
-    borderTopLeftRadius: 20,
-    borderTopRightRadius: 20,
-    paddingHorizontal: space.lg,
-    paddingTop: space.sm,
-    maxHeight: '80%',
-  },
-  grabber: { width: 40, height: 4, borderRadius: 2, backgroundColor: colors.border, alignSelf: 'center', marginBottom: space.md },
-  sheetTitle: { fontSize: 22, lineHeight: 32, fontWeight: '700', color: colors.primary },
-  sectionTitle: { fontSize: 13, lineHeight: 20, fontWeight: '700', color: colors.brassText, textTransform: 'uppercase', letterSpacing: 1 },
-  sectionBody: { fontSize: 16, lineHeight: 26, color: colors.text, marginTop: 2 },
-  poc: { fontSize: 13, lineHeight: 20, color: colors.muted, marginTop: space.lg },
+  content: { padding: space.lg, paddingBottom: space.xl },
+  topBar: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
+  logo: { color: colors.white, fontSize: 22, fontFamily: fonts.serif },
+  logoAccent: { color: colors.brassLight },
+  kicker: { color: colors.brassLight, fontSize: 14, fontWeight: '700', letterSpacing: 2, marginTop: space.xl },
+  title: { color: colors.white, fontSize: 34, lineHeight: 44, fontFamily: fonts.serif, marginTop: space.sm },
+  rule: { width: 52, height: 3, backgroundColor: colors.brass, marginVertical: space.md },
+  sub: { color: colors.primaryTint, fontSize: 17, lineHeight: 26 },
+  stats: { flexDirection: 'row', gap: space.sm, marginTop: space.lg },
+  stat: { flex: 1, borderWidth: 1, borderColor: colors.primarySoft, borderRadius: 12, padding: space.sm, alignItems: 'center' },
+  statValue: { color: colors.white, fontSize: 20, fontFamily: fonts.serif },
+  statLabel: { color: colors.primaryTint, fontSize: 12 },
+  section: { color: colors.brassLight, fontSize: 13, fontWeight: '700', letterSpacing: 1, marginTop: space.xl, textTransform: 'uppercase' },
+  samples: { flexDirection: 'row', flexWrap: 'wrap', gap: space.sm, marginTop: space.sm },
+  sample: { width: '48%', flexGrow: 1, backgroundColor: colors.primarySoft, borderRadius: 12, padding: space.sm },
+  sampleDe: { color: colors.white, fontSize: 16, fontWeight: '700' },
+  sampleMeaning: { color: colors.primaryTint, fontSize: 13, lineHeight: 20, marginTop: 2 },
+  feature: { flexDirection: 'row', gap: space.md, backgroundColor: colors.white, borderRadius: 14, padding: space.md, marginTop: space.md, alignItems: 'center' },
+  featureIcon: { fontSize: 28 },
+  featureTitle: { fontSize: 16, lineHeight: 24, fontWeight: '700', color: colors.primary },
+  featureBody: { fontSize: 14, lineHeight: 21, color: colors.muted },
+  cta: { backgroundColor: colors.accent, minHeight: 56, borderRadius: 14, alignItems: 'center', justifyContent: 'center', marginTop: space.xl },
+  ctaText: { color: colors.onAccent, fontSize: 18, fontWeight: '700' },
+  secondary: { borderWidth: 2, borderColor: colors.white, minHeight: 52, borderRadius: 14, alignItems: 'center', justifyContent: 'center', marginTop: space.sm },
+  secondaryText: { color: colors.white, fontSize: 17, fontWeight: '600' },
+  link: { minHeight: 44, alignItems: 'center', justifyContent: 'center', marginTop: space.sm },
+  linkText: { color: colors.brassLight, fontSize: 16, textDecorationLine: 'underline' },
+  publisher: { color: colors.primaryTint, fontSize: 12, textAlign: 'center', marginTop: space.lg },
 });

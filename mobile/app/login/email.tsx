@@ -1,62 +1,78 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, TextInput } from 'react-native';
+import { Pressable, StyleSheet, Text } from 'react-native';
 import { router } from 'expo-router';
 import { Screen } from '../../src/components/Screen';
 import { AppButton } from '../../src/components/AppButton';
+import { TextField } from '../../src/components/TextField';
 import { useApp } from '../../src/state/AppContext';
-import { createOtp, isValidEmail } from '../../src/logic/otp';
+import { backend, DEMO_EMAIL, DEMO_PASSWORD } from '../../src/backend';
+import { errorMessage } from '../../src/i18n/levels';
 import { t } from '../../src/i18n/t';
 import { colors, space, type } from '../../src/theme';
 
-export default function EmailScreen() {
-  const { lang, setOtp } = useApp();
-  const [email, setEmail] = useState('');
-  const [submitted, setSubmitted] = useState(false);
-  const invalid = submitted && !isValidEmail(email);
+export default function SignInScreen() {
+  const { lang, signIn } = useApp();
+  const demo = backend.kind === 'local';
+  // The demo account is pre-filled so the simulator demo is one tap.
+  const [email, setEmail] = useState(demo ? DEMO_EMAIL : '');
+  const [password, setPassword] = useState(demo ? DEMO_PASSWORD : '');
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
 
-  const onSend = () => {
-    setSubmitted(true);
-    if (!isValidEmail(email)) return;
-    setOtp(createOtp(email, Date.now()));
-    router.push('/login/otp');
+  const submit = async () => {
+    setBusy(true);
+    setError('');
+    try {
+      await signIn(email, password);
+      router.replace('/learn');
+    } catch (e) {
+      setError(errorMessage(lang, e));
+    } finally {
+      setBusy(false);
+    }
   };
 
   return (
     <Screen>
-      <Text style={type.title}>{t(lang, 'emailTitle')}</Text>
-      <Text style={[type.small, { marginTop: space.md }]}>{t(lang, 'emailLabel')}</Text>
-      <TextInput
+      <Text style={type.title}>{t(lang, 'signInTitle')}</Text>
+      {demo && <Text style={[type.small, { marginTop: space.xs }]}>{t(lang, 'demoHint', { email: DEMO_EMAIL, password: DEMO_PASSWORD })}</Text>}
+      <TextField
+        label={t(lang, 'email')}
         value={email}
         onChangeText={setEmail}
-        onSubmitEditing={onSend}
-        placeholder="name@example.com"
-        placeholderTextColor={colors.muted}
-        keyboardType="email-address"
         autoCapitalize="none"
         autoCorrect={false}
-        autoComplete="email"
+        keyboardType="email-address"
         textContentType="emailAddress"
-        returnKeyType="send"
-        accessibilityLabel={t(lang, 'emailLabel')}
-        style={[styles.input, invalid && styles.inputError]}
+        autoComplete="email"
       />
-      {invalid && <Text style={styles.error}>{t(lang, 'emailInvalid')}</Text>}
-      <AppButton title={t(lang, 'sendCode')} onPress={onSend} disabled={email.trim().length === 0} />
+      <TextField
+        label={t(lang, 'password')}
+        value={password}
+        onChangeText={setPassword}
+        secret
+        textContentType="password"
+        autoComplete="password"
+        onSubmitEditing={submit}
+      />
+      {error ? <Text style={styles.error}>{error}</Text> : null}
+      <AppButton
+        title={busy ? t(lang, 'signingIn') : t(lang, 'signInBtn')}
+        onPress={submit}
+        disabled={busy || !email || password.length < 6}
+      />
+      <Pressable onPress={() => router.push('/login/forgot')} accessibilityRole="link" style={styles.link}>
+        <Text style={styles.linkText}>{t(lang, 'forgotPassword')}</Text>
+      </Pressable>
+      <Pressable onPress={() => router.replace('/login/signup')} accessibilityRole="link" style={styles.link}>
+        <Text style={styles.linkText}>{t(lang, 'noAccount')}</Text>
+      </Pressable>
     </Screen>
   );
 }
 
 const styles = StyleSheet.create({
-  input: {
-    borderWidth: 2,
-    borderColor: colors.border,
-    borderRadius: 12,
-    paddingHorizontal: space.md,
-    minHeight: 52,
-    fontSize: 17,
-    color: colors.text,
-    marginTop: space.xs,
-  },
-  inputError: { borderColor: colors.error },
-  error: { color: colors.error, fontSize: 15, lineHeight: 22, marginTop: space.xs },
+  error: { color: colors.error, fontSize: 15, lineHeight: 22, marginTop: space.sm },
+  link: { minHeight: 44, justifyContent: 'center', alignItems: 'center', marginTop: space.sm },
+  linkText: { color: colors.primary, fontSize: 16, fontWeight: '600', textDecorationLine: 'underline' },
 });
