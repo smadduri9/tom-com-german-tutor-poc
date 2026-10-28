@@ -33,7 +33,7 @@ export function AppButton({ title, onPress, variant = 'primary', disabled = fals
 const styles = StyleSheet.create({
   base: {
     minHeight: 52,
-    borderRadius: 12,
+    borderRadius: 10,
     paddingHorizontal: space.lg,
     alignItems: 'center',
     justifyContent: 'center',

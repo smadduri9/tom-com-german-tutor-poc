@@ -10,9 +10,8 @@ import { pick, t } from '../src/i18n/t';
 import { curriculumData, lessons } from '../src/data/lessons';
 import { colors, fonts, space } from '../src/theme';
 
-// Optional state emblem, placed behind the hero. Add the official file at
-// mobile/assets/brand/telangana-emblem.png; until then the hero is plain.
-const EMBLEM: number | null = null;
+const EMBLEM = require('../assets/brand/telangana-emblem.png');
+const LOGO = require('../assets/brand/logo.png');
 
 // Four short phrases from the free lesson, tappable to hear them.
 const SAMPLE_IDS = ['p03', 'p14', 'p07', 'p11'];
@@ -23,10 +22,10 @@ export default function WelcomeScreen() {
   const { lang } = useApp();
   const { play } = useAudio();
 
-  // Light status bar text on the blue page only; other screens are white.
+  // The landing page is light, like every other screen.
   useFocusEffect(
     useCallback(() => {
-      setStatusBarStyle('light');
+      setStatusBarStyle('dark');
       return () => setStatusBarStyle('dark');
     }, []),
   );
@@ -41,14 +40,15 @@ export default function WelcomeScreen() {
     <SafeAreaView style={styles.root} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={styles.content}>
         <View style={styles.topBar}>
-          <Text style={styles.logo} accessibilityRole="header">
-            TOMCOM <Text style={styles.logoAccent}>Deutsch</Text>
-          </Text>
-          <LanguageSwitch onDark />
+          <View style={styles.brand} accessibilityRole="header">
+            <Image source={LOGO} style={styles.logoImage} resizeMode="contain" accessibilityLabel="TOMCOM" />
+            <Text style={styles.logo}>Deutsch</Text>
+          </View>
+          <LanguageSwitch />
         </View>
 
         <View style={styles.hero}>
-          {EMBLEM !== null && <Image source={EMBLEM} style={styles.emblem} resizeMode="contain" accessibilityIgnoresInvertColors />}
+          <Image source={EMBLEM} style={styles.emblem} resizeMode="contain" accessibilityIgnoresInvertColors />
           <Text style={styles.kicker}>{t(lang, 'heroLevels')}</Text>
           <Text style={styles.title}>{t(lang, 'heroTitle')}</Text>
           <Text style={styles.sub}>{t(lang, 'heroSub')}</Text>
@@ -122,40 +122,41 @@ export default function WelcomeScreen() {
 }
 
 const styles = StyleSheet.create({
-  root: { flex: 1, backgroundColor: colors.primary },
+  root: { flex: 1, backgroundColor: colors.bg },
   content: { padding: space.lg, paddingBottom: space.xl },
   topBar: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
-  logo: { color: colors.white, fontSize: 22, fontFamily: fonts.serif },
-  logoAccent: { color: colors.brassLight },
+  brand: { flexDirection: 'row', alignItems: 'center', gap: space.sm },
+  logoImage: { width: 44, height: 44 },
+  logo: { color: colors.primary, fontSize: 22, fontFamily: fonts.serif },
   hero: { marginTop: space.xl, position: 'relative' },
-  emblem: { position: 'absolute', width: 320, height: 320, right: -90, top: -40, opacity: 0.12 },
-  kicker: { color: colors.brassLight, fontSize: 14, fontWeight: '700', letterSpacing: 2 },
-  title: { color: colors.white, fontSize: 34, lineHeight: 44, fontFamily: fonts.serif, marginTop: space.sm },
-  sub: { color: colors.primaryTint, fontSize: 17, lineHeight: 26, marginTop: space.md },
+  emblem: { position: 'absolute', width: 300, height: 260, right: -80, top: -30, opacity: 0.12 },
+  kicker: { color: colors.primarySoft, fontSize: 14, fontWeight: '700', letterSpacing: 2 },
+  title: { color: colors.primary, fontSize: 34, lineHeight: 44, fontFamily: fonts.serif, marginTop: space.sm },
+  sub: { color: colors.muted, fontSize: 17, lineHeight: 26, marginTop: space.md },
   heroButtons: { marginTop: space.lg, gap: space.sm },
   stats: { flexDirection: 'row', gap: space.sm, marginTop: space.xl },
-  stat: { flex: 1, borderWidth: 1, borderColor: colors.primarySoft, borderRadius: 12, padding: space.sm, alignItems: 'center' },
-  statValue: { color: colors.white, fontSize: 20, fontFamily: fonts.serif },
-  statLabel: { color: colors.primaryTint, fontSize: 12 },
-  tryCard: { backgroundColor: colors.primarySoft, borderRadius: 16, padding: space.md, marginTop: space.xl },
-  tryTitle: { color: colors.white, fontSize: 18, fontWeight: '700' },
-  trySub: { color: colors.primaryTint, fontSize: 14, lineHeight: 20, marginTop: 2 },
+  stat: { flex: 1, borderWidth: 1, borderColor: colors.border, borderRadius: 12, padding: space.sm, alignItems: 'center' },
+  statValue: { color: colors.primary, fontSize: 20, fontFamily: fonts.serif },
+  statLabel: { color: colors.muted, fontSize: 12 },
+  tryCard: { backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.border, borderRadius: 16, padding: space.md, marginTop: space.xl },
+  tryTitle: { color: colors.primary, fontSize: 18, fontFamily: fonts.bodyBold },
+  trySub: { color: colors.muted, fontSize: 14, lineHeight: 20, marginTop: 2 },
   samples: { flexDirection: 'row', flexWrap: 'wrap', gap: space.sm, marginTop: space.sm },
-  sample: { width: '48%', flexGrow: 1, backgroundColor: colors.primary, borderRadius: 12, padding: space.sm },
-  sampleDe: { color: colors.white, fontSize: 16, fontWeight: '700' },
-  sampleMeaning: { color: colors.primaryTint, fontSize: 13, lineHeight: 20, marginTop: 2 },
+  sample: { width: '48%', flexGrow: 1, backgroundColor: colors.bg, borderWidth: 1, borderColor: colors.border, borderRadius: 12, padding: space.sm },
+  sampleDe: { color: colors.primary, fontSize: 16, fontFamily: fonts.bodyBold },
+  sampleMeaning: { color: colors.muted, fontSize: 13, lineHeight: 20, marginTop: 2 },
   feature: { flexDirection: 'row', gap: space.md, backgroundColor: colors.white, borderRadius: 14, padding: space.md, marginTop: space.md, alignItems: 'center' },
   featureIcon: { fontSize: 28 },
   featureTitle: { fontSize: 16, lineHeight: 24, fontWeight: '700', color: colors.primary },
   featureBody: { fontSize: 14, lineHeight: 21, color: colors.muted },
   finalCta: { marginTop: space.xl, alignItems: 'center' },
-  finalTitle: { color: colors.white, fontSize: 24, lineHeight: 32, fontFamily: fonts.serif, textAlign: 'center' },
-  finalSub: { color: colors.primaryTint, fontSize: 15, lineHeight: 22, textAlign: 'center', marginTop: space.xs, marginBottom: space.sm },
-  cta: { backgroundColor: colors.accent, minHeight: 56, borderRadius: 14, alignItems: 'center', justifyContent: 'center', alignSelf: 'stretch' },
-  ctaText: { color: colors.onAccent, fontSize: 18, fontWeight: '700' },
-  secondary: { borderWidth: 2, borderColor: colors.white, minHeight: 52, borderRadius: 14, alignItems: 'center', justifyContent: 'center' },
-  secondaryText: { color: colors.white, fontSize: 17, fontWeight: '600' },
+  finalTitle: { color: colors.primary, fontSize: 24, lineHeight: 32, fontFamily: fonts.serif, textAlign: 'center' },
+  finalSub: { color: colors.muted, fontSize: 15, lineHeight: 22, textAlign: 'center', marginTop: space.xs, marginBottom: space.sm },
+  cta: { backgroundColor: colors.primary, minHeight: 56, borderRadius: 14, alignItems: 'center', justifyContent: 'center', alignSelf: 'stretch' },
+  ctaText: { color: colors.white, fontSize: 18, fontFamily: fonts.bodyBold },
+  secondary: { borderWidth: 2, borderColor: colors.primary, minHeight: 52, borderRadius: 14, alignItems: 'center', justifyContent: 'center' },
+  secondaryText: { color: colors.primary, fontSize: 17, fontWeight: '600' },
   link: { minHeight: 44, alignItems: 'center', justifyContent: 'center', marginTop: space.sm },
-  linkText: { color: colors.brassLight, fontSize: 16, textDecorationLine: 'underline' },
-  publisher: { color: colors.primaryTint, fontSize: 12, textAlign: 'center', marginTop: space.lg },
+  linkText: { color: colors.primary, fontSize: 16, textDecorationLine: 'underline' },
+  publisher: { color: colors.muted, fontSize: 12, textAlign: 'center', marginTop: space.lg },
 });
