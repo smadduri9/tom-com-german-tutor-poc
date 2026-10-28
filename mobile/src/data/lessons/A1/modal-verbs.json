@@ -1,0 +1,559 @@
+{
+  "id": "modal-verbs",
+  "slug": "modal-verbs",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Modal Verbs",
+    "te": "మోడల్ క్రియలు",
+    "hi": "मोडल क्रियाएँ"
+  },
+  "subtitle": {
+    "en": "Can, want, must",
+    "te": "చేయగలను, కావాలి, తప్పక",
+    "hi": "कर सकता, चाहता, ज़रूरी"
+  },
+  "intro": {
+    "en": "Use können, wollen, müssen and dürfen to say what you can, want, must or may do.",
+    "te": "können, wollen, müssen, dürfen తో మీరు చేయగలరు, కోరుకుంటారు, తప్పక చేయాలి లేదా చేయవచ్చు అని చెప్పండి.",
+    "hi": "können, wollen, müssen, dürfen से बताएँ कि आप क्या कर सकते, चाहते, ज़रूर करना चाहिए या कर सकते हैं।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "ich kann",
+      "meaning": {
+        "en": "I can",
+        "te": "నేను చేయగలను",
+        "hi": "मैं कर सकता हूँ"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "ich will / möchte",
+      "meaning": {
+        "en": "I want / would like",
+        "te": "నాకు కావాలి",
+        "hi": "मुझे चाहिए"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "ich muss",
+      "meaning": {
+        "en": "I must",
+        "te": "నేను తప్పక",
+        "hi": "मुझे ज़रूरी है"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "ich darf",
+      "meaning": {
+        "en": "I am allowed",
+        "te": "నాకు అనుమతి ఉంది",
+        "hi": "मुझे अनुमति है"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "Deutsch sprechen",
+      "meaning": {
+        "en": "to speak German",
+        "te": "జర్మన్ మాట్లాడటం",
+        "hi": "जर्मन बोलना"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "arbeiten",
+      "meaning": {
+        "en": "to work",
+        "te": "పని చేయడం",
+        "hi": "काम करना"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "schwimmen",
+      "meaning": {
+        "en": "to swim",
+        "te": "ఈత కొట్టడం",
+        "hi": "तैरना"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Können Sie mir helfen?",
+      "meaning": {
+        "en": "Can you help me?",
+        "te": "మీరు నాకు సహాయం చేయగలరా?",
+        "hi": "क्या आप मेरी मदद कर सकते हैं?"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Hier darf man nicht rauchen.",
+      "meaning": {
+        "en": "You may not smoke here.",
+        "te": "ఇక్కడ పొగ తాగకూడదు.",
+        "hi": "यहाँ धूम्रपान की अनुमति नहीं है।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Ich muss zur Arbeit.",
+      "meaning": {
+        "en": "I have to go to work.",
+        "te": "నేను పనికి వెళ్ళాలి.",
+        "hi": "मुझे काम पर जाना है।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich kann gut Deutsch sprechen.",
+      "meaning": {
+        "en": "I can speak German well.",
+        "te": "నేను జర్మన్ బాగా మాట్లాడగలను.",
+        "hi": "मैं अच्छी जर्मन बोल सकता हूँ।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Wir wollen morgen kommen.",
+      "meaning": {
+        "en": "We want to come tomorrow.",
+        "te": "మేము రేపు రావాలనుకుంటున్నాము.",
+        "hi": "हम कल आना चाहते हैं।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Du musst früh aufstehen.",
+      "meaning": {
+        "en": "You must get up early.",
+        "te": "నువ్వు త్వరగా లేవాలి.",
+        "hi": "तुम्हें जल्दी उठना होगा।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Darf ich hier parken?",
+      "meaning": {
+        "en": "May I park here?",
+        "te": "నేను ఇక్కడ పార్క్ చేయవచ్చా?",
+        "hi": "क्या मैं यहाँ पार्क कर सकता हूँ?"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "früh",
+      "meaning": {
+        "en": "early",
+        "te": "త్వరగా",
+        "hi": "जल्दी"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "aufstehen",
+      "meaning": {
+        "en": "to get up",
+        "te": "లేవడం",
+        "hi": "उठना"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "parken",
+      "meaning": {
+        "en": "to park",
+        "te": "పార్క్ చేయడం",
+        "hi": "पार्क करना"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Arbeit",
+      "meaning": {
+        "en": "the work",
+        "te": "పని",
+        "hi": "काम"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT THE OFFICE",
+      "te": "ఆఫీసులో",
+      "hi": "ऑफ़िस में"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Herr Berger",
+        "de": "Sana, Sie können heute später kommen.",
+        "meaning": {
+          "en": "Sana, you can come later today.",
+          "te": "సనా, మీరు ఈ రోజు ఆలస్యంగా రావచ్చు.",
+          "hi": "सना, आप आज देर से आ सकती हैं।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Sana",
+        "de": "Danke! Muss ich den Bericht noch schreiben?",
+        "meaning": {
+          "en": "Thank you! Must I still write the report?",
+          "te": "ధన్యవాదాలు! నేను ఇంకా రిపోర్ట్ రాయాలా?",
+          "hi": "धन्यवाद! क्या मुझे अभी रिपोर्ट लिखनी है?"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Herr Berger",
+        "de": "Ja, aber Sie dürfen morgen früh schreiben.",
+        "meaning": {
+          "en": "Yes, but you may write it early tomorrow.",
+          "te": "అవును, కానీ రేపు ఉదయం రాయవచ్చు.",
+          "hi": "हाँ, पर आप कल सुबह लिख सकती हैं।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Sana",
+        "de": "Gut, ich will heute nicht lange bleiben.",
+        "meaning": {
+          "en": "Good, I do not want to stay long today.",
+          "te": "సరే, ఈ రోజు ఎక్కువసేపు ఉండాలనుకోను.",
+          "hi": "ठीक है, मैं आज ज़्यादा देर नहीं रुकना चाहती।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: modal verbs",
+      "te": "వ్యాకరణం: మోడల్ క్రియలు",
+      "hi": "व्याकरण: मोडल क्रियाएँ"
+    },
+    "body": {
+      "en": "The modal takes the conjugated form (ich kann, du kannst, er kann, wir können). The main verb goes to the end of the sentence in its infinitive: Ich kann gut Deutsch sprechen.",
+      "te": "మోడల్ క్రియ రూపం మారుతుంది (ich kann, du kannst). ప్రధాన క్రియ వాక్యం చివర మూల రూపంలో: Ich kann gut Deutsch sprechen.",
+      "hi": "मोडल क्रिया अपना रूप बदलती है (ich kann, du kannst)। मुख्य क्रिया मूल रूप में वाक्य के अंत में जाती है: Ich kann gut Deutsch sprechen।"
+    }
+  },
+  "deep_dive": {
+    "en": "Können = can, wollen = want, müssen = must, dürfen = may. Möchte is a softer form of want, good for polite requests: Ich möchte bitte einen Tee.",
+    "te": "können = can, wollen = want, müssen = must, dürfen = may. möchte మరింత మర్యాదపూర్వకమైన \"కావాలి\": Ich möchte bitte einen Tee.",
+    "hi": "können = can, wollen = want, müssen = must, dürfen = may। möchte नरम और विनम्र \"चाहिए\" है: Ich möchte bitte einen Tee।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich kann Deutsch sprechen.",
+      "right": "Ich kann Deutsch sprechen.",
+      "why": {
+        "en": "Correct. Infinitive at the end.",
+        "te": "సరైనది. మూల రూపం చివర.",
+        "hi": "सही है। मूल रूप अंत में।"
+      }
+    },
+    {
+      "wrong": "Ich muss gehe.",
+      "right": "Ich muss gehen.",
+      "why": {
+        "en": "After a modal, use the infinitive.",
+        "te": "మోడల్ తర్వాత మూల రూపం.",
+        "hi": "मोडल के बाद मूल रूप।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Germans often use \"Ich möchte …\" in shops and restaurants. It is the polite way to ask for something.",
+    "te": "జర్మన్లు దుకాణాలు, రెస్టారెంట్లలో \"Ich möchte …\" అంటారు. ఇది మర్యాదపూర్వక మార్గం.",
+    "hi": "जर्मन लोग दुकानों और रेस्तराँ में \"Ich möchte …\" कहते हैं। यह विनम्र तरीका है।"
+  },
+  "practice_tip": {
+    "en": "Write three things you can, three you want and three you must do this week.",
+    "te": "ఈ వారం మీరు చేయగలిగినవి, కోరుకున్నవి, తప్పక చేయాల్సినవి మూడేసి రాయండి.",
+    "hi": "इस हफ़्ते जो तीन चीज़ें आप कर सकते, चाहते और ज़रूर करते हैं, उन्हें लिखें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"I must go.\"",
+        "te": "\"నేను వెళ్ళాలి\" అని చెప్పండి.",
+        "hi": "\"मुझे जाना है\" कहें।"
+      },
+      "answer": {
+        "en": "Ich muss gehen.",
+        "te": "Ich muss gehen.",
+        "hi": "Ich muss gehen."
+      }
+    },
+    {
+      "question": {
+        "en": "Ask \"Can you help me?\" (formal)",
+        "te": "\"మీరు నాకు సహాయం చేయగలరా?\" (గౌరవంగా) అని అడగండి.",
+        "hi": "\"क्या आप मेरी मदद कर सकते हैं?\" (औपचारिक) पूछें।"
+      },
+      "answer": {
+        "en": "Können Sie mir helfen?",
+        "te": "Können Sie mir helfen?",
+        "hi": "Können Sie mir helfen?"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich ___ Deutsch sprechen.",
+        "te": "Ich ___ Deutsch sprechen.",
+        "hi": "Ich ___ Deutsch sprechen."
+      },
+      "options": [
+        {
+          "de": "kann"
+        },
+        {
+          "de": "kannst"
+        },
+        {
+          "de": "können"
+        },
+        {
+          "de": "muss"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "ich kann.",
+        "te": "ich kann.",
+        "hi": "ich kann।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Du ___ früh kommen.",
+        "te": "Du ___ früh kommen.",
+        "hi": "Du ___ früh kommen."
+      },
+      "options": [
+        {
+          "de": "musst"
+        },
+        {
+          "de": "muss"
+        },
+        {
+          "de": "müssen"
+        },
+        {
+          "de": "dürfen"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "du musst.",
+        "te": "du musst.",
+        "hi": "du musst।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Darf ich?\" means…",
+        "te": "\"Darf ich?\" అర్థం…",
+        "hi": "\"Darf ich?\" का अर्थ…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "May I?",
+            "te": "నేను చేయవచ్చా?",
+            "hi": "क्या मैं कर सकता हूँ?"
+          }
+        },
+        {
+          "text": {
+            "en": "Can you?",
+            "te": "నువ్వు చేయగలవా?",
+            "hi": "क्या तुम कर सकते हो?"
+          }
+        },
+        {
+          "text": {
+            "en": "Do you want?",
+            "te": "నీకు కావాలా?",
+            "hi": "क्या तुम चाहते हो?"
+          }
+        },
+        {
+          "text": {
+            "en": "Must I?",
+            "te": "నేను తప్పక చేయాలా?",
+            "hi": "क्या मुझे करना ज़रूरी है?"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "dürfen = may.",
+        "te": "dürfen = చేయవచ్చు.",
+        "hi": "dürfen = अनुमति।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich möchte einen Tee. This is…",
+        "te": "Ich möchte einen Tee.",
+        "hi": "Ich möchte einen Tee."
+      },
+      "options": [
+        {
+          "text": {
+            "en": "polite request",
+            "te": "మర్యాదపూర్వక అభ్యర్థన",
+            "hi": "विनम्र अनुरोध"
+          }
+        },
+        {
+          "text": {
+            "en": "order to leave",
+            "te": "వెళ్లమని ఆదేశం",
+            "hi": "जाने का आदेश"
+          }
+        },
+        {
+          "text": {
+            "en": "question",
+            "te": "ప్రశ్న",
+            "hi": "प्रश्न"
+          }
+        },
+        {
+          "text": {
+            "en": "complaint",
+            "te": "ఫిర్యాదు",
+            "hi": "शिकायत"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "möchte is polite.",
+        "te": "möchte మర్యాదపూర్వకం.",
+        "hi": "möchte विनम्र है।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "modal-verbs-l1",
+      "audio_de": "Wir wollen morgen kommen.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "We want to come tomorrow.",
+            "te": "మేము రేపు రావాలనుకుంటున్నాము.",
+            "hi": "हम कल आना चाहते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "We must come tomorrow.",
+            "te": "మేము రేపు రావాలి.",
+            "hi": "हमें कल आना होगा।"
+          }
+        },
+        {
+          "text": {
+            "en": "We can come tomorrow.",
+            "te": "మేము రేపు రాగలము.",
+            "hi": "हम कल आ सकते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "We came yesterday.",
+            "te": "మేము నిన్న వచ్చాము.",
+            "hi": "हम कल आए थे।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wollen = want.",
+        "te": "wollen = కావాలి.",
+        "hi": "wollen = चाहना।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "modal-verbs-l2",
+      "audio_de": "Du musst früh aufstehen.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "You must get up early.",
+            "te": "నువ్వు త్వరగా లేవాలి.",
+            "hi": "तुम्हें जल्दी उठना होगा।"
+          }
+        },
+        {
+          "text": {
+            "en": "You may sleep late.",
+            "te": "నువ్వు ఆలస్యంగా పడుకోవచ్చు.",
+            "hi": "तुम देर से सो सकते हो।"
+          }
+        },
+        {
+          "text": {
+            "en": "You can sleep early.",
+            "te": "నువ్వు త్వరగా పడుకోగలవు.",
+            "hi": "तुम जल्दी सो सकते हो।"
+          }
+        },
+        {
+          "text": {
+            "en": "You want to sleep.",
+            "te": "నీకు నిద్ర కావాలి.",
+            "hi": "तुम सोना चाहते हो।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "müssen = must.",
+        "te": "müssen = తప్పక.",
+        "hi": "müssen = ज़रूरी।"
+      }
+    }
+  ],
+  "audio": []
+}

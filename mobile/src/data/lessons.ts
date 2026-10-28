@@ -6,7 +6,26 @@ export const curriculumData = curriculum as Curriculum;
 
 export const lessons: Record<Level, Record<string, Lesson>> = {
   A1: {
+    'a1-review': require('./lessons/A1/a1-review.json') as Lesson,
+    'accusative': require('./lessons/A1/accusative.json') as Lesson,
+    'alphabet': require('./lessons/A1/alphabet.json') as Lesson,
+    'articles': require('./lessons/A1/articles.json') as Lesson,
+    'at-home': require('./lessons/A1/at-home.json') as Lesson,
+    'colours-clothes': require('./lessons/A1/colours-clothes.json') as Lesson,
+    'days-months-time': require('./lessons/A1/days-months-time.json') as Lesson,
+    'directions': require('./lessons/A1/directions.json') as Lesson,
+    'family': require('./lessons/A1/family.json') as Lesson,
+    'food-drink': require('./lessons/A1/food-drink.json') as Lesson,
     'greetings': require('./lessons/A1/greetings.json') as Lesson,
+    'modal-verbs': require('./lessons/A1/modal-verbs.json') as Lesson,
+    'negation': require('./lessons/A1/negation.json') as Lesson,
+    'numbers-1-20': require('./lessons/A1/numbers-1-20.json') as Lesson,
+    'numbers-21-100': require('./lessons/A1/numbers-21-100.json') as Lesson,
+    'personal-pronouns': require('./lessons/A1/personal-pronouns.json') as Lesson,
+    'regular-verbs-present': require('./lessons/A1/regular-verbs-present.json') as Lesson,
+    'sein-haben': require('./lessons/A1/sein-haben.json') as Lesson,
+    'w-questions': require('./lessons/A1/w-questions.json') as Lesson,
+    'weather-seasons': require('./lessons/A1/weather-seasons.json') as Lesson,
   },
   A2: {
   },

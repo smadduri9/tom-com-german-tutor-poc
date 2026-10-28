@@ -1,0 +1,527 @@
+{
+  "id": "at-home",
+  "slug": "at-home",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "At Home",
+    "te": "ఇంట్లో",
+    "hi": "घर पर"
+  },
+  "subtitle": {
+    "en": "Rooms and furniture",
+    "te": "గదులు మరియు ఫర్నిచర్",
+    "hi": "कमरे और फ़र्नीचर"
+  },
+  "intro": {
+    "en": "Name the rooms and furniture in a home and say where things are.",
+    "te": "ఇంట్లోని గదులు, ఫర్నిచర్ పేర్లు చెప్పండి; వస్తువులు ఎక్కడ ఉన్నాయో చెప్పండి.",
+    "hi": "घर के कमरे और फ़र्नीचर के नाम बताएँ; चीज़ें कहाँ हैं यह बताएँ।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "die Küche",
+      "meaning": {
+        "en": "the kitchen",
+        "te": "వంటగది",
+        "hi": "रसोई"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "das Wohnzimmer",
+      "meaning": {
+        "en": "the living room",
+        "te": "హాలు",
+        "hi": "बैठक"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "das Schlafzimmer",
+      "meaning": {
+        "en": "the bedroom",
+        "te": "పడకగది",
+        "hi": "शयनकक्ष"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "das Badezimmer",
+      "meaning": {
+        "en": "the bathroom",
+        "te": "స్నానాల గది",
+        "hi": "बाथरूम"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "das Bett",
+      "meaning": {
+        "en": "the bed",
+        "te": "మంచం",
+        "hi": "बिस्तर"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "der Kühlschrank",
+      "meaning": {
+        "en": "the fridge",
+        "te": "ఫ్రిడ్జ్",
+        "hi": "फ़्रिज"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "der Schrank",
+      "meaning": {
+        "en": "the cupboard",
+        "te": "అల్మారా",
+        "hi": "अलमारी"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "das Sofa",
+      "meaning": {
+        "en": "the sofa",
+        "te": "సోఫా",
+        "hi": "सोफ़ा"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Wo ist …?",
+      "meaning": {
+        "en": "Where is …?",
+        "te": "… ఎక్కడ ఉంది?",
+        "hi": "… कहाँ है?"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Es steht auf dem Tisch.",
+      "meaning": {
+        "en": "It stands on the table.",
+        "te": "అది బల్ల మీద ఉంది.",
+        "hi": "यह मेज़ पर है।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Die Küche ist klein.",
+      "meaning": {
+        "en": "The kitchen is small.",
+        "te": "వంటగది చిన్నది.",
+        "hi": "रसोई छोटी है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Das Bett steht im Schlafzimmer.",
+      "meaning": {
+        "en": "The bed is in the bedroom.",
+        "te": "మంచం పడకగదిలో ఉంది.",
+        "hi": "बिस्तर शयनकक्ष में है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Der Kühlschrank ist in der Küche.",
+      "meaning": {
+        "en": "The fridge is in the kitchen.",
+        "te": "ఫ్రిడ్జ్ వంటగదిలో ఉంది.",
+        "hi": "फ़्रिज रसोई में है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Wir sitzen auf dem Sofa.",
+      "meaning": {
+        "en": "We sit on the sofa.",
+        "te": "మేము సోఫాలో కూర్చుంటాము.",
+        "hi": "हम सोफ़े पर बैठते हैं।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Wohnung",
+      "meaning": {
+        "en": "the flat",
+        "te": "ఫ్లాట్",
+        "hi": "फ़्लैट"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Balkon",
+      "meaning": {
+        "en": "the balcony",
+        "te": "బాల్కనీ",
+        "hi": "बालकनी"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "die Miete",
+      "meaning": {
+        "en": "the rent",
+        "te": "అద్దె",
+        "hi": "किराया"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "das Licht",
+      "meaning": {
+        "en": "the light",
+        "te": "వెలుగు",
+        "hi": "रोशनी"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A FLAT VISIT",
+      "te": "ఫ్లాట్ చూడటానికి",
+      "hi": "फ़्लैट देखने के लिए"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Herr Müller",
+        "de": "Hier ist die Küche. Der Kühlschrank steht links.",
+        "meaning": {
+          "en": "Here is the kitchen. The fridge is on the left.",
+          "te": "ఇది వంటగది. ఫ్రిడ్జ్ ఎడమ వైపు ఉంది.",
+          "hi": "यह रसोई है। फ़्रिज बाईं ओर है।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Ravi",
+        "de": "Und wo ist das Badezimmer?",
+        "meaning": {
+          "en": "And where is the bathroom?",
+          "te": "మరి స్నానాల గది ఎక్కడ?",
+          "hi": "और बाथरूम कहाँ है?"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Herr Müller",
+        "de": "Dort drüben, neben dem Schlafzimmer.",
+        "meaning": {
+          "en": "Over there, next to the bedroom.",
+          "te": "అక్కడ, పడకగది పక్కన.",
+          "hi": "वहाँ, शयनकक्ष के बगल में।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Ravi",
+        "de": "Die Wohnung ist schön. Ich nehme sie.",
+        "meaning": {
+          "en": "The flat is nice. I will take it.",
+          "te": "ఫ్లాట్ బాగుంది. నేను తీసుకుంటాను.",
+          "hi": "फ़्लैट अच्छा है। मैं इसे लूँगा।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: wo or wohin at home?",
+      "te": "వ్యాకరణం: ఇంట్లో wo లేదా wohin?",
+      "hi": "व्याकरण: घर में wo या wohin?"
+    },
+    "body": {
+      "en": "With wo (where?) use dative: im Schlafzimmer, auf dem Tisch. With wohin (where to?) use accusative: ins Schlafzimmer, auf den Tisch. You will meet this fully in the dative and accusative lessons.",
+      "te": "wo (ఎక్కడ?) తో dative: im Schlafzimmer. wohin (ఎక్కడికి?) తో accusative: ins Schlafzimmer.",
+      "hi": "wo (कहाँ?) के साथ dative: im Schlafzimmer। wohin (कहाँ को?) के साथ accusative: ins Schlafzimmer।"
+    }
+  },
+  "deep_dive": {
+    "en": "Germans often say \"Die Wohnung ist möbliert\" (furnished) or \"unmöbliert\" when renting. Rent is usually quoted as \"Kaltmiete\" (without heating) plus \"Nebenkosten\".",
+    "te": "జర్మనీలో అద్దె ఇళ్లు \"möbliert\" (ఫర్నిష్డ్) లేదా \"unmöbliert\" అని చెబుతారు. అద్దె సాధారణంగా \"Kaltmiete\" (వేడి ఖర్చులు లేకుండా) + \"Nebenkosten\".",
+    "hi": "जर्मनी में किराये के घर \"möbliert\" (फ़र्निश्ड) या \"unmöbliert\" कहलाते हैं। किराया आमतौर पर \"Kaltmiete\" (बिना गर्मी खर्च) + \"Nebenkosten\" बताया जाता है।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich bin in die Küche.",
+      "right": "Ich bin in der Küche.",
+      "why": {
+        "en": "Location (wo) uses dative: in der Küche.",
+        "te": "స్థానం (wo) dative: in der Küche.",
+        "hi": "स्थान (wo) के लिए dative: in der Küche।"
+      }
+    },
+    {
+      "wrong": "Das Bett ist im Schlafzimmer.",
+      "right": "Das Bett steht im Schlafzimmer.",
+      "why": {
+        "en": "Furniture often \"steht\" or \"steht\" (stands).",
+        "te": "ఫర్నిచర్ కు తరచుగా \"steht\" వాడతారు.",
+        "hi": "फ़र्नीचर के लिए अक्सर \"steht\" आता है।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In Germany people take off shoes at home only if asked. Bring a small gift when invited to a flat.",
+    "te": "జర్మనీలో ఇంట్లో అడిగితేనే బూట్లు తీయాలి. ఇంటికి ఆహ్వానిస్తే చిన్న బహుమతి తీసుకెళ్లండి.",
+    "hi": "जर्मनी में घर पर जूते तभी उतारते हैं जब कहा जाए। घर बुलाने पर छोटा उपहार ले जाएँ।"
+  },
+  "practice_tip": {
+    "en": "Walk through your home and name each room and piece of furniture in German.",
+    "te": "మీ ఇంట్లో తిరుగుతూ ప్రతి గది, ఫర్నిచర్‌ను జర్మన్‌లో పేరు పెట్టండి.",
+    "hi": "अपने घर में घूमकर हर कमरे और फ़र्नीचर को जर्मन में नाम दें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"The bed is in the bedroom.\"",
+        "te": "\"మంచం పడకగదిలో ఉంది\" అని చెప్పండి.",
+        "hi": "\"बिस्तर शयनकक्ष में है\" कहें।"
+      },
+      "answer": {
+        "en": "Das Bett steht im Schlafzimmer.",
+        "te": "Das Bett steht im Schlafzimmer.",
+        "hi": "Das Bett steht im Schlafzimmer."
+      }
+    },
+    {
+      "question": {
+        "en": "Ask \"Where is the bathroom?\"",
+        "te": "\"స్నానాల గది ఎక్కడ?\" అని అడగండి.",
+        "hi": "\"बाथरूम कहाँ है?\" पूछें।"
+      },
+      "answer": {
+        "en": "Wo ist das Badezimmer?",
+        "te": "Wo ist das Badezimmer?",
+        "hi": "Wo ist das Badezimmer?"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Wo ist die Küche?",
+        "te": "Wo ist die Küche?",
+        "hi": "Wo ist die Küche?"
+      },
+      "options": [
+        {
+          "de": "Die Küche ist hier."
+        },
+        {
+          "de": "Die Küche ist gut."
+        },
+        {
+          "de": "Die Küche ist groß."
+        },
+        {
+          "de": "Die Küche ist teuer."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Asking where: answer with a place.",
+        "te": "Asking where: answer with a place.",
+        "hi": "Asking where: answer with a place."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Which is a room?",
+        "te": "Which is a room?",
+        "hi": "Which is a room?"
+      },
+      "options": [
+        {
+          "de": "das Schlafzimmer"
+        },
+        {
+          "de": "der Tisch"
+        },
+        {
+          "de": "das Bett"
+        },
+        {
+          "de": "die Lampe"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Das Schlafzimmer = bedroom.",
+        "te": "Das Schlafzimmer = bedroom.",
+        "hi": "Das Schlafzimmer = bedroom."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"der Kühlschrank\" is…",
+        "te": "\"der Kühlschrank\" is…",
+        "hi": "\"der Kühlschrank\" is…"
+      },
+      "options": [
+        {
+          "de": "the fridge"
+        },
+        {
+          "de": "the oven"
+        },
+        {
+          "de": "the cupboard"
+        },
+        {
+          "de": "the sofa"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Kühlschrank = fridge.",
+        "te": "Kühlschrank = fridge.",
+        "hi": "Kühlschrank = fridge."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Das Sofa ___ im Wohnzimmer.",
+        "te": "Das Sofa ___ im Wohnzimmer.",
+        "hi": "Das Sofa ___ im Wohnzimmer."
+      },
+      "options": [
+        {
+          "de": "steht"
+        },
+        {
+          "de": "stehen"
+        },
+        {
+          "de": "stehst"
+        },
+        {
+          "de": "stehe"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "das Sofa → steht.",
+        "te": "das Sofa → steht.",
+        "hi": "das Sofa → steht."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "at-home-l1",
+      "audio_de": "Das Badezimmer ist klein.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The bathroom is small.",
+            "te": "స్నానాల గది చిన్నది.",
+            "hi": "बाथरूम छोटा है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The bedroom is big.",
+            "te": "పడకగది పెద్దది.",
+            "hi": "शयनकक्ष बड़ा है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The kitchen is cold.",
+            "te": "వంటగది చల్లగా ఉంది.",
+            "hi": "रसोई ठंडी है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The living room is new.",
+            "te": "హాలు కొత్తది.",
+            "hi": "बैठक नई है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "klein = small.",
+        "te": "klein = చిన్న.",
+        "hi": "klein = छोटा।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "at-home-l2",
+      "audio_de": "Wo ist der Schrank?",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Where is the cupboard?",
+            "te": "అల్మారా ఎక్కడ?",
+            "hi": "अलमारी कहाँ है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Where is the fridge?",
+            "te": "ఫ్రిడ్జ్ ఎక్కడ?",
+            "hi": "फ़्रिज कहाँ है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Where is the bed?",
+            "te": "మంచం ఎక్కడ?",
+            "hi": "बिस्तर कहाँ है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Where is the sofa?",
+            "te": "సోఫా ఎక్కడ?",
+            "hi": "सोफ़ा कहाँ है?"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Schrank = cupboard.",
+        "te": "Schrank = అల్మారా.",
+        "hi": "Schrank = अलमारी।"
+      }
+    }
+  ],
+  "audio": []
+}

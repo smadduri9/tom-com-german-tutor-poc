@@ -1,0 +1,553 @@
+{
+  "id": "days-months-time",
+  "slug": "days-months-time",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Days, Months & Time",
+    "te": "రోజులు, నెలలు & సమయం",
+    "hi": "दिन, महीने और समय"
+  },
+  "subtitle": {
+    "en": "Telling the time and dates",
+    "te": "సమయం మరియు తేదీలు చెప్పడం",
+    "hi": "समय और तारीख बताना"
+  },
+  "intro": {
+    "en": "Name the days and months, tell the time and make appointments.",
+    "te": "రోజులు, నెలల పేర్లు చెప్పండి, సమయం చెప్పండి, అపాయింట్‌మెంట్లు పెట్టుకోండి.",
+    "hi": "दिनों और महीनों के नाम लें, समय बताएँ और अपॉइंटमेंट तय करें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "Montag, Dienstag, Mittwoch",
+      "meaning": {
+        "en": "Monday, Tuesday, Wednesday",
+        "te": "సోమ, మంగళ, బుధవారం",
+        "hi": "सोमवार, मंगलवार, बुधवार"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "Donnerstag, Freitag",
+      "meaning": {
+        "en": "Thursday, Friday",
+        "te": "గురు, శుక్రవారం",
+        "hi": "गुरुवार, शुक्रवार"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "Samstag, Sonntag",
+      "meaning": {
+        "en": "Saturday, Sunday",
+        "te": "శని, ఆదివారం",
+        "hi": "शनिवार, रविवार"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "Januar, Februar, März",
+      "meaning": {
+        "en": "January, February, March",
+        "te": "జనవరి, ఫిబ్రవరి, మార్చి",
+        "hi": "जनवरी, फ़रवरी, मार्च"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "heute / morgen",
+      "meaning": {
+        "en": "today / tomorrow",
+        "te": "ఈ రోజు / రేపు",
+        "hi": "आज / कल (आने वाला)"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "Wie spät ist es?",
+      "meaning": {
+        "en": "What time is it?",
+        "te": "సమయం ఎంత?",
+        "hi": "कितने बजे हैं?"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "Es ist acht Uhr.",
+      "meaning": {
+        "en": "It is eight o’clock.",
+        "te": "ఎనిమిది గంటలు.",
+        "hi": "आठ बजे हैं।"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "halb neun",
+      "meaning": {
+        "en": "half past eight (8:30)",
+        "te": "ఎనిమిదిన్నర",
+        "hi": "साढ़े आठ"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "am Montag",
+      "meaning": {
+        "en": "on Monday",
+        "te": "సోమవారం నాడు",
+        "hi": "सोमवार को"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "um zehn Uhr",
+      "meaning": {
+        "en": "at ten o’clock",
+        "te": "పది గంటలకు",
+        "hi": "दस बजे"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich arbeite von Montag bis Freitag.",
+      "meaning": {
+        "en": "I work from Monday to Friday.",
+        "te": "నేను సోమవారం నుండి శుక్రవారం వరకు పని చేస్తాను.",
+        "hi": "मैं सोमवार से शुक्रवार तक काम करता हूँ।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Der Termin ist am Dienstag um neun Uhr.",
+      "meaning": {
+        "en": "The appointment is on Tuesday at nine.",
+        "te": "అపాయింట్‌మెంట్ మంగళవారం తొమ్మిది గంటలకు.",
+        "hi": "अपॉइंटमेंट मंगलवार को नौ बजे है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Mein Geburtstag ist im Mai.",
+      "meaning": {
+        "en": "My birthday is in May.",
+        "te": "నా పుట్టినరోజు మేలో.",
+        "hi": "मेरा जन्मदिन मई में है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Es ist halb drei.",
+      "meaning": {
+        "en": "It is half past two.",
+        "te": "రెండున్నర అయింది.",
+        "hi": "ढाई बजे हैं।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Termin",
+      "meaning": {
+        "en": "the appointment",
+        "te": "అపాయింట్‌మెంట్",
+        "hi": "अपॉइंटमेंट"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "die Woche",
+      "meaning": {
+        "en": "the week",
+        "te": "వారం",
+        "hi": "हफ़्ता"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "der Monat",
+      "meaning": {
+        "en": "the month",
+        "te": "నెల",
+        "hi": "महीना"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "das Wochenende",
+      "meaning": {
+        "en": "the weekend",
+        "te": "వారాంతం",
+        "hi": "सप्ताहांत"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "ON THE PHONE WITH A DOCTOR’S OFFICE",
+      "te": "డాక్టర్ ఆఫీసుతో ఫోన్‌లో",
+      "hi": "डॉक्टर के ऑफ़िस से फ़ोन पर"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Anil",
+        "de": "Ich brauche einen Termin, bitte.",
+        "meaning": {
+          "en": "I need an appointment, please.",
+          "te": "నాకు ఒక అపాయింట్‌మెంట్ కావాలి.",
+          "hi": "मुझे एक अपॉइंटमेंट चाहिए।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Praxis",
+        "de": "Geht es am Mittwoch um zehn Uhr?",
+        "meaning": {
+          "en": "Is Wednesday at ten o’clock OK?",
+          "te": "బుధవారం పది గంటలకు సరిపోతుందా?",
+          "hi": "क्या बुधवार दस बजे ठीक है?"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Anil",
+        "de": "Nein, am Mittwoch arbeite ich. Und am Freitag?",
+        "meaning": {
+          "en": "No, I work on Wednesday. And Friday?",
+          "te": "లేదు, బుధవారం నాకు పని ఉంది. శుక్రవారం?",
+          "hi": "नहीं, बुधवार को मेरा काम है। और शुक्रवार?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Praxis",
+        "de": "Freitag um halb fünf.",
+        "meaning": {
+          "en": "Friday at half past four.",
+          "te": "శుక్రవారం నాలుగున్నరకు.",
+          "hi": "शुक्रवार साढ़े चार बजे।"
+        }
+      },
+      {
+        "id": "d05",
+        "speaker": "Anil",
+        "de": "Perfekt, danke!",
+        "meaning": {
+          "en": "Perfect, thank you!",
+          "te": "చాలా బాగుంది, ధన్యవాదాలు!",
+          "hi": "बढ़िया, धन्यवाद!"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: am, um, im",
+      "te": "వ్యాకరణం: am, um, im",
+      "hi": "व्याकरण: am, um, im"
+    },
+    "body": {
+      "en": "Use am with days (am Montag), um with clock times (um acht Uhr) and im with months and seasons (im Mai, im Sommer).",
+      "te": "రోజులతో am (am Montag), గడియార సమయాలతో um (um acht Uhr), నెలలు, ఋతువులతో im (im Mai, im Sommer).",
+      "hi": "दिनों के साथ am (am Montag), घड़ी के समय के साथ um (um acht Uhr), महीनों और ऋतुओं के साथ im (im Mai, im Sommer)।"
+    }
+  },
+  "deep_dive": {
+    "en": "Careful with \"halb\": halb neun means half an hour before nine, so 8:30, not 9:30. Official times use 24 hours: 16:30 is \"sechzehn Uhr dreißig\". \"Morgen\" means tomorrow; \"der Morgen\" means the morning.",
+    "te": "\"halb\" జాగ్రత్త: halb neun అంటే తొమ్మిదికి అరగంట ముందు, అంటే 8:30, 9:30 కాదు. అధికారిక సమయాలు 24 గంటల్లో: 16:30 అంటే \"sechzehn Uhr dreißig\". \"morgen\" అంటే రేపు; \"der Morgen\" అంటే ఉదయం.",
+    "hi": "\"halb\" से सावधान: halb neun का मतलब नौ से आधा घंटा पहले, यानी 8:30, 9:30 नहीं। आधिकारिक समय 24 घंटे में: 16:30 है \"sechzehn Uhr dreißig\"। \"morgen\" का मतलब कल (आने वाला); \"der Morgen\" का मतलब सुबह।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "halb neun = 9:30",
+      "right": "halb neun = 8:30",
+      "why": {
+        "en": "halb counts toward the next hour.",
+        "te": "halb తర్వాతి గంట వైపు లెక్కిస్తుంది.",
+        "hi": "halb अगले घंटे की ओर गिनता है।"
+      }
+    },
+    {
+      "wrong": "in Montag",
+      "right": "am Montag",
+      "why": {
+        "en": "Days use am.",
+        "te": "రోజులకు am.",
+        "hi": "दिनों के साथ am।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Punctuality matters in Germany. Arrive a few minutes early for appointments, and call if you will be late.",
+    "te": "జర్మనీలో సమయపాలన ముఖ్యం. అపాయింట్‌మెంట్‌లకు కొన్ని నిమిషాలు ముందుగా చేరుకోండి, ఆలస్యమైతే ఫోన్ చేయండి.",
+    "hi": "जर्मनी में समय की पाबंदी ज़रूरी है। अपॉइंटमेंट पर कुछ मिनट पहले पहुँचें, और देर हो तो फ़ोन करें।"
+  },
+  "practice_tip": {
+    "en": "Say your weekly plan aloud: \"Am Montag arbeite ich, am Samstag …\".",
+    "te": "మీ వారపు ప్రణాళికను గట్టిగా చెప్పండి: \"Am Montag arbeite ich, am Samstag …\".",
+    "hi": "अपनी साप्ताहिक योजना ज़ोर से बोलें: \"Am Montag arbeite ich, am Samstag …\"।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "What time is \"halb sieben\"?",
+        "te": "\"halb sieben\" ఏ సమయం?",
+        "hi": "\"halb sieben\" कितने बजे है?"
+      },
+      "answer": {
+        "en": "6:30",
+        "te": "6:30",
+        "hi": "6:30"
+      }
+    },
+    {
+      "question": {
+        "en": "Ask \"What time is it?\"",
+        "te": "\"సమయం ఎంత?\" అని అడగండి.",
+        "hi": "\"कितने बजे हैं?\" पूछें।"
+      },
+      "answer": {
+        "en": "Wie spät ist es?",
+        "te": "Wie spät ist es?",
+        "hi": "Wie spät ist es?"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "___ Freitag",
+        "te": "___ Freitag",
+        "hi": "___ Freitag"
+      },
+      "options": [
+        {
+          "de": "am"
+        },
+        {
+          "de": "um"
+        },
+        {
+          "de": "im"
+        },
+        {
+          "de": "in"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Days take am.",
+        "te": "రోజులకు am.",
+        "hi": "दिनों के साथ am।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"halb vier\" is…",
+        "te": "\"halb vier\" అంటే…",
+        "hi": "\"halb vier\" है…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "3:30",
+            "te": "3:30",
+            "hi": "3:30"
+          }
+        },
+        {
+          "text": {
+            "en": "4:30",
+            "te": "4:30",
+            "hi": "4:30"
+          }
+        },
+        {
+          "text": {
+            "en": "4:15",
+            "te": "4:15",
+            "hi": "4:15"
+          }
+        },
+        {
+          "text": {
+            "en": "3:45",
+            "te": "3:45",
+            "hi": "3:45"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Half an hour before four.",
+        "te": "నాలుగుకు అరగంట ముందు.",
+        "hi": "चार से आधा घंटा पहले।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "___ Juli",
+        "te": "___ Juli",
+        "hi": "___ Juli"
+      },
+      "options": [
+        {
+          "de": "im"
+        },
+        {
+          "de": "am"
+        },
+        {
+          "de": "um"
+        },
+        {
+          "de": "an"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Months take im.",
+        "te": "నెలలకు im.",
+        "hi": "महीनों के साथ im।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Which day comes after Donnerstag?",
+        "te": "Donnerstag తర్వాత ఏ రోజు?",
+        "hi": "Donnerstag के बाद कौन-सा दिन?"
+      },
+      "options": [
+        {
+          "de": "Freitag"
+        },
+        {
+          "de": "Mittwoch"
+        },
+        {
+          "de": "Samstag"
+        },
+        {
+          "de": "Montag"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Thursday → Friday.",
+        "te": "గురువారం → శుక్రవారం.",
+        "hi": "गुरुवार → शुक्रवार।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "v07",
+      "audio_de": "Es ist acht Uhr.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "It is eight o’clock.",
+            "te": "ఎనిమిది గంటలు.",
+            "hi": "आठ बजे हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is half past eight.",
+            "te": "ఎనిమిదిన్నర.",
+            "hi": "साढ़े आठ बजे हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is three o’clock.",
+            "te": "మూడు గంటలు.",
+            "hi": "तीन बजे हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is eighteen o’clock.",
+            "te": "పద్దెనిమిది గంటలు.",
+            "hi": "अठारह बजे हैं।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "acht Uhr = 8:00.",
+        "te": "acht Uhr = 8:00.",
+        "hi": "acht Uhr = 8:00।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v09",
+      "audio_de": "am Montag",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "on Monday",
+            "te": "సోమవారం నాడు",
+            "hi": "सोमवार को"
+          }
+        },
+        {
+          "text": {
+            "en": "on Sunday",
+            "te": "ఆదివారం నాడు",
+            "hi": "रविवार को"
+          }
+        },
+        {
+          "text": {
+            "en": "in March",
+            "te": "మార్చిలో",
+            "hi": "मार्च में"
+          }
+        },
+        {
+          "text": {
+            "en": "tomorrow",
+            "te": "రేపు",
+            "hi": "कल"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Montag = Monday.",
+        "te": "Montag = సోమవారం.",
+        "hi": "Montag = सोमवार।"
+      }
+    }
+  ],
+  "audio": []
+}

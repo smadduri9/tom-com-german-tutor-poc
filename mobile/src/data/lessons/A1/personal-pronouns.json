@@ -1,0 +1,560 @@
+{
+  "id": "personal-pronouns",
+  "slug": "personal-pronouns",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Personal Pronouns",
+    "te": "వ్యక్తిగత సర్వనామాలు",
+    "hi": "व्यक्तिवाचक सर्वनाम"
+  },
+  "subtitle": {
+    "en": "ich, du, er, sie, es, wir",
+    "te": "ich, du, er, sie, es, wir",
+    "hi": "ich, du, er, sie, es, wir"
+  },
+  "intro": {
+    "en": "Learn the words for I, you, he, she, it, we, you all and they, and when to use the polite Sie.",
+    "te": "నేను, నువ్వు, అతను, ఆమె, అది, మేము, మీరంతా, వారు అనే పదాలు, గౌరవ Sie ఎప్పుడు వాడాలో నేర్చుకోండి.",
+    "hi": "मैं, तुम, वह, वह (स्त्री), यह, हम, तुम सब, वे के शब्द और विनम्र Sie कब प्रयोग करें, यह सीखें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "ich",
+      "meaning": {
+        "en": "I",
+        "te": "నేను",
+        "hi": "मैं"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "du",
+      "meaning": {
+        "en": "you (informal, one person)",
+        "te": "నువ్వు",
+        "hi": "तुम"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "er",
+      "meaning": {
+        "en": "he",
+        "te": "అతను",
+        "hi": "वह (पुरुष)"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "sie",
+      "meaning": {
+        "en": "she",
+        "te": "ఆమె",
+        "hi": "वह (स्त्री)"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "es",
+      "meaning": {
+        "en": "it",
+        "te": "అది",
+        "hi": "यह/वह"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "wir",
+      "meaning": {
+        "en": "we",
+        "te": "మేము/మనం",
+        "hi": "हम"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "ihr",
+      "meaning": {
+        "en": "you (informal, several people)",
+        "te": "మీరు (చాలామంది, సన్నిహితంగా)",
+        "hi": "तुम लोग"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "sie",
+      "meaning": {
+        "en": "they",
+        "te": "వారు",
+        "hi": "वे"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Sie",
+      "meaning": {
+        "en": "you (formal)",
+        "te": "మీరు (గౌరవంగా)",
+        "hi": "आप"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Er heißt Arjun.",
+      "meaning": {
+        "en": "His name is Arjun.",
+        "te": "అతని పేరు అర్జున్.",
+        "hi": "उसका नाम अर्जुन है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Sie kommt aus Hyderabad.",
+      "meaning": {
+        "en": "She comes from Hyderabad.",
+        "te": "ఆమె హైదరాబాద్ నుండి వచ్చింది.",
+        "hi": "वह हैदराबाद से है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Wir lernen Deutsch.",
+      "meaning": {
+        "en": "We are learning German.",
+        "te": "మేము జర్మన్ నేర్చుకుంటున్నాము.",
+        "hi": "हम जर्मन सीख रहे हैं।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Kommt ihr aus Indien?",
+      "meaning": {
+        "en": "Are you (all) from India?",
+        "te": "మీరంతా భారతదేశం నుండి వచ్చారా?",
+        "hi": "क्या तुम लोग भारत से हो?"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Kollege",
+      "meaning": {
+        "en": "the colleague (male)",
+        "te": "సహోద్యోగి (పురుషుడు)",
+        "hi": "सहकर्मी (पुरुष)"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "die Kollegin",
+      "meaning": {
+        "en": "the colleague (female)",
+        "te": "సహోద్యోగి (స్త్రీ)",
+        "hi": "सहकर्मी (स्त्री)"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "zusammen",
+      "meaning": {
+        "en": "together",
+        "te": "కలిసి",
+        "hi": "साथ में"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "auch",
+      "meaning": {
+        "en": "also",
+        "te": "కూడా",
+        "hi": "भी"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "FIRST DAY AT WORK",
+      "te": "పనిలో మొదటి రోజు",
+      "hi": "काम का पहला दिन"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Herr Bauer",
+        "de": "Guten Morgen! Sind Sie Frau Rao?",
+        "meaning": {
+          "en": "Good morning! Are you Ms Rao?",
+          "te": "శుభోదయం! మీరు శ్రీమతి రావు గారేనా?",
+          "hi": "सुप्रभात! क्या आप सुश्री राव हैं?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Lakshmi",
+        "de": "Ja, ich bin Lakshmi Rao.",
+        "meaning": {
+          "en": "Yes, I am Lakshmi Rao.",
+          "te": "అవును, నేను లక్ష్మి రావు.",
+          "hi": "हाँ, मैं लक्ष्मी राव हूँ।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Herr Bauer",
+        "de": "Das ist Jonas. Er ist Ihr Kollege.",
+        "meaning": {
+          "en": "This is Jonas. He is your colleague.",
+          "te": "ఇతను జోనాస్. అతను మీ సహోద్యోగి.",
+          "hi": "ये योनास हैं। वह आपके सहकर्मी हैं।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Lakshmi",
+        "de": "Hallo Jonas! Wir arbeiten zusammen?",
+        "meaning": {
+          "en": "Hello Jonas! We work together?",
+          "te": "హలో జోనాస్! మనం కలిసి పని చేస్తామా?",
+          "hi": "नमस्ते योनास! हम साथ काम करेंगे?"
+        }
+      },
+      {
+        "id": "d05",
+        "speaker": "Herr Bauer",
+        "de": "Ja, Sie arbeiten im Team B.",
+        "meaning": {
+          "en": "Yes, you work in team B.",
+          "te": "అవును, మీరు టీమ్ B లో పని చేస్తారు.",
+          "hi": "हाँ, आप टीम B में काम करेंगी।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: sie, sie or Sie?",
+      "te": "వ్యాకరణం: sie, sie లేదా Sie?",
+      "hi": "व्याकरण: sie, sie या Sie?"
+    },
+    "body": {
+      "en": "The same word has three meanings. sie + verb ending -t = she (sie kommt). sie + verb ending -en = they (sie kommen). Sie with a capital S + -en = formal you (Sie kommen). The verb and context tell you which one is meant.",
+      "te": "ఒకే పదానికి మూడు అర్థాలు. sie + క్రియ -t ముగింపు = ఆమె (sie kommt). sie + -en = వారు (sie kommen). పెద్ద S తో Sie + -en = మీరు (Sie kommen). క్రియ, సందర్భం ఏది అని చెబుతాయి.",
+      "hi": "एक ही शब्द के तीन अर्थ हैं। sie + क्रिया का -t अंत = वह (स्त्री) (sie kommt)। sie + -en = वे (sie kommen)। बड़े S वाला Sie + -en = आप (Sie kommen)। क्रिया और संदर्भ से पता चलता है।"
+    }
+  },
+  "deep_dive": {
+    "en": "Use du with friends, family, children and often with young colleagues who offer it. Use Sie with your manager, officials and people you do not know. If a German says \"Wir können uns duzen\", they invite you to use du.",
+    "te": "స్నేహితులు, కుటుంబం, పిల్లలు, du అని పిలవమని చెప్పిన యువ సహోద్యోగులతో du వాడండి. మేనేజర్, అధికారులు, తెలియని వారితో Sie వాడండి. \"Wir können uns duzen\" అంటే du వాడమని ఆహ్వానం.",
+    "hi": "दोस्तों, परिवार, बच्चों और du कहने को कहने वाले युवा सहकर्मियों के साथ du प्रयोग करें। मैनेजर, अधिकारियों और अनजान लोगों के साथ Sie। \"Wir können uns duzen\" का मतलब है du प्रयोग करने का निमंत्रण।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Du bist mein Chef?",
+      "right": "Sind Sie mein Chef?",
+      "why": {
+        "en": "Use Sie with your manager unless invited to use du.",
+        "te": "du అనమని చెప్పే వరకు మేనేజర్‌తో Sie వాడండి.",
+        "hi": "जब तक du कहने को न कहा जाए, मैनेजर से Sie कहें।"
+      }
+    },
+    {
+      "wrong": "sie kommen (she)",
+      "right": "sie kommt (she)",
+      "why": {
+        "en": "She takes -t; -en means they or formal you.",
+        "te": "ఆమెకు -t; -en అంటే వారు లేదా మీరు.",
+        "hi": "स्त्री के लिए -t; -en का मतलब वे या आप।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "At work in Germany people often use first names but still say Sie. Wait for the other person to offer du.",
+    "te": "జర్మనీలో పనిలో తరచుగా మొదటి పేర్లు వాడుతూనే Sie అంటారు. du కోసం అవతలి వారు ముందుకొచ్చే వరకు ఆగండి.",
+    "hi": "जर्मनी में काम पर लोग अक्सर पहला नाम लेते हुए भी Sie कहते हैं। du के लिए सामने वाले की पहल का इंतज़ार करें।"
+  },
+  "practice_tip": {
+    "en": "Describe your family in short sentences: \"Er heißt …\", \"Sie kommt aus …\".",
+    "te": "చిన్న వాక్యాలలో మీ కుటుంబాన్ని వివరించండి: \"Er heißt …\", \"Sie kommt aus …\".",
+    "hi": "छोटे वाक्यों में अपने परिवार का वर्णन करें: \"Er heißt …\", \"Sie kommt aus …\"।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "What is \"we\" in German?",
+        "te": "జర్మన్‌లో \"మేము\" ఏమిటి?",
+        "hi": "जर्मन में \"हम\" क्या है?"
+      },
+      "answer": {
+        "en": "wir",
+        "te": "wir",
+        "hi": "wir"
+      }
+    },
+    {
+      "question": {
+        "en": "Which \"you\" do you use with an official?",
+        "te": "అధికారితో ఏ \"మీరు\" వాడతారు?",
+        "hi": "अधिकारी से कौन-सा \"आप\" प्रयोग करेंगे?"
+      },
+      "answer": {
+        "en": "Sie",
+        "te": "Sie",
+        "hi": "Sie"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"er\" means…",
+        "te": "\"er\" అర్థం…",
+        "hi": "\"er\" का अर्थ…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "he",
+            "te": "అతను",
+            "hi": "वह (पुरुष)"
+          }
+        },
+        {
+          "text": {
+            "en": "she",
+            "te": "ఆమె",
+            "hi": "वह (स्त्री)"
+          }
+        },
+        {
+          "text": {
+            "en": "we",
+            "te": "మేము",
+            "hi": "हम"
+          }
+        },
+        {
+          "text": {
+            "en": "I",
+            "te": "నేను",
+            "hi": "मैं"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "er = he.",
+        "te": "er = అతను.",
+        "hi": "er = वह (पुरुष)।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Sie kommt aus Indien. Who?",
+        "te": "Sie kommt aus Indien. ఎవరు?",
+        "hi": "Sie kommt aus Indien. कौन?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "she",
+            "te": "ఆమె",
+            "hi": "वह (स्त्री)"
+          }
+        },
+        {
+          "text": {
+            "en": "they",
+            "te": "వారు",
+            "hi": "वे"
+          }
+        },
+        {
+          "text": {
+            "en": "you (formal)",
+            "te": "మీరు",
+            "hi": "आप"
+          }
+        },
+        {
+          "text": {
+            "en": "we",
+            "te": "మేము",
+            "hi": "हम"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "kommt (-t) shows it is \"she\".",
+        "te": "kommt (-t) \"ఆమె\" అని చూపిస్తుంది.",
+        "hi": "kommt (-t) बताता है कि \"वह (स्त्री)\" है।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "You talk to two friends. Which word?",
+        "te": "ఇద్దరు స్నేహితులతో మాట్లాడుతున్నారు. ఏ పదం?",
+        "hi": "दो दोस्तों से बात कर रहे हैं। कौन-सा शब्द?"
+      },
+      "options": [
+        {
+          "de": "ihr"
+        },
+        {
+          "de": "du"
+        },
+        {
+          "de": "Sie"
+        },
+        {
+          "de": "er"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "ihr = you, several friends.",
+        "te": "ihr = మీరు, చాలామంది స్నేహితులు.",
+        "hi": "ihr = तुम लोग, कई दोस्त।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "___ lernen Deutsch. (we)",
+        "te": "___ lernen Deutsch. (మేము)",
+        "hi": "___ lernen Deutsch. (हम)"
+      },
+      "options": [
+        {
+          "de": "Wir"
+        },
+        {
+          "de": "Ihr"
+        },
+        {
+          "de": "Er"
+        },
+        {
+          "de": "Ich"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wir = we.",
+        "te": "wir = మేము.",
+        "hi": "wir = हम।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "personal-pronouns-l1",
+      "audio_de": "Wir lernen Deutsch.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "We are learning German.",
+            "te": "మేము జర్మన్ నేర్చుకుంటున్నాము.",
+            "hi": "हम जर्मन सीख रहे हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am learning German.",
+            "te": "నేను జర్మన్ నేర్చుకుంటున్నాను.",
+            "hi": "मैं जर्मन सीख रहा हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "They speak German.",
+            "te": "వారు జర్మన్ మాట్లాడతారు.",
+            "hi": "वे जर्मन बोलते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "He teaches German.",
+            "te": "అతను జర్మన్ నేర్పిస్తాడు.",
+            "hi": "वह जर्मन पढ़ाता है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wir = we, lernen = learn.",
+        "te": "wir = మేము, lernen = నేర్చుకోవడం.",
+        "hi": "wir = हम, lernen = सीखना।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "personal-pronouns-l2",
+      "audio_de": "Er heißt Arjun.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "His name is Arjun.",
+            "te": "అతని పేరు అర్జున్.",
+            "hi": "उसका नाम अर्जुन है।"
+          }
+        },
+        {
+          "text": {
+            "en": "Her name is Arjun.",
+            "te": "ఆమె పేరు అర్జున్.",
+            "hi": "उसका (स्त्री) नाम अर्जुन है।"
+          }
+        },
+        {
+          "text": {
+            "en": "My name is Arjun.",
+            "te": "నా పేరు అర్జున్.",
+            "hi": "मेरा नाम अर्जुन है।"
+          }
+        },
+        {
+          "text": {
+            "en": "Arjun is here.",
+            "te": "అర్జున్ ఇక్కడ ఉన్నాడు.",
+            "hi": "अर्जुन यहाँ है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "er = he.",
+        "te": "er = అతను.",
+        "hi": "er = वह (पुरुष)।"
+      }
+    }
+  ],
+  "audio": []
+}

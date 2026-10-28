@@ -1,0 +1,543 @@
+{
+  "id": "negation",
+  "slug": "negation",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Negation: nicht & kein",
+    "te": "నిరాకరణ: nicht & kein",
+    "hi": "निषेध: nicht और kein"
+  },
+  "subtitle": {
+    "en": "Saying no",
+    "te": "కాదు అని చెప్పడం",
+    "hi": "मना करना"
+  },
+  "intro": {
+    "en": "Say no with nicht and kein, and know which one to use.",
+    "te": "nicht మరియు kein తో \"కాదు\" చెప్పడం, ఏది ఎప్పుడు వాడాలో తెలుసుకోండి.",
+    "hi": "nicht और kein से \"नहीं\" कहना, और कब कौन-सा शब्द लेना है यह जानें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "nicht",
+      "meaning": {
+        "en": "not",
+        "te": "కాదు",
+        "hi": "नहीं"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "kein / keine",
+      "meaning": {
+        "en": "no / not a",
+        "te": "ఏ … లేదు",
+        "hi": "कोई … नहीं"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "nie",
+      "meaning": {
+        "en": "never",
+        "te": "ఎప్పుడూ కాదు",
+        "hi": "कभी नहीं"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "nichts",
+      "meaning": {
+        "en": "nothing",
+        "te": "ఏమీ లేదు",
+        "hi": "कुछ नहीं"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "Ich verstehe nicht.",
+      "meaning": {
+        "en": "I do not understand.",
+        "te": "నాకు అర్థం కాలేదు.",
+        "hi": "मुझे समझ नहीं आया।"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "Kein Problem!",
+      "meaning": {
+        "en": "No problem!",
+        "te": "సమస్య లేదు!",
+        "hi": "कोई समस्या नहीं!"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "Das stimmt nicht.",
+      "meaning": {
+        "en": "That is not right.",
+        "te": "అది సరైనది కాదు.",
+        "hi": "यह सही नहीं है।"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Ich habe kein Auto.",
+      "meaning": {
+        "en": "I have no car.",
+        "te": "నా దగ్గర కారు లేదు.",
+        "hi": "मेरे पास कार नहीं है।"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Ich rauche nie.",
+      "meaning": {
+        "en": "I never smoke.",
+        "te": "నేను ఎప్పుడూ పొగ తాగను.",
+        "hi": "मैं कभी धूम्रपान नहीं करता।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Ich habe nichts gesagt.",
+      "meaning": {
+        "en": "I said nothing.",
+        "te": "నేను ఏమీ చెప్పలేదు.",
+        "hi": "मैंने कुछ नहीं कहा।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Er kommt nicht.",
+      "meaning": {
+        "en": "He is not coming.",
+        "te": "అతను రావడం లేదు.",
+        "hi": "वह नहीं आ रहा।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Sie hat keine Zeit.",
+      "meaning": {
+        "en": "She has no time.",
+        "te": "ఆమెకు సమయం లేదు.",
+        "hi": "उसके पास समय नहीं है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Das ist nicht teuer.",
+      "meaning": {
+        "en": "That is not expensive.",
+        "te": "అది ఖరీదు కాదు.",
+        "hi": "यह महँगा नहीं है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Ich esse kein Fleisch.",
+      "meaning": {
+        "en": "I do not eat meat.",
+        "te": "నేను మాంసం తినను.",
+        "hi": "मैं मांस नहीं खाता।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Zeit",
+      "meaning": {
+        "en": "the time",
+        "te": "సమయం",
+        "hi": "समय"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "das Problem",
+      "meaning": {
+        "en": "the problem",
+        "te": "సమస్య",
+        "hi": "समस्या"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "rauchen",
+      "meaning": {
+        "en": "to smoke",
+        "te": "పొగ తాగడం",
+        "hi": "धूम्रपान करना"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "verstehen",
+      "meaning": {
+        "en": "to understand",
+        "te": "అర్థం చేసుకోవడం",
+        "hi": "समझना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT THE DOCTOR",
+      "te": "డాక్టర్ దగ్గర",
+      "hi": "डॉक्टर के पास"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Frau Dr. Koch",
+        "de": "Haben Sie Schmerzen?",
+        "meaning": {
+          "en": "Do you have pain?",
+          "te": "మీకు నొప్పిగా ఉందా?",
+          "hi": "क्या आपको दर्द है?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Ravi",
+        "de": "Nein, nicht sehr. Aber ich habe kein Fieber.",
+        "meaning": {
+          "en": "No, not very much. But I have no fever.",
+          "te": "లేదు, ఎక్కువ కాదు. కానీ జ్వరం లేదు.",
+          "hi": "नहीं, ज़्यादा नहीं। पर मुझे बुखार नहीं है।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Frau Dr. Koch",
+        "de": "Rauchen Sie?",
+        "meaning": {
+          "en": "Do you smoke?",
+          "te": "మీరు పొగ తాగుతారా?",
+          "hi": "क्या आप धूम्रपान करते हैं?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Ravi",
+        "de": "Nein, ich rauche nie.",
+        "meaning": {
+          "en": "No, I never smoke.",
+          "te": "లేదు, నేను ఎప్పుడూ తాగను.",
+          "hi": "नहीं, मैं कभी धूम्रपान नहीं करता।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: nicht or kein?",
+      "te": "వ్యాకరణం: nicht లేదా kein?",
+      "hi": "व्याकरण: nicht या kein?"
+    },
+    "body": {
+      "en": "Use kein before a noun with an article-like \"a\" or no article (kein Auto, keine Zeit, kein Fleisch). Use nicht for everything else: before adjectives, verbs and places (nicht gut, nicht kommen, nicht in Berlin).",
+      "te": "నామవాచకం ముందు \"ఒక\" లేదా ఆర్టికల్ లేనప్పుడు kein (kein Auto, keine Zeit). మిగతా వాటికి nicht: విశేషణం, క్రియ, స్థలం ముందు (nicht gut, nicht kommen).",
+      "hi": "संज्ञा से पहले \"एक\" या बिना आर्टिकल के kein (kein Auto, keine Zeit)। बाकी के लिए nicht: विशेषण, क्रिया, स्थान से पहले (nicht gut, nicht kommen)।"
+    }
+  },
+  "deep_dive": {
+    "en": "Kein follows the same endings as ein: kein Auto (das), keine Zeit (die), keinen Kaffee (der). Nicht usually stands before what it negates.",
+    "te": "kein, ein లాగానే ముగింపులు తీసుకుంటుంది: kein Auto (das), keine Zeit (die), keinen Kaffee (der). nicht సాధారణంగా తిరస్కరించే పదం ముందు ఉంటుంది.",
+    "hi": "kein भी ein की तरह अंत लेता है: kein Auto (das), keine Zeit (die), keinen Kaffee (der)। nicht आमतौर पर जिसे नकारता है उससे पहले आता है।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich habe nicht Auto.",
+      "right": "Ich habe kein Auto.",
+      "why": {
+        "en": "With a noun, use kein.",
+        "te": "నామవాచకంతో kein వాడండి.",
+        "hi": "संज्ञा के साथ kein।"
+      }
+    },
+    {
+      "wrong": "Ich bin kein müde.",
+      "right": "Ich bin nicht müde.",
+      "why": {
+        "en": "Adjectives take nicht.",
+        "te": "విశేషణాలకు nicht.",
+        "hi": "विशेषण के साथ nicht।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In Germany \"nein\" is often said with a short \"Nee\" in casual talk. In formal settings say \"nein, danke\" politely.",
+    "te": "జర్మనీలో సన్నిహిత మాటల్లో \"Nee\" అంటారు. గౌరవంగా \"nein, danke\" అనండి.",
+    "hi": "जर्मनी में अनौपचारिक बातचीत में \"Nee\" कहा जाता है। औपचारिक में विनम्रता से \"nein, danke\"।"
+  },
+  "practice_tip": {
+    "en": "Say three things you do not have, starting with \"Ich habe kein …\".",
+    "te": "\"Ich habe kein …\" తో మీ దగ్గర లేని మూడు వస్తువులు చెప్పండి.",
+    "hi": "\"Ich habe kein …\" से तीन ऐसी चीज़ें बताएँ जो आपके पास नहीं हैं।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"I do not understand.\"",
+        "te": "\"నాకు అర్థం కాలేదు\" అని చెప్పండి.",
+        "hi": "\"मुझे समझ नहीं आया\" कहें।"
+      },
+      "answer": {
+        "en": "Ich verstehe nicht.",
+        "te": "Ich verstehe nicht.",
+        "hi": "Ich verstehe nicht."
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"I have no time.\"",
+        "te": "\"నాకు సమయం లేదు\" అని చెప్పండి.",
+        "hi": "\"मेरे पास समय नहीं है\" कहें।"
+      },
+      "answer": {
+        "en": "Ich habe keine Zeit.",
+        "te": "Ich habe keine Zeit.",
+        "hi": "Ich habe keine Zeit."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich habe ___ Zeit.",
+        "te": "Ich habe ___ Zeit.",
+        "hi": "Ich habe ___ Zeit."
+      },
+      "options": [
+        {
+          "de": "keine"
+        },
+        {
+          "de": "nicht"
+        },
+        {
+          "de": "kein"
+        },
+        {
+          "de": "nichts"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Zeit is feminine: keine Zeit.",
+        "te": "Zeit స్త్రీలింగం: keine Zeit.",
+        "hi": "Zeit स्त्रीलिंग है: keine Zeit।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Das ist ___ gut.",
+        "te": "Das ist ___ gut.",
+        "hi": "Das ist ___ gut."
+      },
+      "options": [
+        {
+          "de": "nicht"
+        },
+        {
+          "de": "kein"
+        },
+        {
+          "de": "keine"
+        },
+        {
+          "de": "nichts"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Before an adjective: nicht.",
+        "te": "విశేషణం ముందు: nicht.",
+        "hi": "विशेषण से पहले: nicht।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"nie\" means…",
+        "te": "\"nie\" అర్థం…",
+        "hi": "\"nie\" का अर्थ…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "never",
+            "te": "ఎప్పుడూ కాదు",
+            "hi": "कभी नहीं"
+          }
+        },
+        {
+          "text": {
+            "en": "always",
+            "te": "ఎప్పుడూ",
+            "hi": "हमेशा"
+          }
+        },
+        {
+          "text": {
+            "en": "often",
+            "te": "తరచుగా",
+            "hi": "अक्सर"
+          }
+        },
+        {
+          "text": {
+            "en": "sometimes",
+            "te": "కొన్నిసార్లు",
+            "hi": "कभी-कभी"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "nie = never.",
+        "te": "nie = ఎప్పుడూ కాదు.",
+        "hi": "nie = कभी नहीं।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Choose the right word: Ich habe ___ Auto.",
+        "te": "సరైన పదం: Ich habe ___ Auto.",
+        "hi": "सही शब्द: Ich habe ___ Auto।"
+      },
+      "options": [
+        {
+          "de": "kein"
+        },
+        {
+          "de": "nicht"
+        },
+        {
+          "de": "nichts"
+        },
+        {
+          "de": "nie"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "With a noun: kein Auto.",
+        "te": "నామవాచకంతో: kein Auto.",
+        "hi": "संज्ञा के साथ: kein Auto।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "v09",
+      "audio_de": "Ich rauche nie.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I never smoke.",
+            "te": "నేను ఎప్పుడూ పొగ తాగను.",
+            "hi": "मैं कभी धूम्रपान नहीं करता।"
+          }
+        },
+        {
+          "text": {
+            "en": "I always smoke.",
+            "te": "నేను ఎప్పుడూ తాగుతాను.",
+            "hi": "मैं हमेशा धूम्रपान करता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I smoke a lot.",
+            "te": "నేను చాలా తాగుతాను.",
+            "hi": "मैं बहुत धूम्रपान करता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I do not drink.",
+            "te": "నేను తాగను.",
+            "hi": "मैं पीता नहीं।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "nie = never.",
+        "te": "nie = ఎప్పుడూ కాదు.",
+        "hi": "nie = कभी नहीं।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "negation-l2",
+      "audio_de": "Sie hat keine Zeit.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "She has no time.",
+            "te": "ఆమెకు సమయం లేదు.",
+            "hi": "उसके पास समय नहीं है।"
+          }
+        },
+        {
+          "text": {
+            "en": "She has a lot of time.",
+            "te": "ఆమెకు చాలా సమయం ఉంది.",
+            "hi": "उसके पास बहुत समय है।"
+          }
+        },
+        {
+          "text": {
+            "en": "She is not here.",
+            "te": "ఆమె ఇక్కడ లేదు.",
+            "hi": "वह यहाँ नहीं है।"
+          }
+        },
+        {
+          "text": {
+            "en": "She has a car.",
+            "te": "ఆమె దగ్గర కారు ఉంది.",
+            "hi": "उसके पास कार है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "keine Zeit = no time.",
+        "te": "keine Zeit = సమయం లేదు.",
+        "hi": "keine Zeit = समय नहीं।"
+      }
+    }
+  ],
+  "audio": []
+}

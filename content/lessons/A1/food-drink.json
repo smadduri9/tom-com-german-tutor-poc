@@ -1,0 +1,563 @@
+{
+  "id": "food-drink",
+  "slug": "food-drink",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Food & Drink",
+    "te": "ఆహారం & పానీయాలు",
+    "hi": "खाना और पेय"
+  },
+  "subtitle": {
+    "en": "Ordering in a café or restaurant",
+    "te": "కేఫ్ లేదా హోటల్‌లో ఆర్డర్ చేయడం",
+    "hi": "कैफ़े या रेस्तराँ में ऑर्डर करना"
+  },
+  "intro": {
+    "en": "Order food and drinks in a café or canteen, and say what you like.",
+    "te": "కేఫ్ లేదా క్యాంటీన్‌లో ఆహారం, పానీయాలు ఆర్డర్ చేయండి, మీకు ఏమి ఇష్టమో చెప్పండి.",
+    "hi": "कैफ़े या कैंटीन में खाना और पेय मँगाएँ, और बताएँ कि आपको क्या पसंद है।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "das Wasser",
+      "meaning": {
+        "en": "the water",
+        "te": "నీళ్లు",
+        "hi": "पानी"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "der Kaffee",
+      "meaning": {
+        "en": "the coffee",
+        "te": "కాఫీ",
+        "hi": "कॉफ़ी"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "der Tee",
+      "meaning": {
+        "en": "the tea",
+        "te": "టీ",
+        "hi": "चाय"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "das Brot",
+      "meaning": {
+        "en": "the bread",
+        "te": "బ్రెడ్",
+        "hi": "ब्रेड"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "der Reis",
+      "meaning": {
+        "en": "the rice",
+        "te": "అన్నం",
+        "hi": "चावल"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "das Gemüse",
+      "meaning": {
+        "en": "the vegetables",
+        "te": "కూరగాయలు",
+        "hi": "सब्ज़ियाँ"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "das Fleisch",
+      "meaning": {
+        "en": "the meat",
+        "te": "మాంసం",
+        "hi": "मांस"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Ich möchte …",
+      "meaning": {
+        "en": "I would like …",
+        "te": "నాకు … కావాలి",
+        "hi": "मुझे … चाहिए"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Die Rechnung, bitte.",
+      "meaning": {
+        "en": "The bill, please.",
+        "te": "బిల్లు ఇవ్వండి.",
+        "hi": "बिल दीजिए।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "vegetarisch",
+      "meaning": {
+        "en": "vegetarian",
+        "te": "శాకాహారం",
+        "hi": "शाकाहारी"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich möchte einen Tee, bitte.",
+      "meaning": {
+        "en": "I would like a tea, please.",
+        "te": "నాకు ఒక టీ కావాలి, దయచేసి.",
+        "hi": "मुझे एक चाय चाहिए, कृपया।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Ich esse kein Fleisch.",
+      "meaning": {
+        "en": "I do not eat meat.",
+        "te": "నేను మాంసం తినను.",
+        "hi": "मैं मांस नहीं खाता।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Ist das vegetarisch?",
+      "meaning": {
+        "en": "Is this vegetarian?",
+        "te": "ఇది శాకాహారమా?",
+        "hi": "क्या यह शाकाहारी है?"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Das schmeckt gut!",
+      "meaning": {
+        "en": "That tastes good!",
+        "te": "ఇది రుచిగా ఉంది!",
+        "hi": "यह स्वादिष्ट है!"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Milch",
+      "meaning": {
+        "en": "the milk",
+        "te": "పాలు",
+        "hi": "दूध"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Zucker",
+      "meaning": {
+        "en": "the sugar",
+        "te": "చక్కెర",
+        "hi": "चीनी"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "scharf",
+      "meaning": {
+        "en": "spicy",
+        "te": "కారంగా",
+        "hi": "तीखा"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Speisekarte",
+      "meaning": {
+        "en": "the menu",
+        "te": "మెనూ",
+        "hi": "मेन्यू"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "IN A CAFÉ",
+      "te": "కేఫ్‌లో",
+      "hi": "कैफ़े में"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Kellnerin",
+        "de": "Guten Tag! Was möchten Sie?",
+        "meaning": {
+          "en": "Hello! What would you like?",
+          "te": "నమస్కారం! మీకు ఏమి కావాలి?",
+          "hi": "नमस्ते! आपको क्या चाहिए?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Ravi",
+        "de": "Einen Kaffee mit Milch, bitte.",
+        "meaning": {
+          "en": "A coffee with milk, please.",
+          "te": "పాలతో ఒక కాఫీ, దయచేసి.",
+          "hi": "दूध वाली एक कॉफ़ी, कृपया।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Kellnerin",
+        "de": "Und zu essen?",
+        "meaning": {
+          "en": "And to eat?",
+          "te": "మరి తినడానికి?",
+          "hi": "और खाने के लिए?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Ravi",
+        "de": "Ist die Suppe vegetarisch?",
+        "meaning": {
+          "en": "Is the soup vegetarian?",
+          "te": "సూప్ శాకాహారమా?",
+          "hi": "क्या सूप शाकाहारी है?"
+        }
+      },
+      {
+        "id": "d05",
+        "speaker": "Kellnerin",
+        "de": "Ja, das ist eine Gemüsesuppe.",
+        "meaning": {
+          "en": "Yes, it is a vegetable soup.",
+          "te": "అవును, అది కూరగాయల సూప్.",
+          "hi": "हाँ, यह सब्ज़ियों का सूप है।"
+        }
+      },
+      {
+        "id": "d06",
+        "speaker": "Ravi",
+        "de": "Gut, dann die Suppe, bitte.",
+        "meaning": {
+          "en": "Good, then the soup, please.",
+          "te": "సరే, అయితే సూప్ ఇవ్వండి.",
+          "hi": "ठीक है, तो सूप दीजिए।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: ich möchte",
+      "te": "వ్యాకరణం: ich möchte",
+      "hi": "व्याकरण: ich möchte"
+    },
+    "body": {
+      "en": "\"Ich möchte\" is the polite way to ask for something. For der words, \"a\" becomes einen: einen Kaffee, einen Tee. For die and das words it stays eine / ein: eine Suppe, ein Wasser.",
+      "te": "\"Ich möchte\" ఏదైనా అడగడానికి మర్యాదపూర్వక మార్గం. der పదాలకు \"a\" అంటే einen: einen Kaffee, einen Tee. die, das పదాలకు eine / ein: eine Suppe, ein Wasser.",
+      "hi": "\"Ich möchte\" कुछ माँगने का विनम्र तरीका है। der शब्दों के लिए \"a\" बनता है einen: einen Kaffee, einen Tee। die और das शब्दों के लिए eine / ein: eine Suppe, ein Wasser।"
+    }
+  },
+  "deep_dive": {
+    "en": "This change (ein → einen) is the accusative case, the form for the thing you want, buy or have. Only der words change; you will learn it fully in the accusative lesson. \"Kein\" works like \"ein\": Ich esse kein Fleisch.",
+    "te": "ఈ మార్పు (ein → einen) ఆక్యూసేటివ్ కారకం, మీకు కావలసిన, కొనే, ఉన్న వస్తువు రూపం. der పదాలు మాత్రమే మారుతాయి; ఆక్యూసేటివ్ పాఠంలో పూర్తిగా నేర్చుకుంటారు. \"Kein\" కూడా \"ein\" లాగానే: Ich esse kein Fleisch.",
+    "hi": "यह बदलाव (ein → einen) कर्मकारक है, जो चीज़ आप चाहते, ख़रीदते या रखते हैं उसका रूप। सिर्फ़ der शब्द बदलते हैं; पूरा कर्मकारक पाठ में सीखेंगे। \"Kein\" भी \"ein\" की तरह: Ich esse kein Fleisch।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich möchte ein Kaffee.",
+      "right": "Ich möchte einen Kaffee.",
+      "why": {
+        "en": "der Kaffee → einen Kaffee.",
+        "te": "der Kaffee → einen Kaffee.",
+        "hi": "der Kaffee → einen Kaffee।"
+      }
+    },
+    {
+      "wrong": "Ich will Wasser!",
+      "right": "Ich möchte Wasser, bitte.",
+      "why": {
+        "en": "\"Ich will\" sounds rude when ordering.",
+        "te": "ఆర్డర్ చేసేటప్పుడు \"Ich will\" అమర్యాదగా వినిపిస్తుంది.",
+        "hi": "ऑर्डर करते समय \"Ich will\" रूखा लगता है।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Tap water is safe to drink in Germany. In restaurants you usually pay at the table and add about 5–10% as a tip.",
+    "te": "జర్మనీలో కుళాయి నీళ్లు తాగడానికి సురక్షితం. రెస్టారెంట్లలో సాధారణంగా టేబుల్ వద్దే చెల్లించి, సుమారు 5–10% టిప్ ఇస్తారు.",
+    "hi": "जर्मनी में नल का पानी पीने के लिए सुरक्षित है। रेस्तराँ में आमतौर पर मेज़ पर भुगतान करते हैं और लगभग 5–10% टिप देते हैं।"
+  },
+  "practice_tip": {
+    "en": "Order your next meal at home in German, out loud: \"Ich möchte …, bitte.\"",
+    "te": "మీ తదుపరి భోజనాన్ని ఇంట్లో జర్మన్‌లో గట్టిగా ఆర్డర్ చేయండి: \"Ich möchte …, bitte.\"",
+    "hi": "अगला खाना घर पर जर्मन में ज़ोर से ऑर्डर करें: \"Ich möchte …, bitte।\""
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Ask for the bill.",
+        "te": "బిల్లు అడగండి.",
+        "hi": "बिल माँगें।"
+      },
+      "answer": {
+        "en": "Die Rechnung, bitte.",
+        "te": "Die Rechnung, bitte.",
+        "hi": "Die Rechnung, bitte."
+      }
+    },
+    {
+      "question": {
+        "en": "Ask if a dish is vegetarian.",
+        "te": "ఒక వంటకం శాకాహారమా అని అడగండి.",
+        "hi": "पूछें कि क्या व्यंजन शाकाहारी है।"
+      },
+      "answer": {
+        "en": "Ist das vegetarisch?",
+        "te": "Ist das vegetarisch?",
+        "hi": "Ist das vegetarisch?"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich möchte ___ Tee.",
+        "te": "Ich möchte ___ Tee.",
+        "hi": "Ich möchte ___ Tee."
+      },
+      "options": [
+        {
+          "de": "einen"
+        },
+        {
+          "de": "ein"
+        },
+        {
+          "de": "eine"
+        },
+        {
+          "de": "einer"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "der Tee → einen Tee.",
+        "te": "der Tee → einen Tee.",
+        "hi": "der Tee → einen Tee।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Die Rechnung, bitte\" means…",
+        "te": "\"Die Rechnung, bitte\" అర్థం…",
+        "hi": "\"Die Rechnung, bitte\" का अर्थ…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The bill, please.",
+            "te": "బిల్లు ఇవ్వండి.",
+            "hi": "बिल दीजिए।"
+          }
+        },
+        {
+          "text": {
+            "en": "The menu, please.",
+            "te": "మెనూ ఇవ్వండి.",
+            "hi": "मेन्यू दीजिए।"
+          }
+        },
+        {
+          "text": {
+            "en": "Water, please.",
+            "te": "నీళ్లు ఇవ్వండి.",
+            "hi": "पानी दीजिए।"
+          }
+        },
+        {
+          "text": {
+            "en": "Thank you very much.",
+            "te": "చాలా ధన్యవాదాలు.",
+            "hi": "बहुत धन्यवाद।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "die Rechnung = the bill.",
+        "te": "die Rechnung = బిల్లు.",
+        "hi": "die Rechnung = बिल।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Which word means vegetables?",
+        "te": "కూరగాయలు అంటే ఏ పదం?",
+        "hi": "सब्ज़ियाँ किस शब्द का अर्थ है?"
+      },
+      "options": [
+        {
+          "de": "Gemüse"
+        },
+        {
+          "de": "Fleisch"
+        },
+        {
+          "de": "Brot"
+        },
+        {
+          "de": "Reis"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "das Gemüse = vegetables.",
+        "te": "das Gemüse = కూరగాయలు.",
+        "hi": "das Gemüse = सब्ज़ियाँ।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "The polite way to order is…",
+        "te": "మర్యాదగా ఆర్డర్ చేసే మార్గం…",
+        "hi": "विनम्रता से ऑर्डर करने का तरीका…"
+      },
+      "options": [
+        {
+          "de": "Ich möchte …"
+        },
+        {
+          "de": "Ich will …"
+        },
+        {
+          "de": "Gib mir …"
+        },
+        {
+          "de": "Ich habe …"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "\"Ich möchte\" is polite.",
+        "te": "\"Ich möchte\" మర్యాదపూర్వకం.",
+        "hi": "\"Ich möchte\" विनम्र है।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "food-drink-l1",
+      "audio_de": "Das schmeckt gut!",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "That tastes good!",
+            "te": "ఇది రుచిగా ఉంది!",
+            "hi": "यह स्वादिष्ट है!"
+          }
+        },
+        {
+          "text": {
+            "en": "That is expensive!",
+            "te": "ఇది ఖరీదు!",
+            "hi": "यह महँगा है!"
+          }
+        },
+        {
+          "text": {
+            "en": "That is spicy!",
+            "te": "ఇది కారంగా ఉంది!",
+            "hi": "यह तीखा है!"
+          }
+        },
+        {
+          "text": {
+            "en": "That is cold!",
+            "te": "ఇది చల్లగా ఉంది!",
+            "hi": "यह ठंडा है!"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "schmecken = to taste.",
+        "te": "schmecken = రుచి.",
+        "hi": "schmecken = स्वाद होना।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "food-drink-l2",
+      "audio_de": "Ich esse kein Fleisch.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I do not eat meat.",
+            "te": "నేను మాంసం తినను.",
+            "hi": "मैं मांस नहीं खाता।"
+          }
+        },
+        {
+          "text": {
+            "en": "I eat a lot of meat.",
+            "te": "నేను చాలా మాంసం తింటాను.",
+            "hi": "मैं बहुत मांस खाता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I do not drink milk.",
+            "te": "నేను పాలు తాగను.",
+            "hi": "मैं दूध नहीं पीता।"
+          }
+        },
+        {
+          "text": {
+            "en": "I like rice.",
+            "te": "నాకు అన్నం ఇష్టం.",
+            "hi": "मुझे चावल पसंद है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "kein Fleisch = no meat.",
+        "te": "kein Fleisch = మాంసం కాదు.",
+        "hi": "kein Fleisch = मांस नहीं।"
+      }
+    }
+  ],
+  "audio": []
+}

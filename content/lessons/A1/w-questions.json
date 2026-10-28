@@ -1,0 +1,543 @@
+{
+  "id": "w-questions",
+  "slug": "w-questions",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "W-Questions",
+    "te": "W ప్రశ్నలు",
+    "hi": "W प्रश्न"
+  },
+  "subtitle": {
+    "en": "Wer, was, wo, wann, wie",
+    "te": "Wer, was, wo, wann, wie",
+    "hi": "Wer, was, wo, wann, wie"
+  },
+  "intro": {
+    "en": "Ask questions with wer, was, wo, wann, wie, woher and wohin.",
+    "te": "wer, was, wo, wann, wie, woher, wohin తో ప్రశ్నలు అడగండి.",
+    "hi": "wer, was, wo, wann, wie, woher, wohin से प्रश्न पूछें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "Wer?",
+      "meaning": {
+        "en": "Who?",
+        "te": "ఎవరు?",
+        "hi": "कौन?"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "Was?",
+      "meaning": {
+        "en": "What?",
+        "te": "ఏమిటి?",
+        "hi": "क्या?"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "Wo?",
+      "meaning": {
+        "en": "Where?",
+        "te": "ఎక్కడ?",
+        "hi": "कहाँ?"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "Wann?",
+      "meaning": {
+        "en": "When?",
+        "te": "ఎప్పుడు?",
+        "hi": "कब?"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "Wie?",
+      "meaning": {
+        "en": "How?",
+        "te": "ఎలా?",
+        "hi": "कैसे?"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "Woher?",
+      "meaning": {
+        "en": "From where?",
+        "te": "ఎక్కడి నుండి?",
+        "hi": "कहाँ से?"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "Wohin?",
+      "meaning": {
+        "en": "To where?",
+        "te": "ఎక్కడికి?",
+        "hi": "कहाँ को?"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Warum?",
+      "meaning": {
+        "en": "Why?",
+        "te": "ఎందుకు?",
+        "hi": "क्यों?"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Wie viel?",
+      "meaning": {
+        "en": "How much?",
+        "te": "ఎంత?",
+        "hi": "कितना?"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Wie lange?",
+      "meaning": {
+        "en": "How long?",
+        "te": "ఎంత సేపు?",
+        "hi": "कितनी देर?"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Wer ist das?",
+      "meaning": {
+        "en": "Who is that?",
+        "te": "అది ఎవరు?",
+        "hi": "वह कौन है?"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Wo wohnen Sie?",
+      "meaning": {
+        "en": "Where do you live?",
+        "te": "మీరు ఎక్కడ ఉంటారు?",
+        "hi": "आप कहाँ रहते हैं?"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Wann beginnt der Kurs?",
+      "meaning": {
+        "en": "When does the course start?",
+        "te": "కోర్సు ఎప్పుడు మొదలవుతుంది?",
+        "hi": "कोर्स कब शुरू होता है?"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Wie viel kostet das?",
+      "meaning": {
+        "en": "How much does that cost?",
+        "te": "దీని ధర ఎంత?",
+        "hi": "इसकी कीमत कितनी है?"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Bahnhof",
+      "meaning": {
+        "en": "the station",
+        "te": "రైల్వే స్టేషన్",
+        "hi": "रेलवे स्टेशन"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "die Schule",
+      "meaning": {
+        "en": "the school",
+        "te": "పాఠశాల",
+        "hi": "स्कूल"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "heute",
+      "meaning": {
+        "en": "today",
+        "te": "ఈ రోజు",
+        "hi": "आज"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "morgen",
+      "meaning": {
+        "en": "tomorrow",
+        "te": "రేపు",
+        "hi": "कल"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT THE TRAIN STATION",
+      "te": "రైల్వే స్టేషన్‌లో",
+      "hi": "रेलवे स्टेशन पर"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Arjun",
+        "de": "Entschuldigung, wo ist der Bahnhof?",
+        "meaning": {
+          "en": "Excuse me, where is the station?",
+          "te": "క్షమించండి, రైల్వే స్టేషన్ ఎక్కడ?",
+          "hi": "माफ़ कीजिए, स्टेशन कहाँ है?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Herr Schulz",
+        "de": "Dort drüben. Wohin fahren Sie?",
+        "meaning": {
+          "en": "Over there. Where are you going?",
+          "te": "అక్కడ. మీరు ఎక్కడికి వెళ్తున్నారు?",
+          "hi": "वहाँ सामने। आप कहाँ जा रहे हैं?"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Arjun",
+        "de": "Nach Berlin. Wann fährt der Zug?",
+        "meaning": {
+          "en": "To Berlin. When does the train leave?",
+          "te": "బెర్లిన్‌కు. రైలు ఎప్పుడు బయలుదేరుతుంది?",
+          "hi": "बर्लिन। ट्रेन कब चलती है?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Herr Schulz",
+        "de": "Um zehn Uhr. Woher kommen Sie?",
+        "meaning": {
+          "en": "At ten. Where are you from?",
+          "te": "పది గంటలకు. మీరు ఎక్కడి నుండి?",
+          "hi": "दस बजे। आप कहाँ से हैं?"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: question word first",
+      "te": "వ్యాకరణం: ప్రశ్న పదం ముందు",
+      "hi": "व्याकरण: प्रश्न शब्द पहले"
+    },
+    "body": {
+      "en": "In a W-question the question word comes first and the verb second: Wo wohnen Sie? (Where live you?). Wohin asks about movement to a place (nach Berlin); wo asks about place (in Berlin).",
+      "te": "W-ప్రశ్నలో ప్రశ్న పదం మొదట, క్రియ రెండవ స్థానంలో: Wo wohnen Sie? wohin = కదలిక (nach Berlin), wo = స్థానం (in Berlin).",
+      "hi": "W-प्रश्न में प्रश्न शब्द पहले, क्रिया दूसरे स्थान पर: Wo wohnen Sie? wohin = गति (nach Berlin), wo = स्थान (in Berlin)।"
+    }
+  },
+  "deep_dive": {
+    "en": "Woher and wohin both use \"von\" or \"nach\": Woher kommen Sie? Aus Indien. Wohin fahren Sie? Nach Berlin.",
+    "te": "Woher మరియు wohin రెండూ: Woher kommen Sie? Aus Indien. Wohin fahren Sie? Nach Berlin.",
+    "hi": "Woher और wohin दोनों: Woher kommen Sie? Aus Indien. Wohin fahren Sie? Nach Berlin।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Wo gehen Sie?",
+      "right": "Wohin gehen Sie?",
+      "why": {
+        "en": "Movement to a place uses wohin.",
+        "te": "స్థలానికి కదలిక అంటే wohin.",
+        "hi": "किसी जगह की ओर गति के लिए wohin।"
+      }
+    },
+    {
+      "wrong": "Was ist dein Name?",
+      "right": "Wie heißen Sie?",
+      "why": {
+        "en": "Asking a name: Wie heißen Sie? (formal)",
+        "te": "పేరు అడగడం: Wie heißen Sie? (గౌరవంగా)",
+        "hi": "नाम पूछने के लिए: Wie heißen Sie? (औपचारिक)"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "At German counters people often ask \"Wann?\" and \"Wo?\" in short questions. Short, clear questions are polite here.",
+    "te": "జర్మన్ కౌంటర్ల వద్ద చిన్న, స్పష్టమైన ప్రశ్నలు మర్యాదగా ఉంటాయి.",
+    "hi": "जर्मन काउंटर पर छोटे, साफ़ प्रश्न विनम्र माने जाते हैं।"
+  },
+  "practice_tip": {
+    "en": "Write one question for each W-word and answer it about yourself.",
+    "te": "ప్రతి W-పదానికి ఒక ప్రశ్న రాసి మీ గురించి జవాబు రాయండి.",
+    "hi": "हर W-शब्द पर एक प्रश्न लिखें और अपने बारे में उत्तर दें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Ask \"Where do you live?\" (formal)",
+        "te": "\"మీరు ఎక్కడ ఉంటారు?\" (గౌరవంగా) అని అడగండి.",
+        "hi": "\"आप कहाँ रहते हैं?\" (औपचारिक) पूछें।"
+      },
+      "answer": {
+        "en": "Wo wohnen Sie?",
+        "te": "Wo wohnen Sie?",
+        "hi": "Wo wohnen Sie?"
+      }
+    },
+    {
+      "question": {
+        "en": "Which word asks \"When?\"",
+        "te": "\"When?\" అడిగే పదం?",
+        "hi": "\"कब?\" पूछने वाला शब्द?"
+      },
+      "answer": {
+        "en": "wann",
+        "te": "wann",
+        "hi": "wann"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "___ kommen Sie?",
+        "te": "___ kommen Sie?",
+        "hi": "___ kommen Sie?"
+      },
+      "options": [
+        {
+          "de": "Woher"
+        },
+        {
+          "de": "Wohin"
+        },
+        {
+          "de": "Wer"
+        },
+        {
+          "de": "Warum"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "From where: woher.",
+        "te": "ఎక్కడి నుండి: woher.",
+        "hi": "कहाँ से: woher।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "___ ist das?",
+        "te": "___ ist das?",
+        "hi": "___ ist das?"
+      },
+      "options": [
+        {
+          "de": "Wer"
+        },
+        {
+          "de": "Wann"
+        },
+        {
+          "de": "Wie viel"
+        },
+        {
+          "de": "Wo"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Who is that? Wer.",
+        "te": "\"అది ఎవరు?\": Wer.",
+        "hi": "\"वह कौन है?\": Wer।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Wann ___ der Zug?",
+        "te": "Wann ___ der Zug?",
+        "hi": "Wann ___ der Zug?"
+      },
+      "options": [
+        {
+          "de": "fährt"
+        },
+        {
+          "de": "fahre"
+        },
+        {
+          "de": "fahren"
+        },
+        {
+          "de": "fährst"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "er/der Zug → fährt.",
+        "te": "der Zug → fährt.",
+        "hi": "der Zug → fährt।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Wie viel kostet das?\" asks…",
+        "te": "\"Wie viel kostet das?\" అడుగుతుంది…",
+        "hi": "\"Wie viel kostet das?\" पूछता है…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "the price",
+            "te": "ధర",
+            "hi": "कीमत"
+          }
+        },
+        {
+          "text": {
+            "en": "the time",
+            "te": "సమయం",
+            "hi": "समय"
+          }
+        },
+        {
+          "text": {
+            "en": "the name",
+            "te": "పేరు",
+            "hi": "नाम"
+          }
+        },
+        {
+          "text": {
+            "en": "the age",
+            "te": "వయసు",
+            "hi": "उम्र"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Wie viel = how much.",
+        "te": "Wie viel = ఎంత.",
+        "hi": "Wie viel = कितना।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "w-questions-l1",
+      "audio_de": "Wo ist der Bahnhof?",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Where is the station?",
+            "te": "రైల్వే స్టేషన్ ఎక్కడ?",
+            "hi": "स्टेशन कहाँ है?"
+          }
+        },
+        {
+          "text": {
+            "en": "When is the station?",
+            "te": "స్టేషన్ ఎప్పుడు?",
+            "hi": "स्टेशन कब है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Who is at the station?",
+            "te": "స్టేషన్‌లో ఎవరు?",
+            "hi": "स्टेशन पर कौन है?"
+          }
+        },
+        {
+          "text": {
+            "en": "How much is the station?",
+            "te": "స్టేషన్ ఎంత?",
+            "hi": "स्टेशन कितना है?"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wo = where.",
+        "te": "wo = ఎక్కడ.",
+        "hi": "wo = कहाँ।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "w-questions-l2",
+      "audio_de": "Wann beginnt der Kurs?",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "When does the course start?",
+            "te": "కోర్సు ఎప్పుడు మొదలవుతుంది?",
+            "hi": "कोर्स कब शुरू होता है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Where is the course?",
+            "te": "కోర్సు ఎక్కడ?",
+            "hi": "कोर्स कहाँ है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Why is the course?",
+            "te": "కోర్సు ఎందుకు?",
+            "hi": "कोर्स क्यों है?"
+          }
+        },
+        {
+          "text": {
+            "en": "How much is the course?",
+            "te": "కోర్సు ఎంత?",
+            "hi": "कोर्स कितने का है?"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wann = when.",
+        "te": "wann = ఎప్పుడు.",
+        "hi": "wann = कब।"
+      }
+    }
+  ],
+  "audio": []
+}

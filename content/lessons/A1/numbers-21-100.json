@@ -1,0 +1,553 @@
+{
+  "id": "numbers-21-100",
+  "slug": "numbers-21-100",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Numbers 21–100",
+    "te": "సంఖ్యలు 21–100",
+    "hi": "संख्याएँ 21–100"
+  },
+  "subtitle": {
+    "en": "Tens, prices and ages",
+    "te": "పదులు, ధరలు మరియు వయసు",
+    "hi": "दहाई, कीमतें और उम्र"
+  },
+  "intro": {
+    "en": "Count from 21 to 100, and understand prices and ages.",
+    "te": "21 నుండి 100 వరకు లెక్కించండి, ధరలు మరియు వయసులను అర్థం చేసుకోండి.",
+    "hi": "21 से 100 तक गिनें और कीमतें तथा उम्र समझें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "einundzwanzig",
+      "meaning": {
+        "en": "twenty-one",
+        "te": "ఇరవై ఒకటి",
+        "hi": "इक्कीस"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "dreißig",
+      "meaning": {
+        "en": "thirty",
+        "te": "ముప్పై",
+        "hi": "तीस"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "vierzig",
+      "meaning": {
+        "en": "forty",
+        "te": "నలభై",
+        "hi": "चालीस"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "fünfzig",
+      "meaning": {
+        "en": "fifty",
+        "te": "యాభై",
+        "hi": "पचास"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "sechzig",
+      "meaning": {
+        "en": "sixty",
+        "te": "అరవై",
+        "hi": "साठ"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "siebzig",
+      "meaning": {
+        "en": "seventy",
+        "te": "డెబ్బై",
+        "hi": "सत्तर"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "achtzig",
+      "meaning": {
+        "en": "eighty",
+        "te": "ఎనభై",
+        "hi": "अस्सी"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "neunzig",
+      "meaning": {
+        "en": "ninety",
+        "te": "తొంభై",
+        "hi": "नब्बे"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "hundert",
+      "meaning": {
+        "en": "one hundred",
+        "te": "వంద",
+        "hi": "सौ"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Was kostet das?",
+      "meaning": {
+        "en": "How much does it cost?",
+        "te": "దీని ధర ఎంత?",
+        "hi": "इसकी कीमत क्या है?"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Das kostet fünfundzwanzig Euro.",
+      "meaning": {
+        "en": "That costs twenty-five euros.",
+        "te": "దాని ధర ఇరవై ఐదు యూరోలు.",
+        "hi": "इसकी कीमत पच्चीस यूरो है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Mein Vater ist zweiundfünfzig.",
+      "meaning": {
+        "en": "My father is fifty-two.",
+        "te": "మా నాన్నగారి వయసు యాభై రెండు.",
+        "hi": "मेरे पिता बावन साल के हैं।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Der Bus Nummer achtundvierzig.",
+      "meaning": {
+        "en": "Bus number forty-eight.",
+        "te": "బస్ నంబర్ నలభై ఎనిమిది.",
+        "hi": "बस नंबर अड़तालीस।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Ich wohne in Hausnummer siebenunddreißig.",
+      "meaning": {
+        "en": "I live at house number thirty-seven.",
+        "te": "నేను ఇంటి నంబర్ ముప్పై ఏడులో ఉంటాను.",
+        "hi": "मैं मकान नंबर सैंतीस में रहता हूँ।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Euro",
+      "meaning": {
+        "en": "the euro",
+        "te": "యూరో",
+        "hi": "यूरो"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Cent",
+      "meaning": {
+        "en": "the cent",
+        "te": "సెంట్",
+        "hi": "सेंट"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "der Preis",
+      "meaning": {
+        "en": "the price",
+        "te": "ధర",
+        "hi": "कीमत"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "teuer / billig",
+      "meaning": {
+        "en": "expensive / cheap",
+        "te": "ఖరీదైన / చౌక",
+        "hi": "महँगा / सस्ता"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT A MARKET STALL",
+      "te": "మార్కెట్ దుకాణం వద్ద",
+      "hi": "बाज़ार की दुकान पर"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Ravi",
+        "de": "Was kostet der Rucksack?",
+        "meaning": {
+          "en": "How much is the backpack?",
+          "te": "ఈ బ్యాగ్ ధర ఎంత?",
+          "hi": "इस बैग की कीमत क्या है?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Verkäufer",
+        "de": "Fünfunddreißig Euro.",
+        "meaning": {
+          "en": "Thirty-five euros.",
+          "te": "ముప్పై ఐదు యూరోలు.",
+          "hi": "पैंतीस यूरो।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Ravi",
+        "de": "Das ist teuer. Dreißig Euro?",
+        "meaning": {
+          "en": "That is expensive. Thirty euros?",
+          "te": "అది ఖరీదు. ముప్పై యూరోలు?",
+          "hi": "यह महँगा है। तीस यूरो?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Verkäufer",
+        "de": "Zweiunddreißig Euro.",
+        "meaning": {
+          "en": "Thirty-two euros.",
+          "te": "ముప్పై రెండు యూరోలు.",
+          "hi": "बत्तीस यूरो।"
+        }
+      },
+      {
+        "id": "d05",
+        "speaker": "Ravi",
+        "de": "Gut, danke.",
+        "meaning": {
+          "en": "Fine, thanks.",
+          "te": "సరే, ధన్యవాదాలు.",
+          "hi": "ठीक है, धन्यवाद।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: units before tens",
+      "te": "వ్యాకరణం: పదుల ముందు ఒకట్లు",
+      "hi": "व्याकरण: दहाई से पहले इकाई"
+    },
+    "body": {
+      "en": "German says the unit first, then \"und\", then the tens, all as one word: 25 = fünf-und-zwanzig (\"five and twenty\"). Thirty is dreißig with ß, not -zig.",
+      "te": "జర్మన్‌లో ముందు ఒకట్లు, తర్వాత \"und\", తర్వాత పదులు, అన్నీ ఒకే పదంగా: 25 = fünf-und-zwanzig (\"ఐదు మరియు ఇరవై\"). ముప్పై dreißig, ß తో, -zig కాదు.",
+      "hi": "जर्मन में पहले इकाई, फिर \"und\", फिर दहाई, सब एक शब्द में: 25 = fünf-und-zwanzig (\"पाँच और बीस\")। तीस dreißig है, ß के साथ, -zig नहीं।"
+    }
+  },
+  "deep_dive": {
+    "en": "This order feels new and needs practice. When you hear a price, wait for the whole number: \"vierund…\" is not 40 but 4 + something. Prices are said as \"drei Euro fünfzig\" for 3.50 €.",
+    "te": "ఈ క్రమం కొత్తగా అనిపిస్తుంది, అభ్యాసం అవసరం. ధర విన్నప్పుడు పూర్తి సంఖ్య కోసం ఆగండి: \"vierund…\" అంటే 40 కాదు, 4 + ఇంకేదో. 3.50 € ని \"drei Euro fünfzig\" అంటారు.",
+    "hi": "यह क्रम नया लगता है और अभ्यास चाहिए। कीमत सुनते समय पूरी संख्या का इंतज़ार करें: \"vierund…\" 40 नहीं, 4 + कुछ है। 3.50 € को \"drei Euro fünfzig\" कहते हैं।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "zwanzigfünf",
+      "right": "fünfundzwanzig",
+      "why": {
+        "en": "The unit comes first, joined with \"und\".",
+        "te": "ఒకట్లు ముందు వస్తాయి, \"und\" తో కలిపి.",
+        "hi": "इकाई पहले आती है, \"und\" से जुड़कर।"
+      }
+    },
+    {
+      "wrong": "dreizig",
+      "right": "dreißig",
+      "why": {
+        "en": "Thirty is the only tens number with ß.",
+        "te": "ß ఉన్న ఏకైక పదుల సంఖ్య ముప్పై.",
+        "hi": "तीस ही ß वाली एकमात्र दहाई है।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In shops, prices are fixed. Bargaining is only usual at flea markets (Flohmarkt).",
+    "te": "దుకాణాల్లో ధరలు స్థిరం. బేరమాడటం ఫ్లీ మార్కెట్లలో (Flohmarkt) మాత్రమే సాధారణం.",
+    "hi": "दुकानों में कीमतें तय होती हैं। मोलभाव सिर्फ़ फ़्ली मार्केट (Flohmarkt) में आम है।"
+  },
+  "practice_tip": {
+    "en": "Read price tags aloud when you shop online or in a store.",
+    "te": "ఆన్‌లైన్‌లో లేదా దుకాణంలో షాపింగ్ చేసేటప్పుడు ధర ట్యాగ్‌లను గట్టిగా చదవండి.",
+    "hi": "ऑनलाइन या दुकान में खरीदारी करते समय कीमत के टैग ज़ोर से पढ़ें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say 64 in German.",
+        "te": "64 ని జర్మన్‌లో చెప్పండి.",
+        "hi": "64 को जर्मन में कहें।"
+      },
+      "answer": {
+        "en": "vierundsechzig",
+        "te": "vierundsechzig",
+        "hi": "vierundsechzig"
+      }
+    },
+    {
+      "question": {
+        "en": "How do you ask for the price?",
+        "te": "ధర ఎలా అడుగుతారు?",
+        "hi": "कीमत कैसे पूछेंगे?"
+      },
+      "answer": {
+        "en": "Was kostet das?",
+        "te": "Was kostet das?",
+        "hi": "Was kostet das?"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "What is 45?",
+        "te": "45 అంటే?",
+        "hi": "45 क्या है?"
+      },
+      "options": [
+        {
+          "de": "fünfundvierzig"
+        },
+        {
+          "de": "vierundfünfzig"
+        },
+        {
+          "de": "vierzigfünf"
+        },
+        {
+          "de": "fünfzigvier"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Unit first: fünf-und-vierzig.",
+        "te": "ఒకట్లు ముందు: fünf-und-vierzig.",
+        "hi": "इकाई पहले: fünf-und-vierzig।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "What is 30?",
+        "te": "30 అంటే?",
+        "hi": "30 क्या है?"
+      },
+      "options": [
+        {
+          "de": "dreizig"
+        },
+        {
+          "de": "dreißig"
+        },
+        {
+          "de": "dreizehn"
+        },
+        {
+          "de": "drei"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "en": "Thirty is dreißig.",
+        "te": "ముప్పై dreißig.",
+        "hi": "तीस dreißig है।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Was kostet das?\" means…",
+        "te": "\"Was kostet das?\" అర్థం…",
+        "hi": "\"Was kostet das?\" का अर्थ…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "How much is it?",
+            "te": "దీని ధర ఎంత?",
+            "hi": "इसकी कीमत क्या है?"
+          }
+        },
+        {
+          "text": {
+            "en": "What is that?",
+            "te": "అది ఏమిటి?",
+            "hi": "वह क्या है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Where is it?",
+            "te": "అది ఎక్కడ ఉంది?",
+            "hi": "वह कहाँ है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Is it open?",
+            "te": "అది తెరిచి ఉందా?",
+            "hi": "क्या यह खुला है?"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "kosten = to cost.",
+        "te": "kosten = ఖర్చు అవ్వడం.",
+        "hi": "kosten = कीमत होना।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Which number is 99?",
+        "te": "99 ఏది?",
+        "hi": "99 कौन-सा है?"
+      },
+      "options": [
+        {
+          "de": "neunundneunzig"
+        },
+        {
+          "de": "neunzigneun"
+        },
+        {
+          "de": "neunzehn"
+        },
+        {
+          "de": "neunhundert"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "nine-and-ninety: neunundneunzig.",
+        "te": "తొమ్మిది-మరియు-తొంభై: neunundneunzig.",
+        "hi": "नौ-और-नब्बे: neunundneunzig।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "v09",
+      "audio_de": "hundert",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "100",
+            "te": "100",
+            "hi": "100"
+          }
+        },
+        {
+          "text": {
+            "en": "10",
+            "te": "10",
+            "hi": "10"
+          }
+        },
+        {
+          "text": {
+            "en": "1000",
+            "te": "1000",
+            "hi": "1000"
+          }
+        },
+        {
+          "text": {
+            "en": "80",
+            "te": "80",
+            "hi": "80"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "hundert = 100.",
+        "te": "hundert = 100.",
+        "hi": "hundert = 100।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v10",
+      "audio_de": "Was kostet das?",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "How much is it?",
+            "te": "దీని ధర ఎంత?",
+            "hi": "इसकी कीमत क्या है?"
+          }
+        },
+        {
+          "text": {
+            "en": "How old are you?",
+            "te": "మీ వయసు ఎంత?",
+            "hi": "आपकी उम्र क्या है?"
+          }
+        },
+        {
+          "text": {
+            "en": "What is your number?",
+            "te": "మీ నంబర్ ఏమిటి?",
+            "hi": "आपका नंबर क्या है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Where do you live?",
+            "te": "మీరు ఎక్కడ ఉంటారు?",
+            "hi": "आप कहाँ रहते हैं?"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "\"Was kostet das?\" asks the price.",
+        "te": "\"Was kostet das?\" ధర అడుగుతుంది.",
+        "hi": "\"Was kostet das?\" कीमत पूछता है।"
+      }
+    }
+  ],
+  "audio": []
+}

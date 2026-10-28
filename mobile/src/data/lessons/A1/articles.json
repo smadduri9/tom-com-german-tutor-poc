@@ -1,0 +1,547 @@
+{
+  "id": "articles",
+  "slug": "articles",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Articles: der, die, das",
+    "te": "ఆర్టికల్స్: der, die, das",
+    "hi": "लेख: der, die, das"
+  },
+  "subtitle": {
+    "en": "Gender of nouns",
+    "te": "నామవాచకాల లింగం",
+    "hi": "संज्ञाओं का लिंग"
+  },
+  "intro": {
+    "en": "Every German noun has a gender: der (masculine), die (feminine) or das (neuter). Learn each noun with its article.",
+    "te": "ప్రతి జర్మన్ నామవాచకానికి లింగం ఉంది: der (పుంలింగం), die (స్త్రీలింగం) లేదా das (నపుంసకలింగం). ప్రతి నామవాచకాన్ని దాని ఆర్టికల్‌తో నేర్చుకోండి.",
+    "hi": "हर जर्मन संज्ञा का लिंग होता है: der (पुल्लिंग), die (स्त्रीलिंग) या das (नपुंसकलिंग)। हर संज्ञा को उसके आर्टिकल के साथ सीखें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "der Mann",
+      "meaning": {
+        "en": "the man",
+        "te": "పురుషుడు",
+        "hi": "आदमी"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "die Frau",
+      "meaning": {
+        "en": "the woman",
+        "te": "స్త్రీ",
+        "hi": "औरत"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "das Kind",
+      "meaning": {
+        "en": "the child",
+        "te": "పిల్ల/పిల్లవాడు",
+        "hi": "बच्चा"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "der Tisch",
+      "meaning": {
+        "en": "the table",
+        "te": "బల్ల",
+        "hi": "मेज़"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "die Lampe",
+      "meaning": {
+        "en": "the lamp",
+        "te": "దీపం",
+        "hi": "लैंप"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "das Buch",
+      "meaning": {
+        "en": "the book",
+        "te": "పుస్తకం",
+        "hi": "किताब"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "der Stuhl",
+      "meaning": {
+        "en": "the chair",
+        "te": "కుర్చీ",
+        "hi": "कुर्सी"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "die Tür",
+      "meaning": {
+        "en": "the door",
+        "te": "తలుపు",
+        "hi": "दरवाज़ा"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "das Auto",
+      "meaning": {
+        "en": "the car",
+        "te": "కారు",
+        "hi": "कार"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "ein / eine",
+      "meaning": {
+        "en": "a / an",
+        "te": "ఒక",
+        "hi": "एक"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Das ist ein Tisch.",
+      "meaning": {
+        "en": "That is a table.",
+        "te": "అది ఒక బల్ల.",
+        "hi": "वह एक मेज़ है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Das ist eine Lampe.",
+      "meaning": {
+        "en": "That is a lamp.",
+        "te": "అది ఒక దీపం.",
+        "hi": "वह एक लैंप है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Der Stuhl ist neu.",
+      "meaning": {
+        "en": "The chair is new.",
+        "te": "కుర్చీ కొత్తది.",
+        "hi": "कुर्सी नई है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Das Buch ist gut.",
+      "meaning": {
+        "en": "The book is good.",
+        "te": "పుస్తకం బాగుంది.",
+        "hi": "किताब अच्छी है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Zeitung",
+      "meaning": {
+        "en": "the newspaper",
+        "te": "వార్తాపత్రిక",
+        "hi": "अख़बार"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "das Mädchen",
+      "meaning": {
+        "en": "the girl",
+        "te": "అమ్మాయి",
+        "hi": "लड़की"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "der Computer",
+      "meaning": {
+        "en": "the computer",
+        "te": "కంప్యూటర్",
+        "hi": "कंप्यूटर"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Tasche",
+      "meaning": {
+        "en": "the bag",
+        "te": "సంచి",
+        "hi": "थैला"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "IN A NEW FLAT",
+      "te": "కొత్త ఫ్లాట్‌లో",
+      "hi": "नए फ़्लैट में"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Anna",
+        "de": "Ist das ein Stuhl?",
+        "meaning": {
+          "en": "Is that a chair?",
+          "te": "అది కుర్చీనా?",
+          "hi": "क्या वह कुर्सी है?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Ravi",
+        "de": "Ja, der Stuhl ist neu.",
+        "meaning": {
+          "en": "Yes, the chair is new.",
+          "te": "అవును, కుర్చీ కొత్తది.",
+          "hi": "हाँ, कुर्सी नई है।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Anna",
+        "de": "Und das? Ist das eine Lampe?",
+        "meaning": {
+          "en": "And that? Is that a lamp?",
+          "te": "మరి అది? అది దీపమా?",
+          "hi": "और वह? क्या वह लैंप है?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Ravi",
+        "de": "Ja. Die Lampe ist aus Indien.",
+        "meaning": {
+          "en": "Yes. The lamp is from India.",
+          "te": "అవును. దీపం భారతదేశం నుండి.",
+          "hi": "हाँ। लैंप भारत से है।"
+        }
+      },
+      {
+        "id": "d05",
+        "speaker": "Anna",
+        "de": "Schön! Und das Buch?",
+        "meaning": {
+          "en": "Nice! And the book?",
+          "te": "బాగుంది! మరి పుస్తకం?",
+          "hi": "सुंदर! और किताब?"
+        }
+      },
+      {
+        "id": "d06",
+        "speaker": "Ravi",
+        "de": "Das Buch ist für den Deutschkurs.",
+        "meaning": {
+          "en": "The book is for the German course.",
+          "te": "పుస్తకం జర్మన్ కోర్సు కోసం.",
+          "hi": "किताब जर्मन कोर्स के लिए है।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: der, die, das",
+      "te": "వ్యాకరణం: der, die, das",
+      "hi": "व्याकरण: der, die, das"
+    },
+    "body": {
+      "en": "\"The\" has three forms: der (masculine), die (feminine), das (neuter). \"A\" is ein for der and das words, eine for die words. The gender of a thing is often not logical, so always learn the article with the noun.",
+      "te": "\"The\" కి మూడు రూపాలు: der (పుం), die (స్త్రీ), das (నపుం). \"A\" అంటే der, das పదాలకు ein, die పదాలకు eine. వస్తువు లింగం తరచుగా తర్కబద్ధంగా ఉండదు, కాబట్టి నామవాచకంతో పాటు ఆర్టికల్ ఎల్లప్పుడూ నేర్చుకోండి.",
+      "hi": "\"The\" के तीन रूप हैं: der (पुल्लिंग), die (स्त्रीलिंग), das (नपुंसक)। \"A\" der और das शब्दों के लिए ein, die शब्दों के लिए eine है। चीज़ों का लिंग अक्सर तार्किक नहीं होता, इसलिए आर्टिकल हमेशा संज्ञा के साथ सीखें।"
+    }
+  },
+  "deep_dive": {
+    "en": "Some endings help: nouns ending in -ung, -heit, -keit and most ending in -e are die (die Zeitung, die Lampe). Nouns ending in -chen are das (das Mädchen). Hindi also gives genders to things, so the idea is familiar, but German genders often differ from Hindi ones.",
+    "te": "కొన్ని ముగింపులు సహాయపడతాయి: -ung, -heit, -keit తో, చాలావరకు -e తో ముగిసేవి die (die Zeitung, die Lampe). -chen తో ముగిసేవి das (das Mädchen). తెలుగులో కూడా లింగాలు ఉన్నాయి, కానీ వస్తువులకు జర్మన్ లింగాలు వేరు.",
+    "hi": "कुछ अंत मदद करते हैं: -ung, -heit, -keit और ज़्यादातर -e पर ख़त्म होने वाले die हैं (die Zeitung, die Lampe)। -chen वाले das हैं (das Mädchen)। हिंदी में भी चीज़ों का लिंग होता है, पर जर्मन लिंग अक्सर अलग होते हैं।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "die Mädchen (one girl)",
+      "right": "das Mädchen",
+      "why": {
+        "en": "All -chen words are das, even for people.",
+        "te": "-chen పదాలన్నీ das, మనుషులకైనా.",
+        "hi": "सभी -chen शब्द das हैं, लोगों के लिए भी।"
+      }
+    },
+    {
+      "wrong": "ein Lampe",
+      "right": "eine Lampe",
+      "why": {
+        "en": "die words take eine.",
+        "te": "die పదాలకు eine వస్తుంది.",
+        "hi": "die शब्दों के साथ eine आता है।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Germans notice wrong articles but understand you anyway. Keep speaking; accuracy grows with practice.",
+    "te": "తప్పు ఆర్టికల్ జర్మన్లు గమనిస్తారు, అయినా మీరు చెప్పింది అర్థం చేసుకుంటారు. మాట్లాడుతూనే ఉండండి.",
+    "hi": "जर्मन लोग गलत आर्टिकल पहचानते हैं, फिर भी समझ जाते हैं। बोलते रहें; अभ्यास से सटीकता आती है।"
+  },
+  "practice_tip": {
+    "en": "Use three colours in your notebook: blue for der, red for die, green for das.",
+    "te": "మీ నోట్‌బుక్‌లో మూడు రంగులు వాడండి: der కి నీలం, die కి ఎరుపు, das కి ఆకుపచ్చ.",
+    "hi": "अपनी कॉपी में तीन रंग रखें: der के लिए नीला, die के लिए लाल, das के लिए हरा।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Which article does \"Buch\" take?",
+        "te": "\"Buch\" కి ఏ ఆర్టికల్?",
+        "hi": "\"Buch\" का आर्टिकल क्या है?"
+      },
+      "answer": {
+        "en": "das Buch",
+        "te": "das Buch",
+        "hi": "das Buch"
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"That is a lamp.\"",
+        "te": "\"అది ఒక దీపం\" అని చెప్పండి.",
+        "hi": "\"वह एक लैंप है\" कहें।"
+      },
+      "answer": {
+        "en": "Das ist eine Lampe.",
+        "te": "Das ist eine Lampe.",
+        "hi": "Das ist eine Lampe."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "___ Frau",
+        "te": "___ Frau",
+        "hi": "___ Frau"
+      },
+      "options": [
+        {
+          "de": "der"
+        },
+        {
+          "de": "die"
+        },
+        {
+          "de": "das"
+        },
+        {
+          "de": "den"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "en": "Frau is feminine: die Frau.",
+        "te": "Frau స్త్రీలింగం: die Frau.",
+        "hi": "Frau स्त्रीलिंग है: die Frau।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "___ Mädchen",
+        "te": "___ Mädchen",
+        "hi": "___ Mädchen"
+      },
+      "options": [
+        {
+          "de": "der"
+        },
+        {
+          "de": "die"
+        },
+        {
+          "de": "das"
+        },
+        {
+          "de": "dem"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "en": "-chen words are always das.",
+        "te": "-chen పదాలు ఎల్లప్పుడూ das.",
+        "hi": "-chen शब्द हमेशा das होते हैं।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Das ist ___ Tisch.",
+        "te": "Das ist ___ Tisch.",
+        "hi": "Das ist ___ Tisch."
+      },
+      "options": [
+        {
+          "de": "ein"
+        },
+        {
+          "de": "eine"
+        },
+        {
+          "de": "einen"
+        },
+        {
+          "de": "die"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "der Tisch → ein Tisch.",
+        "te": "der Tisch → ein Tisch.",
+        "hi": "der Tisch → ein Tisch।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Which noun is die?",
+        "te": "ఏ నామవాచకం die?",
+        "hi": "कौन-सी संज्ञा die है?"
+      },
+      "options": [
+        {
+          "de": "Zeitung"
+        },
+        {
+          "de": "Buch"
+        },
+        {
+          "de": "Stuhl"
+        },
+        {
+          "de": "Auto"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "-ung nouns are die: die Zeitung.",
+        "te": "-ung నామవాచకాలు die: die Zeitung.",
+        "hi": "-ung संज्ञाएँ die हैं: die Zeitung।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "v06",
+      "audio_de": "das Buch",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "the book",
+            "te": "పుస్తకం",
+            "hi": "किताब"
+          }
+        },
+        {
+          "text": {
+            "en": "the table",
+            "te": "బల్ల",
+            "hi": "मेज़"
+          }
+        },
+        {
+          "text": {
+            "en": "the door",
+            "te": "తలుపు",
+            "hi": "दरवाज़ा"
+          }
+        },
+        {
+          "text": {
+            "en": "the car",
+            "te": "కారు",
+            "hi": "कार"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "das Buch = the book.",
+        "te": "das Buch = పుస్తకం.",
+        "hi": "das Buch = किताब।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v08",
+      "audio_de": "die Tür",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "the chair",
+            "te": "కుర్చీ",
+            "hi": "कुर्सी"
+          }
+        },
+        {
+          "text": {
+            "en": "the door",
+            "te": "తలుపు",
+            "hi": "दरवाज़ा"
+          }
+        },
+        {
+          "text": {
+            "en": "the lamp",
+            "te": "దీపం",
+            "hi": "लैंप"
+          }
+        },
+        {
+          "text": {
+            "en": "the child",
+            "te": "పిల్లవాడు",
+            "hi": "बच्चा"
+          }
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "en": "die Tür = the door.",
+        "te": "die Tür = తలుపు.",
+        "hi": "die Tür = दरवाज़ा।"
+      }
+    }
+  ],
+  "audio": []
+}

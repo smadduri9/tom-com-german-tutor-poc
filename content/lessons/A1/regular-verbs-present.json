@@ -1,0 +1,544 @@
+{
+  "id": "regular-verbs-present",
+  "slug": "regular-verbs-present",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Regular Verbs in the Present",
+    "te": "సాధారణ క్రియలు - వర్తమానం",
+    "hi": "नियमित क्रियाएँ - वर्तमान"
+  },
+  "subtitle": {
+    "en": "Verb endings in the present tense",
+    "te": "వర్తమాన కాలంలో క్రియా ముగింపులు",
+    "hi": "वर्तमान काल में क्रिया के अंत"
+  },
+  "intro": {
+    "en": "Most German verbs follow one pattern in the present tense. Learn the endings once and use them everywhere.",
+    "te": "చాలా జర్మన్ క్రియలు వర్తమానంలో ఒకే నమూనా అనుసరిస్తాయి. ముగింపులు ఒకసారి నేర్చుకుని అంతటా వాడండి.",
+    "hi": "ज़्यादातर जर्मन क्रियाएँ वर्तमान काल में एक ही नियम मानती हैं। अंत एक बार सीखें और हर जगह प्रयोग करें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "wohnen",
+      "meaning": {
+        "en": "to live (somewhere)",
+        "te": "నివసించడం",
+        "hi": "रहना"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "arbeiten",
+      "meaning": {
+        "en": "to work",
+        "te": "పని చేయడం",
+        "hi": "काम करना"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "lernen",
+      "meaning": {
+        "en": "to learn",
+        "te": "నేర్చుకోవడం",
+        "hi": "सीखना"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "spielen",
+      "meaning": {
+        "en": "to play",
+        "te": "ఆడటం",
+        "hi": "खेलना"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "kochen",
+      "meaning": {
+        "en": "to cook",
+        "te": "వంట చేయడం",
+        "hi": "खाना बनाना"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "machen",
+      "meaning": {
+        "en": "to do / to make",
+        "te": "చేయడం",
+        "hi": "करना"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "kaufen",
+      "meaning": {
+        "en": "to buy",
+        "te": "కొనడం",
+        "hi": "ख़रीदना"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "hören",
+      "meaning": {
+        "en": "to hear / to listen",
+        "te": "వినడం",
+        "hi": "सुनना"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "trinken",
+      "meaning": {
+        "en": "to drink",
+        "te": "తాగడం",
+        "hi": "पीना"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich wohne in München.",
+      "meaning": {
+        "en": "I live in Munich.",
+        "te": "నేను మ్యూనిక్‌లో ఉంటాను.",
+        "hi": "मैं म्यूनिख में रहता हूँ।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Du arbeitest im Krankenhaus.",
+      "meaning": {
+        "en": "You work in the hospital.",
+        "te": "నువ్వు ఆసుపత్రిలో పని చేస్తావు.",
+        "hi": "तुम अस्पताल में काम करते हो।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Er kocht gern.",
+      "meaning": {
+        "en": "He likes cooking.",
+        "te": "అతనికి వంట చేయడం ఇష్టం.",
+        "hi": "उसे खाना बनाना पसंद है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Wir lernen jeden Tag.",
+      "meaning": {
+        "en": "We learn every day.",
+        "te": "మేము ప్రతిరోజూ నేర్చుకుంటాము.",
+        "hi": "हम हर दिन सीखते हैं।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "gern",
+      "meaning": {
+        "en": "gladly (likes doing)",
+        "te": "ఇష్టంగా",
+        "hi": "शौक़ से"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "jeden Tag",
+      "meaning": {
+        "en": "every day",
+        "te": "ప్రతిరోజూ",
+        "hi": "हर दिन"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "die Musik",
+      "meaning": {
+        "en": "the music",
+        "te": "సంగీతం",
+        "hi": "संगीत"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "das Krankenhaus",
+      "meaning": {
+        "en": "the hospital",
+        "te": "ఆసుపత్రి",
+        "hi": "अस्पताल"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT A BUS STOP",
+      "te": "బస్ స్టాప్ వద్ద",
+      "hi": "बस स्टॉप पर"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Lena",
+        "de": "Wo wohnst du?",
+        "meaning": {
+          "en": "Where do you live?",
+          "te": "నువ్వు ఎక్కడ ఉంటావు?",
+          "hi": "तुम कहाँ रहते हो?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Arjun",
+        "de": "Ich wohne in der Bahnhofstraße.",
+        "meaning": {
+          "en": "I live on Bahnhofstraße.",
+          "te": "నేను బాన్‌హోఫ్‌స్ట్రాసేలో ఉంటాను.",
+          "hi": "मैं बानहोफ़्श्ट्रासे में रहता हूँ।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Lena",
+        "de": "Und was machst du?",
+        "meaning": {
+          "en": "And what do you do?",
+          "te": "మరి నువ్వు ఏమి చేస్తావు?",
+          "hi": "और तुम क्या करते हो?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Arjun",
+        "de": "Ich arbeite als Elektriker. Und du?",
+        "meaning": {
+          "en": "I work as an electrician. And you?",
+          "te": "నేను ఎలక్ట్రీషియన్‌గా పని చేస్తాను. మరి నువ్వు?",
+          "hi": "मैं इलेक्ट्रीशियन का काम करता हूँ। और तुम?"
+        }
+      },
+      {
+        "id": "d05",
+        "speaker": "Lena",
+        "de": "Ich lerne an der Uni.",
+        "meaning": {
+          "en": "I study at the university.",
+          "te": "నేను యూనివర్సిటీలో చదువుతాను.",
+          "hi": "मैं यूनिवर्सिटी में पढ़ती हूँ।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: present tense endings",
+      "te": "వ్యాకరణం: వర్తమాన ముగింపులు",
+      "hi": "व्याकरण: वर्तमान काल के अंत"
+    },
+    "body": {
+      "en": "Take the stem (wohnen → wohn-) and add: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. If the stem ends in -t or -d, add an e: du arbeitest, er arbeitet.",
+      "te": "మూలం తీసుకోండి (wohnen → wohn-) మరియు కలపండి: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. మూలం -t లేదా -d తో ముగిస్తే e కలపండి: du arbeitest, er arbeitet.",
+      "hi": "मूल लें (wohnen → wohn-) और जोड़ें: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en। मूल -t या -d पर ख़त्म हो तो e जोड़ें: du arbeitest, er arbeitet।"
+    }
+  },
+  "deep_dive": {
+    "en": "German has one present tense for both \"I work\" and \"I am working\": Ich arbeite. Add \"gern\" after the verb to say you like doing something: Ich koche gern = I like cooking.",
+    "te": "జర్మన్‌లో \"I work\" మరియు \"I am working\" రెండింటికీ ఒకే వర్తమానం: Ich arbeite. ఏదైనా చేయడం ఇష్టమని చెప్పడానికి క్రియ తర్వాత \"gern\" పెట్టండి: Ich koche gern = నాకు వంట ఇష్టం.",
+    "hi": "जर्मन में \"I work\" और \"I am working\" दोनों के लिए एक ही वर्तमान काल है: Ich arbeite। कोई काम पसंद है, यह कहने के लिए क्रिया के बाद \"gern\" लगाएँ: Ich koche gern = मुझे खाना बनाना पसंद है।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich bin arbeiten.",
+      "right": "Ich arbeite.",
+      "why": {
+        "en": "No \"bin\" for \"I am working\".",
+        "te": "\"I am working\" కి \"bin\" వాడరు.",
+        "hi": "\"I am working\" के लिए \"bin\" नहीं।"
+      }
+    },
+    {
+      "wrong": "Er arbeitt.",
+      "right": "Er arbeitet.",
+      "why": {
+        "en": "Stems ending in -t add an extra e.",
+        "te": "-t తో ముగిసే మూలాలకు అదనపు e వస్తుంది.",
+        "hi": "-t पर ख़त्म होने वाले मूल में अतिरिक्त e जुड़ता है।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Small talk often starts with work: \"Was machen Sie beruflich?\" means \"What do you do for a living?\"",
+    "te": "చిన్న సంభాషణ తరచుగా పనితో మొదలవుతుంది: \"Was machen Sie beruflich?\" అంటే \"మీరు ఏ ఉద్యోగం చేస్తారు?\"",
+    "hi": "बातचीत अक्सर काम से शुरू होती है: \"Was machen Sie beruflich?\" का मतलब है \"आप क्या काम करते हैं?\""
+  },
+  "practice_tip": {
+    "en": "Pick three verbs and say all six forms aloud: ich, du, er, wir, ihr, sie.",
+    "te": "మూడు క్రియలను ఎంచుకుని ఆరు రూపాలనూ గట్టిగా చెప్పండి: ich, du, er, wir, ihr, sie.",
+    "hi": "तीन क्रियाएँ चुनें और सभी छह रूप ज़ोर से बोलें: ich, du, er, wir, ihr, sie।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Complete: du (wohnen) → ?",
+        "te": "పూర్తి చేయండి: du (wohnen) → ?",
+        "hi": "पूरा करें: du (wohnen) → ?"
+      },
+      "answer": {
+        "en": "du wohnst",
+        "te": "du wohnst",
+        "hi": "du wohnst"
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"I like cooking.\"",
+        "te": "\"నాకు వంట చేయడం ఇష్టం\" అని చెప్పండి.",
+        "hi": "\"मुझे खाना बनाना पसंद है\" कहें।"
+      },
+      "answer": {
+        "en": "Ich koche gern.",
+        "te": "Ich koche gern.",
+        "hi": "Ich koche gern."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Wir ___ Deutsch. (lernen)",
+        "te": "Wir ___ Deutsch. (lernen)",
+        "hi": "Wir ___ Deutsch. (lernen)"
+      },
+      "options": [
+        {
+          "de": "lernen"
+        },
+        {
+          "de": "lernt"
+        },
+        {
+          "de": "lerne"
+        },
+        {
+          "de": "lernst"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wir takes -en.",
+        "te": "wir కి -en.",
+        "hi": "wir के साथ -en।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Er ___ in Köln. (wohnen)",
+        "te": "Er ___ in Köln. (wohnen)",
+        "hi": "Er ___ in Köln. (wohnen)"
+      },
+      "options": [
+        {
+          "de": "wohnt"
+        },
+        {
+          "de": "wohne"
+        },
+        {
+          "de": "wohnst"
+        },
+        {
+          "de": "wohnen"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "er takes -t.",
+        "te": "er కి -t.",
+        "hi": "er के साथ -t।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Du ___ viel. (arbeiten)",
+        "te": "Du ___ viel. (arbeiten)",
+        "hi": "Du ___ viel. (arbeiten)"
+      },
+      "options": [
+        {
+          "de": "arbeitest"
+        },
+        {
+          "de": "arbeitst"
+        },
+        {
+          "de": "arbeite"
+        },
+        {
+          "de": "arbeiten"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "-t stem + e: arbeitest.",
+        "te": "-t మూలం + e: arbeitest.",
+        "hi": "-t मूल + e: arbeitest।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Ich koche gern\" means…",
+        "te": "\"Ich koche gern\" అర్థం…",
+        "hi": "\"Ich koche gern\" का अर्थ…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I like cooking.",
+            "te": "నాకు వంట ఇష్టం.",
+            "hi": "मुझे खाना बनाना पसंद है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I cook a lot.",
+            "te": "నేను ఎక్కువగా వండుతాను.",
+            "hi": "मैं बहुत खाना बनाता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I cannot cook.",
+            "te": "నాకు వంట రాదు.",
+            "hi": "मुझे खाना बनाना नहीं आता।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am cooking now.",
+            "te": "నేను ఇప్పుడు వండుతున్నాను.",
+            "hi": "मैं अभी खाना बना रहा हूँ।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "gern = likes doing.",
+        "te": "gern = ఇష్టంగా చేయడం.",
+        "hi": "gern = पसंद से करना।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "regular-verbs-present-l1",
+      "audio_de": "Ich wohne in München.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I live in Munich.",
+            "te": "నేను మ్యూనిక్‌లో ఉంటాను.",
+            "hi": "मैं म्यूनिख में रहता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I work in Munich.",
+            "te": "నేను మ్యూనిక్‌లో పని చేస్తాను.",
+            "hi": "मैं म्यूनिख में काम करता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I travel to Munich.",
+            "te": "నేను మ్యూనిక్‌కు వెళ్తాను.",
+            "hi": "मैं म्यूनिख जाता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I come from Munich.",
+            "te": "నేను మ్యూనిక్ నుండి వచ్చాను.",
+            "hi": "मैं म्यूनिख से हूँ।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wohnen = to live.",
+        "te": "wohnen = నివసించడం.",
+        "hi": "wohnen = रहना।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "regular-verbs-present-l2",
+      "audio_de": "Wir lernen jeden Tag.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "We learn every day.",
+            "te": "మేము ప్రతిరోజూ నేర్చుకుంటాము.",
+            "hi": "हम हर दिन सीखते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "We work every day.",
+            "te": "మేము ప్రతిరోజూ పని చేస్తాము.",
+            "hi": "हम हर दिन काम करते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "We play today.",
+            "te": "మేము ఈ రోజు ఆడతాము.",
+            "hi": "हम आज खेलते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "We cook together.",
+            "te": "మేము కలిసి వండుతాము.",
+            "hi": "हम साथ खाना बनाते हैं।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "lernen = to learn; jeden Tag = every day.",
+        "te": "lernen = నేర్చుకోవడం; jeden Tag = ప్రతిరోజూ.",
+        "hi": "lernen = सीखना; jeden Tag = हर दिन।"
+      }
+    }
+  ],
+  "audio": []
+}
