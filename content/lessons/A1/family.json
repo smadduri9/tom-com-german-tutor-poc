@@ -1,0 +1,554 @@
+{
+  "id": "family",
+  "slug": "family",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Family",
+    "te": "కుటుంబం",
+    "hi": "परिवार"
+  },
+  "subtitle": {
+    "en": "Family members and possessives",
+    "te": "కుటుంబ సభ్యులు మరియు స్వామ్యాలు",
+    "hi": "परिवार के सदस्य और स्वामित्व"
+  },
+  "intro": {
+    "en": "Talk about your family: parents, brothers, sisters, husband, wife and children.",
+    "te": "మీ కుటుంబం గురించి మాట్లాడండి: తల్లిదండ్రులు, అన్నదమ్ములు, అక్కచెల్లెళ్లు, భర్త, భార్య, పిల్లలు.",
+    "hi": "अपने परिवार के बारे में बात करें: माता-पिता, भाई, बहन, पति, पत्नी और बच्चे।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "die Familie",
+      "meaning": {
+        "en": "the family",
+        "te": "కుటుంబం",
+        "hi": "परिवार"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "die Mutter",
+      "meaning": {
+        "en": "the mother",
+        "te": "తల్లి",
+        "hi": "माँ"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "der Vater",
+      "meaning": {
+        "en": "the father",
+        "te": "తండ్రి",
+        "hi": "पिता"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "die Eltern",
+      "meaning": {
+        "en": "the parents",
+        "te": "తల్లిదండ్రులు",
+        "hi": "माता-पिता"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "der Bruder",
+      "meaning": {
+        "en": "the brother",
+        "te": "సోదరుడు",
+        "hi": "भाई"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "die Schwester",
+      "meaning": {
+        "en": "the sister",
+        "te": "సోదరి",
+        "hi": "बहन"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "der Mann / die Frau",
+      "meaning": {
+        "en": "the husband / the wife",
+        "te": "భర్త / భార్య",
+        "hi": "पति / पत्नी"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "der Sohn / die Tochter",
+      "meaning": {
+        "en": "the son / the daughter",
+        "te": "కొడుకు / కూతురు",
+        "hi": "बेटा / बेटी"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "mein / meine",
+      "meaning": {
+        "en": "my",
+        "te": "నా",
+        "hi": "मेरा / मेरी"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Das ist meine Mutter.",
+      "meaning": {
+        "en": "That is my mother.",
+        "te": "ఈమె మా అమ్మ.",
+        "hi": "ये मेरी माँ हैं।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Mein Bruder wohnt in Hyderabad.",
+      "meaning": {
+        "en": "My brother lives in Hyderabad.",
+        "te": "మా అన్నయ్య హైదరాబాద్‌లో ఉంటాడు.",
+        "hi": "मेरा भाई हैदराबाद में रहता है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Ich habe zwei Schwestern.",
+      "meaning": {
+        "en": "I have two sisters.",
+        "te": "నాకు ఇద్దరు అక్కచెల్లెళ్లు ఉన్నారు.",
+        "hi": "मेरी दो बहनें हैं।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Meine Tochter ist fünf.",
+      "meaning": {
+        "en": "My daughter is five.",
+        "te": "నా కూతురి వయసు ఐదు.",
+        "hi": "मेरी बेटी पाँच साल की है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Großmutter",
+      "meaning": {
+        "en": "the grandmother",
+        "te": "అమ్మమ్మ/నానమ్మ",
+        "hi": "दादी/नानी"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Großvater",
+      "meaning": {
+        "en": "the grandfather",
+        "te": "తాతయ్య",
+        "hi": "दादा/नाना"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "verheiratet",
+      "meaning": {
+        "en": "married",
+        "te": "వివాహితుడు",
+        "hi": "शादीशुदा"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "ledig",
+      "meaning": {
+        "en": "single",
+        "te": "అవివాహితుడు",
+        "hi": "अविवाहित"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A VIDEO CALL HOME",
+      "te": "ఇంటికి వీడియో కాల్",
+      "hi": "घर पर वीडियो कॉल"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Sara",
+        "de": "Wer ist das?",
+        "meaning": {
+          "en": "Who is that?",
+          "te": "అది ఎవరు?",
+          "hi": "वह कौन है?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Kiran",
+        "de": "Das ist mein Vater. Und das ist meine Mutter.",
+        "meaning": {
+          "en": "That is my father. And that is my mother.",
+          "te": "ఈయన మా నాన్న. ఈమె మా అమ్మ.",
+          "hi": "ये मेरे पिता हैं। और ये मेरी माँ हैं।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Sara",
+        "de": "Hast du Geschwister?",
+        "meaning": {
+          "en": "Do you have siblings?",
+          "te": "నీకు తోబుట్టువులు ఉన్నారా?",
+          "hi": "क्या तुम्हारे भाई-बहन हैं?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Kiran",
+        "de": "Ja, einen Bruder und eine Schwester.",
+        "meaning": {
+          "en": "Yes, a brother and a sister.",
+          "te": "అవును, ఒక సోదరుడు, ఒక సోదరి.",
+          "hi": "हाँ, एक भाई और एक बहन।"
+        }
+      },
+      {
+        "id": "d05",
+        "speaker": "Sara",
+        "de": "Bist du verheiratet?",
+        "meaning": {
+          "en": "Are you married?",
+          "te": "నీకు పెళ్లయిందా?",
+          "hi": "क्या तुम शादीशुदा हो?"
+        }
+      },
+      {
+        "id": "d06",
+        "speaker": "Kiran",
+        "de": "Nein, ich bin ledig.",
+        "meaning": {
+          "en": "No, I am single.",
+          "te": "లేదు, నాకు ఇంకా పెళ్లి కాలేదు.",
+          "hi": "नहीं, मैं अविवाहित हूँ।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: mein or meine?",
+      "te": "వ్యాకరణం: mein లేదా meine?",
+      "hi": "व्याकरण: mein या meine?"
+    },
+    "body": {
+      "en": "Use mein with der and das words (mein Vater, mein Kind). Use meine with die words and with plurals (meine Mutter, meine Eltern). The same works for dein / deine (your).",
+      "te": "der, das పదాలతో mein (mein Vater, mein Kind). die పదాలు, బహువచనాలతో meine (meine Mutter, meine Eltern). dein / deine (నీ) కి కూడా ఇదే నియమం.",
+      "hi": "der और das शब्दों के साथ mein (mein Vater, mein Kind)। die शब्दों और बहुवचन के साथ meine (meine Mutter, meine Eltern)। dein / deine (तुम्हारा) के लिए भी यही नियम है।"
+    }
+  },
+  "deep_dive": {
+    "en": "German has one word for many Indian relations: Onkel is any uncle, Tante any aunt, Cousin / Cousine any cousin. To be exact, add a description: der Bruder meiner Mutter (my mother’s brother).",
+    "te": "జర్మన్‌లో చాలా భారతీయ బంధుత్వాలకు ఒకే పదం: Onkel అంటే ఏ మామయ్య/బాబాయ్ అయినా, Tante అంటే ఏ అత్త/పిన్ని అయినా. ఖచ్చితంగా చెప్పాలంటే వివరణ జోడించండి: der Bruder meiner Mutter (మా అమ్మ తమ్ముడు).",
+    "hi": "जर्मन में कई भारतीय रिश्तों के लिए एक ही शब्द है: Onkel कोई भी चाचा/मामा, Tante कोई भी चाची/मौसी। सटीक कहने के लिए विवरण जोड़ें: der Bruder meiner Mutter (मेरी माँ का भाई)।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "mein Mutter",
+      "right": "meine Mutter",
+      "why": {
+        "en": "Mutter is die, so meine.",
+        "te": "Mutter అంటే die, కాబట్టి meine.",
+        "hi": "Mutter die है, इसलिए meine।"
+      }
+    },
+    {
+      "wrong": "Ich habe zwei Bruder.",
+      "right": "Ich habe zwei Brüder.",
+      "why": {
+        "en": "The plural of Bruder is Brüder.",
+        "te": "Bruder బహువచనం Brüder.",
+        "hi": "Bruder का बहुवचन Brüder है।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "German families are often smaller and live apart. Showing family photos is a friendly way to start a conversation.",
+    "te": "జర్మన్ కుటుంబాలు తరచుగా చిన్నవి, విడిగా ఉంటాయి. కుటుంబ ఫోటోలు చూపించడం స్నేహపూర్వకంగా మాట్లాడటం మొదలుపెట్టే మార్గం.",
+    "hi": "जर्मन परिवार अक्सर छोटे होते हैं और अलग रहते हैं। परिवार की फ़ोटो दिखाना बातचीत शुरू करने का अच्छा तरीका है।"
+  },
+  "practice_tip": {
+    "en": "Take a family photo and name everyone in German: \"Das ist mein …, das ist meine …\".",
+    "te": "కుటుంబ ఫోటో తీసుకుని అందరినీ జర్మన్‌లో పరిచయం చేయండి: \"Das ist mein …, das ist meine …\".",
+    "hi": "परिवार की फ़ोटो लें और सबका जर्मन में परिचय दें: \"Das ist mein …, das ist meine …\"।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"That is my father.\"",
+        "te": "\"ఈయన మా నాన్న\" అని చెప్పండి.",
+        "hi": "\"ये मेरे पिता हैं\" कहें।"
+      },
+      "answer": {
+        "en": "Das ist mein Vater.",
+        "te": "Das ist mein Vater.",
+        "hi": "Das ist mein Vater."
+      }
+    },
+    {
+      "question": {
+        "en": "What does \"die Eltern\" mean?",
+        "te": "\"die Eltern\" అర్థం ఏమిటి?",
+        "hi": "\"die Eltern\" का अर्थ क्या है?"
+      },
+      "answer": {
+        "en": "the parents",
+        "te": "తల్లిదండ్రులు",
+        "hi": "माता-पिता"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Das ist ___ Schwester.",
+        "te": "Das ist ___ Schwester.",
+        "hi": "Das ist ___ Schwester."
+      },
+      "options": [
+        {
+          "de": "meine"
+        },
+        {
+          "de": "mein"
+        },
+        {
+          "de": "meinen"
+        },
+        {
+          "de": "meiner"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "die Schwester → meine.",
+        "te": "die Schwester → meine.",
+        "hi": "die Schwester → meine।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"der Sohn\" means…",
+        "te": "\"der Sohn\" అర్థం…",
+        "hi": "\"der Sohn\" का अर्थ…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "the son",
+            "te": "కొడుకు",
+            "hi": "बेटा"
+          }
+        },
+        {
+          "text": {
+            "en": "the brother",
+            "te": "సోదరుడు",
+            "hi": "भाई"
+          }
+        },
+        {
+          "text": {
+            "en": "the father",
+            "te": "తండ్రి",
+            "hi": "पिता"
+          }
+        },
+        {
+          "text": {
+            "en": "the uncle",
+            "te": "మామయ్య",
+            "hi": "चाचा"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "der Sohn = the son.",
+        "te": "der Sohn = కొడుకు.",
+        "hi": "der Sohn = बेटा।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Mother + father = ?",
+        "te": "తల్లి + తండ్రి = ?",
+        "hi": "माँ + पिता = ?"
+      },
+      "options": [
+        {
+          "de": "die Eltern"
+        },
+        {
+          "de": "die Kinder"
+        },
+        {
+          "de": "die Geschwister"
+        },
+        {
+          "de": "die Familie"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "die Eltern = the parents.",
+        "te": "die Eltern = తల్లిదండ్రులు.",
+        "hi": "die Eltern = माता-पिता।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich habe zwei ___. (brothers)",
+        "te": "Ich habe zwei ___. (సోదరులు)",
+        "hi": "Ich habe zwei ___. (भाई)"
+      },
+      "options": [
+        {
+          "de": "Brüder"
+        },
+        {
+          "de": "Bruder"
+        },
+        {
+          "de": "Bruders"
+        },
+        {
+          "de": "Brudern"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Plural: Brüder.",
+        "te": "బహువచనం: Brüder.",
+        "hi": "बहुवचन: Brüder।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "family-l1",
+      "audio_de": "Das ist meine Mutter.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "That is my mother.",
+            "te": "ఈమె మా అమ్మ.",
+            "hi": "ये मेरी माँ हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "That is my sister.",
+            "te": "ఈమె మా అక్క.",
+            "hi": "ये मेरी बहन है।"
+          }
+        },
+        {
+          "text": {
+            "en": "That is my wife.",
+            "te": "ఈమె నా భార్య.",
+            "hi": "ये मेरी पत्नी हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "That is my daughter.",
+            "te": "ఈమె నా కూతురు.",
+            "hi": "ये मेरी बेटी है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "die Mutter = the mother.",
+        "te": "die Mutter = తల్లి.",
+        "hi": "die Mutter = माँ।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "family-l2",
+      "audio_de": "Ich bin ledig.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I am single.",
+            "te": "నాకు పెళ్లి కాలేదు.",
+            "hi": "मैं अविवाहित हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am married.",
+            "te": "నాకు పెళ్లయింది.",
+            "hi": "मैं शादीशुदा हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am tired.",
+            "te": "నేను అలసిపోయాను.",
+            "hi": "मैं थका हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am happy.",
+            "te": "నేను సంతోషంగా ఉన్నాను.",
+            "hi": "मैं ख़ुश हूँ।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "ledig = single.",
+        "te": "ledig = అవివాహితుడు.",
+        "hi": "ledig = अविवाहित।"
+      }
+    }
+  ],
+  "audio": []
+}

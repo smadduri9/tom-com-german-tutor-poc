@@ -1,0 +1,486 @@
+{
+  "id": "a1-review",
+  "slug": "a1-review",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "A1 Review",
+    "te": "A1 పునశ్చరణ",
+    "hi": "A1 पुनरावृत्ति"
+  },
+  "subtitle": {
+    "en": "Everything from A1 together",
+    "te": "A1 అంశాలన్నీ ఒకేచోట",
+    "hi": "A1 की सभी बातें एक साथ"
+  },
+  "intro": {
+    "en": "Review everything from A1 in one lesson: greetings, numbers, articles, verbs, negation and directions.",
+    "te": "A1 అంతా ఒకే పాఠంలో పునశ్చరణ: పలకరింపులు, సంఖ్యలు, ఆర్టికల్స్, క్రియలు, నిరాకరణ, దిశలు.",
+    "hi": "A1 की सब बातें एक पाठ में दोहराएँ: अभिवादन, संख्याएँ, आर्टिकल, क्रियाएँ, निषेध और दिशा।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "Guten Morgen! Wie heißen Sie?",
+      "meaning": {
+        "en": "Good morning! What is your name?",
+        "te": "శుభోదయం! మీ పేరు ఏమిటి?",
+        "hi": "सुप्रभात! आपका नाम क्या है?"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "Ich komme aus Indien.",
+      "meaning": {
+        "en": "I come from India.",
+        "te": "నేను భారతదేశం నుండి వచ్చాను.",
+        "hi": "मैं भारत से हूँ।"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "Ich habe zwei Brüder.",
+      "meaning": {
+        "en": "I have two brothers.",
+        "te": "నాకు ఇద్దరు సోదరులు.",
+        "hi": "मेरे दो भाई हैं।"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "der Tisch",
+      "meaning": {
+        "en": "the table",
+        "te": "బల్ల",
+        "hi": "मेज़"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "die Lampe",
+      "meaning": {
+        "en": "the lamp",
+        "te": "దీపం",
+        "hi": "लैंप"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "das Buch",
+      "meaning": {
+        "en": "the book",
+        "te": "పుస్తకం",
+        "hi": "किताब"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "Ich habe kein Auto.",
+      "meaning": {
+        "en": "I have no car.",
+        "te": "నా దగ్గర కారు లేదు.",
+        "hi": "मेरे पास कार नहीं है।"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Gehen Sie geradeaus.",
+      "meaning": {
+        "en": "Go straight ahead.",
+        "te": "నేరుగా వెళ్ళండి.",
+        "hi": "सीधे जाइए।"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Ich möchte einen Tee.",
+      "meaning": {
+        "en": "I would like a tea.",
+        "te": "నాకు ఒక టీ కావాలి.",
+        "hi": "मुझे एक चाय चाहिए।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Ich kann Deutsch sprechen.",
+      "meaning": {
+        "en": "I can speak German.",
+        "te": "నేను జర్మన్ మాట్లాడగలను.",
+        "hi": "मैं जर्मन बोल सकता हूँ।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Wo wohnen Sie?",
+      "meaning": {
+        "en": "Where do you live?",
+        "te": "మీరు ఎక్కడ ఉంటారు?",
+        "hi": "आप कहाँ रहते हैं?"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Wie viel kostet das?",
+      "meaning": {
+        "en": "How much does that cost?",
+        "te": "దీని ధర ఎంత?",
+        "hi": "इसकी कीमत कितनी है?"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Es regnet heute.",
+      "meaning": {
+        "en": "It is raining today.",
+        "te": "ఈ రోజు వర్షం పడుతోంది.",
+        "hi": "आज बारिश हो रही है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Das ist eine Lampe.",
+      "meaning": {
+        "en": "That is a lamp.",
+        "te": "అది ఒక దీపం.",
+        "hi": "वह एक लैंप है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "das Wiedersehen",
+      "meaning": {
+        "en": "the reunion",
+        "te": "మళ్ళీ కలవడం",
+        "hi": "फिर मिलना"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "heute",
+      "meaning": {
+        "en": "today",
+        "te": "ఈ రోజు",
+        "hi": "आज"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "bitte",
+      "meaning": {
+        "en": "please",
+        "te": "దయచేసి",
+        "hi": "कृपया"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "danke",
+      "meaning": {
+        "en": "thank you",
+        "te": "ధన్యవాదాలు",
+        "hi": "धन्यवाद"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A1 REVIEW",
+      "te": "A1 పునశ్చరణ",
+      "hi": "A1 पुनरावृत्ति"
+    },
+    "lines": []
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Review: the main patterns",
+      "te": "పునశ్చరణ: ముఖ్య నియమాలు",
+      "hi": "पुनरावृत्ति: मुख्य नियम"
+    },
+    "body": {
+      "en": "Verb endings: ich -e, du -st, er -t, wir -en. Articles: der, die, das. Accusative: den. Negation: nicht with adjectives, kein with nouns. Modal verbs send the main verb to the end.",
+      "te": "క్రియ ముగింపులు: ich -e, du -st, er -t, wir -en. ఆర్టికల్స్: der, die, das. కర్మ: den. నిరాకరణ: విశేషణాలకు nicht, నామవాచకాలకు kein. మోడల్ క్రియ తర్వాత ప్రధాన క్రియ చివర.",
+      "hi": "क्रिया के अंत: ich -e, du -st, er -t, wir -en। आर्टिकल: der, die, das। कर्म: den। निषेध: विशेषण के साथ nicht, संज्ञा के साथ kein। मोडल के बाद मुख्य क्रिया अंत में।"
+    }
+  },
+  "deep_dive": {
+    "en": "This lesson does not add new words. Use it to check which parts of A1 still feel unclear, then go back to that lesson and practise.",
+    "te": "ఈ పాఠంలో కొత్త పదాలు లేవు. A1లో ఏ భాగం ఇంకా కష్టంగా ఉందో చూసి, ఆ పాఠానికి తిరిగి వెళ్ళి అభ్యాసం చేయండి.",
+    "hi": "इस पाठ में नए शब्द नहीं हैं। देखें कि A1 का कौन-सा हिस्सा अभी कठिन लगता है, फिर उस पाठ पर लौटकर अभ्यास करें।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich bin Ravi heißen.",
+      "right": "Ich heiße Ravi.",
+      "why": {
+        "en": "Use heißen for names.",
+        "te": "పేరు కోసం heißen.",
+        "hi": "नाम के लिए heißen।"
+      }
+    },
+    {
+      "wrong": "Ich habe kein Zeit.",
+      "right": "Ich habe keine Zeit.",
+      "why": {
+        "en": "Zeit is die, so keine.",
+        "te": "Zeit అంటే die, కాబట్టి keine.",
+        "hi": "Zeit die है, इसलिए keine।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "You now know enough German to introduce yourself at a German workplace, at a shop and at a doctor's office.",
+    "te": "జర్మన్ కార్యాలయం, దుకాణం, డాక్టర్ దగ్గర మిమ్మల్ని పరిచయం చేసుకునేంత జర్మన్ మీకు ఇప్పుడు వచ్చింది.",
+    "hi": "अब आप जर्मन कार्यालय, दुकान और डॉक्टर के पास खुद का परिचय देने लायक जर्मन जानते हैं।"
+  },
+  "practice_tip": {
+    "en": "Introduce yourself in German out loud, with name, origin, age and one hobby.",
+    "te": "మీ పేరు, ఊరు, వయసు, ఒక అభిరుచితో జర్మన్‌లో గట్టిగా పరిచయం చేసుకోండి.",
+    "hi": "नाम, गाँव, उम्र और एक शौक़ के साथ जर्मन में ज़ोर से परिचय दें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Introduce yourself in one sentence.",
+        "te": "ఒక వాక్యంలో మిమ్మల్ని పరిచయం చేసుకోండి.",
+        "hi": "एक वाक्य में परिचय दें।"
+      },
+      "answer": {
+        "en": "Ich heiße … und ich komme aus …",
+        "te": "Ich heiße … und ich komme aus …",
+        "hi": "Ich heiße … und ich komme aus …"
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"I can speak German.\"",
+        "te": "\"నేను జర్మన్ మాట్లాడగలను\" అని చెప్పండి.",
+        "hi": "\"मैं जर्मन बोल सकता हूँ\" कहें।"
+      },
+      "answer": {
+        "en": "Ich kann Deutsch sprechen.",
+        "te": "Ich kann Deutsch sprechen.",
+        "hi": "Ich kann Deutsch sprechen."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich ___ Ravi.",
+        "te": "Ich ___ Ravi.",
+        "hi": "Ich ___ Ravi."
+      },
+      "options": [
+        {
+          "de": "heiße"
+        },
+        {
+          "de": "komme"
+        },
+        {
+          "de": "habe"
+        },
+        {
+          "de": "bin Ravi"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "heiße with ich.",
+        "te": "heiße with ich.",
+        "hi": "heiße with ich."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Ich habe ___ Zeit.\" (no time)",
+        "te": "\"Ich habe ___ Zeit.\" (no time)",
+        "hi": "\"Ich habe ___ Zeit.\" (no time)"
+      },
+      "options": [
+        {
+          "de": "keine"
+        },
+        {
+          "de": "kein"
+        },
+        {
+          "de": "nicht"
+        },
+        {
+          "de": "nichts"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Zeit is die → keine.",
+        "te": "Zeit is die → keine.",
+        "hi": "Zeit is die → keine."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Gehen Sie ___.",
+        "te": "Gehen Sie ___.",
+        "hi": "Gehen Sie ___."
+      },
+      "options": [
+        {
+          "de": "links"
+        },
+        {
+          "de": "links?"
+        },
+        {
+          "de": "Link"
+        },
+        {
+          "de": "linke"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "links = left.",
+        "te": "links = left.",
+        "hi": "links = left."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Wie viel kostet das?\" means…",
+        "te": "\"Wie viel kostet das?\" means…",
+        "hi": "\"Wie viel kostet das?\" means…"
+      },
+      "options": [
+        {
+          "de": "How much does it cost?"
+        },
+        {
+          "de": "Where is it?"
+        },
+        {
+          "de": "When is it?"
+        },
+        {
+          "de": "Who is it?"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Wie viel = how much.",
+        "te": "Wie viel = how much.",
+        "hi": "Wie viel = how much."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "a1-review-l1",
+      "audio_de": "Wie geht es Ihnen?",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "How are you?",
+            "te": "మీరు ఎలా ఉన్నారు?",
+            "hi": "आप कैसे हैं?"
+          }
+        },
+        {
+          "text": {
+            "en": "What is your name?",
+            "te": "మీ పేరు ఏమిటి?",
+            "hi": "आपका नाम क्या है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Where do you live?",
+            "te": "మీరు ఎక్కడ ఉంటారు?",
+            "hi": "आप कहाँ रहते हैं?"
+          }
+        },
+        {
+          "text": {
+            "en": "How old are you?",
+            "te": "మీ వయసు ఎంత?",
+            "hi": "आपकी उम्र क्या है?"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Wie geht es Ihnen? = How are you?",
+        "te": "Wie geht es Ihnen? = మీరు ఎలా ఉన్నారు?",
+        "hi": "Wie geht es Ihnen? = आप कैसे हैं?"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "a1-review-l2",
+      "audio_de": "Es regnet heute.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "It is raining today.",
+            "te": "ఈ రోజు వర్షం పడుతోంది.",
+            "hi": "आज बारिश हो रही है।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is cold today.",
+            "te": "ఈ రోజు చల్లగా ఉంది.",
+            "hi": "आज ठंड है।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is sunny today.",
+            "te": "ఈ రోజు ఎండగా ఉంది.",
+            "hi": "आज धूप है।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is late today.",
+            "te": "ఈ రోజు ఆలస్యం.",
+            "hi": "आज देर है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "regnet = rains.",
+        "te": "regnet = వర్షం.",
+        "hi": "regnet = बारिश।"
+      }
+    }
+  ],
+  "audio": []
+}

@@ -1,0 +1,547 @@
+{
+  "id": "alphabet",
+  "slug": "alphabet",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "The Alphabet",
+    "te": "అక్షరమాల",
+    "hi": "वर्णमाला"
+  },
+  "subtitle": {
+    "en": "Letters, sounds and spelling",
+    "te": "అక్షరాలు, ధ్వనులు మరియు స్పెల్లింగ్",
+    "hi": "अक्षर, ध्वनि और वर्तनी"
+  },
+  "intro": {
+    "en": "Learn the 26 letters plus ä, ö, ü and ß, and spell your name the German way.",
+    "te": "26 అక్షరాలు, ä, ö, ü మరియు ß నేర్చుకుని, మీ పేరును జర్మన్ పద్ధతిలో స్పెల్ చేయండి.",
+    "hi": "26 अक्षर और ä, ö, ü तथा ß सीखें, और अपना नाम जर्मन तरीके से स्पेल करें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "A, B, C",
+      "meaning": {
+        "en": "ah, bay, tsay",
+        "te": "ఆ, బే, ట్సే",
+        "hi": "आ, बे, त्से"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "E, I, O, U",
+      "meaning": {
+        "en": "ay, ee, oh, oo",
+        "te": "ఏ, ఈ, ఓ, ఊ",
+        "hi": "ए, ई, ओ, ऊ"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "J",
+      "meaning": {
+        "en": "yot (sounds like English \"y\")",
+        "te": "యొట్ (ఇంగ్లీష్ \"y\" లాగా)",
+        "hi": "योट (अंग्रेज़ी \"y\" जैसा)"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "V",
+      "meaning": {
+        "en": "fow (sounds like \"f\")",
+        "te": "ఫౌ (\"f\" లాగా)",
+        "hi": "फ़ाउ (\"f\" जैसा)"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "W",
+      "meaning": {
+        "en": "vay (sounds like \"v\")",
+        "te": "వే (\"v\" లాగా)",
+        "hi": "वे (\"v\" जैसा)"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "Z",
+      "meaning": {
+        "en": "tset (sounds like \"ts\")",
+        "te": "ట్సెట్ (\"ts\" లాగా)",
+        "hi": "त्सेट (\"ts\" जैसा)"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "Ä, Ö, Ü",
+      "meaning": {
+        "en": "the three umlaut vowels",
+        "te": "మూడు ఉమ్లాట్ అచ్చులు",
+        "hi": "तीन उमलाउट स्वर"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "ß",
+      "meaning": {
+        "en": "eszett: a sharp \"ss\"",
+        "te": "ఎస్‌ట్సెట్: గట్టి \"ss\"",
+        "hi": "एस्त्सेट: तेज़ \"ss\""
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Wie schreibt man das?",
+      "meaning": {
+        "en": "How do you spell that?",
+        "te": "దాన్ని ఎలా రాస్తారు?",
+        "hi": "इसे कैसे लिखते हैं?"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Buchstabieren Sie, bitte.",
+      "meaning": {
+        "en": "Please spell it.",
+        "te": "దయచేసి స్పెల్ చేయండి.",
+        "hi": "कृपया स्पेल कीजिए।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "R-A-V-I: Ravi.",
+      "meaning": {
+        "en": "R-A-V-I spells Ravi.",
+        "te": "R-A-V-I అంటే రవి.",
+        "hi": "R-A-V-I से रवि।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Mein Name ist Priya: P-R-I-Y-A.",
+      "meaning": {
+        "en": "My name is Priya: P-R-I-Y-A.",
+        "te": "నా పేరు ప్రియ: P-R-I-Y-A.",
+        "hi": "मेरा नाम प्रिया है: P-R-I-Y-A।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Wie schreibt man Müller?",
+      "meaning": {
+        "en": "How do you spell Müller?",
+        "te": "Müller ని ఎలా రాస్తారు?",
+        "hi": "Müller कैसे लिखते हैं?"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Mit Ü, bitte.",
+      "meaning": {
+        "en": "With Ü, please.",
+        "te": "Ü తో, దయచేసి.",
+        "hi": "Ü के साथ, कृपया।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Buchstabe",
+      "meaning": {
+        "en": "the letter",
+        "te": "అక్షరం",
+        "hi": "अक्षर"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "das Alphabet",
+      "meaning": {
+        "en": "the alphabet",
+        "te": "అక్షరమాల",
+        "hi": "वर्णमाला"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "der Vorname",
+      "meaning": {
+        "en": "the first name",
+        "te": "మొదటి పేరు",
+        "hi": "पहला नाम"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "der Nachname",
+      "meaning": {
+        "en": "the family name",
+        "te": "ఇంటి పేరు",
+        "hi": "उपनाम"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT THE CITY OFFICE",
+      "te": "నగర కార్యాలయంలో",
+      "hi": "नगर कार्यालय में"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Herr Weber",
+        "de": "Wie ist Ihr Nachname?",
+        "meaning": {
+          "en": "What is your family name?",
+          "te": "మీ ఇంటి పేరు ఏమిటి?",
+          "hi": "आपका उपनाम क्या है?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Ravi",
+        "de": "Reddy.",
+        "meaning": {
+          "en": "Reddy.",
+          "te": "రెడ్డి.",
+          "hi": "रेड्डी।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Herr Weber",
+        "de": "Wie schreibt man das?",
+        "meaning": {
+          "en": "How do you spell that?",
+          "te": "దాన్ని ఎలా రాస్తారు?",
+          "hi": "इसे कैसे लिखते हैं?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Ravi",
+        "de": "R-E-D-D-Y.",
+        "meaning": {
+          "en": "R-E-D-D-Y.",
+          "te": "R-E-D-D-Y.",
+          "hi": "R-E-D-D-Y।"
+        }
+      },
+      {
+        "id": "d05",
+        "speaker": "Herr Weber",
+        "de": "Danke. Und Ihr Vorname?",
+        "meaning": {
+          "en": "Thank you. And your first name?",
+          "te": "ధన్యవాదాలు. మరి మీ మొదటి పేరు?",
+          "hi": "धन्यवाद। और आपका पहला नाम?"
+        }
+      },
+      {
+        "id": "d06",
+        "speaker": "Ravi",
+        "de": "Ravi: R-A-V-I.",
+        "meaning": {
+          "en": "Ravi: R-A-V-I.",
+          "te": "రవి: R-A-V-I.",
+          "hi": "रवि: R-A-V-I।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: letters that sound different",
+      "te": "వ్యాకరణం: వేరుగా పలికే అక్షరాలు",
+      "hi": "व्याकरण: अलग उच्चारण वाले अक्षर"
+    },
+    "body": {
+      "en": "Most letters sound close to English, but watch these: J sounds like \"y\", V like \"f\", W like \"v\", Z like \"ts\". Ä sounds like \"e\" in \"bed\", Ö like \"e\" with round lips, Ü like \"ee\" with round lips. ß is a sharp \"ss\".",
+      "te": "చాలా అక్షరాలు ఇంగ్లీష్ లాగానే ఉంటాయి, కానీ వీటిని గమనించండి: J \"య\" లాగా, V \"ఫ\" లాగా, W \"వ\" లాగా, Z \"ట్స\" లాగా. Ä \"ఎ\" లాగా, Ö పెదవులు గుండ్రంగా చేసి \"ఎ\", Ü పెదవులు గుండ్రంగా చేసి \"ఈ\". ß గట్టి \"స్స\".",
+      "hi": "ज़्यादातर अक्षर अंग्रेज़ी जैसे हैं, पर इन पर ध्यान दें: J \"य\" जैसा, V \"फ़\" जैसा, W \"व\" जैसा, Z \"त्स\" जैसा। Ä \"ए\" जैसा, Ö होंठ गोल करके \"ए\", Ü होंठ गोल करके \"ई\"। ß तेज़ \"स्स\" है।"
+    }
+  },
+  "deep_dive": {
+    "en": "You will spell your name often in Germany: at the city office, the bank, the doctor and on the phone. Practise slowly, letter by letter. Ä, Ö and Ü can also be written ae, oe and ue when a keyboard has no umlauts, for example Mueller for Müller.",
+    "te": "జర్మనీలో మీరు మీ పేరును తరచుగా స్పెల్ చేస్తారు: నగర కార్యాలయం, బ్యాంక్, డాక్టర్ దగ్గర, ఫోన్‌లో. నెమ్మదిగా, అక్షరం అక్షరం అభ్యాసం చేయండి. కీబోర్డ్‌లో ఉమ్లాట్ లేకపోతే Ä, Ö, Ü ని ae, oe, ue గా రాయవచ్చు, ఉదాహరణకు Müller కి Mueller.",
+    "hi": "जर्मनी में आपको अक्सर अपना नाम स्पेल करना होगा: नगर कार्यालय, बैंक, डॉक्टर के पास और फ़ोन पर। धीरे-धीरे, अक्षर-अक्षर अभ्यास करें। कीबोर्ड पर उमलाउट न हो तो Ä, Ö, Ü को ae, oe, ue लिख सकते हैं, जैसे Müller के लिए Mueller।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "W = \"w\" (as in water)",
+      "right": "W = \"v\" (as in van)",
+      "why": {
+        "en": "German W is said like English V.",
+        "te": "జర్మన్ W ని ఇంగ్లీష్ V లాగా పలుకుతారు.",
+        "hi": "जर्मन W को अंग्रेज़ी V जैसा बोलते हैं।"
+      }
+    },
+    {
+      "wrong": "J = \"j\" (as in jam)",
+      "right": "J = \"y\" (as in yes)",
+      "why": {
+        "en": "German J is said like English Y.",
+        "te": "జర్మన్ J ని ఇంగ్లీష్ Y లాగా పలుకుతారు.",
+        "hi": "जर्मन J को अंग्रेज़ी Y जैसा बोलते हैं।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Officials often ask you to spell names. Saying the letters clearly and calmly makes forms and appointments much easier.",
+    "te": "అధికారులు తరచుగా పేర్లను స్పెల్ చేయమని అడుగుతారు. అక్షరాలను స్పష్టంగా, ప్రశాంతంగా చెబితే ఫారాలు, అపాయింట్‌మెంట్లు సులభం అవుతాయి.",
+    "hi": "अधिकारी अक्सर नाम स्पेल करने को कहते हैं। अक्षर साफ़ और शांति से बोलने से फ़ॉर्म और अपॉइंटमेंट आसान हो जाते हैं।"
+  },
+  "practice_tip": {
+    "en": "Spell your full name, your city and your street out loud three times today.",
+    "te": "ఈ రోజు మీ పూర్తి పేరు, మీ నగరం, మీ వీధిని మూడుసార్లు గట్టిగా స్పెల్ చేయండి.",
+    "hi": "आज अपना पूरा नाम, शहर और गली का नाम तीन बार ज़ोर से स्पेल करें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "How do you ask \"How do you spell that?\"",
+        "te": "\"దాన్ని ఎలా రాస్తారు?\" అని ఎలా అడుగుతారు?",
+        "hi": "\"इसे कैसे लिखते हैं?\" कैसे पूछेंगे?"
+      },
+      "answer": {
+        "en": "Wie schreibt man das?",
+        "te": "Wie schreibt man das?",
+        "hi": "Wie schreibt man das?"
+      }
+    },
+    {
+      "question": {
+        "en": "Which English letter does German W sound like?",
+        "te": "జర్మన్ W ఏ ఇంగ్లీష్ అక్షరంలా వినిపిస్తుంది?",
+        "hi": "जर्मन W किस अंग्रेज़ी अक्षर जैसा लगता है?"
+      },
+      "answer": {
+        "en": "V",
+        "te": "V",
+        "hi": "V"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "German V sounds like…",
+        "te": "జర్మన్ V ఇలా వినిపిస్తుంది…",
+        "hi": "जर्मन V ऐसा लगता है…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "f",
+            "te": "f",
+            "hi": "f"
+          }
+        },
+        {
+          "text": {
+            "en": "v",
+            "te": "v",
+            "hi": "v"
+          }
+        },
+        {
+          "text": {
+            "en": "w",
+            "te": "w",
+            "hi": "w"
+          }
+        },
+        {
+          "text": {
+            "en": "b",
+            "te": "b",
+            "hi": "b"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "V is said like \"f\": Vater = \"fah-ter\".",
+        "te": "V ని \"f\" లాగా పలుకుతారు: Vater = \"ఫాటర్\".",
+        "hi": "V को \"f\" जैसा बोलते हैं: Vater = \"फ़ाटर\"।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Which letter is a sharp \"ss\"?",
+        "te": "ఏ అక్షరం గట్టి \"ss\"?",
+        "hi": "कौन-सा अक्षर तेज़ \"ss\" है?"
+      },
+      "options": [
+        {
+          "de": "ß"
+        },
+        {
+          "de": "Ü"
+        },
+        {
+          "de": "Z"
+        },
+        {
+          "de": "S"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "ß (eszett) is a sharp \"ss\".",
+        "te": "ß (ఎస్‌ట్సెట్) గట్టి \"ss\".",
+        "hi": "ß (एस्त्सेट) तेज़ \"ss\" है।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "How do you write Müller without ü?",
+        "te": "ü లేకుండా Müller ని ఎలా రాస్తారు?",
+        "hi": "ü के बिना Müller कैसे लिखेंगे?"
+      },
+      "options": [
+        {
+          "de": "Mueller"
+        },
+        {
+          "de": "Muller"
+        },
+        {
+          "de": "Miller"
+        },
+        {
+          "de": "Moeller"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "ü can be written ue.",
+        "te": "ü ని ue గా రాయవచ్చు.",
+        "hi": "ü को ue लिख सकते हैं।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Someone asks \"Wie schreibt man das?\" What do you do?",
+        "te": "\"Wie schreibt man das?\" అని అడిగితే ఏమి చేస్తారు?",
+        "hi": "\"Wie schreibt man das?\" पूछा जाए तो क्या करेंगे?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Spell the word",
+            "te": "పదాన్ని స్పెల్ చేస్తాను",
+            "hi": "शब्द स्पेल करूँगा"
+          }
+        },
+        {
+          "text": {
+            "en": "Say goodbye",
+            "te": "వీడ్కోలు చెబుతాను",
+            "hi": "अलविदा कहूँगा"
+          }
+        },
+        {
+          "text": {
+            "en": "Count to ten",
+            "te": "పది వరకు లెక్కిస్తాను",
+            "hi": "दस तक गिनूँगा"
+          }
+        },
+        {
+          "text": {
+            "en": "Say my age",
+            "te": "నా వయసు చెబుతాను",
+            "hi": "अपनी उम्र बताऊँगा"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "It means \"How do you spell that?\"",
+        "te": "దాని అర్థం \"దాన్ని ఎలా రాస్తారు?\"",
+        "hi": "इसका अर्थ है \"इसे कैसे लिखते हैं?\""
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "v09",
+      "audio_de": "Wie schreibt man das?",
+      "prompt": {
+        "en": "Listen. Which phrase did you hear?",
+        "te": "వినండి. మీరు ఏ వాక్యం విన్నారు?",
+        "hi": "सुनें। आपने कौन-सा वाक्य सुना?"
+      },
+      "options": [
+        {
+          "de": "Wie schreibt man das?"
+        },
+        {
+          "de": "Wie heißen Sie?"
+        },
+        {
+          "de": "Woher kommen Sie?"
+        },
+        {
+          "de": "Buchstabieren Sie, bitte."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "\"Wie schreibt man das?\" asks how to spell something.",
+        "te": "\"Wie schreibt man das?\" ఎలా రాస్తారో అడుగుతుంది.",
+        "hi": "\"Wie schreibt man das?\" स्पेलिंग पूछता है।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v10",
+      "audio_de": "Buchstabieren Sie, bitte.",
+      "prompt": {
+        "en": "Listen. Which phrase did you hear?",
+        "te": "వినండి. మీరు ఏ వాక్యం విన్నారు?",
+        "hi": "सुनें। आपने कौन-सा वाक्य सुना?"
+      },
+      "options": [
+        {
+          "de": "Danke schön."
+        },
+        {
+          "de": "Buchstabieren Sie, bitte."
+        },
+        {
+          "de": "Guten Tag."
+        },
+        {
+          "de": "Wie bitte?"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "en": "\"Buchstabieren\" means to spell.",
+        "te": "\"Buchstabieren\" అంటే స్పెల్ చేయడం.",
+        "hi": "\"Buchstabieren\" का अर्थ है स्पेल करना।"
+      }
+    }
+  ],
+  "audio": []
+}

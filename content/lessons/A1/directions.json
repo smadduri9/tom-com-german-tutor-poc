@@ -1,0 +1,527 @@
+{
+  "id": "directions",
+  "slug": "directions",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Directions",
+    "te": "దారి అడగడం",
+    "hi": "रास्ता पूछना"
+  },
+  "subtitle": {
+    "en": "Left, right, straight ahead",
+    "te": "ఎడమ, కుడి, నేరుగా",
+    "hi": "बाएँ, दाएँ, सीधे"
+  },
+  "intro": {
+    "en": "Ask the way and give simple directions: left, right, straight ahead and next to.",
+    "te": "దారి అడగండి, సరళమైన దిశలు చెప్పండి: ఎడమ, కుడి, నేరుగా, పక్కన.",
+    "hi": "रास्ता पूछें और सरल दिशा बताएँ: बाएँ, दाएँ, सीधे और बगल में।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "links",
+      "meaning": {
+        "en": "left",
+        "te": "ఎడమ",
+        "hi": "बाएँ"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "rechts",
+      "meaning": {
+        "en": "right",
+        "te": "కుడి",
+        "hi": "दाएँ"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "geradeaus",
+      "meaning": {
+        "en": "straight ahead",
+        "te": "నేరుగా",
+        "hi": "सीधे"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "neben",
+      "meaning": {
+        "en": "next to",
+        "te": "పక్కన",
+        "hi": "बगल में"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "gegenüber",
+      "meaning": {
+        "en": "opposite",
+        "te": "ఎదురుగా",
+        "hi": "सामने"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "die Straße",
+      "meaning": {
+        "en": "the street",
+        "te": "వీధి",
+        "hi": "सड़क"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "die Ampel",
+      "meaning": {
+        "en": "the traffic light",
+        "te": "ట్రాఫిక్ లైట్",
+        "hi": "ट्रैफ़िक लाइट"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Entschuldigung, wo ist …?",
+      "meaning": {
+        "en": "Excuse me, where is …?",
+        "te": "క్షమించండి, … ఎక్కడ?",
+        "hi": "माफ़ कीजिए, … कहाँ है?"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Gehen Sie geradeaus.",
+      "meaning": {
+        "en": "Go straight ahead.",
+        "te": "నేరుగా వెళ్ళండి.",
+        "hi": "सीधे जाइए।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "die Kreuzung",
+      "meaning": {
+        "en": "the crossing",
+        "te": "కూడలి",
+        "hi": "चौराहा"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Gehen Sie links.",
+      "meaning": {
+        "en": "Go left.",
+        "te": "ఎడమకు వెళ్ళండి.",
+        "hi": "बाएँ जाइए।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Die Bank ist rechts.",
+      "meaning": {
+        "en": "The bank is on the right.",
+        "te": "బ్యాంక్ కుడి వైపు ఉంది.",
+        "hi": "बैंक दाईं ओर है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Der Bahnhof ist neben dem Park.",
+      "meaning": {
+        "en": "The station is next to the park.",
+        "te": "రైల్వే స్టేషన్ పార్క్ పక్కన ఉంది.",
+        "hi": "स्टेशन पार्क के बगल में है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Die Apotheke ist gegenüber.",
+      "meaning": {
+        "en": "The pharmacy is opposite.",
+        "te": "ఫార్మసీ ఎదురుగా ఉంది.",
+        "hi": "फ़ार्मेसी सामने है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Apotheke",
+      "meaning": {
+        "en": "the pharmacy",
+        "te": "ఫార్మసీ",
+        "hi": "फ़ार्मेसी"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Park",
+      "meaning": {
+        "en": "the park",
+        "te": "పార్క్",
+        "hi": "पार्क"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "zu Fuß",
+      "meaning": {
+        "en": "on foot",
+        "te": "నడిచి",
+        "hi": "पैदल"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Ecke",
+      "meaning": {
+        "en": "the corner",
+        "te": "మూల",
+        "hi": "कोना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "ASKING THE WAY IN A CITY",
+      "te": "నగరంలో దారి అడగడం",
+      "hi": "शहर में रास्ता पूछना"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Anil",
+        "de": "Entschuldigung, wo ist der Bahnhof?",
+        "meaning": {
+          "en": "Excuse me, where is the station?",
+          "te": "క్షమించండి, స్టేషన్ ఎక్కడ?",
+          "hi": "माफ़ कीजिए, स्टेशन कहाँ है?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Passant",
+        "de": "Gehen Sie geradeaus, dann links.",
+        "meaning": {
+          "en": "Go straight, then left.",
+          "te": "నేరుగా వెళ్ళి, తర్వాత ఎడమకు.",
+          "hi": "सीधे जाइए, फिर बाएँ।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Anil",
+        "de": "Und dann?",
+        "meaning": {
+          "en": "And then?",
+          "te": "మరి తర్వాత?",
+          "hi": "और फिर?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Passant",
+        "de": "Die Ampel, dann rechts. Der Bahnhof ist gegenüber der Bank.",
+        "meaning": {
+          "en": "The traffic light, then right. The station is opposite the bank.",
+          "te": "ట్రాఫిక్ లైట్, తర్వాత కుడికి. స్టేషన్ బ్యాంక్ ఎదురుగా ఉంది.",
+          "hi": "ट्रैफ़िक लाइट, फिर दाएँ। स्टेशन बैंक के सामने है।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: imperative for directions",
+      "te": "వ్యాకరణం: దారి చెప్పడానికి ఆజ్ఞార్థం",
+      "hi": "व्याकरण: दिशा के लिए आज्ञार्थ"
+    },
+    "body": {
+      "en": "To give directions politely, use \"Gehen Sie …\" (go) with Sie: Gehen Sie links. \"Nehmen Sie …\" means take: Nehmen Sie die zweite Straße.",
+      "te": "గౌరవంగా దారి చెప్పడానికి \"Gehen Sie …\": Gehen Sie links. \"Nehmen Sie …\" అంటే తీసుకోండి.",
+      "hi": "विनम्रता से दिशा बताने के लिए \"Gehen Sie …\" (जाइए): Gehen Sie links। \"Nehmen Sie …\" का मतलब है लीजिए।"
+    }
+  },
+  "deep_dive": {
+    "en": "German streets are often named after people or places. Look for the street sign, and ask \"Wie komme ich zu …?\" (How do I get to …?) to get directions.",
+    "te": "జర్మన్ వీధులకు తరచుగా వ్యక్తులు లేదా స్థలాల పేర్లు. \"Wie komme ich zu …?\" (… కి ఎలా వెళ్ళాలి?) అని అడగండి.",
+    "hi": "जर्मन सड़कें अक्सर लोगों या जगहों के नाम पर होती हैं। \"Wie komme ich zu …?\" (… तक कैसे पहुँचूँ?) पूछें।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Gehen links.",
+      "right": "Gehen Sie links.",
+      "why": {
+        "en": "Polite directions need Sie.",
+        "te": "మర్యాదగా దారి చెప్పడానికి Sie.",
+        "hi": "विनम्र दिशा के लिए Sie।"
+      }
+    },
+    {
+      "wrong": "Die Bahnhof ist links.",
+      "right": "Der Bahnhof ist links.",
+      "why": {
+        "en": "Bahnhof is der.",
+        "te": "Bahnhof అంటే der.",
+        "hi": "Bahnhof der है।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "People in German cities usually help when asked for directions, even if they are in a hurry. \"Danke schön!\" is a good response.",
+    "te": "జర్మన్ నగరాల్లో అడిగితే సాధారణంగా సహాయం చేస్తారు. \"Danke schön!\" అనడం మంచిది.",
+    "hi": "जर्मन शहरों में रास्ता पूछने पर लोग आमतौर पर मदद करते हैं। \"Danke schön!\" कहना अच्छा है।"
+  },
+  "practice_tip": {
+    "en": "Ask three questions about your own neighbourhood in German: \"Wo ist …?\"",
+    "te": "మీ పరిసరాల గురించి జర్మన్‌లో మూడు ప్రశ్నలు అడగండి: \"Wo ist …?\"",
+    "hi": "अपने इलाके के बारे में जर्मन में तीन प्रश्न पूछें: \"Wo ist …?\""
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Ask \"Where is the station?\" (formal)",
+        "te": "\"స్టేషన్ ఎక్కడ?\" (గౌరవంగా) అని అడగండి.",
+        "hi": "\"स्टेशन कहाँ है?\" (औपचारिक) पूछें।"
+      },
+      "answer": {
+        "en": "Wo ist der Bahnhof?",
+        "te": "Wo ist der Bahnhof?",
+        "hi": "Wo ist der Bahnhof?"
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"Go straight ahead.\"",
+        "te": "\"నేరుగా వెళ్ళండి\" అని చెప్పండి.",
+        "hi": "\"सीधे जाइए\" कहें।"
+      },
+      "answer": {
+        "en": "Gehen Sie geradeaus.",
+        "te": "Gehen Sie geradeaus.",
+        "hi": "Gehen Sie geradeaus."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Gehen Sie ___.",
+        "te": "Gehen Sie ___.",
+        "hi": "Gehen Sie ___."
+      },
+      "options": [
+        {
+          "de": "links"
+        },
+        {
+          "de": "links?"
+        },
+        {
+          "de": "linke"
+        },
+        {
+          "de": "Link"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "links = left.",
+        "te": "links = left.",
+        "hi": "links = left."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"neben\" means…",
+        "te": "\"neben\" means…",
+        "hi": "\"neben\" means…"
+      },
+      "options": [
+        {
+          "de": "next to"
+        },
+        {
+          "de": "opposite"
+        },
+        {
+          "de": "far from"
+        },
+        {
+          "de": "behind"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "neben = next to.",
+        "te": "neben = next to.",
+        "hi": "neben = next to."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"gegenüber\" means…",
+        "te": "\"gegenüber\" means…",
+        "hi": "\"gegenüber\" means…"
+      },
+      "options": [
+        {
+          "de": "opposite"
+        },
+        {
+          "de": "next to"
+        },
+        {
+          "de": "inside"
+        },
+        {
+          "de": "above"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "gegenüber = opposite.",
+        "te": "gegenüber = opposite.",
+        "hi": "gegenüber = opposite."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Which is \"straight ahead\"?",
+        "te": "Which is \"straight ahead\"?",
+        "hi": "Which is \"straight ahead\"?"
+      },
+      "options": [
+        {
+          "de": "geradeaus"
+        },
+        {
+          "de": "rechts"
+        },
+        {
+          "de": "links"
+        },
+        {
+          "de": "gegenüber"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "geradeaus = straight ahead.",
+        "te": "geradeaus = straight ahead.",
+        "hi": "geradeaus = straight ahead."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "directions-l1",
+      "audio_de": "Gehen Sie rechts.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Go right.",
+            "te": "కుడికి వెళ్ళండి.",
+            "hi": "दाएँ जाइए।"
+          }
+        },
+        {
+          "text": {
+            "en": "Go left.",
+            "te": "ఎడమకు వెళ్ళండి.",
+            "hi": "बाएँ जाइए।"
+          }
+        },
+        {
+          "text": {
+            "en": "Stop here.",
+            "te": "ఇక్కడ ఆగండి.",
+            "hi": "यहाँ रुकिए।"
+          }
+        },
+        {
+          "text": {
+            "en": "Turn back.",
+            "te": "వెనక్కి తిరగండి.",
+            "hi": "वापस मुड़िए।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "rechts = right.",
+        "te": "rechts = కుడి.",
+        "hi": "rechts = दाएँ।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "directions-l2",
+      "audio_de": "Die Apotheke ist neben der Bank.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The pharmacy is next to the bank.",
+            "te": "ఫార్మసీ బ్యాంక్ పక్కన ఉంది.",
+            "hi": "फ़ार्मेसी बैंक के बगल में है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The bank is next to the pharmacy.",
+            "te": "బ్యాంక్ ఫార్మసీ పక్కన ఉంది.",
+            "hi": "बैंक फ़ार्मेसी के बगल में है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The pharmacy is far away.",
+            "te": "ఫార్మసీ దూరంగా ఉంది.",
+            "hi": "फ़ार्मेसी दूर है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The bank is closed.",
+            "te": "బ్యాంక్ మూసి ఉంది.",
+            "hi": "बैंक बंद है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "neben = next to.",
+        "te": "neben = పక్కన.",
+        "hi": "neben = बगल में।"
+      }
+    }
+  ],
+  "audio": []
+}

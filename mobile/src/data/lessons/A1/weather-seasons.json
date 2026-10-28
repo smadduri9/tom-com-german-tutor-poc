@@ -1,0 +1,527 @@
+{
+  "id": "weather-seasons",
+  "slug": "weather-seasons",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Weather & Seasons",
+    "te": "వాతావరణం & ఋతువులు",
+    "hi": "मौसम और ऋतुएँ"
+  },
+  "subtitle": {
+    "en": "Describing the weather",
+    "te": "వాతావరణాన్ని వివరించడం",
+    "hi": "मौसम का वर्णन"
+  },
+  "intro": {
+    "en": "Talk about the weather and the four seasons, and what to wear for them.",
+    "te": "వాతావరణం, నాలుగు ఋతువులు, వాటికి ఏమి వేసుకోవాలో మాట్లాడండి.",
+    "hi": "मौसम, चार ऋतुएँ और उनके लिए क्या पहनें, इस पर बात करें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "das Wetter",
+      "meaning": {
+        "en": "the weather",
+        "te": "వాతావరణం",
+        "hi": "मौसम"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "Es regnet.",
+      "meaning": {
+        "en": "It is raining.",
+        "te": "వర్షం పడుతోంది.",
+        "hi": "बारिश हो रही है।"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "Es schneit.",
+      "meaning": {
+        "en": "It is snowing.",
+        "te": "మంచు కురుస్తోంది.",
+        "hi": "बर्फ़ गिर रही है।"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "Die Sonne scheint.",
+      "meaning": {
+        "en": "The sun is shining.",
+        "te": "ఎండ కాస్తోంది.",
+        "hi": "धूप निकली है।"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "kalt / warm",
+      "meaning": {
+        "en": "cold / warm",
+        "te": "చల్లగా / వెచ్చగా",
+        "hi": "ठंडा / गर्म"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "der Frühling",
+      "meaning": {
+        "en": "spring",
+        "te": "వసంతం",
+        "hi": "वसंत"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "der Sommer",
+      "meaning": {
+        "en": "summer",
+        "te": "వేసవి",
+        "hi": "गर्मी"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "der Herbst",
+      "meaning": {
+        "en": "autumn",
+        "te": "శరదృతువు",
+        "hi": "शरद"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "der Winter",
+      "meaning": {
+        "en": "winter",
+        "te": "శీతాకాలం",
+        "hi": "सर्दी"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "der Regenschirm",
+      "meaning": {
+        "en": "the umbrella",
+        "te": "గొడుగు",
+        "hi": "छाता"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Im Winter ist es kalt.",
+      "meaning": {
+        "en": "In winter it is cold.",
+        "te": "శీతాకాలంలో చల్లగా ఉంటుంది.",
+        "hi": "सर्दी में ठंड होती है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Im Sommer scheint die Sonne.",
+      "meaning": {
+        "en": "In summer the sun shines.",
+        "te": "వేసవిలో ఎండ కాస్తుంది.",
+        "hi": "गर्मी में धूप निकलती है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Nimm bitte einen Regenschirm mit.",
+      "meaning": {
+        "en": "Please take an umbrella with you.",
+        "te": "దయచేసి గొడుగు తీసుకెళ్లండి.",
+        "hi": "कृपया छाता साथ ले जाइए।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Wie ist das Wetter heute?",
+      "meaning": {
+        "en": "How is the weather today?",
+        "te": "ఈ రోజు వాతావరణం ఎలా ఉంది?",
+        "hi": "आज मौसम कैसा है?"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Wolke",
+      "meaning": {
+        "en": "the cloud",
+        "te": "మేఘం",
+        "hi": "बादल"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Wind",
+      "meaning": {
+        "en": "the wind",
+        "te": "గాలి",
+        "hi": "हवा"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "heiß",
+      "meaning": {
+        "en": "hot",
+        "te": "వేడిగా",
+        "hi": "गरम"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Jahreszeit",
+      "meaning": {
+        "en": "the season",
+        "te": "ఋతువు",
+        "hi": "मौसम"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT THE BUS STOP IN THE RAIN",
+      "te": "వర్షంలో బస్ స్టాప్ వద్ద",
+      "hi": "बारिश में बस स्टॉप पर"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Frau Lang",
+        "de": "Wie kalt es heute ist!",
+        "meaning": {
+          "en": "How cold it is today!",
+          "te": "ఈ రోజు ఎంత చల్లగా ఉందో!",
+          "hi": "आज कितनी ठंड है!"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Priya",
+        "de": "Ja, und es regnet schon wieder.",
+        "meaning": {
+          "en": "Yes, and it is raining again.",
+          "te": "అవును, మళ్ళీ వర్షం పడుతోంది.",
+          "hi": "हाँ, और फिर से बारिश हो रही है।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Frau Lang",
+        "de": "Haben Sie einen Regenschirm?",
+        "meaning": {
+          "en": "Do you have an umbrella?",
+          "te": "మీ దగ్గర గొడుగు ఉందా?",
+          "hi": "क्या आपके पास छाता है?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Priya",
+        "de": "Ja, zum Glück! Der Frühling ist aber schöner.",
+        "meaning": {
+          "en": "Yes, luckily! But spring is nicer.",
+          "te": "అవును, అదృష్టవశాత్తూ! కానీ వసంతం ఇంకా బాగుంటుంది.",
+          "hi": "हाँ, किस्मत से! पर वसंत ज़्यादा अच्छा है।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: im + season",
+      "te": "వ్యాకరణం: im + ఋతువు",
+      "hi": "व्याकरण: im + ऋतु"
+    },
+    "body": {
+      "en": "Use im with seasons: im Winter, im Sommer, im Frühling, im Herbst. For weather, use \"Es ist …\" with an adjective (Es ist kalt) or \"Es regnet / schneit\".",
+      "te": "ఋతువులకు im: im Winter, im Sommer. వాతావరణానికి \"Es ist …\" + విశేషణం (Es ist kalt) లేదా \"Es regnet / schneit\".",
+      "hi": "ऋतुओं के लिए im: im Winter, im Sommer। मौसम के लिए \"Es ist …\" + विशेषण (Es ist kalt) या \"Es regnet / schneit\"।"
+    }
+  },
+  "deep_dive": {
+    "en": "German weather talk is often polite small talk. \"Schönes Wetter, nicht wahr?\" (Nice weather, isn't it?) is a common opening.",
+    "te": "జర్మన్ వాతావరణ మాటలు మర్యాదపూర్వక చిన్న సంభాషణ. \"Schönes Wetter, nicht wahr?\" సాధారణ మొదలు మాట.",
+    "hi": "जर्मन मौसम की बातें विनम्र छोटी बातचीत है। \"Schönes Wetter, nicht wahr?\" आम शुरुआत है।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Es ist regnet.",
+      "right": "Es regnet.",
+      "why": {
+        "en": "Use \"Es regnet\", no \"ist\".",
+        "te": "\"Es regnet\" వాడండి, \"ist\" వద్దు.",
+        "hi": "\"Es regnet\" लिखें, \"ist\" नहीं।"
+      }
+    },
+    {
+      "wrong": "im Frühling ist kalt",
+      "right": "Es ist im Frühling kalt.",
+      "why": {
+        "en": "Word order: time and subject come before the adjective.",
+        "te": "క్రమం: సమయం, విషయం విశేషణం ముందు.",
+        "hi": "क्रम: समय और विषय विशेषण से पहले।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Germans talk about the weather constantly. Saying \"Schönen Tag noch!\" (Have a nice day) is a common parting phrase.",
+    "te": "జర్మన్లు వాతావరణం గురించి తరచుగా మాట్లాడతారు. \"Schönen Tag noch!\" సాధారణ వీడ్కోలు.",
+    "hi": "जर्मन लोग मौसम की बात बार-बार करते हैं। \"Schönen Tag noch!\" आम विदाई वाक्य है।"
+  },
+  "practice_tip": {
+    "en": "Each morning this week, say the weather aloud in German.",
+    "te": "ఈ వారం ప్రతి ఉదయం వాతావరణాన్ని జర్మన్‌లో గట్టిగా చెప్పండి.",
+    "hi": "इस हफ़्ते हर सुबह मौसम जर्मन में ज़ोर से बताएँ।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"It is raining.\"",
+        "te": "\"వర్షం పడుతోంది\" అని చెప్పండి.",
+        "hi": "\"बारिश हो रही है\" कहें।"
+      },
+      "answer": {
+        "en": "Es regnet.",
+        "te": "Es regnet.",
+        "hi": "Es regnet."
+      }
+    },
+    {
+      "question": {
+        "en": "Which season is \"der Winter\"?",
+        "te": "\"der Winter\" ఏ ఋతువు?",
+        "hi": "\"der Winter\" कौन-सी ऋतु?"
+      },
+      "answer": {
+        "en": "winter",
+        "te": "శీతాకాలం",
+        "hi": "सर्दी"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Im ___ ist es heiß.",
+        "te": "Im ___ ist es heiß.",
+        "hi": "Im ___ ist es heiß."
+      },
+      "options": [
+        {
+          "de": "Sommer"
+        },
+        {
+          "de": "Winter"
+        },
+        {
+          "de": "Herbst"
+        },
+        {
+          "de": "Frühling"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Hot season: Sommer.",
+        "te": "Hot season: Sommer.",
+        "hi": "Hot season: Sommer."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Es schneit\" means…",
+        "te": "\"Es schneit\" means…",
+        "hi": "\"Es schneit\" means…"
+      },
+      "options": [
+        {
+          "de": "It is snowing."
+        },
+        {
+          "de": "It is raining."
+        },
+        {
+          "de": "The sun shines."
+        },
+        {
+          "de": "It is windy."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "schneit = snows.",
+        "te": "schneit = snows.",
+        "hi": "schneit = snows."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Which one takes \"im\"?",
+        "te": "Which one takes \"im\"?",
+        "hi": "Which one takes \"im\"?"
+      },
+      "options": [
+        {
+          "de": "im Herbst"
+        },
+        {
+          "de": "am Herbst"
+        },
+        {
+          "de": "in Herbst"
+        },
+        {
+          "de": "um Herbst"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Seasons take im.",
+        "te": "Seasons take im.",
+        "hi": "Seasons take im."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"der Regenschirm\" is…",
+        "te": "\"der Regenschirm\" is…",
+        "hi": "\"der Regenschirm\" is…"
+      },
+      "options": [
+        {
+          "de": "the umbrella"
+        },
+        {
+          "de": "the rain"
+        },
+        {
+          "de": "the cloud"
+        },
+        {
+          "de": "the wind"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Regenschirm = umbrella.",
+        "te": "Regenschirm = umbrella.",
+        "hi": "Regenschirm = umbrella."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "weather-seasons-l1",
+      "audio_de": "Es regnet heute.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "It is raining today.",
+            "te": "ఈ రోజు వర్షం పడుతోంది.",
+            "hi": "आज बारिश हो रही है।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is snowing today.",
+            "te": "ఈ రోజు మంచు కురుస్తోంది.",
+            "hi": "आज बर्फ़ गिर रही है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The sun shines today.",
+            "te": "ఈ రోజు ఎండ కాస్తోంది.",
+            "hi": "आज धूप निकली है।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is windy today.",
+            "te": "ఈ రోజు గాలి వీస్తోంది.",
+            "hi": "आज हवा चल रही है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "regnet = rains.",
+        "te": "regnet = వర్షం.",
+        "hi": "regnet = बारिश।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "weather-seasons-l2",
+      "audio_de": "Im Winter ist es kalt.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "In winter it is cold.",
+            "te": "శీతాకాలంలో చల్లగా ఉంటుంది.",
+            "hi": "सर्दी में ठंड होती है।"
+          }
+        },
+        {
+          "text": {
+            "en": "In summer it is cold.",
+            "te": "వేసవిలో చల్లగా ఉంటుంది.",
+            "hi": "गर्मी में ठंड होती है।"
+          }
+        },
+        {
+          "text": {
+            "en": "In winter it is hot.",
+            "te": "శీతాకాలంలో వేడిగా ఉంటుంది.",
+            "hi": "सर्दी में गर्मी होती है।"
+          }
+        },
+        {
+          "text": {
+            "en": "In spring it is wet.",
+            "te": "వసంతంలో తడిగా ఉంటుంది.",
+            "hi": "वसंत में नम होता है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Winter = winter; kalt = cold.",
+        "te": "Winter = శీతాకాలం; kalt = చల్లని.",
+        "hi": "Winter = सर्दी; kalt = ठंडा।"
+      }
+    }
+  ],
+  "audio": []
+}

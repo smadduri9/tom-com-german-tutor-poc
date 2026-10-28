@@ -1,0 +1,543 @@
+{
+  "id": "accusative",
+  "slug": "accusative",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Accusative Case",
+    "te": "ఆక్యూసేటివ్ కారకం",
+    "hi": "कर्मकारक (Accusative)"
+  },
+  "subtitle": {
+    "en": "The direct object",
+    "te": "ప్రత్యక్ష కర్మ",
+    "hi": "प्रत्यक्ष कर्म"
+  },
+  "intro": {
+    "en": "In German the object of a verb changes its article: den for der words, and ein becomes einen.",
+    "te": "జర్మన్‌లో క్రియ కర్మ యొక్క ఆర్టికల్ మారుతుంది: der పదాలకు den, ein → einen.",
+    "hi": "जर्मन में क्रिया के कर्म का आर्टिकल बदलता है: der शब्दों के लिए den, ein → einen।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "den",
+      "meaning": {
+        "en": "the (masculine object)",
+        "te": "కర్మ: పుంలింగం",
+        "hi": "कर्म: पुल्लिंग"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "die / das",
+      "meaning": {
+        "en": "the (feminine / neuter object) stay the same",
+        "te": "కర్మ: స్త్రీ/నపుంసక మారవు",
+        "hi": "कर्म: स्त्री/नपुंसक नहीं बदलते"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "einen / eine / ein",
+      "meaning": {
+        "en": "a (accusative)",
+        "te": "ఒక (కర్మ)",
+        "hi": "एक (कर्म)"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "den Kaffee",
+      "meaning": {
+        "en": "the coffee (object)",
+        "te": "కాఫీ",
+        "hi": "कॉफ़ी"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "das Brot",
+      "meaning": {
+        "en": "the bread",
+        "te": "బ్రెడ్",
+        "hi": "ब्रेड"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "den Bus nehmen",
+      "meaning": {
+        "en": "to take the bus",
+        "te": "బస్సు ఎక్కడం",
+        "hi": "बस लेना"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "kaufen",
+      "meaning": {
+        "en": "to buy",
+        "te": "కొనడం",
+        "hi": "ख़रीदना"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "brauchen",
+      "meaning": {
+        "en": "to need",
+        "te": "అవసరం",
+        "hi": "ज़रूरत होना"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "sehen",
+      "meaning": {
+        "en": "to see",
+        "te": "చూడటం",
+        "hi": "देखना"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "haben",
+      "meaning": {
+        "en": "to have",
+        "te": "కలిగి ఉండటం",
+        "hi": "रखना"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich kaufe den Fahrschein.",
+      "meaning": {
+        "en": "I am buying the ticket.",
+        "te": "నేను టికెట్ కొంటున్నాను.",
+        "hi": "मैं टिकट ख़रीद रहा हूँ।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Ich brauche einen Stift.",
+      "meaning": {
+        "en": "I need a pen.",
+        "te": "నాకు ఒక పెన్ కావాలి.",
+        "hi": "मुझे एक पेन चाहिए।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Sie sieht die Lampe.",
+      "meaning": {
+        "en": "She sees the lamp.",
+        "te": "ఆమె దీపం చూస్తోంది.",
+        "hi": "वह लैंप देख रही है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Wir nehmen den Bus.",
+      "meaning": {
+        "en": "We take the bus.",
+        "te": "మేము బస్సు ఎక్కుతాము.",
+        "hi": "हम बस लेते हैं।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Fahrschein",
+      "meaning": {
+        "en": "the ticket",
+        "te": "టికెట్",
+        "hi": "टिकट"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Stift",
+      "meaning": {
+        "en": "the pen",
+        "te": "పెన్",
+        "hi": "पेन"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "der Zug",
+      "meaning": {
+        "en": "the train",
+        "te": "రైలు",
+        "hi": "ट्रेन"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "der Bus",
+      "meaning": {
+        "en": "the bus",
+        "te": "బస్సు",
+        "hi": "बस"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT A TICKET MACHINE",
+      "te": "టికెట్ మెషిన్ వద్ద",
+      "hi": "टिकट मशीन पर"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Anil",
+        "de": "Ich brauche einen Fahrschein nach Köln.",
+        "meaning": {
+          "en": "I need a ticket to Cologne.",
+          "te": "నాకు కొలోన్‌కు ఒక టికెట్ కావాలి.",
+          "hi": "मुझे कोलोन का एक टिकट चाहिए।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Lena",
+        "de": "Haben Sie die Karte?",
+        "meaning": {
+          "en": "Do you have the card?",
+          "te": "మీ దగ్గర కార్డ్ ఉందా?",
+          "hi": "क्या आपके पास कार्ड है?"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Anil",
+        "de": "Nein, ich nehme den Zug mit Bargeld.",
+        "meaning": {
+          "en": "No, I will take the train and pay in cash.",
+          "te": "లేదు, నేను నగదుతో రైలు తీసుకుంటాను.",
+          "hi": "नहीं, मैं नकद में ट्रेन लूँगा।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Lena",
+        "de": "Gut. Ich sehe einen Fehler, aber es ist okay.",
+        "meaning": {
+          "en": "Good. I see a mistake, but it is okay.",
+          "te": "సరే. ఒక పొరపాటు కనిపిస్తోంది, కానీ పర్వాలేదు.",
+          "hi": "ठीक है। एक गलती दिख रही है, पर कोई बात नहीं।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: accusative articles",
+      "te": "వ్యాకరణం: కర్మ ఆర్టికల్స్",
+      "hi": "व्याकरण: कर्म के आर्टिकल"
+    },
+    "body": {
+      "en": "Only der words change in the accusative: der → den, ein → einen. Die and das stay the same: die → die, das → das, eine → eine, ein → ein.",
+      "te": "కర్మలో der పదాలు మాత్రమే మారతాయి: der → den, ein → einen. die, das మారవు.",
+      "hi": "कर्म में केवल der शब्द बदलते हैं: der → den, ein → einen। die और das नहीं बदलते।"
+    }
+  },
+  "deep_dive": {
+    "en": "Ask who or what is the object with \"Wen?\" (whom) or \"Was?\" (what): Ich sehe wen? den Mann. Ich sehe was? das Auto.",
+    "te": "కర్మను \"Wen?\" (ఎవరిని) లేదా \"Was?\" (దేనిని) తో అడగండి: Ich sehe wen? den Mann.",
+    "hi": "कर्म को \"Wen?\" (किसे) या \"Was?\" (क्या) से पूछें: Ich sehe wen? den Mann।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich kaufe der Fahrschein.",
+      "right": "Ich kaufe den Fahrschein.",
+      "why": {
+        "en": "Object of kaufen takes den.",
+        "te": "kaufen కర్మకు den.",
+        "hi": "kaufen का कर्म: den।"
+      }
+    },
+    {
+      "wrong": "Ich brauche ein Stift.",
+      "right": "Ich brauche einen Stift.",
+      "why": {
+        "en": "der word: ein → einen.",
+        "te": "der పదం: ein → einen.",
+        "hi": "der शब्द: ein → einen।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In shops and at ticket counters Germans ask \"Was darf es sein?\" (What may it be?). Answer with \"Ich nehme …\" or \"Ich hätte gern …\".",
+    "te": "దుకాణాలలో \"Was darf es sein?\" అని అడుగుతారు. జవాబు: \"Ich nehme …\" లేదా \"Ich hätte gern …\".",
+    "hi": "दुकानों में \"Was darf es sein?\" पूछा जाता है। जवाब: \"Ich nehme …\" या \"Ich hätte gern …\"।"
+  },
+  "practice_tip": {
+    "en": "Say what you buy today in German with den or einen.",
+    "te": "ఈ రోజు మీరు కొన్నవి den లేదా einen తో జర్మన్‌లో చెప్పండి.",
+    "hi": "आज आपने जो खरीदा उसे den या einen के साथ जर्मन में बताएँ।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Complete: Ich kaufe ___ Fahrschein. (der)",
+        "te": "పూర్తి చేయండి: Ich kaufe ___ Fahrschein.",
+        "hi": "पूरा करें: Ich kaufe ___ Fahrschein।"
+      },
+      "answer": {
+        "en": "den",
+        "te": "den",
+        "hi": "den"
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"I need a pen.\"",
+        "te": "\"నాకు ఒక పెన్ కావాలి\" అని చెప్పండి.",
+        "hi": "\"मुझे एक पेन चाहिए\" कहें।"
+      },
+      "answer": {
+        "en": "Ich brauche einen Stift.",
+        "te": "Ich brauche einen Stift.",
+        "hi": "Ich brauche einen Stift."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich sehe ___ Mann.",
+        "te": "Ich sehe ___ Mann.",
+        "hi": "Ich sehe ___ Mann."
+      },
+      "options": [
+        {
+          "de": "den"
+        },
+        {
+          "de": "der"
+        },
+        {
+          "de": "dem"
+        },
+        {
+          "de": "des"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Accusative of der: den.",
+        "te": "der యొక్క కర్మ: den.",
+        "hi": "der का कर्म: den।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich sehe ___ Auto.",
+        "te": "Ich sehe ___ Auto.",
+        "hi": "Ich sehe ___ Auto."
+      },
+      "options": [
+        {
+          "de": "das"
+        },
+        {
+          "de": "den"
+        },
+        {
+          "de": "dem"
+        },
+        {
+          "de": "der"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "das stays das in the accusative.",
+        "te": "das కర్మలో మారదు.",
+        "hi": "das कर्म में नहीं बदलता।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich brauche ___ Stift.",
+        "te": "Ich brauche ___ Stift.",
+        "hi": "Ich brauche ___ Stift."
+      },
+      "options": [
+        {
+          "de": "einen"
+        },
+        {
+          "de": "ein"
+        },
+        {
+          "de": "eine"
+        },
+        {
+          "de": "einer"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "der Stift → einen Stift.",
+        "te": "der Stift → einen Stift.",
+        "hi": "der Stift → einen Stift।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Wen sehen Sie?\" asks…",
+        "te": "\"Wen sehen Sie?\" అడుగుతుంది…",
+        "hi": "\"Wen sehen Sie?\" पूछता है…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "who (object)",
+            "te": "ఎవరిని",
+            "hi": "किसे"
+          }
+        },
+        {
+          "text": {
+            "en": "where",
+            "te": "ఎక్కడ",
+            "hi": "कहाँ"
+          }
+        },
+        {
+          "text": {
+            "en": "when",
+            "te": "ఎప్పుడు",
+            "hi": "कब"
+          }
+        },
+        {
+          "text": {
+            "en": "why",
+            "te": "ఎందుకు",
+            "hi": "क्यों"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wen = whom (accusative).",
+        "te": "wen = ఎవరిని.",
+        "hi": "wen = किसे।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "accusative-l1",
+      "audio_de": "Ich kaufe den Fahrschein.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I am buying the ticket.",
+            "te": "నేను టికెట్ కొంటున్నాను.",
+            "hi": "मैं टिकट ख़रीद रहा हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am selling the ticket.",
+            "te": "నేను టికెట్ అమ్ముతున్నాను.",
+            "hi": "मैं टिकट बेच रहा हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I have the bus.",
+            "te": "నా దగ్గర బస్సు ఉంది.",
+            "hi": "मेरे पास बस है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am looking for a train.",
+            "te": "నేను రైలు వెతుకుతున్నాను.",
+            "hi": "मैं ट्रेन खोज रहा हूँ।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "kaufen = to buy.",
+        "te": "kaufen = కొనడం.",
+        "hi": "kaufen = ख़रीदना।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "accusative-l2",
+      "audio_de": "Wir nehmen den Bus.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "We take the bus.",
+            "te": "మేము బస్సు ఎక్కుతాము.",
+            "hi": "हम बस लेते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "We miss the bus.",
+            "te": "మేము బస్సు మిస్ అవుతాము.",
+            "hi": "हम बस छोड़ते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "We see the bus.",
+            "te": "మేము బస్సు చూస్తాము.",
+            "hi": "हम बस देखते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "We wash the bus.",
+            "te": "మేము బస్సు కడుగుతాము.",
+            "hi": "हम बस धोते हैं।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "nehmen = to take.",
+        "te": "nehmen = తీసుకోవడం.",
+        "hi": "nehmen = लेना।"
+      }
+    }
+  ],
+  "audio": []
+}

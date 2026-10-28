@@ -64,9 +64,13 @@ for (const level of LEVELS) {
     count(`${where} vocabulary`, l.vocabulary, 8, 15);
     count(`${where} examples`, l.examples, 4, 6);
     count(`${where} more_vocabulary`, l.more_vocabulary, 4, 6);
-    count(`${where} dialogue.lines`, l.dialogue?.lines, 4, 8);
-    checkL10n(l.dialogue?.scene, `${where} dialogue.scene`);
-    if (new Set(l.dialogue?.lines?.map((x) => x.speaker)).size !== 2) err(where, 'dialogue needs exactly 2 speakers');
+    // Review lessons have no dialogue; every other lesson has 4-8 lines between 2 speakers.
+    const isReview = slug.endsWith('-review');
+    if (!isReview || l.dialogue?.lines?.length) {
+      count(`${where} dialogue.lines`, l.dialogue?.lines, 4, 8);
+      checkL10n(l.dialogue?.scene, `${where} dialogue.scene`);
+      if (new Set(l.dialogue?.lines?.map((x) => x.speaker)).size !== 2) err(where, 'dialogue needs exactly 2 speakers');
+    }
     count(`${where} common_mistakes`, l.common_mistakes, 2, 4);
     count(`${where} self_check`, l.self_check, 2, 4);
 

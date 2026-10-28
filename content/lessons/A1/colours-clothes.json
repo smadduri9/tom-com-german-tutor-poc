@@ -1,0 +1,575 @@
+{
+  "id": "colours-clothes",
+  "slug": "colours-clothes",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Colours & Clothes",
+    "te": "రంగులు & దుస్తులు",
+    "hi": "रंग और कपड़े"
+  },
+  "subtitle": {
+    "en": "Describing colours and clothing",
+    "te": "రంగులు మరియు దుస్తులను వివరించడం",
+    "hi": "रंग और कपड़ों का वर्णन"
+  },
+  "intro": {
+    "en": "Describe colours and clothes, and ask about a size or price in a shop.",
+    "te": "రంగులు, దుస్తులు వివరించండి; దుకాణంలో సైజు లేదా ధర అడగండి.",
+    "hi": "रंग और कपड़ों का वर्णन करें; दुकान में साइज़ या कीमत पूछें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "rot",
+      "meaning": {
+        "en": "red",
+        "te": "ఎరుపు",
+        "hi": "लाल"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "blau",
+      "meaning": {
+        "en": "blue",
+        "te": "నీలం",
+        "hi": "नीला"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "grün",
+      "meaning": {
+        "en": "green",
+        "te": "ఆకుపచ్చ",
+        "hi": "हरा"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "schwarz",
+      "meaning": {
+        "en": "black",
+        "te": "నలుపు",
+        "hi": "काला"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "weiß",
+      "meaning": {
+        "en": "white",
+        "te": "తెలుపు",
+        "hi": "सफ़ेद"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "das Hemd",
+      "meaning": {
+        "en": "the shirt",
+        "te": "చొక్కా",
+        "hi": "कमीज़"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "die Hose",
+      "meaning": {
+        "en": "the trousers",
+        "te": "ప్యాంట్",
+        "hi": "पैंट"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "der Pullover",
+      "meaning": {
+        "en": "the sweater",
+        "te": "స్వెటర్",
+        "hi": "स्वेटर"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "die Jacke",
+      "meaning": {
+        "en": "the jacket",
+        "te": "జాకెట్",
+        "hi": "जैकेट"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Welche Größe?",
+      "meaning": {
+        "en": "Which size?",
+        "te": "ఏ సైజు?",
+        "hi": "कौन-सा साइज़?"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Das Hemd ist blau.",
+      "meaning": {
+        "en": "The shirt is blue.",
+        "te": "చొక్కా నీలం రంగులో ఉంది.",
+        "hi": "कमीज़ नीली है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Ich suche eine Jacke in Schwarz.",
+      "meaning": {
+        "en": "I am looking for a black jacket.",
+        "te": "నాకు నల్ల జాకెట్ కావాలి.",
+        "hi": "मुझे काली जैकेट चाहिए।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Die Hose ist zu groß.",
+      "meaning": {
+        "en": "The trousers are too big.",
+        "te": "ప్యాంట్ చాలా పెద్దది.",
+        "hi": "पैंट बहुत बड़ी है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Haben Sie das in Größe M?",
+      "meaning": {
+        "en": "Do you have this in size M?",
+        "te": "ఇది M సైజులో ఉందా?",
+        "hi": "क्या यह M साइज़ में है?"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Schuh",
+      "meaning": {
+        "en": "the shoe",
+        "te": "షూ",
+        "hi": "जूता"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "die Farbe",
+      "meaning": {
+        "en": "the colour",
+        "te": "రంగు",
+        "hi": "रंग"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "klein / groß",
+      "meaning": {
+        "en": "small / big",
+        "te": "చిన్న / పెద్ద",
+        "hi": "छोटा / बड़ा"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "passen",
+      "meaning": {
+        "en": "to fit",
+        "te": "సరిపోవడం",
+        "hi": "फ़िट होना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "IN A CLOTHES SHOP",
+      "te": "బట్టల దుకాణంలో",
+      "hi": "कपड़ों की दुकान में"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Verkäuferin",
+        "de": "Kann ich Ihnen helfen?",
+        "meaning": {
+          "en": "Can I help you?",
+          "te": "నేను మీకు సహాయం చేయగలనా?",
+          "hi": "क्या मैं आपकी मदद कर सकती हूँ?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Priya",
+        "de": "Ja, ich suche einen blauen Pullover.",
+        "meaning": {
+          "en": "Yes, I am looking for a blue sweater.",
+          "te": "అవును, నాకు నీలం స్వెటర్ కావాలి.",
+          "hi": "हाँ, मुझे एक नीला स्वेटर चाहिए।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Verkäuferin",
+        "de": "Welche Größe haben Sie?",
+        "meaning": {
+          "en": "What size do you take?",
+          "te": "మీకు ఏ సైజు?",
+          "hi": "आपका साइज़ क्या है?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Priya",
+        "de": "Größe M, bitte.",
+        "meaning": {
+          "en": "Size M, please.",
+          "te": "M సైజు, దయచేసి.",
+          "hi": "M साइज़, कृपया।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: colours and adjective endings",
+      "te": "వ్యాకరణం: రంగులు మరియు విశేషణ ముగింపులు",
+      "hi": "व्याकरण: रंग और विशेषण के अंत"
+    },
+    "body": {
+      "en": "After der, die or das, a colour adds -e or -en: der blaue Pullover. After ein, the colour takes -e for der and das words: ein blauer Pullover. Colours without an article stay plain: Das Hemd ist blau.",
+      "te": "der, die, das తర్వాత రంగుకు -e లేదా -en: der blaue Pullover. ein తర్వాత: ein blauer Pullover. ఆర్టికల్ లేకుండా: Das Hemd ist blau.",
+      "hi": "der, die, das के बाद रंग में -e या -en: der blaue Pullover। ein के बाद: ein blauer Pullover। बिना आर्टिकल: Das Hemd ist blau।"
+    }
+  },
+  "deep_dive": {
+    "en": "Clothing sizes in Germany follow letters (S, M, L) or numbers (38, 40). Trying on before buying is normal in shops.",
+    "te": "జర్మనీలో దుస్తుల సైజులు అక్షరాలు (S, M, L) లేదా సంఖ్యలు (38, 40). కొనే ముందు ప్రయత్నించడం సాధారణం.",
+    "hi": "जर्मनी में कपड़ों के साइज़ अक्षरों (S, M, L) या संख्याओं (38, 40) में होते हैं। खरीदने से पहले पहनकर देखना आम है।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "ein blau Hemd",
+      "right": "ein blaues Hemd",
+      "why": {
+        "en": "After ein, a colour takes -es for das words.",
+        "te": "ein తర్వాత రంగుకు das పదాలకు -es.",
+        "hi": "ein के बाद das शब्दों के लिए -es।"
+      }
+    },
+    {
+      "wrong": "Das Hemd ist blaue.",
+      "right": "Das Hemd ist blau.",
+      "why": {
+        "en": "After \"ist\", colours take no ending.",
+        "te": "\"ist\" తర్వాత రంగుకు ముగింపు ఉండదు.",
+        "hi": "\"ist\" के बाद रंग का अंत नहीं होता।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In German shops you may be asked to pay at the till. Bring a bag or pay for one; plastic bags cost money.",
+    "te": "జర్మన్ దుకాణాల్లో క్యాష్ కౌంటర్ వద్ద చెల్లించాలి. సంచి తెచ్చుకోండి; ప్లాస్టిక్ సంచులకు డబ్బు తీసుకుంటారు.",
+    "hi": "जर्मन दुकानों में काउंटर पर भुगतान करना होता है। थैला साथ रखें; प्लास्टिक थैले के पैसे लगते हैं।"
+  },
+  "practice_tip": {
+    "en": "Name five clothes you are wearing today in German, with their colours.",
+    "te": "ఈ రోజు మీరు వేసుకున్న ఐదు దుస్తులను రంగులతో జర్మన్‌లో చెప్పండి.",
+    "hi": "आज आपने जो पाँच कपड़े पहने हैं उनके रंग के साथ जर्मन में बताएँ।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "How do you say \"red shirt\"?",
+        "te": "\"red shirt\" జర్మన్‌లో?",
+        "hi": "\"red shirt\" जर्मन में?"
+      },
+      "answer": {
+        "en": "das rote Hemd",
+        "te": "das rote Hemd",
+        "hi": "das rote Hemd"
+      }
+    },
+    {
+      "question": {
+        "en": "Ask \"Which size?\"",
+        "te": "\"ఏ సైజు?\" అని అడగండి.",
+        "hi": "\"कौन-सा साइज़?\" पूछें।"
+      },
+      "answer": {
+        "en": "Welche Größe?",
+        "te": "Welche Größe?",
+        "hi": "Welche Größe?"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "The sky is…",
+        "te": "ఆకాశం…",
+        "hi": "आसमान…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "blau",
+            "te": "blau",
+            "hi": "blau"
+          }
+        },
+        {
+          "text": {
+            "en": "rot",
+            "te": "rot",
+            "hi": "rot"
+          }
+        },
+        {
+          "text": {
+            "en": "groß",
+            "te": "groß",
+            "hi": "groß"
+          }
+        },
+        {
+          "text": {
+            "en": "teuer",
+            "te": "teuer",
+            "hi": "teuer"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Blue = blau.",
+        "te": "నీలం = blau.",
+        "hi": "नीला = blau।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "die Jacke is…",
+        "te": "die Jacke…",
+        "hi": "die Jacke…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "the jacket",
+            "te": "జాకెట్",
+            "hi": "जैकेट"
+          }
+        },
+        {
+          "text": {
+            "en": "the shoe",
+            "te": "షూ",
+            "hi": "जूता"
+          }
+        },
+        {
+          "text": {
+            "en": "the shirt",
+            "te": "చొక్కా",
+            "hi": "कमीज़"
+          }
+        },
+        {
+          "text": {
+            "en": "the sweater",
+            "te": "స్వెటర్",
+            "hi": "स्वेटर"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "die Jacke = the jacket.",
+        "te": "die Jacke = జాకెట్.",
+        "hi": "die Jacke = जैकेट।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich suche ___ Hose.",
+        "te": "Ich suche ___ Hose.",
+        "hi": "Ich suche ___ Hose."
+      },
+      "options": [
+        {
+          "de": "eine"
+        },
+        {
+          "de": "ein"
+        },
+        {
+          "de": "einen"
+        },
+        {
+          "de": "der"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "die Hose → eine Hose.",
+        "te": "die Hose → eine Hose.",
+        "hi": "die Hose → eine Hose।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"zu groß\" means…",
+        "te": "\"zu groß\" అర్థం…",
+        "hi": "\"zu groß\" का अर्थ…"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "too big",
+            "te": "చాలా పెద్దది",
+            "hi": "बहुत बड़ा"
+          }
+        },
+        {
+          "text": {
+            "en": "too small",
+            "te": "చాలా చిన్నది",
+            "hi": "बहुत छोटा"
+          }
+        },
+        {
+          "text": {
+            "en": "very cheap",
+            "te": "చాలా చౌక",
+            "hi": "बहुत सस्ता"
+          }
+        },
+        {
+          "text": {
+            "en": "very new",
+            "te": "చాలా కొత్తది",
+            "hi": "बहुत नया"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "zu = too.",
+        "te": "zu = చాలా.",
+        "hi": "zu = बहुत।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "colours-clothes-l1",
+      "audio_de": "Das Hemd ist rot.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The shirt is red.",
+            "te": "చొక్కా ఎరుపు.",
+            "hi": "कमीज़ लाल है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The shirt is blue.",
+            "te": "చొక్కా నీలం.",
+            "hi": "कमीज़ नीली है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The trousers are red.",
+            "te": "ప్యాంట్ ఎరుపు.",
+            "hi": "पैंट लाल है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The shirt is big.",
+            "te": "చొక్కా పెద్దది.",
+            "hi": "कमीज़ बड़ी है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "rot = red.",
+        "te": "rot = ఎరుపు.",
+        "hi": "rot = लाल।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v10",
+      "audio_de": "Welche Größe?",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Which size?",
+            "te": "ఏ సైజు?",
+            "hi": "कौन-सा साइज़?"
+          }
+        },
+        {
+          "text": {
+            "en": "Which colour?",
+            "te": "ఏ రంగు?",
+            "hi": "कौन-सा रंग?"
+          }
+        },
+        {
+          "text": {
+            "en": "How much?",
+            "te": "ఎంత?",
+            "hi": "कितना?"
+          }
+        },
+        {
+          "text": {
+            "en": "Which shop?",
+            "te": "ఏ దుకాణం?",
+            "hi": "कौन-सी दुकान?"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Größe = size.",
+        "te": "Größe = సైజు.",
+        "hi": "Größe = साइज़।"
+      }
+    }
+  ],
+  "audio": []
+}

@@ -1,0 +1,537 @@
+{
+  "id": "numbers-1-20",
+  "slug": "numbers-1-20",
+  "level": "A1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Numbers 1–20",
+    "te": "సంఖ్యలు 1–20",
+    "hi": "संख्याएँ 1–20"
+  },
+  "subtitle": {
+    "en": "Counting and phone numbers",
+    "te": "లెక్కించడం మరియు ఫోన్ నంబర్లు",
+    "hi": "गिनती और फ़ोन नंबर"
+  },
+  "intro": {
+    "en": "Count from 1 to 20 and give your phone number and your age.",
+    "te": "1 నుండి 20 వరకు లెక్కించండి, మీ ఫోన్ నంబర్ మరియు వయసు చెప్పండి.",
+    "hi": "1 से 20 तक गिनें और अपना फ़ोन नंबर और उम्र बताएँ।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "eins, zwei, drei",
+      "meaning": {
+        "en": "one, two, three",
+        "te": "ఒకటి, రెండు, మూడు",
+        "hi": "एक, दो, तीन"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "vier, fünf, sechs",
+      "meaning": {
+        "en": "four, five, six",
+        "te": "నాలుగు, ఐదు, ఆరు",
+        "hi": "चार, पाँच, छह"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "sieben, acht, neun",
+      "meaning": {
+        "en": "seven, eight, nine",
+        "te": "ఏడు, ఎనిమిది, తొమ్మిది",
+        "hi": "सात, आठ, नौ"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "zehn",
+      "meaning": {
+        "en": "ten",
+        "te": "పది",
+        "hi": "दस"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "elf, zwölf",
+      "meaning": {
+        "en": "eleven, twelve",
+        "te": "పదకొండు, పన్నెండు",
+        "hi": "ग्यारह, बारह"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "dreizehn",
+      "meaning": {
+        "en": "thirteen",
+        "te": "పదమూడు",
+        "hi": "तेरह"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "sechzehn, siebzehn",
+      "meaning": {
+        "en": "sixteen, seventeen",
+        "te": "పదహారు, పదిహేడు",
+        "hi": "सोलह, सत्रह"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "zwanzig",
+      "meaning": {
+        "en": "twenty",
+        "te": "ఇరవై",
+        "hi": "बीस"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "null",
+      "meaning": {
+        "en": "zero",
+        "te": "సున్నా",
+        "hi": "शून्य"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Wie alt sind Sie?",
+      "meaning": {
+        "en": "How old are you? (formal)",
+        "te": "మీ వయసు ఎంత?",
+        "hi": "आपकी उम्र क्या है?"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich bin neunzehn Jahre alt.",
+      "meaning": {
+        "en": "I am nineteen years old.",
+        "te": "నా వయసు పందొమ్మిది సంవత్సరాలు.",
+        "hi": "मेरी उम्र उन्नीस साल है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Meine Nummer ist null, eins, sieben, zwei.",
+      "meaning": {
+        "en": "My number is zero, one, seven, two.",
+        "te": "నా నంబర్ సున్నా, ఒకటి, ఏడు, రెండు.",
+        "hi": "मेरा नंबर शून्य, एक, सात, दो है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Zimmer zwölf, bitte.",
+      "meaning": {
+        "en": "Room twelve, please.",
+        "te": "గది పన్నెండు, దయచేసి.",
+        "hi": "कमरा बारह, कृपया।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Ich habe zwei Kinder.",
+      "meaning": {
+        "en": "I have two children.",
+        "te": "నాకు ఇద్దరు పిల్లలు ఉన్నారు.",
+        "hi": "मेरे दो बच्चे हैं।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Zahl",
+      "meaning": {
+        "en": "the number",
+        "te": "సంఖ్య",
+        "hi": "संख्या"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "die Telefonnummer",
+      "meaning": {
+        "en": "the phone number",
+        "te": "ఫోన్ నంబర్",
+        "hi": "फ़ोन नंबर"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "das Jahr",
+      "meaning": {
+        "en": "the year",
+        "te": "సంవత్సరం",
+        "hi": "साल"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "zählen",
+      "meaning": {
+        "en": "to count",
+        "te": "లెక్కించడం",
+        "hi": "गिनना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT A LANGUAGE SCHOOL",
+      "te": "భాషా పాఠశాలలో",
+      "hi": "भाषा स्कूल में"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Frau Klein",
+        "de": "Wie alt sind Sie?",
+        "meaning": {
+          "en": "How old are you?",
+          "te": "మీ వయసు ఎంత?",
+          "hi": "आपकी उम्र क्या है?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Priya",
+        "de": "Ich bin zwanzig Jahre alt.",
+        "meaning": {
+          "en": "I am twenty years old.",
+          "te": "నా వయసు ఇరవై సంవత్సరాలు.",
+          "hi": "मेरी उम्र बीस साल है।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Frau Klein",
+        "de": "Und Ihre Telefonnummer?",
+        "meaning": {
+          "en": "And your phone number?",
+          "te": "మరి మీ ఫోన్ నంబర్?",
+          "hi": "और आपका फ़ोन नंबर?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Priya",
+        "de": "Null, eins, sechs, drei, acht.",
+        "meaning": {
+          "en": "Zero, one, six, three, eight.",
+          "te": "సున్నా, ఒకటి, ఆరు, మూడు, ఎనిమిది.",
+          "hi": "शून्य, एक, छह, तीन, आठ।"
+        }
+      },
+      {
+        "id": "d05",
+        "speaker": "Frau Klein",
+        "de": "Danke, Sie sind in Kurs elf.",
+        "meaning": {
+          "en": "Thanks, you are in course eleven.",
+          "te": "ధన్యవాదాలు, మీరు కోర్స్ పదకొండులో ఉన్నారు.",
+          "hi": "धन्यवाद, आप कोर्स ग्यारह में हैं।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: 13 to 19",
+      "te": "వ్యాకరణం: 13 నుండి 19",
+      "hi": "व्याकरण: 13 से 19"
+    },
+    "body": {
+      "en": "From 13 to 19, put the small number first and add -zehn: drei + zehn = dreizehn. Watch two short forms: sechzehn (not sechszehn) and siebzehn (not siebenzehn).",
+      "te": "13 నుండి 19 వరకు, చిన్న సంఖ్యను ముందు పెట్టి -zehn కలపండి: drei + zehn = dreizehn. రెండు చిన్న రూపాలు గమనించండి: sechzehn (sechszehn కాదు), siebzehn (siebenzehn కాదు).",
+      "hi": "13 से 19 तक, छोटी संख्या पहले रखें और -zehn जोड़ें: drei + zehn = dreizehn। दो छोटे रूप ध्यान दें: sechzehn (sechszehn नहीं) और siebzehn (siebenzehn नहीं)।"
+    }
+  },
+  "deep_dive": {
+    "en": "Phone numbers are usually read digit by digit or in pairs. On the phone, Germans often say \"zwo\" instead of \"zwei\" so it is not confused with \"drei\". For age, say \"Ich bin … Jahre alt.\"",
+    "te": "ఫోన్ నంబర్లను సాధారణంగా అంకె అంకెగా లేదా జంటలుగా చదువుతారు. ఫోన్‌లో \"drei\" తో గందరగోళం కాకుండా జర్మన్లు \"zwei\" బదులు \"zwo\" అంటారు. వయసుకు \"Ich bin … Jahre alt.\" అనండి.",
+    "hi": "फ़ोन नंबर आमतौर पर एक-एक अंक या जोड़ों में पढ़े जाते हैं। फ़ोन पर \"drei\" से गड़बड़ी न हो, इसलिए जर्मन लोग \"zwei\" की जगह \"zwo\" कहते हैं। उम्र के लिए कहें \"Ich bin … Jahre alt.\""
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich habe zwanzig Jahre.",
+      "right": "Ich bin zwanzig Jahre alt.",
+      "why": {
+        "en": "Age uses \"sein\" (bin), not \"haben\".",
+        "te": "వయసుకు \"haben\" కాదు, \"sein\" (bin) వాడతారు.",
+        "hi": "उम्र के लिए \"haben\" नहीं, \"sein\" (bin) आता है।"
+      }
+    },
+    {
+      "wrong": "siebenzehn",
+      "right": "siebzehn",
+      "why": {
+        "en": "Seventeen drops the \"-en\" of sieben.",
+        "te": "పదిహేడులో sieben లోని \"-en\" పోతుంది.",
+        "hi": "सत्रह में sieben का \"-en\" हट जाता है।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Germans count on their fingers starting with the thumb: a thumb alone means one, thumb and index finger mean two.",
+    "te": "జర్మన్లు బొటనవేలితో లెక్కించడం మొదలుపెడతారు: బొటనవేలు ఒక్కటే అంటే ఒకటి, బొటనవేలు మరియు చూపుడు వేలు అంటే రెండు.",
+    "hi": "जर्मन लोग अँगूठे से गिनना शुरू करते हैं: सिर्फ़ अँगूठा मतलब एक, अँगूठा और तर्जनी मतलब दो।"
+  },
+  "practice_tip": {
+    "en": "Read your own phone number aloud in German until you can say it without stopping.",
+    "te": "మీ ఫోన్ నంబర్‌ను ఆగకుండా చెప్పగలిగే వరకు జర్మన్‌లో గట్టిగా చదవండి.",
+    "hi": "अपना फ़ोन नंबर जर्मन में ज़ोर से तब तक पढ़ें जब तक बिना रुके न बोल सकें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"I am eighteen years old.\"",
+        "te": "\"నా వయసు పద్దెనిమిది సంవత్సరాలు\" అని చెప్పండి.",
+        "hi": "\"मेरी उम्र अठारह साल है\" कहें।"
+      },
+      "answer": {
+        "en": "Ich bin achtzehn Jahre alt.",
+        "te": "Ich bin achtzehn Jahre alt.",
+        "hi": "Ich bin achtzehn Jahre alt."
+      }
+    },
+    {
+      "question": {
+        "en": "What is 16 in German?",
+        "te": "జర్మన్‌లో 16 ఏమిటి?",
+        "hi": "जर्मन में 16 क्या है?"
+      },
+      "answer": {
+        "en": "sechzehn",
+        "te": "sechzehn",
+        "hi": "sechzehn"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "What is 12?",
+        "te": "12 అంటే?",
+        "hi": "12 क्या है?"
+      },
+      "options": [
+        {
+          "de": "zwölf"
+        },
+        {
+          "de": "zwanzig"
+        },
+        {
+          "de": "zehn"
+        },
+        {
+          "de": "elf"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "12 is zwölf.",
+        "te": "12 అంటే zwölf.",
+        "hi": "12 है zwölf।"
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "What is 17?",
+        "te": "17 అంటే?",
+        "hi": "17 क्या है?"
+      },
+      "options": [
+        {
+          "de": "siebenzehn"
+        },
+        {
+          "de": "siebzehn"
+        },
+        {
+          "de": "siebzig"
+        },
+        {
+          "de": "sieben"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "en": "Seventeen is siebzehn (short form).",
+        "te": "పదిహేడు siebzehn (చిన్న రూపం).",
+        "hi": "सत्रह siebzehn है (छोटा रूप)।"
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "How do you say your age?",
+        "te": "మీ వయసు ఎలా చెబుతారు?",
+        "hi": "अपनी उम्र कैसे बताएँगे?"
+      },
+      "options": [
+        {
+          "de": "Ich bin 20 Jahre alt."
+        },
+        {
+          "de": "Ich habe 20 Jahre."
+        },
+        {
+          "de": "Ich heiße 20."
+        },
+        {
+          "de": "Ich komme 20."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Use \"Ich bin … Jahre alt.\"",
+        "te": "\"Ich bin … Jahre alt.\" వాడండి.",
+        "hi": "\"Ich bin … Jahre alt.\" प्रयोग करें।"
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "zwei + drei = ?",
+        "te": "zwei + drei = ?",
+        "hi": "zwei + drei = ?"
+      },
+      "options": [
+        {
+          "de": "vier"
+        },
+        {
+          "de": "fünf"
+        },
+        {
+          "de": "sechs"
+        },
+        {
+          "de": "acht"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "en": "2 + 3 = 5 (fünf).",
+        "te": "2 + 3 = 5 (fünf).",
+        "hi": "2 + 3 = 5 (fünf)।"
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "v08",
+      "audio_de": "zwanzig",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "20",
+            "te": "20",
+            "hi": "20"
+          }
+        },
+        {
+          "text": {
+            "en": "12",
+            "te": "12",
+            "hi": "12"
+          }
+        },
+        {
+          "text": {
+            "en": "2",
+            "te": "2",
+            "hi": "2"
+          }
+        },
+        {
+          "text": {
+            "en": "10",
+            "te": "10",
+            "hi": "10"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "zwanzig = 20.",
+        "te": "zwanzig = 20.",
+        "hi": "zwanzig = 20।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v06",
+      "audio_de": "dreizehn",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "30",
+            "te": "30",
+            "hi": "30"
+          }
+        },
+        {
+          "text": {
+            "en": "3",
+            "te": "3",
+            "hi": "3"
+          }
+        },
+        {
+          "text": {
+            "en": "13",
+            "te": "13",
+            "hi": "13"
+          }
+        },
+        {
+          "text": {
+            "en": "33",
+            "te": "33",
+            "hi": "33"
+          }
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "en": "dreizehn = drei + zehn = 13.",
+        "te": "dreizehn = drei + zehn = 13.",
+        "hi": "dreizehn = drei + zehn = 13।"
+      }
+    }
+  ],
+  "audio": []
+}
