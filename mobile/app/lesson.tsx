@@ -6,13 +6,13 @@ import { AppButton } from '../src/components/AppButton';
 import { AudioButtons } from '../src/components/AudioButtons';
 import { LessonProgressTitle } from '../src/components/LessonProgressTitle';
 import { useApp } from '../src/state/AppContext';
-import { lesson1 } from '../src/data/lesson';
+import { lessons } from '../src/data/lessons';
 import { buildSteps, clampStep } from '../src/logic/steps';
 import { pick, t } from '../src/i18n/t';
-import type { Lang, Phrase } from '../src/types';
+import type { Lang, VocabItem } from '../src/types';
 import { colors, space, type } from '../src/theme';
 
-function PhraseCard({ phrase, lang, n, total }: { phrase: Phrase; lang: Lang; n: number; total: number }) {
+function PhraseCard({ phrase, lang, n, total }: { phrase: VocabItem; lang: Lang; n: number; total: number }) {
   const [shown, setShown] = useState(false);
   return (
     <View>
@@ -34,7 +34,8 @@ function PhraseCard({ phrase, lang, n, total }: { phrase: Phrase; lang: Lang; n:
 
 export default function LessonScreen() {
   const { lang, progress, saveStep } = useApp();
-  const steps = useMemo(() => buildSteps(lesson1), []);
+  const lesson = lessons.A1.greetings;
+  const steps = useMemo(() => buildSteps(lesson), []);
   const [idx, setIdx] = useState(() => clampStep(progress.step, steps.length));
 
   useEffect(() => {
@@ -48,22 +49,23 @@ export default function LessonScreen() {
   if (step.kind === 'intro') {
     body = (
       <View>
-        <Text style={type.title}>{pick(lesson1.title, lang)}</Text>
+        <Text style={type.title}>{pick(lesson.title, lang)}</Text>
         <Text style={[type.heading, { marginTop: space.md }]}>{t(lang, 'introTitle')}</Text>
-        <Text style={type.body}>{pick(lesson1.intro, lang)}</Text>
+        <Text style={type.body}>{pick(lesson.intro, lang)}</Text>
       </View>
     );
-  } else if (step.kind === 'phrase') {
-    const phrase = lesson1.phrases[step.index];
+  } else if (step.kind === 'vocab') {
+    const phrase = lesson.vocabulary[step.index];
     // key resets the "show meaning" state for each new card
     body = (
-      <PhraseCard key={phrase.id} phrase={phrase} lang={lang} n={step.index + 1} total={lesson1.phrases.length} />
+      <PhraseCard key={phrase.id} phrase={phrase} lang={lang} n={step.index + 1} total={lesson.vocabulary.length} />
     );
   } else if (step.kind === 'dialogue') {
     body = (
       <View>
         <Text style={type.heading}>{t(lang, 'dialogueTitle')}</Text>
-        {lesson1.dialogue.map((line) => {
+        <Text style={type.small}>{pick(lesson.dialogue.scene, lang)}</Text>
+        {lesson.dialogue.lines.map((line) => {
           const isRavi = line.speaker === 'Ravi';
           return (
             <View key={line.id} style={[styles.bubble, isRavi ? styles.bubbleRight : styles.bubbleLeft]}>
@@ -79,27 +81,23 @@ export default function LessonScreen() {
   } else if (step.kind === 'grammar') {
     body = (
       <View>
-        <Text style={type.heading}>{pick(lesson1.grammar.title, lang)}</Text>
-        <Text style={[type.body, { marginTop: space.sm }]}>{pick(lesson1.grammar.body, lang)}</Text>
-        {lesson1.grammar.examples.map((ex) => (
-          <View key={ex.audioId} style={styles.card}>
-            <Text style={styles.speaker}>{pick(ex.label, lang)}</Text>
-            <Text style={type.german}>{ex.de}</Text>
-            <AudioButtons audioId={ex.audioId} german={ex.de} />
-          </View>
-        ))}
+        <Text style={type.heading}>{pick(lesson.grammar_note.title, lang)}</Text>
+        <Text style={[type.body, { marginTop: space.sm }]}>{pick(lesson.grammar_note.body, lang)}</Text>
+        <Text style={[type.body, { marginTop: space.md }]}>{pick(lesson.deep_dive, lang)}</Text>
       </View>
     );
   } else {
     body = (
       <View>
         <Text style={type.heading}>{t(lang, 'pronTitle')}</Text>
-        {lesson1.pronunciation.map((p) => (
-          <View key={p.audioId + p.focus} style={styles.card}>
-            <Text style={styles.focus}>{p.focus}</Text>
-            <Text style={type.german}>{p.de}</Text>
-            <Text style={type.body}>{pick(p.tip, lang)}</Text>
-            <AudioButtons audioId={p.audioId} german={p.de} />
+        <View style={styles.card}>
+          <Text style={type.body}>{pick(lesson.practice_tip, lang)}</Text>
+        </View>
+        {lesson.common_mistakes.map((m) => (
+          <View key={m.wrong} style={styles.card}>
+            <Text style={styles.speaker}>✗ {m.wrong}</Text>
+            <Text style={[type.german, { marginTop: space.xs }]}>✓ {m.right}</Text>
+            <Text style={type.small}>{pick(m.why, lang)}</Text>
           </View>
         ))}
       </View>

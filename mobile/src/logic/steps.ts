@@ -2,18 +2,18 @@ import type { Lesson } from '../types';
 
 export type Step =
   | { kind: 'intro' }
-  | { kind: 'phrase'; index: number }
+  | { kind: 'vocab'; index: number }
   | { kind: 'dialogue' }
   | { kind: 'grammar' }
-  | { kind: 'pron' };
+  | { kind: 'practice' };
 
 export function buildSteps(lesson: Lesson): Step[] {
   return [
     { kind: 'intro' },
-    ...lesson.phrases.map((_, index) => ({ kind: 'phrase' as const, index })),
+    ...lesson.vocabulary.map((_, index) => ({ kind: 'vocab' as const, index })),
     { kind: 'dialogue' },
     { kind: 'grammar' },
-    { kind: 'pron' },
+    { kind: 'practice' },
   ];
 }
 

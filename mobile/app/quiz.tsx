@@ -5,7 +5,7 @@ import { Screen } from '../src/components/Screen';
 import { AppButton } from '../src/components/AppButton';
 import { AudioButtons } from '../src/components/AudioButtons';
 import { useApp } from '../src/state/AppContext';
-import { lesson1 } from '../src/data/lesson';
+import { lessons } from '../src/data/lessons';
 import { scoreQuiz } from '../src/logic/quiz';
 import { pick, t } from '../src/i18n/t';
 import type { Lang, QuizOption } from '../src/types';
@@ -17,7 +17,7 @@ function optionLabel(o: QuizOption, lang: Lang): string {
 
 export default function QuizScreen() {
   const { lang, recordQuiz } = useApp();
-  const questions = lesson1.quiz;
+  const questions = lessons.A1.greetings.quiz;
   const [qi, setQi] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [checked, setChecked] = useState(false);
@@ -50,7 +50,7 @@ export default function QuizScreen() {
     <Screen>
       <Text style={type.small}>{t(lang, 'questionOf', { n: qi + 1, total: questions.length })}</Text>
       <Text style={[type.heading, { marginTop: space.xs }]}>{pick(q.prompt, lang)}</Text>
-      {q.audioId && <AudioButtons audioId={q.audioId} german="?" />}
+      {q.audioId && <AudioButtons audioId={q.audioId} german={q.audio_de ?? ""} />}
 
       <View style={{ marginTop: space.md }}>
         {q.options.map((o, i) => {
@@ -84,6 +84,7 @@ export default function QuizScreen() {
             : t(lang, 'incorrect', { answer: optionLabel(q.options[q.correctIndex], lang) })}
         </Text>
       )}
+      {checked && <Text style={type.small}>{pick(q.explanation, lang)}</Text>}
 
       {!checked ? (
         <AppButton title={t(lang, 'check')} onPress={onCheck} disabled={selected === null} />

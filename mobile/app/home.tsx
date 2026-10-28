@@ -4,12 +4,13 @@ import { router } from 'expo-router';
 import { Screen } from '../src/components/Screen';
 import { AppButton } from '../src/components/AppButton';
 import { useApp } from '../src/state/AppContext';
-import { lesson1 } from '../src/data/lesson';
+import { lessons } from '../src/data/lessons';
 import { buildSteps } from '../src/logic/steps';
 import { pick, t } from '../src/i18n/t';
 import { colors, space, type } from '../src/theme';
 
-const TOTAL_STEPS = buildSteps(lesson1).length;
+const lesson = lessons.A1.greetings;
+const TOTAL_STEPS = buildSteps(lesson).length;
 
 export default function Home() {
   const { lang, session, progress, saveStep, logout } = useApp();
@@ -28,8 +29,8 @@ export default function Home() {
 
       <View style={styles.card}>
         <Text style={styles.level}>{t(lang, 'levelA1')}</Text>
-        <Text style={type.heading}>{pick(lesson1.title, lang)}</Text>
-        <Text style={type.body}>{pick(lesson1.subtitle, lang)}</Text>
+        <Text style={type.heading}>{pick(lesson.title, lang)}</Text>
+        <Text style={type.body}>{pick(lesson.subtitle, lang)}</Text>
 
         <View style={styles.barTrack} accessibilityLabel={t(lang, 'progress', { p: percent })}>
           <View style={[styles.barFill, { width: `${percent}%` }]} />

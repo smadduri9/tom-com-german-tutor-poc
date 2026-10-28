@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Generates German MP3 clips for the POC with ElevenLabs text-to-speech.
-// Reads content/lesson1.json -> writes generated/audio/*.mp3 and generated/audioMap.ts,
+// Reads content/lessons/A1/greetings.json -> writes generated/audio/*.mp3 and generated/audioMap.ts,
 // then copies both into the mobile app (mobile/assets/audio, mobile/src/data/audioMap.ts).
 // Usage: node tools/generate-audio.mjs [--force] [--dry-run]
 // Needs Node 18+ (built-in fetch). No npm packages.
@@ -10,7 +10,7 @@ import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const LESSON_PATH = join(ROOT, 'content', 'lesson1.json');
+const LESSON_PATH = join(ROOT, 'content', 'lessons', 'A1', 'greetings.json');
 const OUT_DIR = join(ROOT, 'generated', 'audio');
 const MAP_PATH = join(ROOT, 'generated', 'audioMap.ts');
 const VOICES_PATH = join(ROOT, 'generated', 'voices.json');

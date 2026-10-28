@@ -22,7 +22,7 @@ function parseProgress(p: unknown): Progress | null {
   const step = o.step, quizBest = o.quizBest;
   return {
     step: Number.isInteger(step) && (step as number) >= 0 ? (step as number) : 0,
-    quizBest: Number.isInteger(quizBest) && (quizBest as number) >= 0 && (quizBest as number) <= 5 ? (quizBest as number) : 0,
+    quizBest: Number.isInteger(quizBest) && (quizBest as number) >= 0 && (quizBest as number) <= 6 ? (quizBest as number) : 0,
     passed: o.passed === true,
   };
 }

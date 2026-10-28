@@ -8,12 +8,12 @@ import { AppButton } from '../src/components/AppButton';
 import { useAudio } from '../src/audio/AudioContext';
 import { useApp } from '../src/state/AppContext';
 import { pick, t } from '../src/i18n/t';
-import { lesson1 } from '../src/data/lesson';
+import { lessons } from '../src/data/lessons';
 import { colors, space } from '../src/theme';
 
 // A short natural sentence so people hear the voice quality before signing in.
 const SAMPLE_AUDIO_ID = 'd02';
-const SAMPLE_LINE = lesson1.dialogue.find((d) => d.id === SAMPLE_AUDIO_ID)!;
+const SAMPLE_LINE = lessons.A1.greetings.dialogue.lines.find((d) => d.id === SAMPLE_AUDIO_ID)!;
 
 function AboutSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
   const { lang } = useApp();

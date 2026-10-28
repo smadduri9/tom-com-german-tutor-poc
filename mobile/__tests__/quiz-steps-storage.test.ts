@@ -2,31 +2,31 @@ jest.mock('@react-native-async-storage/async-storage', () =>
   require('@react-native-async-storage/async-storage/jest/async-storage-mock'),
 );
 
-import { lesson1 } from '../src/data/lesson';
+import { lessons } from '../src/data/lessons';
 import { isPass, scoreQuiz } from '../src/logic/quiz';
 import { buildSteps, clampStep } from '../src/logic/steps';
 import { DEFAULT_STATE, parsePersisted } from '../src/state/storage';
 
 describe('quiz', () => {
-  const q = lesson1.quiz;
+  const q = lessons.A1.greetings.quiz;
   it('scores all correct as 5', () => {
-    expect(scoreQuiz(q.map((x) => x.correctIndex), q)).toBe(5);
+    expect(scoreQuiz(q.map((x) => x.correctIndex), q)).toBe(6);
   });
   it('scores unanswered as wrong', () => {
-    expect(scoreQuiz([null, null, null, null, null], q)).toBe(0);
+    expect(scoreQuiz(q.map(() => null), q)).toBe(0);
   });
-  it('passes at 4, fails at 3', () => {
-    expect(isPass(4)).toBe(true);
-    expect(isPass(3)).toBe(false);
+  it('passes at 5 of 6 (80%), fails at 4', () => {
+    expect(isPass(5)).toBe(true);
+    expect(isPass(4)).toBe(false);
   });
 });
 
 describe('steps', () => {
-  it('has intro + 15 phrases + dialogue + grammar + pron', () => {
-    const s = buildSteps(lesson1);
+  it('has intro + 15 vocab + dialogue + grammar + practice', () => {
+    const s = buildSteps(lessons.A1.greetings);
     expect(s).toHaveLength(19);
     expect(s[0].kind).toBe('intro');
-    expect(s[18].kind).toBe('pron');
+    expect(s[18].kind).toBe('practice');
   });
   it('clamps', () => {
     expect(clampStep(-3, 19)).toBe(0);
