@@ -1,0 +1,527 @@
+{
+  "id": "future-werden",
+  "slug": "future-werden",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Future with werden",
+    "te": "werden తో భవిష్యత్తు",
+    "hi": "werden से भविष्य"
+  },
+  "subtitle": {
+    "en": "Plans and predictions",
+    "te": "ప్రణాళికలు మరియు అంచనాలు",
+    "hi": "योजनाएँ और अनुमान"
+  },
+  "intro": {
+    "en": "Talk about plans and predictions with werden, or simply use the present with a time word.",
+    "te": "werden తో ప్రణాళికలు, అంచనాలు చెప్పండి; లేదా సమయం పదంతో వర్తమానం వాడండి.",
+    "hi": "werden से योजनाएँ और अनुमान बताएँ; या समय शब्द के साथ वर्तमान काल का प्रयोग करें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "werden",
+      "meaning": {
+        "en": "will / to become",
+        "te": "అవుతుంది / చేస్తాను",
+        "hi": "होगा / बनना"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "ich werde",
+      "meaning": {
+        "en": "I will",
+        "te": "నేను చేస్తాను",
+        "hi": "मैं … करूँगा"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "du wirst",
+      "meaning": {
+        "en": "you will",
+        "te": "నువ్వు చేస్తావు",
+        "hi": "तुम … करोगे"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "er/sie/es wird",
+      "meaning": {
+        "en": "he/she/it will",
+        "te": "అతను/ఆమె చేస్తారు",
+        "hi": "वह … करेगा/करेगी"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "wir werden",
+      "meaning": {
+        "en": "we will",
+        "te": "మేము చేస్తాము",
+        "hi": "हम … करेंगे"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "morgen / nächste Woche",
+      "meaning": {
+        "en": "tomorrow / next week",
+        "te": "రేపు / వచ్చే వారం",
+        "hi": "कल / अगले हफ़्ते"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "wahrscheinlich",
+      "meaning": {
+        "en": "probably",
+        "te": "బహుశా",
+        "hi": "शायद"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Es wird regnen.",
+      "meaning": {
+        "en": "It will rain.",
+        "te": "వర్షం పడుతుంది.",
+        "hi": "बारिश होगी।"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Ich werde Ingenieur.",
+      "meaning": {
+        "en": "I will become an engineer.",
+        "te": "నేను ఇంజనీర్ అవుతాను.",
+        "hi": "मैं इंजीनियर बनूँगा।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Ich werde dich anrufen.",
+      "meaning": {
+        "en": "I will call you.",
+        "te": "నేను నీకు ఫోన్ చేస్తాను.",
+        "hi": "मैं तुम्हें फ़ोन करूँगा।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Nächstes Jahr werde ich Deutsch-Prüfung machen.",
+      "meaning": {
+        "en": "Next year I will take the German exam.",
+        "te": "వచ్చే ఏడాది నేను జర్మన్ పరీక్ష రాస్తాను.",
+        "hi": "अगले साल मैं जर्मन परीक्षा दूँगा।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Morgen fahre ich nach Hamburg.",
+      "meaning": {
+        "en": "Tomorrow I am travelling to Hamburg.",
+        "te": "రేపు నేను హాంబర్గ్‌కు వెళ్తాను.",
+        "hi": "कल मैं हैम्बर्ग जा रहा हूँ।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Ich glaube, er wird pünktlich sein.",
+      "meaning": {
+        "en": "I think he will be on time.",
+        "te": "అతను సమయానికి ఉంటాడని అనుకుంటున్నాను.",
+        "hi": "मुझे लगता है वह समय पर होगा।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Wir werden viel lernen.",
+      "meaning": {
+        "en": "We will learn a lot.",
+        "te": "మేము చాలా నేర్చుకుంటాము.",
+        "hi": "हम बहुत सीखेंगे।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Prüfung",
+      "meaning": {
+        "en": "the exam",
+        "te": "పరీక్ష",
+        "hi": "परीक्षा"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Plan",
+      "meaning": {
+        "en": "the plan",
+        "te": "ప్రణాళిక",
+        "hi": "योजना"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "pünktlich",
+      "meaning": {
+        "en": "on time",
+        "te": "సమయానికి",
+        "hi": "समय पर"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Zukunft",
+      "meaning": {
+        "en": "the future",
+        "te": "భవిష్యత్తు",
+        "hi": "भविष्य"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "PLANNING THE FUTURE",
+      "te": "భవిష్యత్తు ప్రణాళిక",
+      "hi": "भविष्य की योजना"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Lena",
+        "de": "Was machst du nächstes Jahr?",
+        "meaning": {
+          "en": "What are you doing next year?",
+          "te": "వచ్చే ఏడాది నువ్వు ఏమి చేస్తావు?",
+          "hi": "अगले साल तुम क्या करोगे?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Arjun",
+        "de": "Ich werde einen Deutschkurs machen und dann arbeiten.",
+        "meaning": {
+          "en": "I will do a German course and then work.",
+          "te": "నేను జర్మన్ కోర్సు చేసి, తర్వాత పని చేస్తాను.",
+          "hi": "मैं जर्मन कोर्स करूँगा और फिर काम करूँगा।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Lena",
+        "de": "Das wird sicher gut. Wo wirst du wohnen?",
+        "meaning": {
+          "en": "That will surely be good. Where will you live?",
+          "te": "అది ఖచ్చితంగా బాగుంటుంది. నువ్వు ఎక్కడ ఉంటావు?",
+          "hi": "वह ज़रूर अच्छा होगा। तुम कहाँ रहोगे?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Arjun",
+        "de": "Wahrscheinlich in Berlin.",
+        "meaning": {
+          "en": "Probably in Berlin.",
+          "te": "బహుశా బెర్లిన్‌లో.",
+          "hi": "शायद बर्लिन में।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: future with werden",
+      "te": "వ్యాకరణం: werden తో భవిష్యత్తు",
+      "hi": "व्याकरण: werden से भविष्य"
+    },
+    "body": {
+      "en": "Form: werden (conjugated) + infinitive at the end: Ich werde Deutsch lernen. Often the present is enough with a time word: Morgen fahre ich nach Hamburg.",
+      "te": "రూపం: werden (రూపం మారుతుంది) + చివర మూల క్రియ: Ich werde Deutsch lernen. సమయ పదంతో వర్తమానం కూడా చాలు.",
+      "hi": "रूप: werden (रूप बदलता है) + अंत में मूल क्रिया: Ich werde Deutsch lernen। समय शब्द के साथ वर्तमान भी चलता है।"
+    }
+  },
+  "deep_dive": {
+    "en": "Germans use the present for near future most of the time, and werden for predictions or promises: Es wird regnen. The werden future feels formal or certain, so use it when you mean \"will\" for sure.",
+    "te": "జర్మన్లు దగ్గరి భవిష్యత్తుకు వర్తమానం, అంచనాలు, వాగ్దానాలకు werden వాడతారు: Es wird regnen.",
+    "hi": "जर्मन पास के भविष्य के लिए ज़्यादातर वर्तमान काल लेते हैं और अनुमान या वादे के लिए werden: Es wird regnen।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich werde Deutsch lerne.",
+      "right": "Ich werde Deutsch lernen.",
+      "why": {
+        "en": "The main verb is an infinitive at the end.",
+        "te": "ముఖ్య క్రియ చివర మూల రూపం.",
+        "hi": "मुख्य क्रिया अंत में मूल रूप में।"
+      }
+    },
+    {
+      "wrong": "Er wird kommt.",
+      "right": "Er wird kommen.",
+      "why": {
+        "en": "After werden: infinitive.",
+        "te": "werden తర్వాత మూల రూపం.",
+        "hi": "werden के बाद मूल रूप।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In Germany, people plan carefully and often ask about your plans for the future in job interviews: \"Wo sehen Sie sich in fünf Jahren?\" (Where do you see yourself in five years?).",
+    "te": "జర్మనీలో ఉద్యోగ ఇంటర్వ్యూలలో \"Wo sehen Sie sich in fünf Jahren?\" (ఐదేళ్ల తర్వాత మిమ్మల్ని మీరు ఎక్కడ చూస్తారు?) అని అడుగుతారు.",
+    "hi": "जर्मनी में नौकरी के इंटरव्यू में अक्सर पूछा जाता है: \"Wo sehen Sie sich in fünf Jahren?\" (पाँच साल बाद आप खुद को कहाँ देखते हैं?)।"
+  },
+  "practice_tip": {
+    "en": "Write three plans for next year with werden, and one prediction.",
+    "te": "werden తో వచ్చే ఏడాది మూడు ప్రణాళికలు, ఒక అంచనా రాయండి.",
+    "hi": "werden से अगले साल की तीन योजनाएँ और एक अनुमान लिखें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"I will learn German.\"",
+        "te": "\"నేను జర్మన్ నేర్చుకుంటాను\" అని చెప్పండి.",
+        "hi": "\"मैं जर्मन सीखूँगा\" कहें।"
+      },
+      "answer": {
+        "en": "Ich werde Deutsch lernen.",
+        "te": "Ich werde Deutsch lernen.",
+        "hi": "Ich werde Deutsch lernen."
+      }
+    },
+    {
+      "question": {
+        "en": "Which form: \"du ___\"?",
+        "te": "\"du ___\" ఏ రూపం?",
+        "hi": "\"du ___\" कौन-सा रूप?"
+      },
+      "answer": {
+        "en": "wirst",
+        "te": "wirst",
+        "hi": "wirst"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich ___ morgen kommen.",
+        "te": "Ich ___ morgen kommen.",
+        "hi": "Ich ___ morgen kommen."
+      },
+      "options": [
+        {
+          "de": "werde"
+        },
+        {
+          "de": "wirst"
+        },
+        {
+          "de": "wird"
+        },
+        {
+          "de": "werden"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "ich werde.",
+        "te": "ich werde.",
+        "hi": "ich werde."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Er ___ Arzt werden.",
+        "te": "Er ___ Arzt werden.",
+        "hi": "Er ___ Arzt werden."
+      },
+      "options": [
+        {
+          "de": "wird"
+        },
+        {
+          "de": "werde"
+        },
+        {
+          "de": "wirst"
+        },
+        {
+          "de": "werden"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "er wird.",
+        "te": "er wird.",
+        "hi": "er wird."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Es wird regnen\" means…",
+        "te": "\"Es wird regnen\" means…",
+        "hi": "\"Es wird regnen\" means…"
+      },
+      "options": [
+        {
+          "de": "It will rain."
+        },
+        {
+          "de": "It rained."
+        },
+        {
+          "de": "It is raining."
+        },
+        {
+          "de": "It is cold."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "werden + infinitive = will.",
+        "te": "werden + infinitive = will.",
+        "hi": "werden + infinitive = will."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Which is correct?",
+        "te": "Which is correct?",
+        "hi": "Which is correct?"
+      },
+      "options": [
+        {
+          "de": "Wir werden lernen."
+        },
+        {
+          "de": "Wir werden lernt."
+        },
+        {
+          "de": "Wir werden lerne."
+        },
+        {
+          "de": "Wir werden gelernt."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "werden + infinitive.",
+        "te": "werden + infinitive.",
+        "hi": "werden + infinitive."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "future-werden-l1",
+      "audio_de": "Morgen fahre ich nach Hamburg.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Tomorrow I am going to Hamburg.",
+            "te": "రేపు నేను హాంబర్గ్‌కు వెళ్తాను.",
+            "hi": "कल मैं हैम्बर्ग जा रहा हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "Yesterday I went to Hamburg.",
+            "te": "నిన్న నేను హాంబర్గ్‌కు వెళ్ళాను.",
+            "hi": "कल मैं हैम्बर्ग गया।"
+          }
+        },
+        {
+          "text": {
+            "en": "I live in Hamburg.",
+            "te": "నేను హాంబర్గ్‌లో ఉంటాను.",
+            "hi": "मैं हैम्बर्ग में रहता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "Hamburg is far.",
+            "te": "హాంబర్గ్ దూరంగా ఉంది.",
+            "hi": "हैम्बर्ग दूर है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "morgen = tomorrow; present for the near future.",
+        "te": "morgen = రేపు; దగ్గరి భవిష్యత్తుకు వర్తమానం.",
+        "hi": "morgen = कल; पास के भविष्य के लिए वर्तमान।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v08",
+      "audio_de": "Es wird regnen.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "It will rain.",
+            "te": "వర్షం పడుతుంది.",
+            "hi": "बारिश होगी।"
+          }
+        },
+        {
+          "text": {
+            "en": "It rained.",
+            "te": "వర్షం పడింది.",
+            "hi": "बारिश हुई।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is sunny.",
+            "te": "ఎండ ఉంది.",
+            "hi": "धूप है।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is cold.",
+            "te": "చలిగా ఉంది.",
+            "hi": "ठंड है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wird regnen = will rain.",
+        "te": "wird regnen = వర్షం పడుతుంది.",
+        "hi": "wird regnen = बारिश होगी।"
+      }
+    }
+  ],
+  "audio": []
+}

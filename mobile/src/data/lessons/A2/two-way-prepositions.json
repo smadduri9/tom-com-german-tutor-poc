@@ -1,0 +1,527 @@
+{
+  "id": "two-way-prepositions",
+  "slug": "two-way-prepositions",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Two-Way Prepositions",
+    "te": "ద్విదిశ పూర్వపదాలు",
+    "hi": "दो-तरफ़ा पूर्वसर्ग"
+  },
+  "subtitle": {
+    "en": "in, an, auf with place and movement",
+    "te": "in, an, auf స్థానం మరియు కదలిక",
+    "hi": "in, an, auf स्थान और गति"
+  },
+  "intro": {
+    "en": "Some prepositions take the accusative for movement to a place and the dative for position at a place: in, an, auf, neben, unter.",
+    "te": "కొన్ని పూర్వపదాలు కదలిక కోసం accusative, స్థానం కోసం dative తీసుకుంటాయి: in, an, auf, neben, unter.",
+    "hi": "कुछ पूर्वसर्ग गति के लिए accusative और स्थिति के लिए dative लेते हैं: in, an, auf, neben, unter।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "in",
+      "meaning": {
+        "en": "in / into",
+        "te": "లో / లోపలికి",
+        "hi": "में / के अंदर"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "an",
+      "meaning": {
+        "en": "on (vertical) / at",
+        "te": "కి / గోడకు",
+        "hi": "पर (दीवार पर) / के पास"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "auf",
+      "meaning": {
+        "en": "on (horizontal)",
+        "te": "పైన",
+        "hi": "पर (ऊपर)"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "unter",
+      "meaning": {
+        "en": "under",
+        "te": "కింద",
+        "hi": "के नीचे"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "neben",
+      "meaning": {
+        "en": "next to",
+        "te": "పక్కన",
+        "hi": "बगल में"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "vor",
+      "meaning": {
+        "en": "in front of",
+        "te": "ముందు",
+        "hi": "के सामने"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "hinter",
+      "meaning": {
+        "en": "behind",
+        "te": "వెనుక",
+        "hi": "के पीछे"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "zwischen",
+      "meaning": {
+        "en": "between",
+        "te": "మధ్య",
+        "hi": "के बीच"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Wohin?",
+      "meaning": {
+        "en": "Where to? (movement)",
+        "te": "ఎక్కడికి?",
+        "hi": "कहाँ को?"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Wo?",
+      "meaning": {
+        "en": "Where? (position)",
+        "te": "ఎక్కడ?",
+        "hi": "कहाँ पर?"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich lege das Buch auf den Tisch.",
+      "meaning": {
+        "en": "I put the book on the table.",
+        "te": "నేను పుస్తకాన్ని బల్ల మీద పెడతాను.",
+        "hi": "मैं किताब मेज़ पर रखता हूँ।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Das Buch liegt auf dem Tisch.",
+      "meaning": {
+        "en": "The book lies on the table.",
+        "te": "పుస్తకం బల్ల మీద ఉంది.",
+        "hi": "किताब मेज़ पर है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Wir gehen in die Küche.",
+      "meaning": {
+        "en": "We go into the kitchen.",
+        "te": "మేము వంటగదిలోకి వెళ్తాము.",
+        "hi": "हम रसोई में जाते हैं।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Er wartet vor dem Bahnhof.",
+      "meaning": {
+        "en": "He waits in front of the station.",
+        "te": "అతను స్టేషన్ ముందు వేచి ఉన్నాడు.",
+        "hi": "वह स्टेशन के सामने इंतज़ार करता है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "legen",
+      "meaning": {
+        "en": "to lay (put down)",
+        "te": "పెట్టడం",
+        "hi": "रखना"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "liegen",
+      "meaning": {
+        "en": "to lie (be placed)",
+        "te": "ఉండటం",
+        "hi": "पड़ा होना"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "stellen",
+      "meaning": {
+        "en": "to place (upright)",
+        "te": "నిలబెట్టడం",
+        "hi": "खड़ा करना"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "warten",
+      "meaning": {
+        "en": "to wait",
+        "te": "వేచి ఉండటం",
+        "hi": "इंतज़ार करना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "FINDING THE KEYS",
+      "te": "తాళాలు వెతుకుతూ",
+      "hi": "चाबी ढूँढते हुए"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Lena",
+        "de": "Wo sind meine Schlüssel?",
+        "meaning": {
+          "en": "Where are my keys?",
+          "te": "నా తాళాలు ఎక్కడ?",
+          "hi": "मेरी चाबियाँ कहाँ हैं?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Anil",
+        "de": "Sie liegen auf dem Sofa.",
+        "meaning": {
+          "en": "They are lying on the sofa.",
+          "te": "అవి సోఫా మీద ఉన్నాయి.",
+          "hi": "वे सोफ़े पर पड़ी हैं।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Lena",
+        "de": "Ich habe sie überall gesucht! Danke.",
+        "meaning": {
+          "en": "I searched everywhere! Thanks.",
+          "te": "నేను అన్ని చోట్లా వెతికాను! ధన్యవాదాలు.",
+          "hi": "मैंने हर जगह ढूँढा! धन्यवाद।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Anil",
+        "de": "Leg sie das nächste Mal in die Schale neben der Tür.",
+        "meaning": {
+          "en": "Next time put them in the bowl next to the door.",
+          "te": "తర్వాత తలుపు పక్కన ఉన్న గిన్నెలో పెట్టు.",
+          "hi": "अगली बार इन्हें दरवाज़े के बगल वाली कटोरी में रखना।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: accusative for movement, dative for place",
+      "te": "వ్యాకరణం: గతికి accusative, స్థానానికి dative",
+      "hi": "व्याकरण: गति के लिए accusative, स्थान के लिए dative"
+    },
+    "body": {
+      "en": "Movement (wohin?): accusative. Ich lege das Buch auf den Tisch. Position (wo?): dative. Das Buch liegt auf dem Tisch. Lege/liege, stelle/stehe, setze/sitze follow the same rule.",
+      "te": "గతి (wohin?): accusative. Ich lege das Buch auf den Tisch. స్థానం (wo?): dative. Das Buch liegt auf dem Tisch.",
+      "hi": "गति (wohin?): accusative। Ich lege das Buch auf den Tisch। स्थिति (wo?): dative। Das Buch liegt auf dem Tisch।"
+    }
+  },
+  "deep_dive": {
+    "en": "Use legen (put) and liegen (lie) for flat objects; stellen (stand upright) and stehen; setzen (seat) and sitzen. Mixing them is a very common mistake.",
+    "te": "సపాటి వస్తువులకు legen/liegen; నిలబెట్టే వస్తువులకు stellen/stehen; కూర్చోబెట్టడానికి setzen/sitzen. వీటిని కలపడం సాధారణ తప్పు.",
+    "hi": "चपटी चीज़ों के लिए legen/liegen; खड़ी चीज़ों के लिए stellen/stehen; बैठाने के लिए setzen/sitzen। इन्हें मिलाना आम गलती है।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Das Buch liegt auf den Tisch.",
+      "right": "Das Buch liegt auf dem Tisch.",
+      "why": {
+        "en": "Position: dative (dem).",
+        "te": "స్థానం: dative (dem).",
+        "hi": "स्थिति: dative (dem)।"
+      }
+    },
+    {
+      "wrong": "Ich lege das Buch auf dem Tisch.",
+      "right": "Ich lege das Buch auf den Tisch.",
+      "why": {
+        "en": "Movement: accusative (den).",
+        "te": "గతి: accusative (den).",
+        "hi": "गति: accusative (den)।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In German homes you usually take a small gift or flowers if invited. Put them on the table, not on the floor.",
+    "te": "జర్మన్ ఇళ్లకు ఆహ్వానిస్తే చిన్న బహుమతి లేదా పూలు తీసుకెళ్లండి. బల్ల మీద ఉంచండి.",
+    "hi": "जर्मन घरों में निमंत्रण पर छोटा उपहार या फूल ले जाएँ। मेज़ पर रखें।"
+  },
+  "practice_tip": {
+    "en": "Put five objects around your room and describe where each is, with auf, in, unter.",
+    "te": "మీ గదిలో ఐదు వస్తువులు పెట్టి ప్రతిదీ ఎక్కడ ఉందో auf, in, unter తో చెప్పండి.",
+    "hi": "कमरे में पाँच चीज़ें रखें और हर एक की जगह auf, in, unter से बताएँ।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Movement or position: \"Ich gehe in die Küche.\"",
+        "te": "గతి లేదా స్థానం: \"Ich gehe in die Küche.\"",
+        "hi": "गति या स्थिति: \"Ich gehe in die Küche.\""
+      },
+      "answer": {
+        "en": "Movement.",
+        "te": "గతి.",
+        "hi": "गति।"
+      }
+    },
+    {
+      "question": {
+        "en": "Complete: Das Buch liegt auf ___ Tisch.",
+        "te": "పూర్తి చేయండి: Das Buch liegt auf ___ Tisch.",
+        "hi": "पूरा करें: Das Buch liegt auf ___ Tisch।"
+      },
+      "answer": {
+        "en": "dem",
+        "te": "dem",
+        "hi": "dem"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich stelle die Flasche auf ___ Tisch.",
+        "te": "Ich stelle die Flasche auf ___ Tisch.",
+        "hi": "Ich stelle die Flasche auf ___ Tisch."
+      },
+      "options": [
+        {
+          "de": "den"
+        },
+        {
+          "de": "dem"
+        },
+        {
+          "de": "der"
+        },
+        {
+          "de": "das"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Movement: accusative den.",
+        "te": "Movement: accusative den.",
+        "hi": "Movement: accusative den."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Die Flasche steht auf ___ Tisch.",
+        "te": "Die Flasche steht auf ___ Tisch.",
+        "hi": "Die Flasche steht auf ___ Tisch."
+      },
+      "options": [
+        {
+          "de": "dem"
+        },
+        {
+          "de": "den"
+        },
+        {
+          "de": "der"
+        },
+        {
+          "de": "die"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Position: dative dem.",
+        "te": "Position: dative dem.",
+        "hi": "Position: dative dem."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"zwischen\" means…",
+        "te": "\"zwischen\" means…",
+        "hi": "\"zwischen\" means…"
+      },
+      "options": [
+        {
+          "de": "between"
+        },
+        {
+          "de": "behind"
+        },
+        {
+          "de": "under"
+        },
+        {
+          "de": "in front of"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "zwischen = between.",
+        "te": "zwischen = between.",
+        "hi": "zwischen = between."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Wir gehen ___ Park.",
+        "te": "Wir gehen ___ Park.",
+        "hi": "Wir gehen ___ Park."
+      },
+      "options": [
+        {
+          "de": "in den"
+        },
+        {
+          "de": "in dem"
+        },
+        {
+          "de": "im"
+        },
+        {
+          "de": "in der Park"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Movement: in den Park.",
+        "te": "Movement: in den Park.",
+        "hi": "Movement: in den Park."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "two-way-prepositions-l1",
+      "audio_de": "Das Buch liegt unter dem Stuhl.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The book lies under the chair.",
+            "te": "పుస్తకం కుర్చీ కింద ఉంది.",
+            "hi": "किताब कुर्सी के नीचे है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The book lies on the chair.",
+            "te": "పుస్తకం కుర్చీ మీద ఉంది.",
+            "hi": "किताब कुर्सी पर है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The book is behind the chair.",
+            "te": "పుస్తకం కుర్చీ వెనుక ఉంది.",
+            "hi": "किताब कुर्सी के पीछे है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The book is next to the chair.",
+            "te": "పుస్తకం కుర్చీ పక్కన ఉంది.",
+            "hi": "किताब कुर्सी के बगल में है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "unter = under.",
+        "te": "unter = కింద.",
+        "hi": "unter = नीचे।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "two-way-prepositions-l2",
+      "audio_de": "Ich gehe in die Küche.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I go into the kitchen.",
+            "te": "నేను వంటగదిలోకి వెళ్తాను.",
+            "hi": "मैं रसोई में जाता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am in the kitchen.",
+            "te": "నేను వంటగదిలో ఉన్నాను.",
+            "hi": "मैं रसोई में हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I leave the kitchen.",
+            "te": "నేను వంటగది నుండి వెళ్తాను.",
+            "hi": "मैं रसोई छोड़ता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I cook in the kitchen.",
+            "te": "నేను వంటగదిలో వండుతాను.",
+            "hi": "मैं रसोई में खाना बनाता हूँ।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "in + Akkusativ = into.",
+        "te": "in + accusative = లోపలికి.",
+        "hi": "in + accusative = अंदर।"
+      }
+    }
+  ],
+  "audio": []
+}

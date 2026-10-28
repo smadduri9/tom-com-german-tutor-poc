@@ -1,0 +1,527 @@
+{
+  "id": "comparatives",
+  "slug": "comparatives",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Comparative & Superlative",
+    "te": "తులనార్థక & అత్యుత్తమ రూపాలు",
+    "hi": "तुलनात्मक और उत्तमावस्था"
+  },
+  "subtitle": {
+    "en": "Bigger, the biggest",
+    "te": "పెద్దది, అన్నింటికంటే పెద్దది",
+    "hi": "बड़ा, सबसे बड़ा"
+  },
+  "intro": {
+    "en": "Compare people and things: bigger, faster, the biggest, the fastest.",
+    "te": "వ్యక్తులు, వస్తువులను పోల్చండి: పెద్దది, వేగంగా, అన్నిటికంటే పెద్దది, అన్నిటికంటే వేగంగా.",
+    "hi": "लोगों और चीज़ों की तुलना करें: बड़ा, तेज़, सबसे बड़ा, सबसे तेज़।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "größer",
+      "meaning": {
+        "en": "bigger",
+        "te": "పెద్దది",
+        "hi": "बड़ा"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "schneller",
+      "meaning": {
+        "en": "faster",
+        "te": "వేగంగా",
+        "hi": "तेज़"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "besser",
+      "meaning": {
+        "en": "better",
+        "te": "మెరుగైన",
+        "hi": "बेहतर"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "teurer",
+      "meaning": {
+        "en": "more expensive",
+        "te": "ఖరీదైనది",
+        "hi": "महँगा"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "der größte",
+      "meaning": {
+        "en": "the biggest",
+        "te": "అతి పెద్దది",
+        "hi": "सबसे बड़ा"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "am schnellsten",
+      "meaning": {
+        "en": "the fastest",
+        "te": "అతి వేగంగా",
+        "hi": "सबसे तेज़"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "als",
+      "meaning": {
+        "en": "than",
+        "te": "కంటే",
+        "hi": "से"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "so … wie",
+      "meaning": {
+        "en": "as … as",
+        "te": "అంత … ఎంత",
+        "hi": "जितना … उतना"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "gut / besser / am besten",
+      "meaning": {
+        "en": "good / better / the best",
+        "te": "మంచి / మెరుగు / అత్యుత్తమం",
+        "hi": "अच्छा / बेहतर / सबसे अच्छा"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "viel / mehr / am meisten",
+      "meaning": {
+        "en": "much / more / the most",
+        "te": "ఎక్కువ / మరింత / అత్యధికం",
+        "hi": "बहुत / ज़्यादा / सबसे ज़्यादा"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Der Zug ist schneller als der Bus.",
+      "meaning": {
+        "en": "The train is faster than the bus.",
+        "te": "రైలు బస్సు కంటే వేగంగా ఉంటుంది.",
+        "hi": "ट्रेन बस से तेज़ है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Berlin ist größer als Köln.",
+      "meaning": {
+        "en": "Berlin is bigger than Cologne.",
+        "te": "బెర్లిన్ కోలోన్ కంటే పెద్దది.",
+        "hi": "बर्लिन कोलोन से बड़ा है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Das ist das teuerste Hotel.",
+      "meaning": {
+        "en": "That is the most expensive hotel.",
+        "te": "అది అత్యంత ఖరీదైన హోటల్.",
+        "hi": "यह सबसे महँगा होटल है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Er ist so alt wie mein Vater.",
+      "meaning": {
+        "en": "He is as old as my father.",
+        "te": "అతను మా నాన్న అంత వయసువాడు.",
+        "hi": "वह मेरे पिता जितना बूढ़ा है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Stadt",
+      "meaning": {
+        "en": "the city",
+        "te": "నగరం",
+        "hi": "शहर"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "das Dorf",
+      "meaning": {
+        "en": "the village",
+        "te": "గ్రామం",
+        "hi": "गाँव"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "billig",
+      "meaning": {
+        "en": "cheap",
+        "te": "చౌక",
+        "hi": "सस्ता"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "alt / jung",
+      "meaning": {
+        "en": "old / young",
+        "te": "పాత / చిన్న",
+        "hi": "पुराना / जवान"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "CHOOSING AN APARTMENT",
+      "te": "ఫ్లాట్ ఎంచుకుంటూ",
+      "hi": "फ़्लैट चुनते हुए"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Ravi",
+        "de": "Welche Wohnung ist größer?",
+        "meaning": {
+          "en": "Which flat is bigger?",
+          "te": "ఏ ఫ్లాట్ పెద్దది?",
+          "hi": "कौन-सा फ़्लैट बड़ा है?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Herr Koch",
+        "de": "Die zweite. Sie ist größer als die erste.",
+        "meaning": {
+          "en": "The second. It is bigger than the first.",
+          "te": "రెండవది. ఇది మొదటిదాని కంటే పెద్దది.",
+          "hi": "दूसरा। यह पहले वाले से बड़ा है।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Ravi",
+        "de": "Aber sie ist auch teurer.",
+        "meaning": {
+          "en": "But it is also more expensive.",
+          "te": "కానీ ఇది ఖరీదైనది కూడా.",
+          "hi": "पर यह महँगा भी है।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Herr Koch",
+        "de": "Ja, aber die Miete ist nicht so hoch wie in der Innenstadt.",
+        "meaning": {
+          "en": "Yes, but the rent is not as high as in the city centre.",
+          "te": "అవును, కానీ అద్దె నగర మధ్యలో ఉన్నంత ఎక్కువ కాదు.",
+          "hi": "हाँ, पर किराया शहर के केंद्र जितना ज़्यादा नहीं है।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: comparison",
+      "te": "వ్యాకరణం: తులనం",
+      "hi": "व्याकरण: तुलना"
+    },
+    "body": {
+      "en": "Comparative: add -er (schnell → schneller). Superlative: am + -sten (am schnellsten) or der/die/das + -ste (der größte). Use als for \"than\" and so … wie for \"as … as\".",
+      "te": "తులనార్థకం: -er (schnell → schneller). అత్యుత్తమం: am + -sten (am schnellsten). \"than\" కి als, \"as … as\" కి so … wie.",
+      "hi": "तुलनात्मक: -er (schnell → schneller)। उत्तमावस्था: am + -sten (am schnellsten)। \"than\" के लिए als, \"as … as\" के लिए so … wie।"
+    }
+  },
+  "deep_dive": {
+    "en": "Some adjectives change their vowel: groß → größer → der größte; alt → älter → der älteste. Irregular: gut → besser → am besten; viel → mehr → am meisten.",
+    "te": "కొన్ని విశేషణాల అచ్చు మారుతుంది: groß → größer → der größte; alt → älter. క్రమరహితం: gut → besser → am besten.",
+    "hi": "कुछ विशेषणों का स्वर बदलता है: groß → größer → der größte; alt → älter। अनियमित: gut → besser → am besten।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "schneller als wie",
+      "right": "schneller als",
+      "why": {
+        "en": "Use either als or wie, not both.",
+        "te": "als లేదా wie, రెండూ కాదు.",
+        "hi": "als या wie, दोनों नहीं।"
+      }
+    },
+    {
+      "wrong": "Der Zug ist am schnellere.",
+      "right": "Der Zug ist am schnellsten.",
+      "why": {
+        "en": "Superlative after am: -sten.",
+        "te": "am తర్వాత -sten.",
+        "hi": "am के बाद -sten।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Germans value directness in comparisons, but they usually avoid strong praise. \"Gut\" is a common, polite evaluation.",
+    "te": "జర్మన్లు పోలికల్లో సూటిగా ఉంటారు, కానీ అతిగా పొగడరు. \"Gut\" సాధారణ, మర్యాదపూర్వక మాట.",
+    "hi": "जर्मन तुलना में सीधे होते हैं, पर बहुत ज़्यादा तारीफ़ नहीं करते। \"Gut\" आम और विनम्र राय है।"
+  },
+  "practice_tip": {
+    "en": "Compare three places you know with größer, schneller or teurer.",
+    "te": "మీకు తెలిసిన మూడు ప్రదేశాలను größer, schneller, teurer తో పోల్చండి.",
+    "hi": "आपकी जानी-पहचानी तीन जगहों की तुलना größer, schneller या teurer से करें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Comparative of \"schnell\"?",
+        "te": "\"schnell\" యొక్క తులనార్థకం?",
+        "hi": "\"schnell\" का तुलनात्मक?"
+      },
+      "answer": {
+        "en": "schneller",
+        "te": "schneller",
+        "hi": "schneller"
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"as big as\".",
+        "te": "\"అంత పెద్దది\" అని చెప్పండి.",
+        "hi": "\"उतना बड़ा\" कहें।"
+      },
+      "answer": {
+        "en": "so groß wie",
+        "te": "so groß wie",
+        "hi": "so groß wie"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Der Bus ist ___ als das Auto.",
+        "te": "Der Bus ist ___ als das Auto.",
+        "hi": "Der Bus ist ___ als das Auto."
+      },
+      "options": [
+        {
+          "de": "langsamer"
+        },
+        {
+          "de": "langsam"
+        },
+        {
+          "de": "am langsamsten"
+        },
+        {
+          "de": "langsame"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Comparative: langsamer.",
+        "te": "Comparative: langsamer.",
+        "hi": "Comparative: langsamer."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Das ist ___ Stadt.",
+        "te": "Das ist ___ Stadt.",
+        "hi": "Das ist ___ Stadt."
+      },
+      "options": [
+        {
+          "de": "die größte"
+        },
+        {
+          "de": "der größte"
+        },
+        {
+          "de": "am größten"
+        },
+        {
+          "de": "größte"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Superlative with die Stadt: die größte.",
+        "te": "Superlative with die Stadt: die größte.",
+        "hi": "Superlative with die Stadt: die größte."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"besser\" is the comparative of…",
+        "te": "\"besser\" is the comparative of…",
+        "hi": "\"besser\" is the comparative of…"
+      },
+      "options": [
+        {
+          "de": "gut"
+        },
+        {
+          "de": "viel"
+        },
+        {
+          "de": "groß"
+        },
+        {
+          "de": "schnell"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "gut → besser.",
+        "te": "gut → besser.",
+        "hi": "gut → besser."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Er ist ___ wie ich.",
+        "te": "Er ist ___ wie ich.",
+        "hi": "Er ist ___ wie ich."
+      },
+      "options": [
+        {
+          "de": "so alt"
+        },
+        {
+          "de": "älter"
+        },
+        {
+          "de": "am ältesten"
+        },
+        {
+          "de": "alt als"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "so … wie = as … as.",
+        "te": "so … wie = as … as.",
+        "hi": "so … wie = as … as."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "comparatives-l1",
+      "audio_de": "Berlin ist größer als Köln.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Berlin is bigger than Cologne.",
+            "te": "బెర్లిన్ కోలోన్ కంటే పెద్దది.",
+            "hi": "बर्लिन कोलोन से बड़ा है।"
+          }
+        },
+        {
+          "text": {
+            "en": "Cologne is bigger than Berlin.",
+            "te": "కోలోన్ బెర్లిన్ కంటే పెద్దది.",
+            "hi": "कोलोन बर्लिन से बड़ा है।"
+          }
+        },
+        {
+          "text": {
+            "en": "Berlin is as big as Cologne.",
+            "te": "బెర్లిన్ కోలోన్ అంత పెద్దది.",
+            "hi": "बर्लिन कोलोन जितना बड़ा है।"
+          }
+        },
+        {
+          "text": {
+            "en": "Berlin is small.",
+            "te": "బెర్లిన్ చిన్నది.",
+            "hi": "बर्लिन छोटा है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "größer als = bigger than.",
+        "te": "größer als = కంటే పెద్దది.",
+        "hi": "größer als = से बड़ा।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "comparatives-l2",
+      "audio_de": "Das ist das teuerste Hotel.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "That is the most expensive hotel.",
+            "te": "అది అత్యంత ఖరీదైన హోటల్.",
+            "hi": "यह सबसे महँगा होटल है।"
+          }
+        },
+        {
+          "text": {
+            "en": "That is a cheap hotel.",
+            "te": "అది చౌక హోటల్.",
+            "hi": "यह सस्ता होटल है।"
+          }
+        },
+        {
+          "text": {
+            "en": "That is a new hotel.",
+            "te": "అది కొత్త హోటల్.",
+            "hi": "यह नया होटल है।"
+          }
+        },
+        {
+          "text": {
+            "en": "That is the best hotel.",
+            "te": "అది ఉత్తమ హోటల్.",
+            "hi": "यह सबसे अच्छा होटल है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "teuerste = most expensive.",
+        "te": "teuerste = అత్యంత ఖరీదైన.",
+        "hi": "teuerste = सबसे महँगा।"
+      }
+    }
+  ],
+  "audio": []
+}

@@ -1,0 +1,527 @@
+{
+  "id": "argumentation",
+  "slug": "argumentation",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Argumentation",
+    "te": "వాదన",
+    "hi": "तर्क"
+  },
+  "subtitle": {
+    "en": "Agreeing, disagreeing, giving reasons",
+    "te": "అంగీకరించడం, విభేదించడం, కారణాలు చెప్పడం",
+    "hi": "सहमति, असहमति और कारण"
+  },
+  "intro": {
+    "en": "Give reasons, agree or disagree in a discussion, and make a balanced point.",
+    "te": "కారణాలు చెప్పండి, చర్చలో అంగీకరించండి లేదా విభేదించండి, సమతుల్య అభిప్రాయం చెప్పండి.",
+    "hi": "कारण दें, चर्चा में सहमत या असहमत हों, और संतुलित बात रखें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "Meiner Meinung nach …",
+      "meaning": {
+        "en": "In my opinion …",
+        "te": "నా అభిప్రాయం ప్రకారం …",
+        "hi": "मेरी राय में …"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "Einerseits … andererseits …",
+      "meaning": {
+        "en": "On the one hand … on the other hand …",
+        "te": "ఒకవైపు … మరోవైపు …",
+        "hi": "एक तरफ़ … दूसरी तरफ़ …"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "Das ist richtig, aber …",
+      "meaning": {
+        "en": "That is right, but …",
+        "te": "అది నిజమే, కానీ …",
+        "hi": "यह सही है, पर …"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "Ich sehe das anders.",
+      "meaning": {
+        "en": "I see it differently.",
+        "te": "నేను దీన్ని వేరుగా చూస్తాను.",
+        "hi": "मैं इसे अलग तरह से देखता हूँ।"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "das Argument",
+      "meaning": {
+        "en": "the argument",
+        "te": "వాదన",
+        "hi": "तर्क"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "der Vorteil",
+      "meaning": {
+        "en": "the advantage",
+        "te": "ప్రయోజనం",
+        "hi": "फ़ायदा"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "der Nachteil",
+      "meaning": {
+        "en": "the disadvantage",
+        "te": "నష్టం",
+        "hi": "नुकसान"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "begründen",
+      "meaning": {
+        "en": "to justify",
+        "te": "సమర్థించడం",
+        "hi": "तर्क देना"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Ich bin dafür.",
+      "meaning": {
+        "en": "I am for it.",
+        "te": "నేను దీనికి అనుకూలం.",
+        "hi": "मैं इसके पक्ष में हूँ।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Ich bin dagegen.",
+      "meaning": {
+        "en": "I am against it.",
+        "te": "నేను దీనికి వ్యతిరేకం.",
+        "hi": "मैं इसके विरोध में हूँ।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Meiner Meinung nach ist Homeoffice sinnvoll.",
+      "meaning": {
+        "en": "In my opinion working from home makes sense.",
+        "te": "నా అభిప్రాయంలో ఇంటి నుండి పని చేయడం అర్థవంతం.",
+        "hi": "मेरी राय में घर से काम करना समझदारी है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Einerseits spart man Zeit, andererseits fehlt der Kontakt.",
+      "meaning": {
+        "en": "On the one hand you save time, on the other hand contact is missing.",
+        "te": "ఒకవైపు సమయం ఆదా, మరోవైపు మనుషులతో సంబంధం తగ్గుతుంది.",
+        "hi": "एक तरफ़ समय बचता है, दूसरी तरफ़ मेलजोल कम होता है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Das ist richtig, aber es kostet mehr.",
+      "meaning": {
+        "en": "That is right, but it costs more.",
+        "te": "అది నిజమే, కానీ ఖర్చు ఎక్కువ.",
+        "hi": "यह सही है, पर इसमें ज़्यादा खर्च है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Ich bin dafür, weil es flexibel ist.",
+      "meaning": {
+        "en": "I am for it, because it is flexible.",
+        "te": "అది సౌకర్యవంతంగా ఉంటుంది కాబట్టి నేను అనుకూలం.",
+        "hi": "मैं इसके पक्ष में हूँ, क्योंकि यह लचीला है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "sinnvoll",
+      "meaning": {
+        "en": "sensible",
+        "te": "అర్థవంతమైన",
+        "hi": "समझदारी भरा"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "flexibel",
+      "meaning": {
+        "en": "flexible",
+        "te": "సౌకర్యవంతమైన",
+        "hi": "लचीला"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "der Kontakt",
+      "meaning": {
+        "en": "contact",
+        "te": "సంబంధం",
+        "hi": "संपर्क"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Zeit",
+      "meaning": {
+        "en": "time",
+        "te": "సమయం",
+        "hi": "समय"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A TEAM DISCUSSION",
+      "te": "టీమ్ చర్చ",
+      "hi": "टीम की चर्चा"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Herr Krause",
+        "de": "Sollen wir Homeoffice zweimal pro Woche erlauben?",
+        "meaning": {
+          "en": "Should we allow working from home twice a week?",
+          "te": "వారానికి రెండుసార్లు ఇంటి నుండి పని చేయడానికి అనుమతించాలా?",
+          "hi": "क्या हमें हफ़्ते में दो बार घर से काम की अनुमति देनी चाहिए?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Sana",
+        "de": "Meiner Meinung nach ja, weil es flexibel ist.",
+        "meaning": {
+          "en": "In my opinion yes, because it is flexible.",
+          "te": "నా అభిప్రాయం ప్రకారం అవును, ఎందుకంటే అది సౌకర్యవంతం.",
+          "hi": "मेरी राय में हाँ, क्योंकि यह लचीला है।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Herr Krause",
+        "de": "Das ist richtig, aber das Team braucht Kontakt.",
+        "meaning": {
+          "en": "That is right, but the team needs contact.",
+          "te": "అది నిజమే, కానీ టీమ్‌కు మనుషులతో సంబంధం కావాలి.",
+          "hi": "यह सही है, पर टीम को मेलजोल चाहिए।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Sana",
+        "de": "Einerseits ja, andererseits können wir Treffen am Dienstag planen.",
+        "meaning": {
+          "en": "On the one hand yes, on the other hand we can plan meetings on Tuesday.",
+          "te": "ఒకవైపు అవును, మరోవైపు మంగళవారం సమావేశాలు పెట్టవచ్చు.",
+          "hi": "एक तरफ़ हाँ, दूसरी तरफ़ मंगलवार को मीटिंग रख सकते हैं।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: linking arguments",
+      "te": "వ్యాకరణం: వాదనలను కలపడం",
+      "hi": "व्याकरण: तर्कों को जोड़ना"
+    },
+    "body": {
+      "en": "\"Einerseits … andererseits\" presents two sides. \"weil\" and \"denn\" give reasons; after \"weil\" the verb goes to the end. \"Ich bin dafür/dagegen\" takes no article.",
+      "te": "\"Einerseits … andererseits\" రెండు వైపులు. \"weil\", \"denn\" కారణం; \"weil\" తర్వాత క్రియ చివర.",
+      "hi": "\"Einerseits … andererseits\" दो पक्ष। \"weil\", \"denn\" कारण; \"weil\" के बाद क्रिया अंत में।"
+    }
+  },
+  "deep_dive": {
+    "en": "German discussions value structured arguments: state your view, give a reason, then an example. Saying \"Das sehe ich anders\" is polite; saying \"Das ist falsch\" can sound aggressive.",
+    "te": "జర్మన్ చర్చల్లో నిర్మాణాత్మక వాదనలు: అభిప్రాయం, కారణం, ఉదాహరణ. \"Das sehe ich anders\" మర్యాద; \"Das ist falsch\" కఠినంగా వినిపిస్తుంది.",
+    "hi": "जर्मन चर्चा में व्यवस्थित तर्क पसंद किए जाते हैं: राय, कारण, उदाहरण। \"Das sehe ich anders\" विनम्र है; \"Das ist falsch\" कठोर लग सकता है।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich bin für Homeoffice, weil ist flexibel.",
+      "right": "Ich bin für Homeoffice, weil es flexibel ist.",
+      "why": {
+        "en": "After weil the verb goes to the end.",
+        "te": "weil తర్వాత క్రియ చివర.",
+        "hi": "weil के बाद क्रिया अंत में।"
+      }
+    },
+    {
+      "wrong": "Das ist falsch, du hast Unrecht.",
+      "right": "Ich sehe das anders.",
+      "why": {
+        "en": "Polite disagreement.",
+        "te": "మర్యాదగా విభేదించడం.",
+        "hi": "विनम्र असहमति।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In German meetings people often state their position clearly and expect a reason. Silence can mean agreement, so ask for views directly.",
+    "te": "జర్మన్ సమావేశాల్లో స్థానం స్పష్టంగా చెబుతారు, కారణం ఆశిస్తారు. మౌనం అంగీకారం కావచ్చు; నేరుగా అభిప్రాయం అడగండి.",
+    "hi": "जर्मन मीटिंग में लोग साफ़ राय रखते हैं और कारण की उम्मीद करते हैं। चुप्पी सहमति हो सकती है; सीधे राय पूछें।"
+  },
+  "practice_tip": {
+    "en": "Pick one topic and write a short argument: one opinion, two reasons.",
+    "te": "ఒక అంశం ఎంచుకుని చిన్న వాదన రాయండి: ఒక అభిప్రాయం, రెండు కారణాలు.",
+    "hi": "एक विषय चुनें और छोटा तर्क लिखें: एक राय, दो कारण।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Start an opinion: \"In my opinion …\"",
+        "te": "అభిప్రాయం మొదలుపెట్టండి: \"In my opinion …\"",
+        "hi": "राय शुरू करें: \"In my opinion …\""
+      },
+      "answer": {
+        "en": "Meiner Meinung nach …",
+        "te": "Meiner Meinung nach …",
+        "hi": "Meiner Meinung nach …"
+      }
+    },
+    {
+      "question": {
+        "en": "Politely disagree.",
+        "te": "మర్యాదగా విభేదించండి.",
+        "hi": "विनम्रता से असहमत हों।"
+      },
+      "answer": {
+        "en": "Ich sehe das anders.",
+        "te": "Ich sehe das anders.",
+        "hi": "Ich sehe das anders."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich bin ___ Homeoffice.",
+        "te": "Ich bin ___ Homeoffice.",
+        "hi": "Ich bin ___ Homeoffice."
+      },
+      "options": [
+        {
+          "de": "dafür"
+        },
+        {
+          "de": "dagegen"
+        },
+        {
+          "de": "darüber"
+        },
+        {
+          "de": "damit"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "dafür = for.",
+        "te": "dafür = for.",
+        "hi": "dafür = for."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Einerseits … andererseits\" shows…",
+        "te": "\"Einerseits … andererseits\" shows…",
+        "hi": "\"Einerseits … andererseits\" shows…"
+      },
+      "options": [
+        {
+          "de": "two sides"
+        },
+        {
+          "de": "a question"
+        },
+        {
+          "de": "a date"
+        },
+        {
+          "de": "a number"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Two sides of an argument.",
+        "te": "Two sides of an argument.",
+        "hi": "Two sides of an argument."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich bin dagegen, ___ es teuer ist.",
+        "te": "Ich bin dagegen, ___ es teuer ist.",
+        "hi": "Ich bin dagegen, ___ es teuer ist."
+      },
+      "options": [
+        {
+          "de": "weil"
+        },
+        {
+          "de": "und"
+        },
+        {
+          "de": "oder"
+        },
+        {
+          "de": "aber"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "weil = because (reason).",
+        "te": "weil = because (reason).",
+        "hi": "weil = because (reason)."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"begründen\" means…",
+        "te": "\"begründen\" means…",
+        "hi": "\"begründen\" means…"
+      },
+      "options": [
+        {
+          "de": "to justify"
+        },
+        {
+          "de": "to forget"
+        },
+        {
+          "de": "to pay"
+        },
+        {
+          "de": "to travel"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "begründen = to justify.",
+        "te": "begründen = to justify.",
+        "hi": "begründen = to justify."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "argumentation-l1",
+      "audio_de": "Meiner Meinung nach ist das sinnvoll.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "In my opinion that makes sense.",
+            "te": "నా అభిప్రాయంలో అది అర్థవంతం.",
+            "hi": "मेरी राय में यह समझदारी है।"
+          }
+        },
+        {
+          "text": {
+            "en": "In my opinion that is expensive.",
+            "te": "నా అభిప్రాయంలో అది ఖరీదు.",
+            "hi": "मेरी राय में यह महँगा है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I do not have an opinion.",
+            "te": "నాకు అభిప్రాయం లేదు.",
+            "hi": "मेरी कोई राय नहीं है।"
+          }
+        },
+        {
+          "text": {
+            "en": "That is for sure.",
+            "te": "అది ఖచ్చితంగా.",
+            "hi": "यह पक्का है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "meiner Meinung nach = in my opinion.",
+        "te": "meiner Meinung nach = నా అభిప్రాయం ప్రకారం.",
+        "hi": "meiner Meinung nach = मेरी राय में।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v04",
+      "audio_de": "Ich sehe das anders.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I see it differently.",
+            "te": "నేను దీన్ని వేరుగా చూస్తాను.",
+            "hi": "मैं इसे अलग तरह से देखता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I see it the same way.",
+            "te": "నేను దీన్ని అలాగే చూస్తాను.",
+            "hi": "मैं इसे वैसा ही देखता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I cannot see it.",
+            "te": "నాకు కనిపించడం లేదు.",
+            "hi": "मुझे दिख नहीं रहा।"
+          }
+        },
+        {
+          "text": {
+            "en": "I saw it yesterday.",
+            "te": "నేను నిన్న చూశాను.",
+            "hi": "मैंने कल देखा।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "anders = differently.",
+        "te": "anders = వేరుగా.",
+        "hi": "anders = अलग।"
+      }
+    }
+  ],
+  "audio": []
+}

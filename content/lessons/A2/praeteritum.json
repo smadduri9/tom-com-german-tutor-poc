@@ -1,0 +1,527 @@
+{
+  "id": "praeteritum",
+  "slug": "praeteritum",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Präteritum",
+    "te": "Präteritum",
+    "hi": "Präteritum"
+  },
+  "subtitle": {
+    "en": "Common verbs in the simple past",
+    "te": "సాధారణ క్రియలు సరళ గతకాలంలో",
+    "hi": "आम क्रियाएँ सरल भूतकाल में"
+  },
+  "intro": {
+    "en": "In written German and with a few common verbs, the simple past (Präteritum) is used: war, hatte, ging, kam.",
+    "te": "రాతలో, కొన్ని సాధారణ క్రియలకు, Präteritum (సరళ గతం) వాడతారు: war, hatte, ging, kam.",
+    "hi": "लिखित जर्मन और कुछ आम क्रियाओं में Präteritum (सरल भूत) आता है: war, hatte, ging, kam।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "war / waren",
+      "meaning": {
+        "en": "was / were",
+        "te": "ఉన్నాను / ఉన్నారు",
+        "hi": "था / थे"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "hatte / hatten",
+      "meaning": {
+        "en": "had",
+        "te": "ఉండేది",
+        "hi": "था (रखना)"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "ging",
+      "meaning": {
+        "en": "went",
+        "te": "వెళ్ళాను",
+        "hi": "गया"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "kam",
+      "meaning": {
+        "en": "came",
+        "te": "వచ్చాను",
+        "hi": "आया"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "wollte",
+      "meaning": {
+        "en": "wanted",
+        "te": "కావాలనుకున్నాను",
+        "hi": "चाहता था"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "konnte",
+      "meaning": {
+        "en": "could",
+        "te": "చేయగలిగాను",
+        "hi": "कर सका"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "musste",
+      "meaning": {
+        "en": "had to",
+        "te": "తప్పక చేయాల్సి వచ్చింది",
+        "hi": "करना पड़ा"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Es war schön.",
+      "meaning": {
+        "en": "It was nice.",
+        "te": "అది బాగుంది.",
+        "hi": "यह अच्छा था।"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "früher",
+      "meaning": {
+        "en": "earlier / formerly",
+        "te": "అంతకుముందు",
+        "hi": "पहले"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "damals",
+      "meaning": {
+        "en": "back then",
+        "te": "అప్పట్లో",
+        "hi": "तब"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Als Kind hatte ich einen Hund.",
+      "meaning": {
+        "en": "As a child I had a dog.",
+        "te": "చిన్నప్పుడు నాకు ఒక కుక్క ఉండేది.",
+        "hi": "बचपन में मेरे पास एक कुत्ता था।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Gestern war es sehr kalt.",
+      "meaning": {
+        "en": "Yesterday it was very cold.",
+        "te": "నిన్న చాలా చలిగా ఉంది.",
+        "hi": "कल बहुत ठंड थी।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Er ging um acht Uhr nach Hause.",
+      "meaning": {
+        "en": "He went home at eight.",
+        "te": "అతను ఎనిమిదికి ఇంటికి వెళ్ళాడు.",
+        "hi": "वह आठ बजे घर गया।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Wir wollten nach Goa, aber wir konnten nicht.",
+      "meaning": {
+        "en": "We wanted to go to Goa, but we could not.",
+        "te": "మేము గోవా వెళ్లాలనుకున్నాము, కానీ కుదరలేదు.",
+        "hi": "हम गोवा जाना चाहते थे, पर जा नहीं सके।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Kindheit",
+      "meaning": {
+        "en": "childhood",
+        "te": "బాల్యం",
+        "hi": "बचपन"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "die Geschichte",
+      "meaning": {
+        "en": "the story",
+        "te": "కథ",
+        "hi": "कहानी"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "eigentlich",
+      "meaning": {
+        "en": "actually",
+        "te": "నిజానికి",
+        "hi": "असल में"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "damals",
+      "meaning": {
+        "en": "back then",
+        "te": "అప్పట్లో",
+        "hi": "तब"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A STORY ABOUT HOME",
+      "te": "ఇంటి గురించి ఒక కథ",
+      "hi": "घर की एक कहानी"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Oma",
+        "de": "Früher war hier alles anders.",
+        "meaning": {
+          "en": "Earlier everything here was different.",
+          "te": "అంతకుముందు ఇక్కడ అంతా వేరుగా ఉండేది.",
+          "hi": "पहले यहाँ सब अलग था।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Arjun",
+        "de": "Was hattet ihr damals?",
+        "meaning": {
+          "en": "What did you have back then?",
+          "te": "అప్పట్లో మీ దగ్గర ఏముండేది?",
+          "hi": "तब आपके पास क्या था?"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Oma",
+        "de": "Wir hatten einen kleinen Laden. Ich musste jeden Tag früh aufstehen.",
+        "meaning": {
+          "en": "We had a small shop. I had to get up early every day.",
+          "te": "మా దగ్గర ఒక చిన్న దుకాణం ఉండేది. నేను ప్రతిరోజూ త్వరగా లేవాల్సి వచ్చేది.",
+          "hi": "हमारी एक छोटी दुकान थी। मुझे हर दिन जल्दी उठना पड़ता था।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Arjun",
+        "de": "Das war sicher anstrengend!",
+        "meaning": {
+          "en": "That must have been tiring!",
+          "te": "అది ఖచ్చితంగా కష్టంగా ఉండేది!",
+          "hi": "वह ज़रूर थकाने वाला रहा होगा!"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: the simple past",
+      "te": "వ్యాకరణం: సరళ గతం",
+      "hi": "व्याकरण: सरल भूत"
+    },
+    "body": {
+      "en": "Use Präteritum for sein, haben and the modal verbs, and in stories. sein: war, waren. haben: hatte, hatten. Modals: wollte, konnte, musste, durfte.",
+      "te": "sein, haben మరియు మోడల్ క్రియలకు, కథల్లో Präteritum: sein: war, waren. haben: hatte, hatten. మోడల్స్: wollte, konnte, musste, durfte.",
+      "hi": "sein, haben और मोडल क्रियाओं के लिए और कहानियों में Präteritum: sein: war, waren। haben: hatte, hatten। मोडल: wollte, konnte, musste, durfte।"
+    }
+  },
+  "deep_dive": {
+    "en": "In everyday speech Germans use Perfekt for most past events, but war, hatte and the modals almost always stay in Präteritum even in conversation: Ich hatte keine Zeit. Präteritum is common in news and stories.",
+    "te": "రోజువారీ మాటల్లో చాలా గత సంఘటనలకు Perfekt, కానీ war, hatte, మోడల్స్ సంభాషణలో కూడా Präteritum: Ich hatte keine Zeit. వార్తలు, కథల్లో Präteritum సాధారణం.",
+    "hi": "रोज़मर्रा की बोली में ज़्यादातर भूत के लिए Perfekt, पर war, hatte और मोडल लगभग हमेशा Präteritum में: Ich hatte keine Zeit। समाचार और कहानियों में Präteritum आम है।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich bin gewesen.",
+      "right": "Ich war.",
+      "why": {
+        "en": "For sein, a simple past is common.",
+        "te": "sein కి సరళ గతం సాధారణం.",
+        "hi": "sein के लिए सरल भूत आम है।"
+      }
+    },
+    {
+      "wrong": "Ich habe gewollt.",
+      "right": "Ich wollte.",
+      "why": {
+        "en": "Modals use Präteritum in speech.",
+        "te": "మోడల్స్ మాటల్లో Präteritum.",
+        "hi": "मोडल बोलचाल में Präteritum।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Older Germans often tell stories in the simple past. Listening to them is a good way to hear this form.",
+    "te": "పెద్దవారు తరచుగా సరళ గతంలో కథలు చెబుతారు. వినడం ఈ రూపాన్ని నేర్చుకోవడానికి మంచిది.",
+    "hi": "बड़े लोग अक्सर सरल भूत में कहानियाँ सुनाते हैं। उन्हें सुनना इस रूप को सीखने का अच्छा तरीका है।"
+  },
+  "practice_tip": {
+    "en": "Write three sentences about your childhood with war, hatte or konnte.",
+    "te": "మీ బాల్యం గురించి war, hatte లేదా konnte తో మూడు వాక్యాలు రాయండి.",
+    "hi": "अपने बचपन पर war, hatte या konnte के साथ तीन वाक्य लिखें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Past of \"sein\" (ich)?",
+        "te": "\"sein\" (ich) గతం?",
+        "hi": "\"sein\" (ich) का भूत?"
+      },
+      "answer": {
+        "en": "ich war",
+        "te": "ich war",
+        "hi": "ich war"
+      }
+    },
+    {
+      "question": {
+        "en": "Past of \"können\" (ich)?",
+        "te": "\"können\" (ich) గతం?",
+        "hi": "\"können\" (ich) का भूत?"
+      },
+      "answer": {
+        "en": "ich konnte",
+        "te": "ich konnte",
+        "hi": "ich konnte"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Gestern ___ es kalt.",
+        "te": "Gestern ___ es kalt.",
+        "hi": "Gestern ___ es kalt."
+      },
+      "options": [
+        {
+          "de": "war"
+        },
+        {
+          "de": "ist"
+        },
+        {
+          "de": "hat"
+        },
+        {
+          "de": "wird"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Simple past of sein: war.",
+        "te": "Simple past of sein: war.",
+        "hi": "Simple past of sein: war."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Als Kind ___ ich ein Fahrrad.",
+        "te": "Als Kind ___ ich ein Fahrrad.",
+        "hi": "Als Kind ___ ich ein Fahrrad."
+      },
+      "options": [
+        {
+          "de": "hatte"
+        },
+        {
+          "de": "habe"
+        },
+        {
+          "de": "gehabt"
+        },
+        {
+          "de": "hat"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "hatte is the simple past.",
+        "te": "hatte is the simple past.",
+        "hi": "hatte is the simple past."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich ___ nicht kommen.",
+        "te": "Ich ___ nicht kommen.",
+        "hi": "Ich ___ nicht kommen."
+      },
+      "options": [
+        {
+          "de": "konnte"
+        },
+        {
+          "de": "kann"
+        },
+        {
+          "de": "gekonnt"
+        },
+        {
+          "de": "könnt"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "konnte = could.",
+        "te": "konnte = could.",
+        "hi": "konnte = could."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"ging\" means…",
+        "te": "\"ging\" means…",
+        "hi": "\"ging\" means…"
+      },
+      "options": [
+        {
+          "de": "went"
+        },
+        {
+          "de": "goes"
+        },
+        {
+          "de": "will go"
+        },
+        {
+          "de": "gone"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "gehen → ging = went.",
+        "te": "gehen → ging = went.",
+        "hi": "gehen → ging = went."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "praeteritum-l1",
+      "audio_de": "Er ging um acht Uhr nach Hause.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "He went home at eight.",
+            "te": "అతను ఎనిమిదికి ఇంటికి వెళ్ళాడు.",
+            "hi": "वह आठ बजे घर गया।"
+          }
+        },
+        {
+          "text": {
+            "en": "He comes home at eight.",
+            "te": "అతను ఎనిమిదికి ఇంటికి వస్తాడు.",
+            "hi": "वह आठ बजे घर आता है।"
+          }
+        },
+        {
+          "text": {
+            "en": "He will go home at eight.",
+            "te": "అతను ఎనిమిదికి ఇంటికి వెళ్తాడు.",
+            "hi": "वह आठ बजे घर जाएगा।"
+          }
+        },
+        {
+          "text": {
+            "en": "He is at home at eight.",
+            "te": "అతను ఎనిమిదికి ఇంట్లో ఉంటాడు.",
+            "hi": "वह आठ बजे घर पर है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "ging = went.",
+        "te": "ging = వెళ్ళాడు.",
+        "hi": "ging = गया।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v08",
+      "audio_de": "Es war schön.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "It was nice.",
+            "te": "అది బాగుంది.",
+            "hi": "यह अच्छा था।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is nice.",
+            "te": "అది బాగుంది.",
+            "hi": "यह अच्छा है।"
+          }
+        },
+        {
+          "text": {
+            "en": "It will be nice.",
+            "te": "అది బాగుంటుంది.",
+            "hi": "यह अच्छा होगा।"
+          }
+        },
+        {
+          "text": {
+            "en": "It was not nice.",
+            "te": "అది బాగాలేదు.",
+            "hi": "यह अच्छा नहीं था।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "war = was.",
+        "te": "war = ఉంది/ఉండేది.",
+        "hi": "war = था।"
+      }
+    }
+  ],
+  "audio": []
+}

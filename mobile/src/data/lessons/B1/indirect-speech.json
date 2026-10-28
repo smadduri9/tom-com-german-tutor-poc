@@ -1,0 +1,527 @@
+{
+  "id": "indirect-speech",
+  "slug": "indirect-speech",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Indirect Speech",
+    "te": "పరోక్ష ప్రసంగం",
+    "hi": "परोक्ष कथन"
+  },
+  "subtitle": {
+    "en": "Reporting what someone said",
+    "te": "ఎవరో చెప్పింది తెలియజేయడం",
+    "hi": "किसी की बात दोहराना"
+  },
+  "intro": {
+    "en": "Report what someone said without repeating their exact words, using Konjunktiv I: Er sagt, er sei müde.",
+    "te": "ఎవరో చెప్పిన మాటను ఖచ్చితంగా కాకుండా Konjunktiv I తో చెప్పండి: Er sagt, er sei müde.",
+    "hi": "किसी की बात बिना हू-ब-हू दोहराए Konjunktiv I से बताएँ: Er sagt, er sei müde।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "sagen",
+      "meaning": {
+        "en": "to say",
+        "te": "చెప్పడం",
+        "hi": "कहना"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "behaupten",
+      "meaning": {
+        "en": "to claim",
+        "te": "వాదించడం",
+        "hi": "दावा करना"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "er sei",
+      "meaning": {
+        "en": "he is (reported)",
+        "te": "అతను ఉన్నాడు (నివేదిక)",
+        "hi": "वह है (रिपोर्ट)"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "er habe",
+      "meaning": {
+        "en": "he has (reported)",
+        "te": "అతని దగ్గర ఉంది (నివేదిక)",
+        "hi": "उसके पास है (रिपोर्ट)"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "er komme",
+      "meaning": {
+        "en": "he is coming (reported)",
+        "te": "అతను వస్తున్నాడు (నివేదిక)",
+        "hi": "वह आ रहा है (रिपोर्ट)"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "er werde",
+      "meaning": {
+        "en": "he will (reported)",
+        "te": "అతను చేస్తాడు (నివేదిక)",
+        "hi": "वह करेगा (रिपोर्ट)"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "laut",
+      "meaning": {
+        "en": "according to",
+        "te": "ప్రకారం",
+        "hi": "के अनुसार"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Sie sagte, sie habe keine Zeit.",
+      "meaning": {
+        "en": "She said she had no time.",
+        "te": "తనకు సమయం లేదని ఆమె చెప్పింది.",
+        "hi": "उसने कहा कि उसके पास समय नहीं है।"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Laut Zeitung …",
+      "meaning": {
+        "en": "According to the newspaper …",
+        "te": "వార్తాపత్రిక ప్రకారం …",
+        "hi": "अख़बार के अनुसार …"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Er meinte, es sei kalt.",
+      "meaning": {
+        "en": "He thought it was cold.",
+        "te": "అది చలిగా ఉందని అతను అన్నాడు.",
+        "hi": "उसने सोचा कि ठंड है।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Er sagt, er sei krank.",
+      "meaning": {
+        "en": "He says he is ill.",
+        "te": "తాను అనారోగ్యంగా ఉన్నానని అతను చెబుతున్నాడు.",
+        "hi": "वह कहता है कि वह बीमार है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Sie behauptet, sie habe das Geld bezahlt.",
+      "meaning": {
+        "en": "She claims she paid the money.",
+        "te": "తాను డబ్బు చెల్లించానని ఆమె వాదిస్తోంది.",
+        "hi": "वह दावा करती है कि उसने पैसे दिए।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Laut dem Chef komme der Zug später.",
+      "meaning": {
+        "en": "According to the boss the train is coming later.",
+        "te": "బాస్ ప్రకారం రైలు ఆలస్యంగా వస్తుంది.",
+        "hi": "बॉस के अनुसार ट्रेन देर से आएगी।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Er fragte, ob ich morgen komme.",
+      "meaning": {
+        "en": "He asked whether I am coming tomorrow.",
+        "te": "నేను రేపు వస్తానా అని అతను అడిగాడు.",
+        "hi": "उसने पूछा कि क्या मैं कल आऊँगा।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Nachricht",
+      "meaning": {
+        "en": "the news",
+        "te": "వార్త",
+        "hi": "ख़बर"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "die Zeitung",
+      "meaning": {
+        "en": "the newspaper",
+        "te": "వార్తాపత్రిక",
+        "hi": "अख़बार"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "bestätigen",
+      "meaning": {
+        "en": "to confirm",
+        "te": "నిర్ధారించడం",
+        "hi": "पुष्टि करना"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "vermuten",
+      "meaning": {
+        "en": "to suppose",
+        "te": "ఊహించడం",
+        "hi": "अनुमान लगाना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A SECOND-HAND REPORT",
+      "te": "ఇతరులు చెప్పిన మాట",
+      "hi": "दूसरों की बात"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Anna",
+        "de": "Hast du gehört? Der Chef sagt, die Firma sei gewachsen.",
+        "meaning": {
+          "en": "Have you heard? The boss says the company has grown.",
+          "te": "విన్నావా? బాస్ చెబుతున్నాడు, కంపెనీ పెరిగిందని.",
+          "hi": "सुना? बॉस कहते हैं कि कंपनी बढ़ गई है।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Ravi",
+        "de": "Und er hat auch gefragt, wer Lust auf Weiterbildung habe.",
+        "meaning": {
+          "en": "And he also asked who would like further training.",
+          "te": "ఇంకా, ఎవరికి అదనపు శిక్షణ కావాలో కూడా అడిగాడు.",
+          "hi": "और उन्होंने यह भी पूछा कि किसे आगे की ट्रेनिंग चाहिए।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Anna",
+        "de": "Ich meine, ich werde mich anmelden.",
+        "meaning": {
+          "en": "I think I will sign up.",
+          "te": "నేను కూడా నమోదు చేసుకుంటానని అనుకుంటున్నాను.",
+          "hi": "मुझे लगता है मैं नाम लिखवाऊँगी।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Ravi",
+        "de": "Laut ihm gibt es noch Plätze.",
+        "meaning": {
+          "en": "According to him there are still places.",
+          "te": "ఆయన ప్రకారం ఇంకా సీట్లు ఉన్నాయి.",
+          "hi": "उनके अनुसार अभी भी जगहें हैं।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: Konjunktiv I",
+      "te": "వ్యాకరణం: Konjunktiv I",
+      "hi": "व्याकरण: Konjunktiv I"
+    },
+    "body": {
+      "en": "Konjunktiv I uses the stem plus endings: er sei (sein), er habe (haben), er komme. For reporting use the third person; if it looks like the indicative, use Konjunktiv II instead: sie kämen, er wäre.",
+      "te": "Konjunktiv I: మూలం + ముగింపు: er sei (sein), er habe (haben), er komme. మూడవ వ్యక్తి. సాధారణ రూపంలా ఉంటే Konjunktiv II.",
+      "hi": "Konjunktiv I: मूल + अंत: er sei (sein), er habe (haben), er komme। तीसरा पुरुष। सामान्य रूप जैसा लगे तो Konjunktiv II।"
+    }
+  },
+  "deep_dive": {
+    "en": "Indirect speech is common in news and formal reports. In everyday talk, Germans often use the indicative or würde + infinitive: Er sagt, er würde kommen.",
+    "te": "వార్తలు, అధికారిక నివేదికలలో పరోక్ష ప్రసంగం సాధారణం. రోజువారీ మాటల్లో indicative లేదా würde + మూల క్రియ.",
+    "hi": "समाचार और औपचारिक रिपोर्ट में परोक्ष कथन आम है। रोज़ाना बोलचाल में indicative या würde + मूल क्रिया।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Er sagt, er ist krank.",
+      "right": "Er sagt, er sei krank.",
+      "why": {
+        "en": "Reported speech uses Konjunktiv I.",
+        "te": "నివేదికకు Konjunktiv I.",
+        "hi": "रिपोर्ट के लिए Konjunktiv I।"
+      }
+    },
+    {
+      "wrong": "Sie fragte, ob ich komme morgen.",
+      "right": "Sie fragte, ob ich morgen komme.",
+      "why": {
+        "en": "Verb goes to the end after ob.",
+        "te": "ob తర్వాత క్రియ చివర.",
+        "hi": "ob के बाद क्रिया अंत में।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In German news, reporters use Konjunktiv I to keep distance: \"Der Minister sagte, die Lage sei ernst.\" This signals that the claim is not their own.",
+    "te": "జర్మన్ వార్తల్లో Konjunktiv I వాడి, ఆ మాట తమది కాదని చూపిస్తారు.",
+    "hi": "जर्मन समाचार में Konjunktiv I से दिखाते हैं कि बात उनकी अपनी नहीं है।"
+  },
+  "practice_tip": {
+    "en": "Report one thing you heard today: \"Er/Sie sagt, …\".",
+    "te": "ఈ రోజు విన్న ఒక విషయాన్ని చెప్పండి: \"Er/Sie sagt, …\".",
+    "hi": "आज सुनी एक बात बताएँ: \"Er/Sie sagt, …\"।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Konjunktiv I of \"sein\" (er)?",
+        "te": "\"sein\" (er) Konjunktiv I?",
+        "hi": "\"sein\" (er) Konjunktiv I?"
+      },
+      "answer": {
+        "en": "er sei",
+        "te": "er sei",
+        "hi": "er sei"
+      }
+    },
+    {
+      "question": {
+        "en": "Report: \"I am tired.\" (Er sagt)",
+        "te": "నివేదిక: \"I am tired.\" (Er sagt)",
+        "hi": "रिपोर्ट करें: \"I am tired।\" (Er sagt)"
+      },
+      "answer": {
+        "en": "Er sagt, er sei müde.",
+        "te": "Er sagt, er sei müde.",
+        "hi": "Er sagt, er sei müde."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Sie sagt, sie ___ keine Zeit.",
+        "te": "Sie sagt, sie ___ keine Zeit.",
+        "hi": "Sie sagt, sie ___ keine Zeit."
+      },
+      "options": [
+        {
+          "de": "habe"
+        },
+        {
+          "de": "hat"
+        },
+        {
+          "de": "hatte"
+        },
+        {
+          "de": "haben"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Konjunktiv I of haben: habe.",
+        "te": "Konjunktiv I of haben: habe.",
+        "hi": "Konjunktiv I of haben: habe."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Er behauptet, er ___ müde.",
+        "te": "Er behauptet, er ___ müde.",
+        "hi": "Er behauptet, er ___ müde."
+      },
+      "options": [
+        {
+          "de": "sei"
+        },
+        {
+          "de": "ist"
+        },
+        {
+          "de": "war"
+        },
+        {
+          "de": "wäre"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Konjunktiv I of sein: sei.",
+        "te": "Konjunktiv I of sein: sei.",
+        "hi": "Konjunktiv I of sein: sei."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Laut\" means…",
+        "te": "\"Laut\" means…",
+        "hi": "\"Laut\" means…"
+      },
+      "options": [
+        {
+          "de": "according to"
+        },
+        {
+          "de": "loud"
+        },
+        {
+          "de": "after"
+        },
+        {
+          "de": "with"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "laut = according to (with dative).",
+        "te": "laut = according to (with dative).",
+        "hi": "laut = according to (with dative)."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "In indirect questions with ob, the verb goes…",
+        "te": "In indirect questions with ob, the verb goes…",
+        "hi": "In indirect questions with ob, the verb goes…"
+      },
+      "options": [
+        {
+          "de": "to the end"
+        },
+        {
+          "de": "second"
+        },
+        {
+          "de": "first"
+        },
+        {
+          "de": "after ob"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "ob sends the verb to the end.",
+        "te": "ob sends the verb to the end.",
+        "hi": "ob sends the verb to the end."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "indirect-speech-l1",
+      "audio_de": "Er sagt, er sei krank.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "He says he is ill.",
+            "te": "తాను అనారోగ్యంగా ఉన్నానని అతను చెబుతున్నాడు.",
+            "hi": "वह कहता है कि वह बीमार है।"
+          }
+        },
+        {
+          "text": {
+            "en": "He says he is happy.",
+            "te": "తాను సంతోషంగా ఉన్నానని అతను చెబుతున్నాడు.",
+            "hi": "वह कहता है कि वह ख़ुश है।"
+          }
+        },
+        {
+          "text": {
+            "en": "He is ill now.",
+            "te": "అతను ఇప్పుడు అనారోగ్యంగా ఉన్నాడు.",
+            "hi": "वह अभी बीमार है।"
+          }
+        },
+        {
+          "text": {
+            "en": "He was sick yesterday.",
+            "te": "అతను నిన్న అనారోగ్యంగా ఉన్నాడు.",
+            "hi": "वह कल बीमार था।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "sei = Konjunktiv I (reported).",
+        "te": "sei = నివేదిక రూపం.",
+        "hi": "sei = रिपोर्ट रूप।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "indirect-speech-l2",
+      "audio_de": "Laut dem Chef komme der Zug später.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "According to the boss the train comes later.",
+            "te": "బాస్ ప్రకారం రైలు ఆలస్యంగా వస్తుంది.",
+            "hi": "बॉस के अनुसार ट्रेन देर से आएगी।"
+          }
+        },
+        {
+          "text": {
+            "en": "The boss took the train later.",
+            "te": "బాస్ తర్వాత రైలు ఎక్కాడు.",
+            "hi": "बॉस ने बाद में ट्रेन ली।"
+          }
+        },
+        {
+          "text": {
+            "en": "The train is early.",
+            "te": "రైలు ముందుగా ఉంది.",
+            "hi": "ट्रेन जल्दी है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The boss is late.",
+            "te": "బాస్ ఆలస్యం.",
+            "hi": "बॉस देर से है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "laut = according to.",
+        "te": "laut = ప్రకారం.",
+        "hi": "laut = के अनुसार।"
+      }
+    }
+  ],
+  "audio": []
+}

@@ -1,0 +1,527 @@
+{
+  "id": "health-body",
+  "slug": "health-body",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Health & Body",
+    "te": "ఆరోగ్యం & శరీరం",
+    "hi": "स्वास्थ्य और शरीर"
+  },
+  "subtitle": {
+    "en": "At the doctor's",
+    "te": "డాక్టర్ దగ్గర",
+    "hi": "डॉक्टर के पास"
+  },
+  "intro": {
+    "en": "Describe pain and symptoms to a doctor, and understand the basic words for the body.",
+    "te": "డాక్టర్‌కు నొప్పి, లక్షణాలు చెప్పండి; శరీర భాగాల ప్రాథమిక పదాలు అర్థం చేసుకోండి.",
+    "hi": "डॉक्टर को दर्द और लक्षण बताएँ; शरीर के मूल शब्द समझें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "der Kopf",
+      "meaning": {
+        "en": "the head",
+        "te": "తల",
+        "hi": "सिर"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "der Bauch",
+      "meaning": {
+        "en": "the stomach",
+        "te": "కడుపు",
+        "hi": "पेट"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "der Rücken",
+      "meaning": {
+        "en": "the back",
+        "te": "వీపు",
+        "hi": "पीठ"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "der Hals",
+      "meaning": {
+        "en": "the throat / neck",
+        "te": "గొంతు / మెడ",
+        "hi": "गला / गर्दन"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "das Fieber",
+      "meaning": {
+        "en": "the fever",
+        "te": "జ్వరం",
+        "hi": "बुखार"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "der Husten",
+      "meaning": {
+        "en": "the cough",
+        "te": "దగ్గు",
+        "hi": "खाँसी"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "Ich habe Kopfschmerzen.",
+      "meaning": {
+        "en": "I have a headache.",
+        "te": "నాకు తలనొప్పిగా ఉంది.",
+        "hi": "मेरे सिर में दर्द है।"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Mir ist schlecht.",
+      "meaning": {
+        "en": "I feel sick.",
+        "te": "నాకు వాంతిగా అనిపిస్తోంది.",
+        "hi": "मेरा जी मिचला रहा है।"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "die Medizin",
+      "meaning": {
+        "en": "the medicine",
+        "te": "మందు",
+        "hi": "दवा"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "die Apotheke",
+      "meaning": {
+        "en": "the pharmacy",
+        "te": "ఫార్మసీ",
+        "hi": "फ़ार्मेसी"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich habe seit gestern Bauchschmerzen.",
+      "meaning": {
+        "en": "I have had stomach pain since yesterday.",
+        "te": "నాకు నిన్నటి నుండి కడుపునొప్పి.",
+        "hi": "मुझे कल से पेट में दर्द है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Mein Hals tut weh.",
+      "meaning": {
+        "en": "My throat hurts.",
+        "te": "నా గొంతు నొప్పిగా ఉంది.",
+        "hi": "मेरे गले में दर्द है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Haben Sie Fieber gemessen?",
+      "meaning": {
+        "en": "Have you measured your fever?",
+        "te": "మీరు జ్వరం కొలిచారా?",
+        "hi": "क्या आपने बुखार नापा है?"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Nehmen Sie diese Tabletten dreimal am Tag.",
+      "meaning": {
+        "en": "Take these tablets three times a day.",
+        "te": "ఈ మాత్రలు రోజుకు మూడుసార్లు తీసుకోండి.",
+        "hi": "ये गोलियाँ दिन में तीन बार लें।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Tablette",
+      "meaning": {
+        "en": "the tablet",
+        "te": "మాత్ర",
+        "hi": "गोली"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "die Schmerzen",
+      "meaning": {
+        "en": "the pain",
+        "te": "నొప్పి",
+        "hi": "दर्द"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "der Termin",
+      "meaning": {
+        "en": "the appointment",
+        "te": "అపాయింట్‌మెంట్",
+        "hi": "अपॉइंटमेंट"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Krankenkasse",
+      "meaning": {
+        "en": "the health insurance",
+        "te": "ఆరోగ్య బీమా",
+        "hi": "स्वास्थ्य बीमा"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT THE GP’S SURGERY",
+      "te": "ఫ్యామిలీ డాక్టర్ వద్ద",
+      "hi": "फ़ैमिली डॉक्टर के पास"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Dr. Brandt",
+        "de": "Was fehlt Ihnen?",
+        "meaning": {
+          "en": "What is wrong?",
+          "te": "మీకు ఏమైంది?",
+          "hi": "आपको क्या तकलीफ़ है?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Priya",
+        "de": "Ich habe seit zwei Tagen Husten und Halsschmerzen.",
+        "meaning": {
+          "en": "I have had a cough and a sore throat for two days.",
+          "te": "రెండు రోజులుగా దగ్గు, గొంతు నొప్పి.",
+          "hi": "दो दिन से खाँसी और गले में दर्द है।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Dr. Brandt",
+        "de": "Haben Sie auch Fieber?",
+        "meaning": {
+          "en": "Do you also have a fever?",
+          "te": "మీకు జ్వరం కూడా ఉందా?",
+          "hi": "क्या आपको बुखार भी है?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Priya",
+        "de": "Ein bisschen. Mir ist auch schwindelig.",
+        "meaning": {
+          "en": "A little. I also feel dizzy.",
+          "te": "కొంచెం. తల తిరుగుతున్నట్టు కూడా ఉంది.",
+          "hi": "थोड़ा। मुझे चक्कर भी आ रहे हैं।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: \"mir\" and \"weh tun\"",
+      "te": "వ్యాకరణం: \"mir\" మరియు \"weh tun\"",
+      "hi": "व्याकरण: \"mir\" और \"weh tun\""
+    },
+    "body": {
+      "en": "Symptoms use dative: Mir ist schlecht (I feel sick). Pain uses weh tun: Mein Kopf tut weh. Ich habe + noun: Ich habe Fieber.",
+      "te": "లక్షణాలకు డేటివ్: Mir ist schlecht. నొప్పికి weh tun: Mein Kopf tut weh. Ich habe + నామవాచకం: Ich habe Fieber.",
+      "hi": "लक्षणों के लिए dative: Mir ist schlecht। दर्द के लिए weh tun: Mein Kopf tut weh। Ich habe + संज्ञा: Ich habe Fieber।"
+    }
+  },
+  "deep_dive": {
+    "en": "German doctors often ask \"Seit wann?\" (since when?) and \"Wie stark?\" (how strong?). Answer with seit + time: seit gestern.",
+    "te": "జర్మన్ డాక్టర్లు తరచుగా \"Seit wann?\" (ఎప్పటి నుండి?) మరియు \"Wie stark?\" (ఎంత తీవ్రంగా?) అడుగుతారు. seit + సమయం తో జవాబు: seit gestern.",
+    "hi": "जर्मन डॉक्टर अक्सर \"Seit wann?\" (कब से?) और \"Wie stark?\" (कितना तेज़?) पूछते हैं। seit + समय से जवाब दें: seit gestern।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich bin Kopfschmerzen.",
+      "right": "Ich habe Kopfschmerzen.",
+      "why": {
+        "en": "Pain and illness use haben.",
+        "te": "నొప్పి, అనారోగ్యం haben తో.",
+        "hi": "दर्द और बीमारी haben के साथ।"
+      }
+    },
+    {
+      "wrong": "Mein Hals ist weh.",
+      "right": "Mein Hals tut weh.",
+      "why": {
+        "en": "Pain: weh tun.",
+        "te": "నొప్పి: weh tun.",
+        "hi": "दर्द: weh tun।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In Germany you need an appointment for a doctor (Termin). For urgent problems call 112 or go to the emergency room.",
+    "te": "జర్మనీలో డాక్టర్ దగ్గరకు అపాయింట్‌మెంట్ (Termin) కావాలి. అత్యవసరమైతే 112 కు ఫోన్ చేయండి.",
+    "hi": "जर्मनी में डॉक्टर के लिए अपॉइंटमेंट (Termin) चाहिए। आपात स्थिति में 112 पर फ़ोन करें।"
+  },
+  "practice_tip": {
+    "en": "Learn to say where it hurts: \"Mein … tut weh.\"",
+    "te": "ఎక్కడ నొప్పిగా ఉందో చెప్పడం నేర్చుకోండి: \"Mein … tut weh.\"",
+    "hi": "बताना सीखें कि कहाँ दर्द है: \"Mein … tut weh।\""
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"I have a headache.\"",
+        "te": "\"నాకు తలనొప్పిగా ఉంది\" అని చెప్పండి.",
+        "hi": "\"मेरे सिर में दर्द है\" कहें।"
+      },
+      "answer": {
+        "en": "Ich habe Kopfschmerzen.",
+        "te": "Ich habe Kopfschmerzen.",
+        "hi": "Ich habe Kopfschmerzen."
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"My throat hurts.\"",
+        "te": "\"నా గొంతు నొప్పిగా ఉంది\" అని చెప్పండి.",
+        "hi": "\"मेरे गले में दर्द है\" कहें।"
+      },
+      "answer": {
+        "en": "Mein Hals tut weh.",
+        "te": "Mein Hals tut weh.",
+        "hi": "Mein Hals tut weh."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Mein Kopf ___ weh.",
+        "te": "Mein Kopf ___ weh.",
+        "hi": "Mein Kopf ___ weh."
+      },
+      "options": [
+        {
+          "de": "tut"
+        },
+        {
+          "de": "hat"
+        },
+        {
+          "de": "ist"
+        },
+        {
+          "de": "macht"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "weh tun = to hurt.",
+        "te": "weh tun = to hurt.",
+        "hi": "weh tun = to hurt."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Mir ist ___.",
+        "te": "Mir ist ___.",
+        "hi": "Mir ist ___."
+      },
+      "options": [
+        {
+          "de": "schlecht"
+        },
+        {
+          "de": "schlechten"
+        },
+        {
+          "de": "schlechte"
+        },
+        {
+          "de": "schlecht mich"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Mir ist schlecht = I feel sick.",
+        "te": "Mir ist schlecht = I feel sick.",
+        "hi": "Mir ist schlecht = I feel sick."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Die Apotheke\" is…",
+        "te": "\"Die Apotheke\" is…",
+        "hi": "\"Die Apotheke\" is…"
+      },
+      "options": [
+        {
+          "de": "the pharmacy"
+        },
+        {
+          "de": "the doctor"
+        },
+        {
+          "de": "the hospital"
+        },
+        {
+          "de": "the insurance"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Apotheke = pharmacy.",
+        "te": "Apotheke = pharmacy.",
+        "hi": "Apotheke = pharmacy."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich habe ___.",
+        "te": "Ich habe ___.",
+        "hi": "Ich habe ___."
+      },
+      "options": [
+        {
+          "de": "Fieber"
+        },
+        {
+          "de": "weh"
+        },
+        {
+          "de": "schlecht"
+        },
+        {
+          "de": "Schmerz tut"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Fieber is a noun with haben.",
+        "te": "Fieber is a noun with haben.",
+        "hi": "Fieber is a noun with haben."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "health-body-l1",
+      "audio_de": "Mir ist schwindelig.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I feel dizzy.",
+            "te": "నాకు తల తిరుగుతోంది.",
+            "hi": "मुझे चक्कर आ रहे हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "I feel hot.",
+            "te": "నాకు వేడిగా ఉంది.",
+            "hi": "मुझे गर्मी लग रही है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I feel happy.",
+            "te": "నేను సంతోషంగా ఉన్నాను.",
+            "hi": "मैं ख़ुश हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I feel cold.",
+            "te": "నాకు చలిగా ఉంది.",
+            "hi": "मुझे ठंड लग रही है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "schwindelig = dizzy.",
+        "te": "schwindelig = తల తిరుగుడు.",
+        "hi": "schwindelig = चक्कर।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "health-body-l2",
+      "audio_de": "Nehmen Sie diese Tabletten dreimal am Tag.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Take these tablets three times a day.",
+            "te": "ఈ మాత్రలు రోజుకు మూడుసార్లు తీసుకోండి.",
+            "hi": "ये गोलियाँ दिन में तीन बार लें।"
+          }
+        },
+        {
+          "text": {
+            "en": "Take these tablets once a week.",
+            "te": "ఈ మాత్రలు వారానికి ఒకసారి తీసుకోండి.",
+            "hi": "ये गोलियाँ हफ़्ते में एक बार लें।"
+          }
+        },
+        {
+          "text": {
+            "en": "Do not take these tablets.",
+            "te": "ఈ మాత్రలు తీసుకోవద్దు.",
+            "hi": "ये गोलियाँ न लें।"
+          }
+        },
+        {
+          "text": {
+            "en": "Buy these tablets today.",
+            "te": "ఈ మాత్రలు ఈ రోజు కొనండి.",
+            "hi": "ये गोलियाँ आज ख़रीदें।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "dreimal am Tag = three times a day.",
+        "te": "dreimal am Tag = రోజుకు మూడుసార్లు.",
+        "hi": "dreimal am Tag = दिन में तीन बार।"
+      }
+    }
+  ],
+  "audio": []
+}

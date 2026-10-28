@@ -1,0 +1,527 @@
+{
+  "id": "invitations-plans",
+  "slug": "invitations-plans",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Invitations & Plans",
+    "te": "ఆహ్వానాలు & ప్రణాళికలు",
+    "hi": "निमंत्रण और योजनाएँ"
+  },
+  "subtitle": {
+    "en": "Inviting and suggesting",
+    "te": "ఆహ్వానించడం మరియు సూచించడం",
+    "hi": "निमंत्रण देना और सुझाव"
+  },
+  "intro": {
+    "en": "Invite people, accept or decline politely, and make plans for a meeting.",
+    "te": "ఆహ్వానించండి, మర్యాదగా అంగీకరించండి లేదా వద్దనండి, సమావేశానికి ప్రణాళిక వేయండి.",
+    "hi": "निमंत्रण दें, विनम्रता से स्वीकार या अस्वीकार करें, और मिलने की योजना बनाएँ।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "einladen",
+      "meaning": {
+        "en": "to invite",
+        "te": "ఆహ్వానించడం",
+        "hi": "निमंत्रण देना"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "Hast du Lust …?",
+      "meaning": {
+        "en": "Do you feel like …?",
+        "te": "నీకు ఇష్టమా …?",
+        "hi": "क्या तुम्हारा मन है …?"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "Gern!",
+      "meaning": {
+        "en": "Gladly!",
+        "te": "తప్పకుండా!",
+        "hi": "ज़रूर!"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "Leider kann ich nicht.",
+      "meaning": {
+        "en": "Unfortunately I cannot.",
+        "te": "క్షమించండి, నేను రాలేను.",
+        "hi": "दुर्भाग्य से मैं नहीं आ सकता।"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "vorschlagen",
+      "meaning": {
+        "en": "to suggest",
+        "te": "సూచించడం",
+        "hi": "सुझाव देना"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "verabreden",
+      "meaning": {
+        "en": "to arrange to meet",
+        "te": "కలవడానికి ఒప్పుకోవడం",
+        "hi": "मिलने का तय करना"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "Wann passt es dir?",
+      "meaning": {
+        "en": "When suits you?",
+        "te": "నీకు ఎప్పుడు సరిపోతుంది?",
+        "hi": "तुम्हारे लिए कब ठीक है?"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Wie wäre es mit …?",
+      "meaning": {
+        "en": "How about …?",
+        "te": "… ఎలా ఉంటుంది?",
+        "hi": "… कैसा रहेगा?"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "die Party",
+      "meaning": {
+        "en": "the party",
+        "te": "పార్టీ",
+        "hi": "पार्टी"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "das Essen",
+      "meaning": {
+        "en": "the meal",
+        "te": "భోజనం",
+        "hi": "खाना"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Möchtest du am Samstag zu mir kommen?",
+      "meaning": {
+        "en": "Would you like to come to mine on Saturday?",
+        "te": "శనివారం నా ఇంటికి వస్తావా?",
+        "hi": "क्या तुम शनिवार को मेरे घर आना चाहोगे?"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Gern! Um wie viel Uhr?",
+      "meaning": {
+        "en": "Gladly! What time?",
+        "te": "తప్పకుండా! ఎన్ని గంటలకు?",
+        "hi": "ज़रूर! कितने बजे?"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Leider habe ich am Freitag keine Zeit.",
+      "meaning": {
+        "en": "Unfortunately I have no time on Friday.",
+        "te": "క్షమించండి, శుక్రవారం నాకు సమయం లేదు.",
+        "hi": "दुर्भाग्य से शुक्रवार को मेरे पास समय नहीं है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Wie wäre es mit einem Kaffee um vier?",
+      "meaning": {
+        "en": "How about a coffee at four?",
+        "te": "నాలుగు గంటలకు కాఫీ ఎలా ఉంటుంది?",
+        "hi": "चार बजे कॉफ़ी कैसी रहेगी?"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "das Geschenk",
+      "meaning": {
+        "en": "the gift",
+        "te": "బహుమతి",
+        "hi": "उपहार"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "pünktlich",
+      "meaning": {
+        "en": "on time",
+        "te": "సమయానికి",
+        "hi": "समय पर"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "absagen",
+      "meaning": {
+        "en": "to cancel",
+        "te": "రద్దు చేయడం",
+        "hi": "रद्द करना"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "der Besuch",
+      "meaning": {
+        "en": "the visit",
+        "te": "సందర్శన",
+        "hi": "मुलाक़ात"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "INVITING A COLLEAGUE",
+      "te": "సహోద్యోగిని ఆహ్వానించడం",
+      "hi": "सहकर्मी को निमंत्रण"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Anna",
+        "de": "Ravi, hast du Lust, am Freitag mit uns essen zu gehen?",
+        "meaning": {
+          "en": "Ravi, do you feel like going out to eat with us on Friday?",
+          "te": "రవి, శుక్రవారం మాతో కలిసి భోజనానికి వస్తావా?",
+          "hi": "रवि, शुक्रवार को हमारे साथ खाना खाने चलोगे?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Ravi",
+        "de": "Gern! Wie wäre es um acht?",
+        "meaning": {
+          "en": "Gladly! How about eight?",
+          "te": "తప్పకుండా! ఎనిమిదికి ఎలా ఉంటుంది?",
+          "hi": "ज़रूर! आठ बजे कैसा रहेगा?"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Anna",
+        "de": "Super. Wir treffen uns am Eingang.",
+        "meaning": {
+          "en": "Great. We will meet at the entrance.",
+          "te": "బాగుంది. ప్రవేశ ద్వారం దగ్గర కలుద్దాం.",
+          "hi": "बढ़िया। हम प्रवेश द्वार पर मिलेंगे।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Ravi",
+        "de": "Ich komme pünktlich. Bis Freitag!",
+        "meaning": {
+          "en": "I will be on time. See you Friday!",
+          "te": "నేను సమయానికి వస్తాను. శుక్రవారం కలుద్దాం!",
+          "hi": "मैं समय पर आऊँगा। शुक्रवार को मिलते हैं!"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: polite invitations",
+      "te": "వ్యాకరణం: మర్యాదపూర్వక ఆహ్వానాలు",
+      "hi": "व्याकरण: विनम्र निमंत्रण"
+    },
+    "body": {
+      "en": "Use the conditional wäre for softer suggestions: Wie wäre es mit …? Möchtest du …? (would you like). \"Hast du Lust …?\" is casual; use Sie in formal invitations.",
+      "te": "మృదువైన సూచనలకు wäre: Wie wäre es mit …? Möchtest du …? (ఇష్టమా?). \"Hast du Lust …?\" సన్నిహితంగా; గౌరవంగా Sie.",
+      "hi": "नरम सुझाव के लिए wäre: Wie wäre es mit …? Möchtest du …? \"Hast du Lust …?\" अनौपचारिक है; औपचारिक में Sie।"
+    }
+  },
+  "deep_dive": {
+    "en": "Germans often decline with \"Leider nicht\" plus a short reason. A vague \"Vielleicht\" (maybe) is usually understood as a polite no.",
+    "te": "జర్మన్లు తరచుగా \"Leider nicht\" + చిన్న కారణంతో వద్దంటారు. \"Vielleicht\" (బహుశా) సాధారణంగా మర్యాదపూర్వక \"కాదు\" అనే అర్థం.",
+    "hi": "जर्मन अक्सर \"Leider nicht\" और छोटे कारण के साथ मना करते हैं। \"Vielleicht\" (शायद) आम तौर पर विनम्र ना समझा जाता है।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich komme nicht, ich habe keine Zeit.",
+      "right": "Leider kann ich nicht kommen.",
+      "why": {
+        "en": "A softer, more polite decline.",
+        "te": "మరింత మృదువైన, మర్యాదపూర్వక నిరాకరణ.",
+        "hi": "नरम और विनम्र मना।"
+      }
+    },
+    {
+      "wrong": "Wie ist es mit Kaffee?",
+      "right": "Wie wäre es mit einem Kaffee?",
+      "why": {
+        "en": "Use wäre for suggestions.",
+        "te": "సూచనలకు wäre.",
+        "hi": "सुझाव के लिए wäre।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In Germany people often plan meetings days ahead and confirm them. Arriving exactly on time, or a few minutes early, is respectful.",
+    "te": "జర్మనీలో సమావేశాలను రోజుల ముందే ప్లాన్ చేసి నిర్ధారిస్తారు. సమయానికి లేదా కొంచెం ముందుగా చేరుకోవడం గౌరవం.",
+    "hi": "जर्मनी में लोग मीटिंग दिनों पहले तय करके पक्की करते हैं। समय पर या कुछ मिनट पहले पहुँचना सम्मान है।"
+  },
+  "practice_tip": {
+    "en": "Invite a friend to something this week and write the invitation in German.",
+    "te": "ఈ వారం ఒక స్నేహితుడిని ఆహ్వానించి, ఆహ్వానాన్ని జర్మన్‌లో రాయండి.",
+    "hi": "इस हफ़्ते किसी दोस्त को न्योता दें और जर्मन में लिखें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Invite someone: \"Would you like to come?\"",
+        "te": "ఎవరినైనా ఆహ్వానించండి: \"Would you like to come?\"",
+        "hi": "किसी को न्योता दें: \"Would you like to come?\""
+      },
+      "answer": {
+        "en": "Möchtest du kommen?",
+        "te": "Möchtest du kommen?",
+        "hi": "Möchtest du kommen?"
+      }
+    },
+    {
+      "question": {
+        "en": "Politely decline.",
+        "te": "మర్యాదగా వద్దనండి.",
+        "hi": "विनम्रता से मना करें।"
+      },
+      "answer": {
+        "en": "Leider kann ich nicht.",
+        "te": "Leider kann ich nicht.",
+        "hi": "Leider kann ich nicht."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "___ es mit einem Tee?",
+        "te": "___ es mit einem Tee?",
+        "hi": "___ es mit einem Tee?"
+      },
+      "options": [
+        {
+          "de": "Wie wäre"
+        },
+        {
+          "de": "Wie ist"
+        },
+        {
+          "de": "Was wäre"
+        },
+        {
+          "de": "Wie war"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Wie wäre es mit … = how about.",
+        "te": "Wie wäre es mit … = how about.",
+        "hi": "Wie wäre es mit … = how about."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Gern!\" means…",
+        "te": "\"Gern!\" means…",
+        "hi": "\"Gern!\" means…"
+      },
+      "options": [
+        {
+          "de": "Gladly!"
+        },
+        {
+          "de": "Never!"
+        },
+        {
+          "de": "Maybe!"
+        },
+        {
+          "de": "Later!"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "gern = gladly.",
+        "te": "gern = gladly.",
+        "hi": "gern = gladly."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Polite no:",
+        "te": "Polite no:",
+        "hi": "Polite no:"
+      },
+      "options": [
+        {
+          "de": "Leider kann ich nicht."
+        },
+        {
+          "de": "Nein, nie."
+        },
+        {
+          "de": "Ich will nicht."
+        },
+        {
+          "de": "Niemals."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Leider kann ich nicht is polite.",
+        "te": "Leider kann ich nicht is polite.",
+        "hi": "Leider kann ich nicht is polite."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"verabreden\" means…",
+        "te": "\"verabreden\" means…",
+        "hi": "\"verabreden\" means…"
+      },
+      "options": [
+        {
+          "de": "to arrange to meet"
+        },
+        {
+          "de": "to cancel"
+        },
+        {
+          "de": "to invite"
+        },
+        {
+          "de": "to travel"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "sich verabreden = arrange to meet.",
+        "te": "sich verabreden = arrange to meet.",
+        "hi": "sich verabreden = arrange to meet."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "invitations-plans-l1",
+      "audio_de": "Gern! Um wie viel Uhr?",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Gladly! What time?",
+            "te": "తప్పకుండా! ఎన్ని గంటలకు?",
+            "hi": "ज़रूर! कितने बजे?"
+          }
+        },
+        {
+          "text": {
+            "en": "No! Where?",
+            "te": "లేదు! ఎక్కడ?",
+            "hi": "नहीं! कहाँ?"
+          }
+        },
+        {
+          "text": {
+            "en": "Maybe! Who?",
+            "te": "బహుశా! ఎవరు?",
+            "hi": "शायद! कौन?"
+          }
+        },
+        {
+          "text": {
+            "en": "Later! Why?",
+            "te": "తర్వాత! ఎందుకు?",
+            "hi": "बाद में! क्यों?"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "gern = gladly; Um wie viel Uhr = at what time.",
+        "te": "gern = తప్పకుండా; Um wie viel Uhr = ఎన్ని గంటలకు.",
+        "hi": "gern = ज़रूर; Um wie viel Uhr = कितने बजे।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "invitations-plans-l2",
+      "audio_de": "Leider habe ich keine Zeit.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Unfortunately I have no time.",
+            "te": "క్షమించండి, నాకు సమయం లేదు.",
+            "hi": "दुर्भाग्य से मेरे पास समय नहीं है।"
+          }
+        },
+        {
+          "text": {
+            "en": "Fortunately I have time.",
+            "te": "అదృష్టవశాత్తూ నాకు సమయం ఉంది.",
+            "hi": "किस्मत से मेरे पास समय है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I have a lot of time.",
+            "te": "నాకు చాలా సమయం ఉంది.",
+            "hi": "मेरे पास बहुत समय है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am coming now.",
+            "te": "నేను ఇప్పుడు వస్తున్నాను.",
+            "hi": "मैं अभी आ रहा हूँ।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "leider = unfortunately.",
+        "te": "leider = క్షమించండి.",
+        "hi": "leider = दुर्भाग्य से।"
+      }
+    }
+  ],
+  "audio": []
+}

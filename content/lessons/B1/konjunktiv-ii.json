@@ -1,0 +1,527 @@
+{
+  "id": "konjunktiv-ii",
+  "slug": "konjunktiv-ii",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Konjunktiv II",
+    "te": "Konjunktiv II",
+    "hi": "Konjunktiv II"
+  },
+  "subtitle": {
+    "en": "Wishes, polite requests and 'if' sentences",
+    "te": "కోరికలు, మర్యాదపూర్వక అభ్యర్థనలు",
+    "hi": "इच्छाएँ, विनम्र अनुरोध"
+  },
+  "intro": {
+    "en": "Konjunktiv II expresses wishes, polite requests and unreal situations: I would like, I would go, if I had time.",
+    "te": "Konjunktiv II కోరికలు, మర్యాదపూర్వక అభ్యర్థనలు, ఊహాత్మక పరిస్థితులు చెబుతుంది.",
+    "hi": "Konjunktiv II इच्छा, विनम्र अनुरोध और काल्पनिक स्थितियाँ बताता है।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "ich hätte",
+      "meaning": {
+        "en": "I would have",
+        "te": "నాకు ఉండేది",
+        "hi": "मेरे पास होता"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "ich wäre",
+      "meaning": {
+        "en": "I would be",
+        "te": "నేను ఉండేవాడిని",
+        "hi": "मैं होता"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "ich würde gehen",
+      "meaning": {
+        "en": "I would go",
+        "te": "నేను వెళ్ళేవాడిని",
+        "hi": "मैं जाता"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "ich könnte",
+      "meaning": {
+        "en": "I could",
+        "te": "నేను చేయగలను",
+        "hi": "मैं कर सकता"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "ich möchte",
+      "meaning": {
+        "en": "I would like",
+        "te": "నాకు కావాలి",
+        "hi": "मुझे चाहिए"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "wenn",
+      "meaning": {
+        "en": "if",
+        "te": "ఒకవేళ",
+        "hi": "अगर"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "an Ihrer Stelle",
+      "meaning": {
+        "en": "in your place",
+        "te": "మీ స్థానంలో",
+        "hi": "आपकी जगह"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Ich wünsche mir …",
+      "meaning": {
+        "en": "I wish for …",
+        "te": "నాకు … కావాలి",
+        "hi": "मैं … चाहता हूँ"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Wenn ich Zeit hätte, würde ich reisen.",
+      "meaning": {
+        "en": "If I had time, I would travel.",
+        "te": "నాకు సమయం ఉంటే, నేను ప్రయాణిస్తాను.",
+        "hi": "अगर मेरे पास समय होता, तो मैं यात्रा करता।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Könnten Sie mir helfen?",
+      "meaning": {
+        "en": "Could you help me?",
+        "te": "మీరు నాకు సహాయం చేయగలరా?",
+        "hi": "क्या आप मेरी मदद कर सकते हैं?"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich hätte gern einen Kaffee.",
+      "meaning": {
+        "en": "I would like a coffee.",
+        "te": "నాకు ఒక కాఫీ కావాలి.",
+        "hi": "मुझे एक कॉफ़ी चाहिए।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Wenn ich reich wäre, würde ich ein Haus kaufen.",
+      "meaning": {
+        "en": "If I were rich, I would buy a house.",
+        "te": "నేను ధనవంతుడినైతే, ఇల్లు కొంటాను.",
+        "hi": "अगर मैं अमीर होता, तो घर ख़रीदता।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "An deiner Stelle würde ich mich bewerben.",
+      "meaning": {
+        "en": "In your place I would apply.",
+        "te": "నీ స్థానంలో ఉంటే నేను దరఖాస్తు చేస్తాను.",
+        "hi": "तुम्हारी जगह होता तो मैं आवेदन करता।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Ich wünschte, ich könnte besser schlafen.",
+      "meaning": {
+        "en": "I wish I could sleep better.",
+        "te": "నేను బాగా నిద్రపోగలిగితే బాగుండేది.",
+        "hi": "काश मैं बेहतर सो पाता।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Stelle",
+      "meaning": {
+        "en": "the position / place",
+        "te": "స్థానం / ఉద్యోగం",
+        "hi": "पद / जगह"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "reich",
+      "meaning": {
+        "en": "rich",
+        "te": "ధనవంతుడు",
+        "hi": "अमीर"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "besser",
+      "meaning": {
+        "en": "better",
+        "te": "మెరుగైన",
+        "hi": "बेहतर"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "der Wunsch",
+      "meaning": {
+        "en": "the wish",
+        "te": "కోరిక",
+        "hi": "इच्छा"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A JOB INTERVIEW",
+      "te": "ఉద్యోగ ఇంటర్వ్యూ",
+      "hi": "नौकरी का इंटरव्यू"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Frau Lang",
+        "de": "Was würden Sie tun, wenn ein Kunde unzufrieden wäre?",
+        "meaning": {
+          "en": "What would you do if a customer were unhappy?",
+          "te": "కస్టమర్ అసంతృప్తిగా ఉంటే మీరు ఏమి చేస్తారు?",
+          "hi": "अगर कोई ग्राहक नाख़ुश होता तो आप क्या करते?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Arjun",
+        "de": "Ich würde zuhören und eine Lösung suchen.",
+        "meaning": {
+          "en": "I would listen and look for a solution.",
+          "te": "నేను వింటాను, పరిష్కారం వెతుకుతాను.",
+          "hi": "मैं सुनता और समाधान ढूँढता।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Frau Lang",
+        "de": "Gut. Könnten Sie auch im Team arbeiten?",
+        "meaning": {
+          "en": "Good. Could you also work in a team?",
+          "te": "బాగుంది. మీరు టీమ్‌లో కూడా పని చేయగలరా?",
+          "hi": "अच्छा। क्या आप टीम में भी काम कर सकते हैं?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Arjun",
+        "de": "Ja, das würde mir sehr gefallen.",
+        "meaning": {
+          "en": "Yes, I would like that very much.",
+          "te": "అవును, అది నాకు చాలా నచ్చుతుంది.",
+          "hi": "हाँ, यह मुझे बहुत पसंद आएगा।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: forming Konjunktiv II",
+      "te": "వ్యాకరణం: Konjunktiv II రూపం",
+      "hi": "व्याकरण: Konjunktiv II रूप"
+    },
+    "body": {
+      "en": "For sein, haben and modals use the Präteritum stem + umlaut: wäre, hätte, könnte, würde. For most verbs use würde + infinitive: Ich würde kommen. Wenn … (if) sends the verb to the end.",
+      "te": "sein, haben, మోడల్స్‌కు Präteritum మూలం + umlaut: wäre, hätte, könnte. చాలా క్రియలకు würde + మూల క్రియ. Wenn … తో క్రియ చివర.",
+      "hi": "sein, haben, मोडल के लिए Präteritum मूल + umlaut: wäre, hätte, könnte। ज़्यादातर क्रियाओं के लिए würde + मूल क्रिया। Wenn … के साथ क्रिया अंत में।"
+    }
+  },
+  "deep_dive": {
+    "en": "Use Konjunktiv II for polite requests (Hätten Sie Zeit?) and unreal conditions. \"Ich hätte gern\" is the polite way to order. \"Würde\" + infinitive is most common in speech.",
+    "te": "మర్యాదపూర్వక అభ్యర్థనలు (Hätten Sie Zeit?) మరియు ఊహాత్మక షరతులకు Konjunktiv II. \"Ich hätte gern\" మర్యాదపూర్వక ఆర్డర్.",
+    "hi": "विनम्र अनुरोध (Hätten Sie Zeit?) और काल्पनिक शर्तों के लिए Konjunktiv II। \"Ich hätte gern\" विनम्र ऑर्डर है।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Wenn ich hätte Zeit, würde ich reisen.",
+      "right": "Wenn ich Zeit hätte, würde ich reisen.",
+      "why": {
+        "en": "After wenn the verb goes to the end.",
+        "te": "wenn తర్వాత క్రియ చివర.",
+        "hi": "wenn के बाद क्रिया अंत में।"
+      }
+    },
+    {
+      "wrong": "Ich würde gern kommen. Ich will.",
+      "right": "Ich würde gern kommen.",
+      "why": {
+        "en": "Keep one polite form, not both.",
+        "te": "ఒకే మర్యాదపూర్వక రూపం.",
+        "hi": "एक ही विनम्र रूप।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Germans rarely say \"I want\" in formal requests; \"Ich hätte gern\" or \"Könnten Sie …?\" sounds polite and respectful.",
+    "te": "జర్మన్లు గౌరవ అభ్యర్థనల్లో \"I want\" అనరు; \"Ich hätte gern\" లేదా \"Könnten Sie …?\" మర్యాదగా ఉంటుంది.",
+    "hi": "जर्मन औपचारिक अनुरोध में \"I want\" कम कहते हैं; \"Ich hätte gern\" या \"Könnten Sie …?\" विनम्र लगता है।"
+  },
+  "practice_tip": {
+    "en": "Write three polite requests with hätte, könnte or würde, and three \"if I had\" sentences.",
+    "te": "hätte, könnte, würde తో మూడు మర్యాదపూర్వక అభ్యర్థనలు, మూడు \"నాకు ఉంటే\" వాక్యాలు రాయండి.",
+    "hi": "hätte, könnte, würde से तीन विनम्र अनुरोध और तीन \"अगर मेरे पास होता\" वाक्य लिखें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Polite: \"I would like a coffee.\"",
+        "te": "మర్యాద: \"I would like a coffee.\"",
+        "hi": "विनम्र: \"I would like a coffee।\""
+      },
+      "answer": {
+        "en": "Ich hätte gern einen Kaffee.",
+        "te": "Ich hätte gern einen Kaffee.",
+        "hi": "Ich hätte gern einen Kaffee."
+      }
+    },
+    {
+      "question": {
+        "en": "Konjunktiv II of \"sein\" (ich)?",
+        "te": "\"sein\" (ich) Konjunktiv II?",
+        "hi": "\"sein\" (ich) Konjunktiv II?"
+      },
+      "answer": {
+        "en": "ich wäre",
+        "te": "ich wäre",
+        "hi": "ich wäre"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Wenn ich Zeit ___, würde ich kommen.",
+        "te": "Wenn ich Zeit ___, würde ich kommen.",
+        "hi": "Wenn ich Zeit ___, würde ich kommen."
+      },
+      "options": [
+        {
+          "de": "hätte"
+        },
+        {
+          "de": "habe"
+        },
+        {
+          "de": "hatte"
+        },
+        {
+          "de": "haben"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Konjunktiv II of haben: hätte.",
+        "te": "Konjunktiv II of haben: hätte.",
+        "hi": "Konjunktiv II of haben: hätte."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Ich ___ gern einen Tee.\" (polite)",
+        "te": "\"Ich ___ gern einen Tee.\" (polite)",
+        "hi": "\"Ich ___ gern einen Tee.\" (polite)"
+      },
+      "options": [
+        {
+          "de": "hätte"
+        },
+        {
+          "de": "habe"
+        },
+        {
+          "de": "bin"
+        },
+        {
+          "de": "will"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "hätte gern = would like.",
+        "te": "hätte gern = would like.",
+        "hi": "hätte gern = would like."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Konjunktiv II of \"können\" (ich)?",
+        "te": "Konjunktiv II of \"können\" (ich)?",
+        "hi": "Konjunktiv II of \"können\" (ich)?"
+      },
+      "options": [
+        {
+          "de": "könnte"
+        },
+        {
+          "de": "kann"
+        },
+        {
+          "de": "konnte"
+        },
+        {
+          "de": "könnten"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "könnte = could.",
+        "te": "könnte = could.",
+        "hi": "könnte = could."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"An Ihrer Stelle\" means…",
+        "te": "\"An Ihrer Stelle\" means…",
+        "hi": "\"An Ihrer Stelle\" means…"
+      },
+      "options": [
+        {
+          "de": "in your place"
+        },
+        {
+          "de": "at your side"
+        },
+        {
+          "de": "in your room"
+        },
+        {
+          "de": "at your home"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "an Ihrer Stelle = in your place.",
+        "te": "an Ihrer Stelle = in your place.",
+        "hi": "an Ihrer Stelle = in your place."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "konjunktiv-ii-l1",
+      "audio_de": "Wenn ich reich wäre, würde ich ein Haus kaufen.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "If I were rich, I would buy a house.",
+            "te": "నేను ధనవంతుడినైతే, ఇల్లు కొంటాను.",
+            "hi": "अगर मैं अमीर होता, तो घर ख़रीदता।"
+          }
+        },
+        {
+          "text": {
+            "en": "Because I am rich, I bought a house.",
+            "te": "నేను ధనవంతుడిని కాబట్టి ఇల్లు కొన్నాను.",
+            "hi": "मैं अमीर हूँ इसलिए घर ख़रीदा।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am rich and I have a house.",
+            "te": "నేను ధనవంతుడిని, ఇల్లు ఉంది.",
+            "hi": "मैं अमीर हूँ और मेरे पास घर है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I will be rich someday.",
+            "te": "నేను ఒక రోజు ధనవంతుడిని అవుతాను.",
+            "hi": "मैं एक दिन अमीर बनूँगा।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wäre/würde = would (unreal).",
+        "te": "wäre/würde = (ఊహాత్మకం).",
+        "hi": "wäre/würde = (काल्पनिक)।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v10",
+      "audio_de": "Könnten Sie mir helfen?",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Could you help me?",
+            "te": "మీరు నాకు సహాయం చేయగలరా?",
+            "hi": "क्या आप मेरी मदद कर सकते हैं?"
+          }
+        },
+        {
+          "text": {
+            "en": "Did you help me?",
+            "te": "మీరు నాకు సహాయం చేశారా?",
+            "hi": "क्या आपने मेरी मदद की?"
+          }
+        },
+        {
+          "text": {
+            "en": "You must help me.",
+            "te": "మీరు నాకు సహాయం చేయాలి.",
+            "hi": "आपको मेरी मदद करनी होगी।"
+          }
+        },
+        {
+          "text": {
+            "en": "Help me now!",
+            "te": "ఇప్పుడే నాకు సహాయం చేయండి!",
+            "hi": "अभी मेरी मदद करो!"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Könnten = could (polite).",
+        "te": "Könnten = (మర్యాద).",
+        "hi": "Könnten = (विनम्र)।"
+      }
+    }
+  ],
+  "audio": []
+}

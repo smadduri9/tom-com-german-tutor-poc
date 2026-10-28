@@ -1,0 +1,527 @@
+{
+  "id": "idioms",
+  "slug": "idioms",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Common Idioms",
+    "te": "సాధారణ జాతీయాలు",
+    "hi": "आम मुहावरे"
+  },
+  "subtitle": {
+    "en": "Everyday German expressions",
+    "te": "రోజువారీ జర్మన్ వ్యక్తీకరణలు",
+    "hi": "रोज़मर्रा की जर्मन अभिव्यक्तियाँ"
+  },
+  "intro": {
+    "en": "Everyday German expressions that do not translate word for word: sich den Kopf zerbrechen, Daumen drücken and more.",
+    "te": "అక్షరాలా అనువదించలేని రోజువారీ జర్మన్ వ్యక్తీకరణలు: sich den Kopf zerbrechen, Daumen drücken.",
+    "hi": "शाब्दिक अनुवाद न हो सकने वाले रोज़मर्रा के जर्मन मुहावरे: sich den Kopf zerbrechen, Daumen drücken।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "Daumen drücken",
+      "meaning": {
+        "en": "to keep fingers crossed",
+        "te": "అదృష్టం కోరుకోవడం",
+        "hi": "शुभकामना देना"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "Ich drücke dir die Daumen!",
+      "meaning": {
+        "en": "I am keeping my fingers crossed for you!",
+        "te": "నీకు మంచి జరగాలని కోరుకుంటున్నాను!",
+        "hi": "मैं तुम्हारे लिए दुआ कर रहा हूँ!"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "sich den Kopf zerbrechen",
+      "meaning": {
+        "en": "to rack one’s brain",
+        "te": "తల బద్దలు కొట్టుకోవడం",
+        "hi": "दिमाग़ खपाना"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "Das ist nicht mein Bier.",
+      "meaning": {
+        "en": "That is not my problem.",
+        "te": "అది నా బాధ్యత కాదు.",
+        "hi": "यह मेरी समस्या नहीं है।"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "Ich verstehe nur Bahnhof.",
+      "meaning": {
+        "en": "It is all Greek to me.",
+        "te": "నాకు ఏమీ అర్థం కాలేదు.",
+        "hi": "मुझे कुछ समझ नहीं आ रहा।"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "Schwein haben",
+      "meaning": {
+        "en": "to be lucky",
+        "te": "అదృష్టం ఉండటం",
+        "hi": "क़िस्मत अच्छी होना"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "Das kostet ein Vermögen.",
+      "meaning": {
+        "en": "That costs a fortune.",
+        "te": "అది చాలా ఖరీదు.",
+        "hi": "इसकी बहुत कीमत है।"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "die Nase voll haben",
+      "meaning": {
+        "en": "to be fed up",
+        "te": "విసిగిపోవడం",
+        "hi": "तंग आ जाना"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Ich habe die Nase voll.",
+      "meaning": {
+        "en": "I am fed up.",
+        "te": "నేను విసిగిపోయాను.",
+        "hi": "मैं तंग आ गया हूँ।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Alles klar!",
+      "meaning": {
+        "en": "All clear! (Got it!)",
+        "te": "అర్థమైంది!",
+        "hi": "समझ गया!"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich drücke dir die Daumen für die Prüfung.",
+      "meaning": {
+        "en": "I am keeping my fingers crossed for your exam.",
+        "te": "పరీక్ష కోసం నీకు మంచి జరగాలని కోరుకుంటున్నాను.",
+        "hi": "मैं तुम्हारी परीक्षा के लिए दुआ करता हूँ।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Er hat Schwein gehabt, dass der Zug nicht ausgefallen ist.",
+      "meaning": {
+        "en": "He was lucky that the train was not cancelled.",
+        "te": "రైలు రద్దు కాలేదు, అతను అదృష్టవంతుడు.",
+        "hi": "उसकी क़िस्मत अच्छी थी कि ट्रेन रद्द नहीं हुई।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Ich habe mir den Kopf zerbrochen, aber ich finde keine Lösung.",
+      "meaning": {
+        "en": "I racked my brain, but I cannot find a solution.",
+        "te": "తల బద్దలు కొట్టుకున్నాను, కానీ పరిష్కారం దొరకలేదు.",
+        "hi": "मैंने दिमाग़ खपाया, पर कोई हल नहीं मिला।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Das ist nicht mein Bier, ich kümmere mich nicht darum.",
+      "meaning": {
+        "en": "That is not my problem, I am not dealing with it.",
+        "te": "అది నా బాధ్యత కాదు, నేను దానిని పట్టించుకోను.",
+        "hi": "यह मेरी समस्या नहीं है, मैं इससे नहीं निपटूँगा।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Lösung",
+      "meaning": {
+        "en": "the solution",
+        "te": "పరిష్కారం",
+        "hi": "हल"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "ausfallen",
+      "meaning": {
+        "en": "to be cancelled",
+        "te": "రద్దు కావడం",
+        "hi": "रद्द होना"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "sich kümmern um",
+      "meaning": {
+        "en": "to take care of",
+        "te": "చూసుకోవడం",
+        "hi": "देखभाल करना"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "das Vermögen",
+      "meaning": {
+        "en": "the fortune",
+        "te": "సంపద",
+        "hi": "संपत्ति"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A FRIEND BEFORE AN INTERVIEW",
+      "te": "ఇంటర్వ్యూకు ముందు స్నేహితుడు",
+      "hi": "इंटरव्यू से पहले दोस्त"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Jonas",
+        "de": "Morgen habe ich den Termin bei der Bank.",
+        "meaning": {
+          "en": "Tomorrow I have the appointment at the bank.",
+          "te": "రేపు బ్యాంక్‌లో అపాయింట్‌మెంట్ ఉంది.",
+          "hi": "कल बैंक में मेरी अपॉइंटमेंट है।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Priya",
+        "de": "Ich drücke dir die Daumen!",
+        "meaning": {
+          "en": "I am keeping my fingers crossed for you!",
+          "te": "నీకు మంచి జరగాలని కోరుకుంటున్నాను!",
+          "hi": "मैं तुम्हारे लिए दुआ कर रही हूँ!"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Jonas",
+        "de": "Danke. Ich habe mir schon den Kopf zerbrochen, welche Unterlagen ich brauche.",
+        "meaning": {
+          "en": "Thanks. I have already racked my brain over which documents I need.",
+          "te": "ధన్యవాదాలు. ఏ పత్రాలు కావాలో తల బద్దలు కొట్టుకున్నాను.",
+          "hi": "धन्यवाद। मैं यह सोचते-सोचते परेशान हूँ कि कौन-से कागज़ चाहिए।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Priya",
+        "de": "Alles klar, du hast Schwein. Die Liste ist im Büro!",
+        "meaning": {
+          "en": "Got it, you are lucky. The list is at the office!",
+          "te": "సరే, నీకు అదృష్టం ఉంది. జాబితా ఆఫీసులోనే ఉంది!",
+          "hi": "समझ गई, तुम्हारी क़िस्मत अच्छी है। सूची दफ़्तर में ही है!"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: idioms are fixed",
+      "te": "వ్యాకరణం: మాటలు స్థిరం",
+      "hi": "व्याकरण: मुहावरे स्थिर होते हैं"
+    },
+    "body": {
+      "en": "Idioms usually keep their form: Daumen drücken (not die Daumen drückt). Learn them as whole phrases. The reflexive form is often needed: sich den Kopf zerbrechen; the pronoun changes with the subject: ich mir, du dir.",
+      "te": "మాటలు సాధారణంగా అదే రూపంలో: Daumen drücken. సర్వనామం కర్త ప్రకారం మారుతుంది: ich mir, du dir.",
+      "hi": "मुहावरे आम तौर पर उसी रूप में: Daumen drücken। सर्वनाम कर्ता के अनुसार बदलता है: ich mir, du dir।"
+    }
+  },
+  "deep_dive": {
+    "en": "Some idioms come from everyday life: \"Das ist nicht mein Bier\" from a shared drink. Using idioms correctly shows you understand German culture, but use them sparingly with new learners and in formal writing.",
+    "te": "కొన్ని మాటలు రోజువారీ జీవితం నుండి: \"Das ist nicht mein Bier\" పంచుకున్న పానీయం నుండి. మాటలను సరిగ్గా వాడటం సంస్కృతి అవగాహనను చూపుతుంది; గౌరవ రాతలో తక్కువగా వాడండి.",
+    "hi": "कुछ मुहावरे रोज़मर्रा की ज़िंदगी से हैं: \"Das ist nicht mein Bier\" साझा पेय से। सही मुहावरे सांस्कृतिक समझ दिखाते हैं; औपचारिक लेखन में कम प्रयोग करें।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich drücke dir die Daumen drücken.",
+      "right": "Ich drücke dir die Daumen.",
+      "why": {
+        "en": "Do not repeat the verb.",
+        "te": "క్రియను మళ్లీ చెప్పకండి.",
+        "hi": "क्रिया दोहराएँ नहीं।"
+      }
+    },
+    {
+      "wrong": "Ich habe mich den Kopf zerbrochen.",
+      "right": "Ich habe mir den Kopf zerbrochen.",
+      "why": {
+        "en": "The reflexive pronoun is dative here: mir.",
+        "te": "ఇక్కడ రిఫ్లెక్సివ్ సర్వనామం డేటివ్: mir.",
+        "hi": "यहाँ रिफ़्लेक्सिव सर्वनाम dative है: mir।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Germans use \"Alles klar\" and \"Na super\" often in daily talk. A friendly \"Daumen drücken\" before an exam or interview is a warm gesture.",
+    "te": "జర్మన్లు రోజువారీ మాటల్లో \"Alles klar\" మరియు \"Na super\" తరచుగా వాడతారు. పరీక్ష, ఇంటర్వ్యూకు ముందు \"Daumen drücken\" ఆప్యాయత.",
+    "hi": "जर्मन रोज़मर्रा में \"Alles klar\" और \"Na super\" अक्सर बोलते हैं। परीक्षा या इंटरव्यू से पहले \"Daumen drücken\" स्नेह दिखाता है।"
+  },
+  "practice_tip": {
+    "en": "Learn two idioms this week and use one in a real conversation.",
+    "te": "ఈ వారం రెండు మాటలు నేర్చుకుని ఒకదాన్ని నిజమైన సంభాషణలో వాడండి.",
+    "hi": "इस हफ़्ते दो मुहावरे सीखें और एक असली बातचीत में इस्तेमाल करें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "What does \"Daumen drücken\" mean?",
+        "te": "\"Daumen drücken\" అర్థం?",
+        "hi": "\"Daumen drücken\" का अर्थ?"
+      },
+      "answer": {
+        "en": "to keep fingers crossed",
+        "te": "అదృష్టం కోరుకోవడం",
+        "hi": "शुभकामना देना"
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"I am fed up.\"",
+        "te": "\"నేను విసిగిపోయాను\" అని చెప్పండి.",
+        "hi": "\"मैं तंग आ गया हूँ\" कहें।"
+      },
+      "answer": {
+        "en": "Ich habe die Nase voll.",
+        "te": "Ich habe die Nase voll.",
+        "hi": "Ich habe die Nase voll."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich drücke dir ___.",
+        "te": "Ich drücke dir ___.",
+        "hi": "Ich drücke dir ___."
+      },
+      "options": [
+        {
+          "de": "die Daumen"
+        },
+        {
+          "de": "den Daumen"
+        },
+        {
+          "de": "das Daumen"
+        },
+        {
+          "de": "dem Daumen"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Daumen drücken is fixed: die Daumen.",
+        "te": "Daumen drücken is fixed: die Daumen.",
+        "hi": "Daumen drücken is fixed: die Daumen."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Ich verstehe nur Bahnhof\" means…",
+        "te": "\"Ich verstehe nur Bahnhof\" means…",
+        "hi": "\"Ich verstehe nur Bahnhof\" means…"
+      },
+      "options": [
+        {
+          "de": "I understand nothing."
+        },
+        {
+          "de": "I love trains."
+        },
+        {
+          "de": "I am at the station."
+        },
+        {
+          "de": "I am late."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "An idiom: it is all Greek to me.",
+        "te": "An idiom: it is all Greek to me.",
+        "hi": "An idiom: it is all Greek to me."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Schwein haben\" means…",
+        "te": "\"Schwein haben\" means…",
+        "hi": "\"Schwein haben\" means…"
+      },
+      "options": [
+        {
+          "de": "to be lucky"
+        },
+        {
+          "de": "to be unlucky"
+        },
+        {
+          "de": "to be hungry"
+        },
+        {
+          "de": "to be tired"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Schwein haben = be lucky.",
+        "te": "Schwein haben = be lucky.",
+        "hi": "Schwein haben = be lucky."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Das ist nicht mein Bier\" means…",
+        "te": "\"Das ist nicht mein Bier\" means…",
+        "hi": "\"Das ist nicht mein Bier\" means…"
+      },
+      "options": [
+        {
+          "de": "That is not my problem."
+        },
+        {
+          "de": "I like beer."
+        },
+        {
+          "de": "That is my beer."
+        },
+        {
+          "de": "I am thirsty."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Idiom: not my problem.",
+        "te": "Idiom: not my problem.",
+        "hi": "Idiom: not my problem."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "v02",
+      "audio_de": "Ich drücke dir die Daumen!",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I am keeping my fingers crossed for you!",
+            "te": "నీకు మంచి జరగాలని కోరుకుంటున్నాను!",
+            "hi": "मैं तुम्हारे लिए दुआ कर रही हूँ!"
+          }
+        },
+        {
+          "text": {
+            "en": "I am pointing at your thumbs!",
+            "te": "నీ బొటనవేళ్లను చూపిస్తున్నాను!",
+            "hi": "मैं तुम्हारे अँगूठे दिखा रही हूँ!"
+          }
+        },
+        {
+          "text": {
+            "en": "I am pressing your thumbs!",
+            "te": "నీ బొటనవేళ్లను నొక్కుతున్నాను!",
+            "hi": "मैं तुम्हारे अँगूठे दबा रही हूँ!"
+          }
+        },
+        {
+          "text": {
+            "en": "I am counting your thumbs!",
+            "te": "నీ బొటనవేళ్లను లెక్కిస్తున్నాను!",
+            "hi": "मैं तुम्हारे अँगूठे गिन रही हूँ!"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Daumen drücken = keep fingers crossed.",
+        "te": "Daumen drücken = అదృష్టం కోరుకోవడం.",
+        "hi": "Daumen drücken = शुभकामना देना।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v09",
+      "audio_de": "Ich habe die Nase voll.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I am fed up.",
+            "te": "నేను విసిగిపోయాను.",
+            "hi": "मैं तंग आ गया हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I have a runny nose.",
+            "te": "నాకు ముక్కు కారుతోంది.",
+            "hi": "मेरी नाक बह रही है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I like the nose.",
+            "te": "నాకు ముక్కు ఇష్టం.",
+            "hi": "मुझे नाक पसंद है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am very hungry.",
+            "te": "నాకు చాలా ఆకలిగా ఉంది.",
+            "hi": "मुझे बहुत भूख लगी है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "die Nase voll haben = to be fed up.",
+        "te": "die Nase voll haben = విసిగిపోవడం.",
+        "hi": "die Nase voll haben = तंग आ जाना।"
+      }
+    }
+  ],
+  "audio": []
+}

@@ -1,0 +1,486 @@
+{
+  "id": "a2-review",
+  "slug": "a2-review",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "A2 Review",
+    "te": "A2 పునశ్చరణ",
+    "hi": "A2 पुनरावृत्ति"
+  },
+  "subtitle": {
+    "en": "Everything from A2 together",
+    "te": "A2 అంశాలన్నీ ఒకేచోట",
+    "hi": "A2 की सभी बातें एक साथ"
+  },
+  "intro": {
+    "en": "Review A2: dative, Perfekt, Präteritum, separable and reflexive verbs, comparison, travel, shopping and connectors.",
+    "te": "A2 పునశ్చరణ: డేటివ్, Perfekt, Präteritum, విడిపోయే, రిఫ్లెక్సివ్ క్రియలు, పోలికలు, ప్రయాణం, షాపింగ్, సంయోజకాలు.",
+    "hi": "A2 पुनरावृत्ति: dative, Perfekt, Präteritum, विभाज्य और रिफ़्लेक्सिव क्रियाएँ, तुलना, यात्रा, खरीदारी और जोड़ने वाले शब्द।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "Ich habe gestern eingekauft.",
+      "meaning": {
+        "en": "I shopped yesterday.",
+        "te": "నేను నిన్న షాపింగ్ చేశాను.",
+        "hi": "मैंने कल ख़रीदारी की।"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "Ich helfe dir gern.",
+      "meaning": {
+        "en": "I am happy to help you.",
+        "te": "నేను నీకు ఇష్టంగా సహాయం చేస్తాను.",
+        "hi": "मैं तुम्हारी ख़ुशी से मदद करता हूँ।"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "Der Zug ist schneller als der Bus.",
+      "meaning": {
+        "en": "The train is faster than the bus.",
+        "te": "రైలు బస్సు కంటే వేగంగా ఉంటుంది.",
+        "hi": "ट्रेन बस से तेज़ है।"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "Ich freue mich auf den Urlaub.",
+      "meaning": {
+        "en": "I look forward to the holiday.",
+        "te": "నేను సెలవుల కోసం ఎదురుచూస్తున్నాను.",
+        "hi": "मैं छुट्टियों का इंतज़ार कर रहा हूँ।"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "Ich bin müde, weil ich viel gearbeitet habe.",
+      "meaning": {
+        "en": "I am tired, because I worked a lot.",
+        "te": "చాలా పని చేశాను కాబట్టి అలసిపోయాను.",
+        "hi": "मैं थका हूँ, क्योंकि मैंने बहुत काम किया।"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "Ich werde morgen anrufen.",
+      "meaning": {
+        "en": "I will call tomorrow.",
+        "te": "నేను రేపు ఫోన్ చేస్తాను.",
+        "hi": "मैं कल फ़ोन करूँगा।"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "Gestern war es kalt.",
+      "meaning": {
+        "en": "Yesterday it was cold.",
+        "te": "నిన్న చలిగా ఉంది.",
+        "hi": "कल ठंड थी।"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Mir gefällt das.",
+      "meaning": {
+        "en": "I like that.",
+        "te": "నాకు ఇది నచ్చింది.",
+        "hi": "मुझे यह पसंद है।"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Wir fahren mit dem Zug nach Berlin.",
+      "meaning": {
+        "en": "We travel by train to Berlin.",
+        "te": "మేము రైలులో బెర్లిన్‌కు వెళ్తాము.",
+        "hi": "हम ट्रेन से बर्लिन जाते हैं।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Ich zahle mit Karte.",
+      "meaning": {
+        "en": "I pay by card.",
+        "te": "నేను కార్డ్‌తో చెల్లిస్తాను.",
+        "hi": "मैं कार्ड से भुगतान करता हूँ।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich habe Kaffee getrunken.",
+      "meaning": {
+        "en": "I drank coffee.",
+        "te": "నేను కాఫీ తాగాను.",
+        "hi": "मैंने कॉफ़ी पी।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Er steht um sechs auf.",
+      "meaning": {
+        "en": "He gets up at six.",
+        "te": "అతను ఆరు గంటలకు లేస్తాడు.",
+        "hi": "वह छह बजे उठता है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Sie kaufen im Supermarkt ein.",
+      "meaning": {
+        "en": "They shop at the supermarket.",
+        "te": "వారు సూపర్‌మార్కెట్‌లో కొంటారు.",
+        "hi": "वे सुपरमार्केट में ख़रीदारी करते हैं।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Ich glaube, dass er recht hat.",
+      "meaning": {
+        "en": "I think he is right.",
+        "te": "అతను సరైనవాడని నేను అనుకుంటున్నాను.",
+        "hi": "मुझे लगता है कि वह सही है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "das Gepäck",
+      "meaning": {
+        "en": "the luggage",
+        "te": "సామాను",
+        "hi": "सामान"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Kunde",
+      "meaning": {
+        "en": "the customer",
+        "te": "కస్టమర్",
+        "hi": "ग्राहक"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "die Entfernung",
+      "meaning": {
+        "en": "the distance",
+        "te": "దూరం",
+        "hi": "दूरी"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Reise",
+      "meaning": {
+        "en": "the trip",
+        "te": "ప్రయాణం",
+        "hi": "यात्रा"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A2 REVIEW",
+      "te": "A2 పునశ్చరణ",
+      "hi": "A2 पुनरावृत्ति"
+    },
+    "lines": []
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Review: the main patterns",
+      "te": "పునశ్చరణ: ముఖ్య నియమాలు",
+      "hi": "पुनरावृत्ति: मुख्य नियम"
+    },
+    "body": {
+      "en": "Dative after mit, nach, bei, aus and verbs like helfen. Perfekt: haben + participle (sein for movement). Separable prefixes go to the end. weil and dass send the verb to the end; und, aber, denn keep it second.",
+      "te": "డేటివ్: mit, nach, bei, aus, helfen. Perfekt: haben + participle (movement కి sein). విడిపోయే ముందు భాగం చివర. weil, dass క్రియను చివరకు; und, aber, denn రెండవ స్థానంలో.",
+      "hi": "डेटिव: mit, nach, bei, aus, helfen। Perfekt: haben + participle (गति के लिए sein)। विभाज्य उपसर्ग अंत में। weil, dass क्रिया अंत में; und, aber, denn दूसरे स्थान पर।"
+    }
+  },
+  "deep_dive": {
+    "en": "This lesson adds no new words. Pick the part you find hardest, go back to that lesson and practise it aloud.",
+    "te": "ఈ పాఠంలో కొత్త పదాలు లేవు. మీకు కష్టంగా అనిపించే భాగాన్ని ఎంచుకుని, ఆ పాఠానికి తిరిగి వెళ్లి గట్టిగా అభ్యాసం చేయండి.",
+    "hi": "इस पाठ में नए शब्द नहीं हैं। जो हिस्सा सबसे कठिन लगे उसे चुनें, उस पाठ पर लौटें और ज़ोर से अभ्यास करें।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich bin Kaffee getrunken.",
+      "right": "Ich habe Kaffee getrunken.",
+      "why": {
+        "en": "Drinking takes haben.",
+        "te": "తాగడం haben తో.",
+        "hi": "पीना haben के साथ।"
+      }
+    },
+    {
+      "wrong": "Ich glaube, dass er kommt nicht.",
+      "right": "Ich glaube, dass er nicht kommt.",
+      "why": {
+        "en": "Negation goes before the verb at the end.",
+        "te": "నిరాకరణ చివరి క్రియకు ముందు.",
+        "hi": "निषेध अंत की क्रिया से पहले।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "With these structures you can handle a German shop, a train ticket, a doctor's appointment and a short chat at work.",
+    "te": "ఈ నిర్మాణాలతో జర్మన్ దుకాణం, రైలు టికెట్, డాక్టర్ అపాయింట్‌మెంట్, పనిలో చిన్న సంభాషణ నిర్వహించగలరు.",
+    "hi": "इन संरचनाओं से आप जर्मन दुकान, ट्रेन टिकट, डॉक्टर की अपॉइंटमेंट और काम पर छोटी बातचीत कर सकते हैं।"
+  },
+  "practice_tip": {
+    "en": "Write a short diary entry about yesterday in Perfekt, with one weil sentence.",
+    "te": "Perfekt లో నిన్న గురించి చిన్న డైరీ రాయండి, ఒక weil వాక్యంతో.",
+    "hi": "Perfekt में कल पर छोटी डायरी लिखें, एक weil वाक्य के साथ।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Perfekt of \"kaufen\"?",
+        "te": "\"kaufen\" యొక్క Perfekt?",
+        "hi": "\"kaufen\" का Perfekt?"
+      },
+      "answer": {
+        "en": "gekauft",
+        "te": "gekauft",
+        "hi": "gekauft"
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"I am looking forward to the holiday.\"",
+        "te": "\"నేను సెలవుల కోసం ఎదురుచూస్తున్నాను\" అని చెప్పండి.",
+        "hi": "\"मैं छुट्टियों का इंतज़ार कर रहा हूँ\" कहें।"
+      },
+      "answer": {
+        "en": "Ich freue mich auf den Urlaub.",
+        "te": "Ich freue mich auf den Urlaub.",
+        "hi": "Ich freue mich auf den Urlaub."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Er ___ gestern nach Hause gegangen.",
+        "te": "Er ___ gestern nach Hause gegangen.",
+        "hi": "Er ___ gestern nach Hause gegangen."
+      },
+      "options": [
+        {
+          "de": "ist"
+        },
+        {
+          "de": "hat"
+        },
+        {
+          "de": "wird"
+        },
+        {
+          "de": "sind"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "gehen → sein.",
+        "te": "gehen → sein.",
+        "hi": "gehen → sein."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich habe ___ Brot gekauft.",
+        "te": "Ich habe ___ Brot gekauft.",
+        "hi": "Ich habe ___ Brot gekauft."
+      },
+      "options": [
+        {
+          "de": "das"
+        },
+        {
+          "de": "dem"
+        },
+        {
+          "de": "den"
+        },
+        {
+          "de": "die"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Object in accusative: das Brot.",
+        "te": "Object in accusative: das Brot.",
+        "hi": "Object in accusative: das Brot."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Der Bus ist ___ als der Zug.",
+        "te": "Der Bus ist ___ als der Zug.",
+        "hi": "Der Bus ist ___ als der Zug."
+      },
+      "options": [
+        {
+          "de": "langsamer"
+        },
+        {
+          "de": "langsam"
+        },
+        {
+          "de": "am langsamsten"
+        },
+        {
+          "de": "langsame"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Comparative: langsamer.",
+        "te": "Comparative: langsamer.",
+        "hi": "Comparative: langsamer."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich bleibe zu Hause, ___ es regnet.",
+        "te": "Ich bleibe zu Hause, ___ es regnet.",
+        "hi": "Ich bleibe zu Hause, ___ es regnet."
+      },
+      "options": [
+        {
+          "de": "weil"
+        },
+        {
+          "de": "und"
+        },
+        {
+          "de": "aber"
+        },
+        {
+          "de": "oder"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "weil = because.",
+        "te": "weil = because.",
+        "hi": "weil = because."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "a2-review-l1",
+      "audio_de": "Ich freue mich auf das Wochenende.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I look forward to the weekend.",
+            "te": "నేను వారాంతం కోసం ఎదురుచూస్తున్నాను.",
+            "hi": "मैं सप्ताहांत का इंतज़ार कर रहा हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am tired of the weekend.",
+            "te": "నాకు వారాంతం విసుగు.",
+            "hi": "मैं सप्ताहांत से थक गया हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I work on the weekend.",
+            "te": "నేను వారాంతంలో పని చేస్తాను.",
+            "hi": "मैं सप्ताहांत पर काम करता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "The weekend was long.",
+            "te": "వారాంతం పొడవుగా ఉంది.",
+            "hi": "सप्ताहांत लंबा था।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "sich freuen auf = to look forward to.",
+        "te": "sich freuen auf = ఎదురుచూడటం.",
+        "hi": "sich freuen auf = इंतज़ार करना।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v01",
+      "audio_de": "Ich habe gestern eingekauft.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I shopped yesterday.",
+            "te": "నేను నిన్న షాపింగ్ చేశాను.",
+            "hi": "मैंने कल ख़रीदारी की।"
+          }
+        },
+        {
+          "text": {
+            "en": "I will shop tomorrow.",
+            "te": "నేను రేపు షాపింగ్ చేస్తాను.",
+            "hi": "मैं कल ख़रीदारी करूँगा।"
+          }
+        },
+        {
+          "text": {
+            "en": "I shop every day.",
+            "te": "నేను ప్రతిరోజూ షాపింగ్ చేస్తాను.",
+            "hi": "मैं हर दिन ख़रीदारी करता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I did not shop.",
+            "te": "నేను షాపింగ్ చేయలేదు.",
+            "hi": "मैंने ख़रीदारी नहीं की।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "eingekauft = shopped (Perfekt).",
+        "te": "eingekauft = షాపింగ్ చేశాను.",
+        "hi": "eingekauft = ख़रीदारी की।"
+      }
+    }
+  ],
+  "audio": []
+}
