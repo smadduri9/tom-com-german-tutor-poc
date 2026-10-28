@@ -2,7 +2,12 @@ import type { L10n } from '../types';
 
 export const strings = {
   // Brand and common
-  appName: { en: 'TOMCOM Deutsch', te: 'TOMCOM Deutsch', hi: 'TOMCOM Deutsch' },
+  appName: { en: 'TomCom', te: 'TomCom', hi: 'TomCom' },
+  orgName: {
+    en: 'Telangana Overseas Manpower Company',
+    te: 'తెలంగాణ ఓవర్సీస్ మ్యాన్‌పవర్ కంపెనీ',
+    hi: 'तेलंगाना ओवरसीज़ मैनपावर कंपनी',
+  },
   tagline: {
     en: 'Learn German in Telugu, English or Hindi',
     te: 'తెలుగు, ఇంగ్లీష్ లేదా హిందీలో జర్మన్ నేర్చుకోండి',
@@ -24,39 +29,66 @@ export const strings = {
   // Welcome
   heroLevels: { en: 'A1 · A2 · B1', te: 'A1 · A2 · B1', hi: 'A1 · A2 · B1' },
   heroTitle: {
-    en: 'German for your job in Germany',
-    te: 'జర్మనీలో మీ ఉద్యోగం కోసం జర్మన్',
-    hi: 'जर्मनी में आपकी नौकरी के लिए जर्मन',
+    en: 'Study German from A1 to B1 in Telugu or English, whichever feels like home.',
+    te: 'A1 నుండి B1 వరకు జర్మన్ నేర్చుకోండి — తెలుగులో లేదా ఇంగ్లీష్‌లో, మీకు నచ్చిన భాషలో.',
+    hi: 'A1 से B1 तक जर्मन सीखें — तेलुगु या अंग्रेज़ी में, जो आपको अपनी लगे।',
   },
   heroSub: {
-    en: 'Short lessons explained in your language, with audio, quizzes and certificates.',
-    te: 'మీ భాషలో వివరించిన చిన్న పాఠాలు, ఆడియో, క్విజ్‌లు మరియు సర్టిఫికెట్లతో.',
-    hi: 'आपकी भाषा में समझाए गए छोटे पाठ, ऑडियो, क्विज़ और प्रमाणपत्र के साथ।',
+    en: 'Study German from A1 to B1 in Telugu or English — whichever feels like home.',
+    te: 'A1 నుండి B1 వరకు జర్మన్ నేర్చుకోండి — తెలుగులో లేదా ఇంగ్లీష్‌లో, మీకు నచ్చిన భాషలో.',
+    hi: 'A1 से B1 तक जर्मन सीखें — तेलुगु या अंग्रेज़ी में, जो आपको अपनी लगे।',
   },
-  statLessons: { en: 'lessons', te: 'పాఠాలు', hi: 'पाठ' },
-  statLevels: { en: 'levels', te: 'స్థాయిలు', hi: 'स्तर' },
-  statLanguages: { en: 'languages', te: 'భాషలు', hi: 'भाषाएँ' },
-  tapToHear: { en: 'Tap to hear', te: 'వినడానికి నొక్కండి', hi: 'सुनने के लिए दबाएँ' },
-  feature1Title: { en: 'Explained in your language', te: 'మీ భాషలో వివరణ', hi: 'आपकी भाषा में समझाया गया' },
+  finalTitle: {
+    en: "Start today — it's free.",
+    te: 'ఈరోజే ప్రారంభించండి — ఇది ఉచితం.',
+    hi: 'आज ही शुरू करें — यह मुफ़्त है।',
+  },
+  finalSub: {
+    en: 'Learn German in your own language — from the first letter to a certificate.',
+    te: 'మీ సొంత భాషలో జర్మన్ నేర్చుకోండి — మొదటి అక్షరం నుండి సర్టిఫికెట్ వరకు.',
+    hi: 'अपनी भाषा में जर्मन सीखें — पहले अक्षर से प्रमाणपत्र तक।',
+  },
+  vocabLabel: { en: 'VOCABULARY · A1', te: 'పదజాలం · A1', hi: 'शब्दावली · A1' },
+  statLessons: { en: 'Lessons', te: 'పాఠాలు', hi: 'पाठ' },
+  statLevels: { en: 'Levels', te: 'స్థాయిలు', hi: 'स्तर' },
+  statLanguages: { en: 'Languages', te: 'భాషలు', hi: 'भाषाएँ' },
+  tapToHear: {
+    en: 'Try me — tap 🔊',
+    te: 'నొక్కి వినండి 🔊',
+    hi: 'दबाकर सुनें 🔊',
+  },
+  feature1Title: {
+    en: 'AI-personalised lessons',
+    te: 'AI వ్యక్తిగత పాఠాలు',
+    hi: 'AI-व्यक्तिगत पाठ',
+  },
   feature1Body: {
-    en: 'Every grammar point and word meaning in Telugu, English or Hindi.',
-    te: 'ప్రతి వ్యాకరణ అంశం, పద అర్థం తెలుగు, ఇంగ్లీష్ లేదా హిందీలో.',
-    hi: 'हर व्याकरण बिंदु और शब्द का अर्थ तेलुगु, अंग्रेज़ी या हिंदी में।',
+    en: 'Every lesson is explained by AI in your chosen language.',
+    te: 'ప్రతి పాఠం మీరు ఎంచుకున్న భాషలో AI ద్వారా వివరించబడుతుంది.',
+    hi: 'हर पाठ आपकी चुनी भाषा में AI द्वारा समझाया जाता है।',
   },
-  feature2Title: { en: 'Hear real German', te: 'జర్మన్ ఉచ్చారణ వినండి', hi: 'असली जर्मन सुनें' },
+  feature2Title: {
+    en: 'Audio pronunciation',
+    te: 'ఆడియో ఉచ్చారణ',
+    hi: 'ऑडियो उच्चारण',
+  },
   feature2Body: {
-    en: 'Tap any word or sentence to hear it, at normal or slow speed.',
-    te: 'ఏ పదం లేదా వాక్యాన్నైనా నొక్కి సాధారణ లేదా నెమ్మది వేగంతో వినండి.',
-    hi: 'किसी भी शब्द या वाक्य को दबाकर सामान्य या धीमी गति में सुनें।',
+    en: 'Hear native German pronunciation — as many times as you like.',
+    te: 'స్థానిక జర్మన్ ఉచ్చారణ వినండి — మీకు నచ్చినన్ని సార్లు.',
+    hi: 'मूल जर्मन उच्चारण सुनें — जितनी बार चाहें।',
   },
-  feature3Title: { en: 'Earn certificates', te: 'సర్టిఫికెట్లు పొందండి', hi: 'प्रमाणपत्र पाएँ' },
+  feature3Title: {
+    en: 'Earnable certificates',
+    te: 'సర్టిఫికెట్లు పొందండి',
+    hi: 'प्रमाणपत्र अर्जित करें',
+  },
   feature3Body: {
-    en: 'Pass every quiz in a level with 80% and download your certificate.',
-    te: 'ఒక స్థాయిలోని ప్రతి క్విజ్‌లో 80% సాధించి మీ సర్టిఫికెట్ డౌన్‌లోడ్ చేసుకోండి.',
-    hi: 'किसी स्तर की हर क्विज़ 80% से पास करें और अपना प्रमाणपत्र डाउनलोड करें।',
+    en: 'Finish A1, A2, or B1 and earn a downloadable certificate.',
+    te: 'A1, A2 లేదా B1 పూర్తి చేసి డౌన్‌లోడ్ చేయగల సర్టిఫికెట్ పొందండి.',
+    hi: 'A1, A2 या B1 पूरा करें और डाउनलोड करने योग्य प्रमाणपत्र पाएँ।',
   },
   startFree: { en: 'Start free', te: 'ఉచితంగా ప్రారంభించండి', hi: 'मुफ़्त शुरू करें' },
-  previewLesson: { en: 'Preview a lesson', te: 'ఒక పాఠం చూడండి', hi: 'एक पाठ देखें' },
+  previewLesson: { en: 'Preview lesson', te: 'ఒక పాఠం చూడండి', hi: 'एक पाठ देखें' },
   haveAccount: { en: 'I already have an account', te: 'నాకు ఇప్పటికే ఖాతా ఉంది', hi: 'मेरा खाता पहले से है' },
   previewBanner: {
     en: 'This is a free preview. Create an account to save progress and take the quiz.',
