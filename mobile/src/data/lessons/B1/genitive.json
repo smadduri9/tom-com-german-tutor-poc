@@ -1,0 +1,527 @@
+{
+  "id": "genitive",
+  "slug": "genitive",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Genitive Case",
+    "te": "జెనిటివ్ కారకం",
+    "hi": "संबंध कारक (Genitive)"
+  },
+  "subtitle": {
+    "en": "Showing possession",
+    "te": "స్వామ్యం చూపడం",
+    "hi": "स्वामित्व दिखाना"
+  },
+  "intro": {
+    "en": "The genitive shows possession and relationships: the car of my brother, because of the rain.",
+    "te": "జెనిటివ్ స్వామ్యం, సంబంధాలు చూపుతుంది: నా సోదరుని కారు, వర్షం కారణంగా.",
+    "hi": "जेनिटिव स्वामित्व और संबंध बताता है: मेरे भाई की कार, बारिश की वजह से।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "des / der",
+      "meaning": {
+        "en": "of the (genitive)",
+        "te": "యొక్క (జెనిటివ్)",
+        "hi": "का / की (genitive)"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "wegen",
+      "meaning": {
+        "en": "because of",
+        "te": "కారణంగా",
+        "hi": "की वजह से"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "während",
+      "meaning": {
+        "en": "during",
+        "te": "సమయంలో",
+        "hi": "के दौरान"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "trotz",
+      "meaning": {
+        "en": "despite",
+        "te": "అయినప్పటికీ",
+        "hi": "के बावजूद"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "statt",
+      "meaning": {
+        "en": "instead of",
+        "te": "బదులుగా",
+        "hi": "के बजाय"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "das Auto meines Bruders",
+      "meaning": {
+        "en": "my brother’s car",
+        "te": "నా సోదరుని కారు",
+        "hi": "मेरे भाई की कार"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "die Mitte der Stadt",
+      "meaning": {
+        "en": "the centre of the city",
+        "te": "నగర మధ్య",
+        "hi": "शहर का केंद्र"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "der Ausgang",
+      "meaning": {
+        "en": "the exit",
+        "te": "నిష్క్రమణ",
+        "hi": "निकास"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Wegen des Regens bleibe ich zu Hause.",
+      "meaning": {
+        "en": "Because of the rain I stay at home.",
+        "te": "వర్షం కారణంగా నేను ఇంట్లో ఉంటాను.",
+        "hi": "बारिश की वजह से मैं घर पर रहूँगा।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Während der Pause essen wir.",
+      "meaning": {
+        "en": "During the break we eat.",
+        "te": "విరామ సమయంలో మేము తింటాము.",
+        "hi": "विश्राम के दौरान हम खाते हैं।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Das ist das Haus meiner Großmutter.",
+      "meaning": {
+        "en": "That is my grandmother’s house.",
+        "te": "అది మా అమ్మమ్మ ఇల్లు.",
+        "hi": "वह मेरी दादी का घर है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Trotz des schlechten Wetters kommen wir.",
+      "meaning": {
+        "en": "Despite the bad weather we are coming.",
+        "te": "చెడు వాతావరణం ఉన్నప్పటికీ మేము వస్తాము.",
+        "hi": "ख़राब मौसम के बावजूद हम आ रहे हैं।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Statt des Taxis nehme ich die U-Bahn.",
+      "meaning": {
+        "en": "Instead of the taxi I take the metro.",
+        "te": "టాక్సీకి బదులు నేను మెట్రో తీసుకుంటాను.",
+        "hi": "टैक्सी के बजाय मैं मेट्रो लेता हूँ।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Die Arbeit der Ingenieure ist wichtig.",
+      "meaning": {
+        "en": "The work of the engineers is important.",
+        "te": "ఇంజనీర్ల పని ముఖ్యమైనది.",
+        "hi": "इंजीनियरों का काम ज़रूरी है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Vertrag",
+      "meaning": {
+        "en": "the contract",
+        "te": "ఒప్పందం",
+        "hi": "अनुबंध"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "die Gesundheit",
+      "meaning": {
+        "en": "health",
+        "te": "ఆరోగ్యం",
+        "hi": "स्वास्थ्य"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "das Ergebnis",
+      "meaning": {
+        "en": "the result",
+        "te": "ఫలితం",
+        "hi": "परिणाम"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Ursache",
+      "meaning": {
+        "en": "the cause",
+        "te": "కారణం",
+        "hi": "कारण"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT A JOB OFFER",
+      "te": "ఉద్యోగ ఆఫర్ వద్ద",
+      "hi": "नौकरी के प्रस्ताव पर"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Frau Engel",
+        "de": "Wegen der guten Ergebnisse möchten wir Sie einladen.",
+        "meaning": {
+          "en": "Because of the good results we would like to invite you.",
+          "te": "మంచి ఫలితాల కారణంగా మేము మిమ్మల్ని ఆహ్వానించాలనుకుంటున్నాము.",
+          "hi": "अच्छे परिणामों की वजह से हम आपको बुलाना चाहते हैं।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Ravi",
+        "de": "Vielen Dank! Was sind die Bedingungen des Vertrags?",
+        "meaning": {
+          "en": "Thank you very much! What are the terms of the contract?",
+          "te": "చాలా ధన్యవాదాలు! ఒప్పందం షరతులు ఏమిటి?",
+          "hi": "बहुत धन्यवाद! अनुबंध की शर्तें क्या हैं?"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Frau Engel",
+        "de": "Die Arbeitszeit ist während der Woche von neun bis sechs.",
+        "meaning": {
+          "en": "Working hours are nine to six during the week.",
+          "te": "వారంలో పని వేళలు తొమ్మిది నుండి ఆరు వరకు.",
+          "hi": "हफ़्ते के दौरान काम के घंटे नौ से छह तक हैं।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Ravi",
+        "de": "Das klingt gut. Trotz der Entfernung komme ich gern.",
+        "meaning": {
+          "en": "That sounds good. Despite the distance I am happy to come.",
+          "te": "బాగుంది. దూరం ఉన్నా నేను సంతోషంగా వస్తాను.",
+          "hi": "अच्छा लगता है। दूरी के बावजूद मैं ख़ुशी से आऊँगा।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: genitive articles",
+      "te": "వ్యాకరణం: జెనిటివ్ ఆర్టికల్స్",
+      "hi": "व्याकरण: जेनिटिव आर्टिकल"
+    },
+    "body": {
+      "en": "der/das → des (+ -s or -es on the noun: des Bruders, des Hauses), die → der, die plural → der. wegen, während, trotz, statt and außerhalb take genitive. In spoken German, wegen often takes dative: wegen dem Regen.",
+      "te": "der/das → des (నామవాచకానికి -s/-es: des Bruders, des Hauses), die → der, బహువచనం → der. wegen, während, trotz, statt genitive తీసుకుంటాయి.",
+      "hi": "der/das → des (संज्ञा पर -s/-es: des Bruders, des Hauses), die → der, बहुवचन → der। wegen, während, trotz, statt genitive लेते हैं।"
+    }
+  },
+  "deep_dive": {
+    "en": "Genitive is less common in speech; Germans often use von + dative instead: das Auto von meinem Bruder. Learn genitive for writing and formal speech, and understand it when you hear it.",
+    "te": "మాటల్లో జెనిటివ్ తక్కువ; తరచుగా von + dative: das Auto von meinem Bruder. రాత, గౌరవ భాష కోసం జెనిటివ్ నేర్చుకోండి.",
+    "hi": "बोलचाल में जेनिटिव कम है; अक्सर von + dative: das Auto von meinem Bruder। लिखित और औपचारिक भाषा के लिए जेनिटिव सीखें।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "wegen der Regen",
+      "right": "wegen des Regens",
+      "why": {
+        "en": "Genitive after wegen; masculine noun adds -s.",
+        "te": "wegen తర్వాత genitive; పుంలింగ నామవాచకానికి -s.",
+        "hi": "wegen के बाद genitive; पुल्लिंग संज्ञा पर -s।"
+      }
+    },
+    {
+      "wrong": "das Auto des Bruder",
+      "right": "das Auto des Bruders",
+      "why": {
+        "en": "Masculine and neuter nouns add -s.",
+        "te": "పుంలింగ, నపుంసక నామవాచకాలకు -s.",
+        "hi": "पुल्लिंग और नपुंसक संज्ञा पर -s।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In German business letters, formal genitive phrases are common: \"im Auftrag\" (on behalf of) and \"unter Bezugnahme auf\" (with reference to).",
+    "te": "జర్మన్ వ్యాపార లేఖల్లో జెనిటివ్ వాక్యాలు సాధారణం: \"im Auftrag\" (తరఫున), \"unter Bezugnahme auf\" (సూచన ప్రకారం).",
+    "hi": "जर्मन व्यावसायिक पत्रों में जेनिटिव वाक्य आम हैं: \"im Auftrag\" (की ओर से), \"unter Bezugnahme auf\" (के संदर्भ में)।"
+  },
+  "practice_tip": {
+    "en": "Rewrite three sentences with von + dative as genitive: das Buch von meinem Freund → das Buch meines Freundes.",
+    "te": "von + dative వాక్యాలను జెనిటివ్‌గా మార్చండి: das Buch von meinem Freund → das Buch meines Freundes.",
+    "hi": "von + dative वाले तीन वाक्यों को genitive में बदलें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Genitive of \"der Bruder\" (my brother)?",
+        "te": "\"der Bruder\" యొక్క జెనిటివ్?",
+        "hi": "\"der Bruder\" का genitive?"
+      },
+      "answer": {
+        "en": "meines Bruders",
+        "te": "meines Bruders",
+        "hi": "meines Bruders"
+      }
+    },
+    {
+      "question": {
+        "en": "Which preposition takes genitive?",
+        "te": "ఏ పూర్వపదం జెనిటివ్ తీసుకుంటుంది?",
+        "hi": "कौन-सा पूर्वसर्ग genitive लेता है?"
+      },
+      "answer": {
+        "en": "wegen",
+        "te": "wegen",
+        "hi": "wegen"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Wegen ___ Regens bleiben wir.",
+        "te": "Wegen ___ Regens bleiben wir.",
+        "hi": "Wegen ___ Regens bleiben wir."
+      },
+      "options": [
+        {
+          "de": "des"
+        },
+        {
+          "de": "dem"
+        },
+        {
+          "de": "der"
+        },
+        {
+          "de": "den"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wegen + genitive: des Regens.",
+        "te": "wegen + genitive: des Regens.",
+        "hi": "wegen + genitive: des Regens."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "das Haus ___ Freundes",
+        "te": "das Haus ___ Freundes",
+        "hi": "das Haus ___ Freundes"
+      },
+      "options": [
+        {
+          "de": "meines"
+        },
+        {
+          "de": "meinem"
+        },
+        {
+          "de": "mein"
+        },
+        {
+          "de": "meine"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Masculine/neuter genitive: meines.",
+        "te": "Masculine/neuter genitive: meines.",
+        "hi": "Masculine/neuter genitive: meines."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"trotz\" takes which case?",
+        "te": "\"trotz\" takes which case?",
+        "hi": "\"trotz\" takes which case?"
+      },
+      "options": [
+        {
+          "de": "genitive"
+        },
+        {
+          "de": "accusative"
+        },
+        {
+          "de": "dative"
+        },
+        {
+          "de": "nominative"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "trotz + genitive.",
+        "te": "trotz + genitive.",
+        "hi": "trotz + genitive."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"während\" means…",
+        "te": "\"während\" means…",
+        "hi": "\"während\" means…"
+      },
+      "options": [
+        {
+          "de": "during"
+        },
+        {
+          "de": "despite"
+        },
+        {
+          "de": "instead"
+        },
+        {
+          "de": "because"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "während = during.",
+        "te": "während = during.",
+        "hi": "während = during."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "genitive-l1",
+      "audio_de": "Trotz des schlechten Wetters kommen wir.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Despite the bad weather we are coming.",
+            "te": "చెడు వాతావరణం ఉన్నప్పటికీ మేము వస్తాము.",
+            "hi": "ख़राब मौसम के बावजूद हम आ रहे हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "Because of the bad weather we are coming.",
+            "te": "చెడు వాతావరణం కారణంగా మేము వస్తాము.",
+            "hi": "ख़राब मौसम की वजह से हम आ रहे हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "We come only in good weather.",
+            "te": "మేము మంచి వాతావరణంలోనే వస్తాము.",
+            "hi": "हम अच्छे मौसम में ही आते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "We do not come in bad weather.",
+            "te": "చెడు వాతావరణంలో మేము రాము.",
+            "hi": "ख़राब मौसम में हम नहीं आते।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "trotz = despite.",
+        "te": "trotz = అయినప్పటికీ.",
+        "hi": "trotz = के बावजूद।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "genitive-l2",
+      "audio_de": "Statt des Taxis nehme ich die U-Bahn.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Instead of the taxi I take the metro.",
+            "te": "టాక్సీకి బదులు నేను మెట్రో తీసుకుంటాను.",
+            "hi": "टैक्सी के बजाय मैं मेट्रो लेता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "After the taxi I take the metro.",
+            "te": "టాక్సీ తర్వాత నేను మెట్రో తీసుకుంటాను.",
+            "hi": "टैक्सी के बाद मैं मेट्रो लेता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I take a taxi and the metro.",
+            "te": "నేను టాక్సీ, మెట్రో రెండూ తీసుకుంటాను.",
+            "hi": "मैं टैक्सी और मेट्रो दोनों लेता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I never take the metro.",
+            "te": "నేను ఎప్పుడూ మెట్రో తీసుకోను.",
+            "hi": "मैं कभी मेट्रो नहीं लेता।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "statt = instead of.",
+        "te": "statt = బదులుగా.",
+        "hi": "statt = के बजाय।"
+      }
+    }
+  ],
+  "audio": []
+}

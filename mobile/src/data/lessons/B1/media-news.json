@@ -1,0 +1,527 @@
+{
+  "id": "media-news",
+  "slug": "media-news",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Media & Current Events",
+    "te": "మీడియా & ప్రస్తుత వార్తలు",
+    "hi": "मीडिया और समसामयिक घटनाएँ"
+  },
+  "subtitle": {
+    "en": "Reading the news",
+    "te": "వార్తలు చదవడం",
+    "hi": "समाचार पढ़ना"
+  },
+  "intro": {
+    "en": "Read and discuss news: headlines, opinions in articles and the main points of a report.",
+    "te": "వార్తలు చదవండి, చర్చించండి: శీర్షికలు, వ్యాసాల్లో అభిప్రాయాలు, నివేదిక ముఖ్యాంశాలు.",
+    "hi": "समाचार पढ़ें और चर्चा करें: शीर्षक, लेखों में राय और रिपोर्ट के मुख्य बिंदु।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "die Nachricht",
+      "meaning": {
+        "en": "the news item",
+        "te": "వార్త",
+        "hi": "ख़बर"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "die Schlagzeile",
+      "meaning": {
+        "en": "the headline",
+        "te": "శీర్షిక",
+        "hi": "शीर्षक"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "der Bericht",
+      "meaning": {
+        "en": "the report",
+        "te": "నివేదిక",
+        "hi": "रिपोर्ट"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "der Kommentar",
+      "meaning": {
+        "en": "the commentary",
+        "te": "వ్యాఖ్యానం",
+        "hi": "टिप्पणी"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "die Quelle",
+      "meaning": {
+        "en": "the source",
+        "te": "ఆధారం",
+        "hi": "स्रोत"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "berichten",
+      "meaning": {
+        "en": "to report",
+        "te": "నివేదించడం",
+        "hi": "रिपोर्ट करना"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "glaubwürdig",
+      "meaning": {
+        "en": "credible",
+        "te": "నమ్మదగిన",
+        "hi": "विश्वसनीय"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Laut dem Bericht …",
+      "meaning": {
+        "en": "According to the report …",
+        "te": "నివేదిక ప్రకారం …",
+        "hi": "रिपोर्ट के अनुसार …"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Die Zahl steigt.",
+      "meaning": {
+        "en": "The number is rising.",
+        "te": "సంఖ్య పెరుగుతోంది.",
+        "hi": "संख्या बढ़ रही है।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Das ist eine gute Quelle.",
+      "meaning": {
+        "en": "That is a good source.",
+        "te": "అది మంచి ఆధారం.",
+        "hi": "यह एक अच्छा स्रोत है।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Der Bericht zeigt, dass die Preise steigen.",
+      "meaning": {
+        "en": "The report shows that prices are rising.",
+        "te": "నివేదిక ప్రకారం ధరలు పెరుగుతున్నాయి.",
+        "hi": "रिपोर्ट बताती है कि कीमतें बढ़ रही हैं।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Die Zeitung berichtet über das Wetter.",
+      "meaning": {
+        "en": "The newspaper reports on the weather.",
+        "te": "వార్తాపత్రిక వాతావరణం గురించి నివేదిస్తోంది.",
+        "hi": "अख़बार मौसम पर रिपोर्ट करता है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Der Kommentar ist sehr kritisch.",
+      "meaning": {
+        "en": "The commentary is very critical.",
+        "te": "వ్యాఖ్యానం చాలా విమర్శనాత్మకం.",
+        "hi": "टिप्पणी बहुत आलोचनात्मक है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Man sollte mehrere Quellen prüfen.",
+      "meaning": {
+        "en": "One should check several sources.",
+        "te": "అనేక ఆధారాలు పరిశీలించాలి.",
+        "hi": "कई स्रोत जाँचने चाहिए।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Politik",
+      "meaning": {
+        "en": "politics",
+        "te": "రాజకీయాలు",
+        "hi": "राजनीति"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "die Wirtschaft",
+      "meaning": {
+        "en": "the economy",
+        "te": "ఆర్థిక వ్యవస్థ",
+        "hi": "अर्थव्यवस्था"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "der Ausblick",
+      "meaning": {
+        "en": "the outlook",
+        "te": "దృక్పథం",
+        "hi": "दृष्टिकोण"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Meldung",
+      "meaning": {
+        "en": "the announcement",
+        "te": "ప్రకటన",
+        "hi": "सूचना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT A CAFÉ, READING THE NEWS",
+      "te": "కేఫ్‌లో వార్తలు చదువుతూ",
+      "hi": "कैफ़े में ख़बरें पढ़ते हुए"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Jonas",
+        "de": "Hast du die Schlagzeile heute gelesen? Die Mieten steigen weiter.",
+        "meaning": {
+          "en": "Did you read today’s headline? Rents are rising again.",
+          "te": "ఈ రోజు శీర్షిక చదివావా? అద్దెలు మళ్ళీ పెరుగుతున్నాయి.",
+          "hi": "आज की सुर्ख़ी पढ़ी? किराया फिर बढ़ रहा है।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Arjun",
+        "de": "Laut dem Bericht ist das eine Folge der Nachfrage.",
+        "meaning": {
+          "en": "According to the report it is a result of demand.",
+          "te": "నివేదిక ప్రకారం ఇది డిమాండ్ ఫలితం.",
+          "hi": "रिपोर्ट के अनुसार यह माँग का नतीजा है।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Jonas",
+        "de": "Ich bin nicht sicher, ob die Quelle glaubwürdig ist.",
+        "meaning": {
+          "en": "I am not sure whether the source is credible.",
+          "te": "ఆ ఆధారం నమ్మదగినదో కాదో నాకు ఖచ్చితంగా తెలియదు.",
+          "hi": "मुझे पक्का नहीं कि यह स्रोत विश्वसनीय है या नहीं।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Arjun",
+        "de": "Gute Idee. Ich prüfe lieber mehrere Zeitungen.",
+        "meaning": {
+          "en": "Good idea. I prefer to check several newspapers.",
+          "te": "మంచి ఆలోచన. నేను అనేక వార్తాపత్రికలు చూస్తాను.",
+          "hi": "अच्छा विचार। मैं कई अख़बार देखना पसंद करता हूँ।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: reporting and \"sollte\"",
+      "te": "వ్యాకరణం: నివేదన మరియు \"sollte\"",
+      "hi": "व्याकरण: रिपोर्टिंग और \"sollte\""
+    },
+    "body": {
+      "en": "\"Laut dem Bericht …\" (according to the report) takes dative. \"Man sollte …\" (one should) uses Konjunktiv II for advice: Man sollte mehrere Quellen prüfen.",
+      "te": "\"Laut dem Bericht …\" డేటివ్. \"Man sollte …\" సలహా కోసం Konjunktiv II.",
+      "hi": "\"Laut dem Bericht …\" dative लेता है। \"Man sollte …\" सलाह के लिए Konjunktiv II।"
+    }
+  },
+  "deep_dive": {
+    "en": "German news often uses the word \"Meldung\" for short reports and \"Bericht\" for longer ones. Check the source (Quelle) and read more than one outlet before you trust a claim.",
+    "te": "జర్మన్ వార్తల్లో చిన్న నివేదికలకు \"Meldung\", పెద్దవాటికి \"Bericht\". ఒక వాదనను నమ్మే ముందు ఒకటి కంటే ఎక్కువ మూలాలు చదవండి.",
+    "hi": "जर्मन समाचार में छोटी रिपोर्ट के लिए \"Meldung\", लंबी के लिए \"Bericht\"। किसी दावे पर भरोसा करने से पहले एक से ज़्यादा स्रोत पढ़ें।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Laut der Bericht",
+      "right": "Laut dem Bericht",
+      "why": {
+        "en": "laut takes dative.",
+        "te": "laut కి డేటివ్.",
+        "hi": "laut के साथ dative।"
+      }
+    },
+    {
+      "wrong": "Man soll mehr Quellen prüfen.",
+      "right": "Man sollte mehrere Quellen prüfen.",
+      "why": {
+        "en": "Use sollte for advice; mehrere for \"several\".",
+        "te": "సలహాకు sollte; \"several\" కి mehrere.",
+        "hi": "सलाह के लिए sollte; \"several\" के लिए mehrere।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "German public broadcasters are funded by a licence fee. Many people read a daily newspaper in print or online and compare sources.",
+    "te": "జర్మనీలో ప్రజా ప్రసారాలు లైసెన్స్ ఫీజుతో నడుస్తాయి. చాలామంది రోజువారీ వార్తాపత్రిక చదివి మూలాలు పోలుస్తారు.",
+    "hi": "जर्मनी में सार्वजनिक प्रसारक लाइसेंस फ़ीस से चलते हैं। कई लोग रोज़ अख़बार पढ़ते हैं और स्रोत मिलाते हैं।"
+  },
+  "practice_tip": {
+    "en": "Read one German headline each day and say in one sentence what it is about.",
+    "te": "ప్రతిరోజూ ఒక జర్మన్ శీర్షిక చదివి, అది దేని గురించో ఒక వాక్యంలో చెప్పండి.",
+    "hi": "हर दिन एक जर्मन सुर्ख़ी पढ़ें और एक वाक्य में बताएँ कि वह किस बारे में है।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"According to the report, prices are rising.\"",
+        "te": "\"నివేదిక ప్రకారం ధరలు పెరుగుతున్నాయి\" అని చెప్పండి.",
+        "hi": "\"रिपोर्ट के अनुसार कीमतें बढ़ रही हैं\" कहें।"
+      },
+      "answer": {
+        "en": "Laut dem Bericht steigen die Preise.",
+        "te": "Laut dem Bericht steigen die Preise.",
+        "hi": "Laut dem Bericht steigen die Preise."
+      }
+    },
+    {
+      "question": {
+        "en": "What is \"die Quelle\"?",
+        "te": "\"die Quelle\" అంటే ఏమిటి?",
+        "hi": "\"die Quelle\" क्या है?"
+      },
+      "answer": {
+        "en": "the source",
+        "te": "ఆధారం",
+        "hi": "स्रोत"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Laut ___ Berichts …",
+        "te": "Laut ___ Berichts …",
+        "hi": "Laut ___ Berichts …"
+      },
+      "options": [
+        {
+          "de": "des"
+        },
+        {
+          "de": "dem"
+        },
+        {
+          "de": "den"
+        },
+        {
+          "de": "der"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "laut + genitive or dative: des Berichts (formal).",
+        "te": "laut + genitive or dative: des Berichts (formal).",
+        "hi": "laut + genitive or dative: des Berichts (formal)."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Man sollte mehrere Quellen prüfen.\" means…",
+        "te": "\"Man sollte mehrere Quellen prüfen.\" means…",
+        "hi": "\"Man sollte mehrere Quellen prüfen.\" means…"
+      },
+      "options": [
+        {
+          "de": "One should check several sources."
+        },
+        {
+          "de": "One must not read."
+        },
+        {
+          "de": "One reads the news."
+        },
+        {
+          "de": "One wrote a report."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "sollte = should.",
+        "te": "sollte = should.",
+        "hi": "sollte = should."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"glaubwürdig\" means…",
+        "te": "\"glaubwürdig\" means…",
+        "hi": "\"glaubwürdig\" means…"
+      },
+      "options": [
+        {
+          "de": "credible"
+        },
+        {
+          "de": "expensive"
+        },
+        {
+          "de": "funny"
+        },
+        {
+          "de": "fast"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "glaubwürdig = credible.",
+        "te": "glaubwürdig = credible.",
+        "hi": "glaubwürdig = credible."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Der Kommentar\" is…",
+        "te": "\"Der Kommentar\" is…",
+        "hi": "\"Der Kommentar\" is…"
+      },
+      "options": [
+        {
+          "de": "the commentary"
+        },
+        {
+          "de": "the headline"
+        },
+        {
+          "de": "the source"
+        },
+        {
+          "de": "the photo"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Kommentar = commentary.",
+        "te": "Kommentar = commentary.",
+        "hi": "Kommentar = commentary."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "media-news-l1",
+      "audio_de": "Laut dem Bericht steigen die Preise.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "According to the report, prices are rising.",
+            "te": "నివేదిక ప్రకారం ధరలు పెరుగుతున్నాయి.",
+            "hi": "रिपोर्ट के अनुसार कीमतें बढ़ रही हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "According to the report, prices are falling.",
+            "te": "నివేదిక ప్రకారం ధరలు తగ్గుతున్నాయి.",
+            "hi": "रिपोर्ट के अनुसार कीमतें गिर रही हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "The report is about sport.",
+            "te": "నివేదిక క్రీడ గురించి.",
+            "hi": "रिपोर्ट खेल के बारे में है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I wrote the report.",
+            "te": "నేను నివేదిక రాశాను.",
+            "hi": "मैंने रिपोर्ट लिखी।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "steigen = rise.",
+        "te": "steigen = పెరగడం.",
+        "hi": "steigen = बढ़ना।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "media-news-l2",
+      "audio_de": "Man sollte mehrere Quellen prüfen.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "One should check several sources.",
+            "te": "అనేక ఆధారాలు పరిశీలించాలి.",
+            "hi": "कई स्रोत जाँचने चाहिए।"
+          }
+        },
+        {
+          "text": {
+            "en": "One should write one source.",
+            "te": "ఒక ఆధారం రాయాలి.",
+            "hi": "एक स्रोत लिखना चाहिए।"
+          }
+        },
+        {
+          "text": {
+            "en": "One should buy a newspaper.",
+            "te": "ఒక వార్తాపత్రిక కొనాలి.",
+            "hi": "अख़बार ख़रीदना चाहिए।"
+          }
+        },
+        {
+          "text": {
+            "en": "One must not check.",
+            "te": "పరిశీలించకూడదు.",
+            "hi": "जाँचना नहीं चाहिए।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "prüfen = check.",
+        "te": "prüfen = పరిశీలించడం.",
+        "hi": "prüfen = जाँचना।"
+      }
+    }
+  ],
+  "audio": []
+}

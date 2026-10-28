@@ -1,0 +1,527 @@
+{
+  "id": "passive",
+  "slug": "passive",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Passive Voice",
+    "te": "కర్మణి వాక్యం",
+    "hi": "कर्मवाच्य"
+  },
+  "subtitle": {
+    "en": "The letter is written",
+    "te": "లేఖ రాయబడింది",
+    "hi": "पत्र लिखा गया है"
+  },
+  "intro": {
+    "en": "The passive focuses on what happens, not who does it: The letter is written. Use werden + past participle.",
+    "te": "కర్మణి వాక్యం ఏమి జరుగుతుందో చెబుతుంది, ఎవరు చేశారో కాదు: The letter is written. werden + past participle.",
+    "hi": "कर्मवाच्य में ध्यान इस पर होता है कि क्या हुआ, कि किसने किया: werden + past participle।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "werden",
+      "meaning": {
+        "en": "to become / to be (passive)",
+        "te": "అవుతుంది (కర్మణి)",
+        "hi": "होना (कर्मवाच्य)"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "geschrieben",
+      "meaning": {
+        "en": "written",
+        "te": "రాయబడింది",
+        "hi": "लिखा गया"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "gebaut",
+      "meaning": {
+        "en": "built",
+        "te": "కట్టబడింది",
+        "hi": "बनाया गया"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "repariert",
+      "meaning": {
+        "en": "repaired",
+        "te": "మరమ్మత్తు చేయబడింది",
+        "hi": "मरम्मत की गई"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "Der Brief wird geschrieben.",
+      "meaning": {
+        "en": "The letter is being written.",
+        "te": "లేఖ రాయబడుతోంది.",
+        "hi": "पत्र लिखा जा रहा है।"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "Das Haus wurde 1990 gebaut.",
+      "meaning": {
+        "en": "The house was built in 1990.",
+        "te": "ఇల్లు 1990లో కట్టబడింది.",
+        "hi": "यह घर 1990 में बनाया गया।"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "von",
+      "meaning": {
+        "en": "by (the agent)",
+        "te": "చేత",
+        "hi": "द्वारा"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "durch",
+      "meaning": {
+        "en": "through / by means of",
+        "te": "ద్వారా",
+        "hi": "के ज़रिए"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Die Tür muss repariert werden.",
+      "meaning": {
+        "en": "The door must be repaired.",
+        "te": "తలుపు మరమ్మత్తు చేయాలి.",
+        "hi": "दरवाज़ा ठीक करना होगा।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Hier wird Deutsch gesprochen.",
+      "meaning": {
+        "en": "German is spoken here.",
+        "te": "ఇక్కడ జర్మన్ మాట్లాడతారు.",
+        "hi": "यहाँ जर्मन बोली जाती है।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Die Bewerbung wird morgen geprüft.",
+      "meaning": {
+        "en": "The application will be checked tomorrow.",
+        "te": "దరఖాస్తు రేపు పరిశీలించబడుతుంది.",
+        "hi": "आवेदन कल जाँचा जाएगा।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Der Kurs wurde von der Firma bezahlt.",
+      "meaning": {
+        "en": "The course was paid for by the company.",
+        "te": "కోర్సుకు కంపెనీ డబ్బు చెల్లించింది.",
+        "hi": "कोर्स की फ़ीस कंपनी ने भरी।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Die Fenster sind geputzt worden.",
+      "meaning": {
+        "en": "The windows have been cleaned.",
+        "te": "కిటికీలు శుభ్రం చేయబడ్డాయి.",
+        "hi": "खिड़कियाँ साफ़ की जा चुकी हैं।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Es wird viel gearbeitet.",
+      "meaning": {
+        "en": "A lot of work is being done.",
+        "te": "చాలా పని జరుగుతోంది.",
+        "hi": "बहुत काम हो रहा है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Bewerbung",
+      "meaning": {
+        "en": "the application",
+        "te": "దరఖాస్తు",
+        "hi": "आवेदन"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "prüfen",
+      "meaning": {
+        "en": "to check",
+        "te": "పరిశీలించడం",
+        "hi": "जाँचना"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "die Firma",
+      "meaning": {
+        "en": "the company",
+        "te": "కంపెనీ",
+        "hi": "कंपनी"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "bezahlen",
+      "meaning": {
+        "en": "to pay",
+        "te": "చెల్లించడం",
+        "hi": "भुगतान करना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A BUILDING SITE VISIT",
+      "te": "భవన నిర్మాణ స్థలం సందర్శన",
+      "hi": "निर्माण स्थल का दौरा"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Herr Kurz",
+        "de": "Hier wird das neue Büro gebaut.",
+        "meaning": {
+          "en": "The new office is being built here.",
+          "te": "ఇక్కడ కొత్త ఆఫీసు కడుతున్నారు.",
+          "hi": "यहाँ नया दफ़्तर बनाया जा रहा है।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Sana",
+        "de": "Wann wird es fertig sein?",
+        "meaning": {
+          "en": "When will it be finished?",
+          "te": "అది ఎప్పుడు పూర్తవుతుంది?",
+          "hi": "यह कब तैयार होगा?"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Herr Kurz",
+        "de": "Im Herbst. Die Pläne wurden schon genehmigt.",
+        "meaning": {
+          "en": "In autumn. The plans have already been approved.",
+          "te": "శరదృతువులో. ప్లాన్లు ఇప్పటికే ఆమోదించబడ్డాయి.",
+          "hi": "शरद में। योजनाएँ पहले ही मंज़ूर हो चुकी हैं।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Sana",
+        "de": "Gut. Ist die Tür schon repariert?",
+        "meaning": {
+          "en": "Good. Is the door already repaired?",
+          "te": "బాగుంది. తలుపు ఇప్పటికే మరమ్మత్తు చేయబడిందా?",
+          "hi": "अच्छा। क्या दरवाज़ा ठीक हो गया?"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: werden + past participle",
+      "te": "వ్యాకరణం: werden + past participle",
+      "hi": "व्याकरण: werden + past participle"
+    },
+    "body": {
+      "en": "Present passive: wird + participle (Das Haus wird gebaut). Past: wurde (Das Haus wurde gebaut). Perfect: ist/sind … worden (Die Tür ist repariert worden). The agent uses von (by a person) or durch (by a means).",
+      "te": "వర్తమానం: wird + participle. గతం: wurde. Perfekt: ist … worden. కర్త: von (వ్యక్తి చేత), durch (ద్వారా).",
+      "hi": "वर्तमान: wird + participle। भूत: wurde। Perfekt: ist … worden। कर्ता: von (व्यक्ति द्वारा), durch (ज़रिए से)।"
+    }
+  },
+  "deep_dive": {
+    "en": "Use the passive when the doer is unknown or unimportant: Hier wird Deutsch gesprochen. Modal verbs add the passive infinitive: Die Tür muss repariert werden.",
+    "te": "కర్త తెలియకపోయినా లేదా ముఖ్యం కాకపోయినా కర్మణి వాడండి. మోడల్ క్రియలతో: Die Tür muss repariert werden.",
+    "hi": "कर्ता अज्ञात या गौण हो तो कर्मवाच्य: Hier wird Deutsch gesprochen। मोडल के साथ: Die Tür muss repariert werden।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Die Tür wird repariert worden.",
+      "right": "Die Tür ist repariert worden.",
+      "why": {
+        "en": "Perfect passive uses sein + worden.",
+        "te": "Perfekt కర్మణి sein + worden.",
+        "hi": "Perfekt कर्मवाच्य sein + worden।"
+      }
+    },
+    {
+      "wrong": "Das Haus wird von gebaut.",
+      "right": "Das Haus wird gebaut.",
+      "why": {
+        "en": "Do not add von without an agent.",
+        "te": "కర్త లేకుండా von వద్దు.",
+        "hi": "कर्ता के बिना von नहीं।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In German official notices passive forms are everywhere: \"Hier wird nicht geraucht\" (smoking is not allowed here). Learn to read them.",
+    "te": "జర్మన్ నోటీసుల్లో కర్మణి సాధారణం: \"Hier wird nicht geraucht\" (ఇక్కడ పొగ తాగకూడదు). వీటిని చదవడం నేర్చుకోండి.",
+    "hi": "जर्मन सूचनाओं में कर्मवाच्य आम है: \"Hier wird nicht geraucht\" (यहाँ धूम्रपान मना है)। इन्हें पढ़ना सीखें।"
+  },
+  "practice_tip": {
+    "en": "Find three notices in German around you and identify the passive in each.",
+    "te": "మీ చుట్టూ మూడు జర్మన్ నోటీసులు చూసి ప్రతిదానిలో కర్మణి గుర్తించండి.",
+    "hi": "अपने आसपास तीन जर्मन सूचनाएँ ढूँढें और हर एक में कर्मवाच्य पहचानें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"The letter is written.\"",
+        "te": "\"లేఖ రాయబడింది\" అని చెప్పండి.",
+        "hi": "\"पत्र लिखा गया है\" कहें।"
+      },
+      "answer": {
+        "en": "Der Brief wird geschrieben.",
+        "te": "Der Brief wird geschrieben.",
+        "hi": "Der Brief wird geschrieben."
+      }
+    },
+    {
+      "question": {
+        "en": "Passive past of \"bauen\" (er)?",
+        "te": "\"bauen\" కర్మణి గతం (er)?",
+        "hi": "\"bauen\" का कर्मवाच्य भूत (er)?"
+      },
+      "answer": {
+        "en": "wurde gebaut",
+        "te": "wurde gebaut",
+        "hi": "wurde gebaut"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Das Haus ___ gebaut.",
+        "te": "Das Haus ___ gebaut.",
+        "hi": "Das Haus ___ gebaut."
+      },
+      "options": [
+        {
+          "de": "wird"
+        },
+        {
+          "de": "ist"
+        },
+        {
+          "de": "hat"
+        },
+        {
+          "de": "werden"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Present passive: wird + participle.",
+        "te": "Present passive: wird + participle.",
+        "hi": "Present passive: wird + participle."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Die Tür ___ repariert ___.",
+        "te": "Die Tür ___ repariert ___.",
+        "hi": "Die Tür ___ repariert ___."
+      },
+      "options": [
+        {
+          "de": "ist … worden"
+        },
+        {
+          "de": "hat … worden"
+        },
+        {
+          "de": "wird … werden"
+        },
+        {
+          "de": "ist … werden"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Perfect passive: ist … worden.",
+        "te": "Perfect passive: ist … worden.",
+        "hi": "Perfect passive: ist … worden."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Who does the action in \"von der Firma\"?",
+        "te": "Who does the action in \"von der Firma\"?",
+        "hi": "Who does the action in \"von der Firma\"?"
+      },
+      "options": [
+        {
+          "de": "the company"
+        },
+        {
+          "de": "the door"
+        },
+        {
+          "de": "the time"
+        },
+        {
+          "de": "the room"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "von = by (the agent).",
+        "te": "von = by (the agent).",
+        "hi": "von = by (the agent)."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Hier wird Deutsch gesprochen\" means…",
+        "te": "\"Hier wird Deutsch gesprochen\" means…",
+        "hi": "\"Hier wird Deutsch gesprochen\" means…"
+      },
+      "options": [
+        {
+          "de": "German is spoken here."
+        },
+        {
+          "de": "I speak German here."
+        },
+        {
+          "de": "Speak German here!"
+        },
+        {
+          "de": "German was spoken."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Passive: is spoken.",
+        "te": "Passive: is spoken.",
+        "hi": "Passive: is spoken."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "v06",
+      "audio_de": "Das Haus wurde 1990 gebaut.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The house was built in 1990.",
+            "te": "ఇల్లు 1990లో కట్టబడింది.",
+            "hi": "यह घर 1990 में बनाया गया।"
+          }
+        },
+        {
+          "text": {
+            "en": "The house will be built in 1990.",
+            "te": "ఇల్లు 1990లో కడతారు.",
+            "hi": "घर 1990 में बनेगा।"
+          }
+        },
+        {
+          "text": {
+            "en": "The house is old.",
+            "te": "ఇల్లు పాతది.",
+            "hi": "घर पुराना है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I built the house in 1990.",
+            "te": "నేను 1990లో ఇల్లు కట్టాను.",
+            "hi": "मैंने 1990 में घर बनाया।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wurde gebaut = was built.",
+        "te": "wurde gebaut = కట్టబడింది.",
+        "hi": "wurde gebaut = बनाया गया।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "passive-l2",
+      "audio_de": "Es wird viel gearbeitet.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "A lot of work is being done.",
+            "te": "చాలా పని జరుగుతోంది.",
+            "hi": "बहुत काम हो रहा है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I work a lot.",
+            "te": "నేను చాలా పని చేస్తాను.",
+            "hi": "मैं बहुत काम करता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "Nobody works.",
+            "te": "ఎవరూ పని చేయరు.",
+            "hi": "कोई काम नहीं करता।"
+          }
+        },
+        {
+          "text": {
+            "en": "We worked yesterday.",
+            "te": "మేము నిన్న పని చేశాము.",
+            "hi": "हमने कल काम किया।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wird gearbeitet = work is being done.",
+        "te": "wird gearbeitet = పని జరుగుతోంది.",
+        "hi": "wird gearbeitet = काम हो रहा है।"
+      }
+    }
+  ],
+  "audio": []
+}

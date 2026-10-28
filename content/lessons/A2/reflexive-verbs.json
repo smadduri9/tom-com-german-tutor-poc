@@ -1,0 +1,527 @@
+{
+  "id": "reflexive-verbs",
+  "slug": "reflexive-verbs",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Reflexive Verbs",
+    "te": "రిఫ్లెక్సివ్ క్రియలు",
+    "hi": "रिफ़्लेक्सिव क्रियाएँ"
+  },
+  "subtitle": {
+    "en": "sich freuen, sich waschen",
+    "te": "sich freuen, sich waschen",
+    "hi": "sich freuen, sich waschen"
+  },
+  "intro": {
+    "en": "Reflexive verbs use a pronoun (sich, mich, dich) for the same person as the subject: sich freuen (to be glad), sich waschen (to wash oneself).",
+    "te": "రిఫ్లెక్సివ్ క్రియలు విషయం అదే వ్యక్తిని సూచించే సర్వనామం (sich, mich, dich) వాడతాయి: sich freuen, sich waschen.",
+    "hi": "रिफ़्लेक्सिव क्रियाएँ कर्ता वाले व्यक्ति के लिए सर्वनाम (sich, mich, dich) लेती हैं: sich freuen, sich waschen।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "sich freuen",
+      "meaning": {
+        "en": "to be glad",
+        "te": "సంతోషించడం",
+        "hi": "ख़ुश होना"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "sich waschen",
+      "meaning": {
+        "en": "to wash (oneself)",
+        "te": "స్నానం చేయడం",
+        "hi": "नहाना / हाथ धोना"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "sich interessieren für",
+      "meaning": {
+        "en": "to be interested in",
+        "te": "ఆసక్తి చూపడం",
+        "hi": "में रुचि होना"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "sich erinnern an",
+      "meaning": {
+        "en": "to remember",
+        "te": "గుర్తుంచుకోవడం",
+        "hi": "याद करना"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "sich ausruhen",
+      "meaning": {
+        "en": "to rest",
+        "te": "విశ్రాంతి తీసుకోవడం",
+        "hi": "आराम करना"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "sich anmelden",
+      "meaning": {
+        "en": "to register",
+        "te": "నమోదు చేసుకోవడం",
+        "hi": "पंजीकरण करना"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "sich bewerben",
+      "meaning": {
+        "en": "to apply (for a job)",
+        "te": "దరఖాస్తు చేయడం",
+        "hi": "आवेदन करना"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Ich freue mich.",
+      "meaning": {
+        "en": "I am glad.",
+        "te": "నేను సంతోషిస్తున్నాను.",
+        "hi": "मैं ख़ुश हूँ।"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Ich melde mich an.",
+      "meaning": {
+        "en": "I register.",
+        "te": "నేను నమోదు చేసుకుంటాను.",
+        "hi": "मैं पंजीकरण कराता हूँ।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Ich interessiere mich für Technik.",
+      "meaning": {
+        "en": "I am interested in technology.",
+        "te": "నాకు టెక్నాలజీ అంటే ఆసక్తి.",
+        "hi": "मुझे तकनीक में रुचि है।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Wir freuen uns auf den Urlaub.",
+      "meaning": {
+        "en": "We are looking forward to the holiday.",
+        "te": "మేము సెలవుల కోసం ఎదురుచూస్తున్నాము.",
+        "hi": "हम छुट्टियों का इंतज़ार कर रहे हैं।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Du musst dich anmelden.",
+      "meaning": {
+        "en": "You must register.",
+        "te": "నువ్వు నమోదు చేసుకోవాలి.",
+        "hi": "तुम्हें पंजीकरण कराना होगा।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Er bewirbt sich um eine Stelle.",
+      "meaning": {
+        "en": "He applies for a job.",
+        "te": "అతను ఉద్యోగానికి దరఖాస్తు చేస్తున్నాడు.",
+        "hi": "वह एक नौकरी के लिए आवेदन करता है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Ich erinnere mich an den Tag.",
+      "meaning": {
+        "en": "I remember the day.",
+        "te": "నాకు ఆ రోజు గుర్తుంది.",
+        "hi": "मुझे वह दिन याद है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Stelle",
+      "meaning": {
+        "en": "the position / job",
+        "te": "ఉద్యోగం",
+        "hi": "पद"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Urlaub",
+      "meaning": {
+        "en": "the holiday",
+        "te": "సెలవు",
+        "hi": "छुट्टी"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "der Lebenslauf",
+      "meaning": {
+        "en": "the CV",
+        "te": "రెజ్యూమ్",
+        "hi": "बायोडेटा"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Anmeldung",
+      "meaning": {
+        "en": "the registration",
+        "te": "నమోదు",
+        "hi": "पंजीकरण"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "REGISTERING AT A COURSE",
+      "te": "కోర్సులో నమోదు",
+      "hi": "कोर्स में पंजीकरण"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Frau Vogel",
+        "de": "Guten Tag! Haben Sie sich schon angemeldet?",
+        "meaning": {
+          "en": "Hello! Have you already registered?",
+          "te": "నమస్కారం! మీరు ఇంకా నమోదు చేసుకున్నారా?",
+          "hi": "नमस्ते! क्या आपने पंजीकरण करा लिया है?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Sana",
+        "de": "Ja, gestern. Ich freue mich sehr auf den Kurs.",
+        "meaning": {
+          "en": "Yes, yesterday. I am really looking forward to the course.",
+          "te": "అవును, నిన్న. ఈ కోర్సు కోసం నేను చాలా ఎదురుచూస్తున్నాను.",
+          "hi": "हाँ, कल। मैं इस कोर्स का बेसब्री से इंतज़ार कर रही हूँ।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Frau Vogel",
+        "de": "Interessieren Sie sich für Technik?",
+        "meaning": {
+          "en": "Are you interested in technology?",
+          "te": "మీకు టెక్నాలజీ అంటే ఆసక్తి ఉందా?",
+          "hi": "क्या आपकी तकनीक में रुचि है?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Sana",
+        "de": "Ja, ich bewerbe mich bald um eine Stelle als Ingenieurin.",
+        "meaning": {
+          "en": "Yes, I will soon apply for a job as an engineer.",
+          "te": "అవును, నేను త్వరలో ఇంజనీర్ ఉద్యోగానికి దరఖాస్తు చేస్తాను.",
+          "hi": "हाँ, मैं जल्द इंजीनियर की नौकरी के लिए आवेदन करूँगी।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: reflexive pronouns",
+      "te": "వ్యాకరణం: రిఫ్లెక్సివ్ సర్వనామాలు",
+      "hi": "व्याकरण: रिफ़्लेक्सिव सर्वनाम"
+    },
+    "body": {
+      "en": "ich → mich, du → dich, er/sie/es → sich, wir → uns, ihr → euch, sie/Sie → sich. Verbs with sich take an accusative pronoun (mich, dich), but \"sich\" stays the same for all persons in the third person.",
+      "te": "ich → mich, du → dich, er/sie/es → sich, wir → uns, ihr → euch, sie/Sie → sich. ఈ సర్వనామాలు కర్మ రూపంలో ఉంటాయి.",
+      "hi": "ich → mich, du → dich, er/sie/es → sich, wir → uns, ihr → euch, sie/Sie → sich। ये सर्वनाम कर्म रूप में होते हैं।"
+    }
+  },
+  "deep_dive": {
+    "en": "Many reflexive verbs are used with a preposition: sich freuen auf (look forward to), sich interessieren für (be interested in), sich erinnern an (remember). The preposition decides the case of the noun after it.",
+    "te": "చాలా రిఫ్లెక్సివ్ క్రియలకు పూర్వపదం: sich freuen auf, sich interessieren für, sich erinnern an. పూర్వపదం తర్వాత నామవాచక కారకం నిర్ణయిస్తుంది.",
+    "hi": "कई रिफ़्लेक्सिव क्रियाओं के साथ पूर्वसर्ग आता है: sich freuen auf, sich interessieren für, sich erinnern an। पूर्वसर्ग बाद के संज्ञा का कारक तय करता है।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich freue mir.",
+      "right": "Ich freue mich.",
+      "why": {
+        "en": "ich takes mich.",
+        "te": "ich కి mich.",
+        "hi": "ich के लिए mich।"
+      }
+    },
+    {
+      "wrong": "Ich interessiere mich Technik.",
+      "right": "Ich interessiere mich für Technik.",
+      "why": {
+        "en": "interessieren needs für.",
+        "te": "interessieren కి für.",
+        "hi": "interessieren के साथ für।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In German forms and job applications, people often write \"sich bewerben\" with a CV and certificates. Be formal and on time.",
+    "te": "జర్మన్ దరఖాస్తుల్లో \"sich bewerben\" తో రెజ్యూమ్, సర్టిఫికెట్లు జత చేస్తారు. గౌరవంగా, సమయానికి ఉండండి.",
+    "hi": "जर्मन आवेदनों में \"sich bewerben\" के साथ बायोडेटा और प्रमाणपत्र लगाए जाते हैं। औपचारिक और समय पर रहें।"
+  },
+  "practice_tip": {
+    "en": "Write three sentences about what you look forward to, using sich freuen auf.",
+    "te": "sich freuen auf తో మీరు ఎదురుచూసే మూడు విషయాలు రాయండి.",
+    "hi": "sich freuen auf से तीन वाक्य लिखें कि आप किसका इंतज़ार करते हैं।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"I am glad.\" (ich)",
+        "te": "\"నేను సంతోషిస్తున్నాను\" అని చెప్పండి.",
+        "hi": "\"मैं ख़ुश हूँ\" कहें।"
+      },
+      "answer": {
+        "en": "Ich freue mich.",
+        "te": "Ich freue mich.",
+        "hi": "Ich freue mich."
+      }
+    },
+    {
+      "question": {
+        "en": "Which pronoun for \"du\"?",
+        "te": "\"du\" కి ఏ సర్వనామం?",
+        "hi": "\"du\" के लिए कौन-सा सर्वनाम?"
+      },
+      "answer": {
+        "en": "dich",
+        "te": "dich",
+        "hi": "dich"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich wasche ___.",
+        "te": "Ich wasche ___.",
+        "hi": "Ich wasche ___."
+      },
+      "options": [
+        {
+          "de": "mich"
+        },
+        {
+          "de": "dich"
+        },
+        {
+          "de": "sich"
+        },
+        {
+          "de": "mir"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "ich → mich.",
+        "te": "ich → mich.",
+        "hi": "ich → mich."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Wir freuen ___ auf das Wochenende.",
+        "te": "Wir freuen ___ auf das Wochenende.",
+        "hi": "Wir freuen ___ auf das Wochenende."
+      },
+      "options": [
+        {
+          "de": "uns"
+        },
+        {
+          "de": "euch"
+        },
+        {
+          "de": "sich"
+        },
+        {
+          "de": "mich"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wir → uns.",
+        "te": "wir → uns.",
+        "hi": "wir → uns."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Sie interessiert ___ für Musik.",
+        "te": "Sie interessiert ___ für Musik.",
+        "hi": "Sie interessiert ___ für Musik."
+      },
+      "options": [
+        {
+          "de": "sich"
+        },
+        {
+          "de": "mich"
+        },
+        {
+          "de": "dich"
+        },
+        {
+          "de": "uns"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "sie → sich.",
+        "te": "sie → sich.",
+        "hi": "sie → sich."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"sich bewerben\" means…",
+        "te": "\"sich bewerben\" means…",
+        "hi": "\"sich bewerben\" means…"
+      },
+      "options": [
+        {
+          "de": "to apply"
+        },
+        {
+          "de": "to wash"
+        },
+        {
+          "de": "to rest"
+        },
+        {
+          "de": "to remember"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "bewerben = to apply.",
+        "te": "bewerben = to apply.",
+        "hi": "bewerben = to apply."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "reflexive-verbs-l1",
+      "audio_de": "Ich freue mich sehr.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I am very glad.",
+            "te": "నేను చాలా సంతోషిస్తున్నాను.",
+            "hi": "मैं बहुत ख़ुश हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am very tired.",
+            "te": "నేను చాలా అలసిపోయాను.",
+            "hi": "मैं बहुत थका हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am very busy.",
+            "te": "నేను చాలా బిజీగా ఉన్నాను.",
+            "hi": "मैं बहुत व्यस्त हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am very cold.",
+            "te": "నాకు చాలా చలిగా ఉంది.",
+            "hi": "मुझे बहुत ठंड है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "sich freuen = to be glad.",
+        "te": "sich freuen = సంతోషించడం.",
+        "hi": "sich freuen = ख़ुश होना।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v09",
+      "audio_de": "Ich melde mich an.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I register.",
+            "te": "నేను నమోదు చేసుకుంటాను.",
+            "hi": "मैं पंजीकरण कराता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I leave.",
+            "te": "నేను వెళ్తాను.",
+            "hi": "मैं जाता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I wash.",
+            "te": "నేను కడుగుతాను.",
+            "hi": "मैं धोता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I sleep.",
+            "te": "నేను నిద్రపోతాను.",
+            "hi": "मैं सोता हूँ।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "sich anmelden = to register.",
+        "te": "sich anmelden = నమోదు.",
+        "hi": "sich anmelden = पंजीकरण।"
+      }
+    }
+  ],
+  "audio": []
+}

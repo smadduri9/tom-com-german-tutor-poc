@@ -1,0 +1,527 @@
+{
+  "id": "advanced-connectors",
+  "slug": "advanced-connectors",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Advanced Connectors",
+    "te": "అధునాతన సంయోజకాలు",
+    "hi": "उन्नत जोड़ने वाले शब्द"
+  },
+  "subtitle": {
+    "en": "obwohl, damit, sodass, während",
+    "te": "obwohl, damit, sodass, während",
+    "hi": "obwohl, damit, sodass, während"
+  },
+  "intro": {
+    "en": "Link ideas with obwohl, damit, sodass and während, and learn where the verb goes in each.",
+    "te": "obwohl, damit, sodass, während తో భావాలను కలపండి; ప్రతిదానిలో క్రియ ఎక్కడ వస్తుందో నేర్చుకోండి.",
+    "hi": "obwohl, damit, sodass, während से विचार जोड़ें और जानें कि हर एक में क्रिया कहाँ आती है।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "obwohl",
+      "meaning": {
+        "en": "although",
+        "te": "అయినప్పటికీ",
+        "hi": "हालाँकि"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "damit",
+      "meaning": {
+        "en": "so that (purpose)",
+        "te": "తద్వారా",
+        "hi": "ताकि"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "sodass",
+      "meaning": {
+        "en": "so that (result)",
+        "te": "అందువల్ల",
+        "hi": "इसलिए कि"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "während",
+      "meaning": {
+        "en": "while / whereas",
+        "te": "అయితే",
+        "hi": "जबकि"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "außerdem",
+      "meaning": {
+        "en": "moreover",
+        "te": "అంతేకాక",
+        "hi": "इसके अलावा"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "allerdings",
+      "meaning": {
+        "en": "however",
+        "te": "అయితే",
+        "hi": "हालाँकि"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "je … desto …",
+      "meaning": {
+        "en": "the more … the more …",
+        "te": "ఎంత … అంత …",
+        "hi": "जितना … उतना …"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Obwohl es regnet, gehe ich.",
+      "meaning": {
+        "en": "Although it is raining, I go.",
+        "te": "వర్షం పడుతున్నా నేను వెళ్తాను.",
+        "hi": "बारिश हो रही है फिर भी मैं जाता हूँ।"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Ich lerne, damit ich eine Stelle finde.",
+      "meaning": {
+        "en": "I study so that I find a job.",
+        "te": "నేను ఉద్యోగం దొరకాలని చదువుతున్నాను.",
+        "hi": "मैं पढ़ता हूँ ताकि मुझे नौकरी मिले।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Er arbeitet hart, während sein Bruder reist.",
+      "meaning": {
+        "en": "He works hard, while his brother travels.",
+        "te": "అతని సోదరుడు ప్రయాణిస్తుండగా అతను కష్టపడి పని చేస్తాడు.",
+        "hi": "वह कड़ी मेहनत करता है, जबकि उसका भाई यात्रा करता है।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Sie kommt, obwohl sie müde ist.",
+      "meaning": {
+        "en": "She comes, although she is tired.",
+        "te": "ఆమె అలసిపోయినా వస్తుంది.",
+        "hi": "वह थकी होने पर भी आती है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Ich spare Geld, damit ich reisen kann.",
+      "meaning": {
+        "en": "I save money so that I can travel.",
+        "te": "నేను ప్రయాణించగలగాలని డబ్బు ఆదా చేస్తున్నాను.",
+        "hi": "मैं पैसे बचाता हूँ ताकि यात्रा कर सकूँ।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Er hat viel gelernt, sodass er die Prüfung bestanden hat.",
+      "meaning": {
+        "en": "He studied a lot, so that he passed the exam.",
+        "te": "అతను బాగా చదివాడు, అందువల్ల పరీక్ష పాసయ్యాడు.",
+        "hi": "उसने बहुत पढ़ा, इसलिए वह परीक्षा पास कर गया।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Je mehr man übt, desto besser wird man.",
+      "meaning": {
+        "en": "The more you practise, the better you become.",
+        "te": "ఎంత ఎక్కువ సాధన చేస్తే అంత మెరుగవుతారు.",
+        "hi": "जितना ज़्यादा अभ्यास करेंगे, उतना बेहतर होंगे।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "üben",
+      "meaning": {
+        "en": "to practise",
+        "te": "సాధన చేయడం",
+        "hi": "अभ्यास करना"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "bestehen",
+      "meaning": {
+        "en": "to pass (an exam)",
+        "te": "పాస్ అవ్వడం",
+        "hi": "पास होना"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "reisen",
+      "meaning": {
+        "en": "to travel",
+        "te": "ప్రయాణించడం",
+        "hi": "यात्रा करना"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Mühe",
+      "meaning": {
+        "en": "the effort",
+        "te": "కష్టం",
+        "hi": "मेहनत"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "PREPARING FOR AN EXAM",
+      "te": "పరీక్షకు సిద్ధమవుతూ",
+      "hi": "परीक्षा की तैयारी करते हुए"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Anil",
+        "de": "Ich lerne jeden Abend, obwohl ich müde bin.",
+        "meaning": {
+          "en": "I study every evening, although I am tired.",
+          "te": "అలసిపోయినా ప్రతి సాయంత్రం చదువుతాను.",
+          "hi": "थका होने पर भी मैं हर शाम पढ़ता हूँ।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Lena",
+        "de": "Das ist gut, damit du die Prüfung bestehst!",
+        "meaning": {
+          "en": "That is good, so that you pass the exam!",
+          "te": "అది మంచిది, నువ్వు పరీక్ష పాసవ్వడానికి!",
+          "hi": "यह अच्छा है, ताकि तुम परीक्षा पास कर सको!"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Anil",
+        "de": "Ich habe viel geübt, sodass ich jetzt sicherer bin.",
+        "meaning": {
+          "en": "I practised a lot, so that I am now more confident.",
+          "te": "చాలా సాధన చేశాను, అందువల్ల ఇప్పుడు నాకు నమ్మకం ఉంది.",
+          "hi": "मैंने बहुत अभ्यास किया, इसलिए अब मुझे ज़्यादा भरोसा है।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Lena",
+        "de": "Super! Während du lernst, mache ich den Tee.",
+        "meaning": {
+          "en": "Great! While you study, I will make the tea.",
+          "te": "బాగుంది! నువ్వు చదివేటప్పుడు నేను టీ చేస్తాను.",
+          "hi": "बढ़िया! जब तुम पढ़ोगे, मैं चाय बनाऊँगी।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: subordinate connectors",
+      "te": "వ్యాకరణం: అధీన సంయోజకాలు",
+      "hi": "व्याकरण: अधीनस्थ जोड़ने वाले शब्द"
+    },
+    "body": {
+      "en": "obwohl, damit, sodass and während are subordinating: the conjugated verb goes to the end. \"je … desto\" keeps the verb-second rule in the main clause: Je mehr man übt, desto besser wird man.",
+      "te": "obwohl, damit, sodass, während అధీనం: రూప క్రియ చివర. \"je … desto\" ముఖ్య వాక్యంలో క్రియ రెండవ స్థానంలో.",
+      "hi": "obwohl, damit, sodass, während अधीनस्थ: रूप क्रिया अंत में। \"je … desto\" में मुख्य वाक्य की क्रिया दूसरे स्थान पर।"
+    }
+  },
+  "deep_dive": {
+    "en": "Damit (purpose, the goal) and sodass (result) look alike. Damit has an intention; sodass describes a consequence. For \"so that\" in speech, many Germans use damit for both.",
+    "te": "Damit (ఉద్దేశం) మరియు sodass (ఫలితం) ఒకేలా కనిపిస్తాయి. Damit లక్ష్యం; sodass పర్యవసానం.",
+    "hi": "Damit (मक़सद) और sodass (नतीजा) एक जैसे लगते हैं। Damit इरादा बताता है; sodass परिणाम।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Obwohl ich bin müde, …",
+      "right": "Obwohl ich müde bin, …",
+      "why": {
+        "en": "The verb goes to the end after obwohl.",
+        "te": "obwohl తర్వాత క్రియ చివర.",
+        "hi": "obwohl के बाद क्रिया अंत में।"
+      }
+    },
+    {
+      "wrong": "Ich lerne, damit ich lerne Deutsch.",
+      "right": "Ich lerne, damit ich Deutsch lerne.",
+      "why": {
+        "en": "Conjugated verb at the end.",
+        "te": "రూప క్రియ చివర.",
+        "hi": "रूप क्रिया अंत में।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In German writing, obwohl and während make arguments sound balanced. Use them in cover letters to show you consider both sides.",
+    "te": "జర్మన్ రాతలో obwohl మరియు während వాదనలను సమతుల్యంగా చూపుతాయి. కవర్ లెటర్లలో రెండు వైపులూ చూసినట్టు చూపుతాయి.",
+    "hi": "जर्मन लेखन में obwohl और während तर्क को संतुलित बनाते हैं। कवर लेटर में दोनों पक्ष देखने का संकेत देते हैं।"
+  },
+  "practice_tip": {
+    "en": "Write one sentence each with obwohl, damit, sodass and während about your studies.",
+    "te": "మీ చదువు గురించి obwohl, damit, sodass, während తో ఒక్కొక్క వాక్యం రాయండి.",
+    "hi": "अपनी पढ़ाई पर obwohl, damit, sodass, während से एक-एक वाक्य लिखें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Verb position after \"obwohl\"?",
+        "te": "\"obwohl\" తర్వాత క్రియ స్థానం?",
+        "hi": "\"obwohl\" के बाद क्रिया का स्थान?"
+      },
+      "answer": {
+        "en": "At the end of the clause.",
+        "te": "వాక్యం చివర.",
+        "hi": "वाक्य के अंत में।"
+      }
+    },
+    {
+      "question": {
+        "en": "Translate: \"so that I can travel\"",
+        "te": "\"so that I can travel\" అనువదించండి",
+        "hi": "\"so that I can travel\" का अनुवाद करें"
+      },
+      "answer": {
+        "en": "damit ich reisen kann",
+        "te": "damit ich reisen kann",
+        "hi": "damit ich reisen kann"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich komme, ___ ich müde bin.",
+        "te": "Ich komme, ___ ich müde bin.",
+        "hi": "Ich komme, ___ ich müde bin."
+      },
+      "options": [
+        {
+          "de": "obwohl"
+        },
+        {
+          "de": "und"
+        },
+        {
+          "de": "oder"
+        },
+        {
+          "de": "denn"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "obwohl = although.",
+        "te": "obwohl = although.",
+        "hi": "obwohl = although."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich spare, ___ ich ein Haus kaufen kann.",
+        "te": "Ich spare, ___ ich ein Haus kaufen kann.",
+        "hi": "Ich spare, ___ ich ein Haus kaufen kann."
+      },
+      "options": [
+        {
+          "de": "damit"
+        },
+        {
+          "de": "aber"
+        },
+        {
+          "de": "oder"
+        },
+        {
+          "de": "und"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "damit = so that (purpose).",
+        "te": "damit = so that (purpose).",
+        "hi": "damit = so that (purpose)."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Er lernt viel, ___ er die Prüfung besteht.",
+        "te": "Er lernt viel, ___ er die Prüfung besteht.",
+        "hi": "Er lernt viel, ___ er die Prüfung besteht."
+      },
+      "options": [
+        {
+          "de": "sodass"
+        },
+        {
+          "de": "obwohl"
+        },
+        {
+          "de": "während"
+        },
+        {
+          "de": "und"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "sodass = so that (result).",
+        "te": "sodass = so that (result).",
+        "hi": "sodass = so that (result)."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"während\" means…",
+        "te": "\"während\" means…",
+        "hi": "\"während\" means…"
+      },
+      "options": [
+        {
+          "de": "while"
+        },
+        {
+          "de": "because"
+        },
+        {
+          "de": "until"
+        },
+        {
+          "de": "instead"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "während = while.",
+        "te": "während = while.",
+        "hi": "während = while."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "v08",
+      "audio_de": "Obwohl es regnet, gehe ich.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Although it is raining, I go.",
+            "te": "వర్షం పడుతున్నా నేను వెళ్తాను.",
+            "hi": "बारिश हो रही है फिर भी मैं जाता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "Because it is raining, I go.",
+            "te": "వర్షం పడుతోంది కాబట్టి నేను వెళ్తాను.",
+            "hi": "बारिश हो रही है इसलिए मैं जाता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is raining and I stay.",
+            "te": "వర్షం పడుతోంది, నేను ఉంటాను.",
+            "hi": "बारिश है और मैं रुकता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "It rained yesterday.",
+            "te": "నిన్న వర్షం పడింది.",
+            "hi": "कल बारिश हुई थी।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "obwohl = although.",
+        "te": "obwohl = అయినప్పటికీ.",
+        "hi": "obwohl = फिर भी।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "advanced-connectors-l2",
+      "audio_de": "Ich spare Geld, damit ich reisen kann.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I save money so that I can travel.",
+            "te": "నేను ప్రయాణించగలగాలని డబ్బు ఆదా చేస్తున్నాను.",
+            "hi": "मैं पैसे बचाता हूँ ताकि यात्रा कर सकूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I spend money because I travel.",
+            "te": "నేను ప్రయాణిస్తాను కాబట్టి డబ్బు ఖర్చు చేస్తాను.",
+            "hi": "मैं यात्रा करता हूँ इसलिए पैसे ख़र्च करता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I save money but I cannot travel.",
+            "te": "నేను డబ్బు ఆదా చేస్తాను కానీ ప్రయాణించలేను.",
+            "hi": "मैं पैसे बचाता हूँ पर यात्रा नहीं कर सकता।"
+          }
+        },
+        {
+          "text": {
+            "en": "I travel and save money.",
+            "te": "నేను ప్రయాణిస్తాను, డబ్బు ఆదా చేస్తాను.",
+            "hi": "मैं यात्रा करता हूँ और पैसे बचाता हूँ।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "damit = so that.",
+        "te": "damit = తద్వారా.",
+        "hi": "damit = ताकि।"
+      }
+    }
+  ],
+  "audio": []
+}

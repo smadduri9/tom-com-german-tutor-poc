@@ -1,0 +1,527 @@
+{
+  "id": "arts-culture",
+  "slug": "arts-culture",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Arts & Culture",
+    "te": "కళలు & సంస్కృతి",
+    "hi": "कला और संस्कृति"
+  },
+  "subtitle": {
+    "en": "Films, music and festivals",
+    "te": "సినిమాలు, సంగీతం మరియు పండుగలు",
+    "hi": "फ़िल्में, संगीत और त्योहार"
+  },
+  "intro": {
+    "en": "Talk about films, music, festivals and museums, and say what you think of them.",
+    "te": "సినిమాలు, సంగీతం, పండుగలు, మ్యూజియంల గురించి మాట్లాడండి; మీ అభిప్రాయం చెప్పండి.",
+    "hi": "फ़िल्में, संगीत, त्योहार और संग्रहालयों के बारे में बात करें और अपनी राय दें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "der Film",
+      "meaning": {
+        "en": "the film",
+        "te": "సినిమా",
+        "hi": "फ़िल्म"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "das Konzert",
+      "meaning": {
+        "en": "the concert",
+        "te": "కచేరీ",
+        "hi": "संगीत कार्यक्रम"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "das Festival",
+      "meaning": {
+        "en": "the festival",
+        "te": "ఉత్సవం",
+        "hi": "उत्सव"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "das Museum",
+      "meaning": {
+        "en": "the museum",
+        "te": "మ్యూజియం",
+        "hi": "संग्रहालय"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "die Ausstellung",
+      "meaning": {
+        "en": "the exhibition",
+        "te": "ప్రదర్శన",
+        "hi": "प्रदर्शनी"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "der Schauspieler",
+      "meaning": {
+        "en": "the actor",
+        "te": "నటుడు",
+        "hi": "अभिनेता"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "beeindruckend",
+      "meaning": {
+        "en": "impressive",
+        "te": "ఆకట్టుకునే",
+        "hi": "प्रभावशाली"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Das hat mich begeistert.",
+      "meaning": {
+        "en": "That thrilled me.",
+        "te": "అది నన్ను ఉత్సాహపరిచింది.",
+        "hi": "इसने मुझे रोमांचित किया।"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Die Musik gefällt mir.",
+      "meaning": {
+        "en": "I like the music.",
+        "te": "సంగీతం నాకు నచ్చింది.",
+        "hi": "संगीत मुझे पसंद है।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Ich habe einen Film gesehen.",
+      "meaning": {
+        "en": "I saw a film.",
+        "te": "నేను ఒక సినిమా చూశాను.",
+        "hi": "मैंने एक फ़िल्म देखी।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Der Film war sehr beeindruckend.",
+      "meaning": {
+        "en": "The film was very impressive.",
+        "te": "సినిమా చాలా ఆకట్టుకుంది.",
+        "hi": "फ़िल्म बहुत प्रभावशाली थी।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Das Konzert findet im Juni statt.",
+      "meaning": {
+        "en": "The concert takes place in June.",
+        "te": "కచేరీ జూన్‌లో జరుగుతుంది.",
+        "hi": "संगीत कार्यक्रम जून में होगा।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Die Ausstellung ist noch bis Mai geöffnet.",
+      "meaning": {
+        "en": "The exhibition is open until May.",
+        "te": "ప్రదర్శన మే వరకు తెరిచి ఉంటుంది.",
+        "hi": "प्रदर्शनी मई तक खुली है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Die Musik hat mich an meine Heimat erinnert.",
+      "meaning": {
+        "en": "The music reminded me of my home.",
+        "te": "ఆ సంగీతం నా ఊరిని గుర్తుచేసింది.",
+        "hi": "इस संगीत ने मुझे मेरे घर की याद दिलाई।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Heimat",
+      "meaning": {
+        "en": "home (homeland)",
+        "te": "స్వస్థలం",
+        "hi": "मातृभूमि"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "das Theater",
+      "meaning": {
+        "en": "the theatre",
+        "te": "నాటకశాల",
+        "hi": "थिएटर"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "der Eintritt",
+      "meaning": {
+        "en": "admission",
+        "te": "ప్రవేశ రుసుము",
+        "hi": "प्रवेश शुल्क"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "begeistern",
+      "meaning": {
+        "en": "to thrill",
+        "te": "ఉత్సాహపరచడం",
+        "hi": "रोमांचित करना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AFTER A CONCERT",
+      "te": "కచేరీ తర్వాత",
+      "hi": "संगीत कार्यक्रम के बाद"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Lena",
+        "de": "Wie hat dir das Konzert gefallen?",
+        "meaning": {
+          "en": "How did you like the concert?",
+          "te": "కచేరీ నీకు ఎలా అనిపించింది?",
+          "hi": "कॉन्सर्ट तुम्हें कैसा लगा?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Anil",
+        "de": "Es war beeindruckend. Die Musik erinnert mich an zu Hause.",
+        "meaning": {
+          "en": "It was impressive. The music reminds me of home.",
+          "te": "ఇది ఆకట్టుకుంది. ఈ సంగీతం నా ఇంటిని గుర్తుచేస్తుంది.",
+          "hi": "यह प्रभावशाली था। यह संगीत मुझे घर की याद दिलाता है।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Lena",
+        "de": "Ich fand den Sänger ein bisschen laut, aber gut.",
+        "meaning": {
+          "en": "I found the singer a bit loud, but good.",
+          "te": "గాయకుడు కొంచెం గట్టిగా ఉన్నాడు, కానీ బాగున్నాడు.",
+          "hi": "मुझे गायक थोड़ा ऊँचा लगा, पर अच्छा था।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Anil",
+        "de": "Ja, das Festival nächstes Jahr besuchen wir wieder!",
+        "meaning": {
+          "en": "Yes, next year we will visit the festival again!",
+          "te": "అవును, వచ్చే ఏడాది మళ్ళీ ఉత్సవానికి వెళ్దాం!",
+          "hi": "हाँ, अगले साल हम फिर त्योहार में जाएँगे!"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: opinions in the past",
+      "te": "వ్యాకరణం: గత కాలంలో అభిప్రాయాలు",
+      "hi": "व्याकरण: अतीत में राय"
+    },
+    "body": {
+      "en": "Use Präteritum for past opinions in writing (fand, war) and Perfekt in speech (ich habe es gefunden). \"Das hat mich begeistert\" uses an accusative pronoun: mich, dich, uns.",
+      "te": "గత అభిప్రాయాలకు రాతలో Präteritum (fand, war), మాటల్లో Perfekt. \"Das hat mich begeistert\" లో mich, dich, uns.",
+      "hi": "अतीत की राय लिखित में Präteritum (fand, war) और बोलचाल में Perfekt। \"Das hat mich begeistert\" में mich, dich, uns।"
+    }
+  },
+  "deep_dive": {
+    "en": "German culture values art and public festivals. Many cities offer free concerts in summer, and museums often have free days. Ask locals where to go; they usually know the best events.",
+    "te": "జర్మన్ సంస్కృతిలో కళలు, ప్రజా ఉత్సవాలు ముఖ్యం. వేసవిలో చాలా నగరాల్లో ఉచిత కచేరీలు, మ్యూజియంలకు ఉచిత రోజులు ఉంటాయి.",
+    "hi": "जर्मन संस्कृति में कला और सार्वजनिक त्योहार महत्वपूर्ण हैं। गर्मियों में कई शहरों में मुफ़्त संगीत और संग्रहालयों में मुफ़्त दिन होते हैं।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Das Konzert hat mir gefallen gut.",
+      "right": "Das Konzert hat mir gut gefallen.",
+      "why": {
+        "en": "gefallen takes dative; place gut before the verb.",
+        "te": "gefallen డేటివ్; gut ను క్రియకు ముందు.",
+        "hi": "gefallen के साथ dative; gut क्रिया से पहले।"
+      }
+    },
+    {
+      "wrong": "Die Ausstellung ist offen bis Mai.",
+      "right": "Die Ausstellung ist bis Mai geöffnet.",
+      "why": {
+        "en": "Use geöffnet for open.",
+        "te": "open కి geöffnet.",
+        "hi": "open के लिए geöffnet।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Germany has many free or cheap cultural events. Many people attend local festivals (Stadtfest) in summer, and small talk often starts with \"Was machen Sie in Ihrer Freizeit?\"",
+    "te": "జర్మనీలో అనేక ఉచిత లేదా చౌక సాంస్కృతిక కార్యక్రమాలు ఉన్నాయి. చిన్న సంభాషణ తరచుగా \"Was machen Sie in Ihrer Freizeit?\" తో మొదలవుతుంది.",
+    "hi": "जर्मनी में कई मुफ़्त या सस्ते सांस्कृतिक कार्यक्रम हैं। बातचीत अक्सर \"Was machen Sie in Ihrer Freizeit?\" से शुरू होती है।"
+  },
+  "practice_tip": {
+    "en": "Describe the last film or concert you saw, with one opinion and one reason.",
+    "te": "మీరు చూసిన చివరి సినిమా లేదా కచేరీని ఒక అభిప్రాయం, ఒక కారణంతో వివరించండి.",
+    "hi": "आपने जो आख़िरी फ़िल्म या कॉन्सर्ट देखा उसे एक राय और एक कारण के साथ बताएँ।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"The film was impressive.\"",
+        "te": "\"సినిమా ఆకట్టుకుంది\" అని చెప్పండి.",
+        "hi": "\"फ़िल्म प्रभावशाली थी\" कहें।"
+      },
+      "answer": {
+        "en": "Der Film war beeindruckend.",
+        "te": "Der Film war beeindruckend.",
+        "hi": "Der Film war beeindruckend."
+      }
+    },
+    {
+      "question": {
+        "en": "What is \"das Konzert\"?",
+        "te": "\"das Konzert\" అంటే ఏమిటి?",
+        "hi": "\"das Konzert\" क्या है?"
+      },
+      "answer": {
+        "en": "the concert",
+        "te": "కచేరీ",
+        "hi": "संगीत कार्यक्रम"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Das Konzert hat ___ gefallen.",
+        "te": "Das Konzert hat ___ gefallen.",
+        "hi": "Das Konzert hat ___ gefallen."
+      },
+      "options": [
+        {
+          "de": "mir"
+        },
+        {
+          "de": "mich"
+        },
+        {
+          "de": "ich"
+        },
+        {
+          "de": "mein"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "gefallen takes dative: mir.",
+        "te": "gefallen takes dative: mir.",
+        "hi": "gefallen takes dative: mir."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Die Ausstellung\" means…",
+        "te": "\"Die Ausstellung\" means…",
+        "hi": "\"Die Ausstellung\" means…"
+      },
+      "options": [
+        {
+          "de": "the exhibition"
+        },
+        {
+          "de": "the actor"
+        },
+        {
+          "de": "the concert"
+        },
+        {
+          "de": "the museum tour"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Ausstellung = exhibition.",
+        "te": "Ausstellung = exhibition.",
+        "hi": "Ausstellung = exhibition."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Das hat ___ begeistert.",
+        "te": "Das hat ___ begeistert.",
+        "hi": "Das hat ___ begeistert."
+      },
+      "options": [
+        {
+          "de": "mich"
+        },
+        {
+          "de": "mir"
+        },
+        {
+          "de": "ich"
+        },
+        {
+          "de": "mein"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "begeistern takes accusative: mich.",
+        "te": "begeistern takes accusative: mich.",
+        "hi": "begeistern takes accusative: mich."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"beeindruckend\" means…",
+        "te": "\"beeindruckend\" means…",
+        "hi": "\"beeindruckend\" means…"
+      },
+      "options": [
+        {
+          "de": "impressive"
+        },
+        {
+          "de": "boring"
+        },
+        {
+          "de": "cheap"
+        },
+        {
+          "de": "far"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "beeindruckend = impressive.",
+        "te": "beeindruckend = impressive.",
+        "hi": "beeindruckend = impressive."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "arts-culture-l1",
+      "audio_de": "Der Film war sehr beeindruckend.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The film was very impressive.",
+            "te": "సినిమా చాలా ఆకట్టుకుంది.",
+            "hi": "फ़िल्म बहुत प्रभावशाली थी।"
+          }
+        },
+        {
+          "text": {
+            "en": "The film was very boring.",
+            "te": "సినిమా చాలా విసుగు.",
+            "hi": "फ़िल्म बहुत बोरिंग थी।"
+          }
+        },
+        {
+          "text": {
+            "en": "The film is very long.",
+            "te": "సినిమా చాలా పొడవు.",
+            "hi": "फ़िल्म बहुत लंबी है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I did not see the film.",
+            "te": "నేను సినిమా చూడలేదు.",
+            "hi": "मैंने फ़िल्म नहीं देखी।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "beeindruckend = impressive.",
+        "te": "beeindruckend = ఆకట్టుకునే.",
+        "hi": "beeindruckend = प्रभावशाली।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "arts-culture-l2",
+      "audio_de": "Die Ausstellung ist noch bis Mai geöffnet.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The exhibition is open until May.",
+            "te": "ప్రదర్శన మే వరకు తెరిచి ఉంటుంది.",
+            "hi": "प्रदर्शनी मई तक खुली है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The exhibition closed in May.",
+            "te": "ప్రదర్శన మేలో మూసివేశారు.",
+            "hi": "प्रदर्शनी मई में बंद हुई।"
+          }
+        },
+        {
+          "text": {
+            "en": "The exhibition is in May.",
+            "te": "ప్రదర్శన మేలో ఉంది.",
+            "hi": "प्रदर्शनी मई में है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The exhibition starts in June.",
+            "te": "ప్రదర్శన జూన్‌లో మొదలవుతుంది.",
+            "hi": "प्रदर्शनी जून में शुरू होगी।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "geöffnet = open; bis Mai = until May.",
+        "te": "geöffnet = తెరిచి; bis Mai = మే వరకు.",
+        "hi": "geöffnet = खुला; bis Mai = मई तक।"
+      }
+    }
+  ],
+  "audio": []
+}

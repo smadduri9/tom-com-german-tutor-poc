@@ -1,0 +1,527 @@
+{
+  "id": "dative",
+  "slug": "dative",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Dative Case",
+    "te": "డేటివ్ కారకం",
+    "hi": "संप्रदान (Dative)"
+  },
+  "subtitle": {
+    "en": "The indirect object and dative prepositions",
+    "te": "పరోక్ష కర్మ మరియు డేటివ్ పూర్వపదాలు",
+    "hi": "परोक्ष कर्म और dative पूर्वसर्ग"
+  },
+  "intro": {
+    "en": "The dative case marks the person you give or show something to, and follows certain prepositions.",
+    "te": "డేటివ్ కారకం ఎవరికి ఇస్తున్నారో లేదా చూపిస్తున్నారో చూపుతుంది; కొన్ని పూర్వపదాల తర్వాత వస్తుంది.",
+    "hi": "डेटिव कारक बताता है कि आप किसे कुछ दे या दिखा रहे हैं; कुछ पूर्वसर्गों के बाद आता है।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "dem / der / den",
+      "meaning": {
+        "en": "the (dative, masculine/neuter/plural)",
+        "te": "డేటివ్: the",
+        "hi": "dative: the"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "der Frau",
+      "meaning": {
+        "en": "to the woman",
+        "te": "స్త్రీకి",
+        "hi": "महिला को"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "mit",
+      "meaning": {
+        "en": "with",
+        "te": "తో",
+        "hi": "के साथ"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "bei",
+      "meaning": {
+        "en": "at (someone’s place)",
+        "te": "దగ్గర",
+        "hi": "के पास / घर पर"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "nach",
+      "meaning": {
+        "en": "after / to (a town)",
+        "te": "తర్వాత / వైపు",
+        "hi": "के बाद / की ओर"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "aus",
+      "meaning": {
+        "en": "from / out of",
+        "te": "నుండి",
+        "hi": "से"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "gefallen",
+      "meaning": {
+        "en": "to please",
+        "te": "నచ్చడం",
+        "hi": "पसंद आना"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "helfen",
+      "meaning": {
+        "en": "to help",
+        "te": "సహాయం చేయడం",
+        "hi": "मदद करना"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Wie gefällt dir das?",
+      "meaning": {
+        "en": "How do you like that?",
+        "te": "ఇది నీకు ఎలా నచ్చింది?",
+        "hi": "यह तुम्हें कैसा लगा?"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Ich helfe dir.",
+      "meaning": {
+        "en": "I help you.",
+        "te": "నేను నీకు సహాయం చేస్తాను.",
+        "hi": "मैं तुम्हारी मदद करता हूँ।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich gebe dem Kind einen Apfel.",
+      "meaning": {
+        "en": "I give the child an apple.",
+        "te": "నేను పిల్లవాడికి ఒక ఆపిల్ ఇస్తాను.",
+        "hi": "मैं बच्चे को एक सेब देता हूँ।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Er wohnt bei seinen Eltern.",
+      "meaning": {
+        "en": "He lives with his parents.",
+        "te": "అతను తన తల్లిదండ్రులతో ఉంటాడు.",
+        "hi": "वह अपने माता-पिता के साथ रहता है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Wir fahren mit dem Zug nach Berlin.",
+      "meaning": {
+        "en": "We travel by train to Berlin.",
+        "te": "మేము రైలులో బెర్లిన్‌కు వెళ్తాము.",
+        "hi": "हम ट्रेन से बर्लिन जाते हैं।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Das Buch gefällt mir.",
+      "meaning": {
+        "en": "I like the book.",
+        "te": "ఈ పుస్తకం నాకు నచ్చింది.",
+        "hi": "यह किताब मुझे पसंद है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Kollege",
+      "meaning": {
+        "en": "the colleague",
+        "te": "సహోద్యోగి",
+        "hi": "सहकर्मी"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "die Einladung",
+      "meaning": {
+        "en": "the invitation",
+        "te": "ఆహ్వానం",
+        "hi": "निमंत्रण"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "schenken",
+      "meaning": {
+        "en": "to give as a present",
+        "te": "బహుమతిగా ఇవ్వడం",
+        "hi": "उपहार देना"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "zeigen",
+      "meaning": {
+        "en": "to show",
+        "te": "చూపించడం",
+        "hi": "दिखाना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT A FRIEND’S HOUSE",
+      "te": "స్నేహితుడి ఇంట్లో",
+      "hi": "दोस्त के घर पर"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Lena",
+        "de": "Ravi, ich zeige dir meine Wohnung.",
+        "meaning": {
+          "en": "Ravi, I will show you my flat.",
+          "te": "రవి, నా ఫ్లాట్ చూపిస్తాను.",
+          "hi": "रवि, मैं तुम्हें अपना फ़्लैट दिखाती हूँ।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Ravi",
+        "de": "Danke! Wem gehört der Balkon?",
+        "meaning": {
+          "en": "Thanks! Whom does the balcony belong to?",
+          "te": "ధన్యవాదాలు! బాల్కనీ ఎవరిది?",
+          "hi": "धन्यवाद! बालकनी किसकी है?"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Lena",
+        "de": "Er gehört meiner Nachbarin. Ich helfe ihr manchmal.",
+        "meaning": {
+          "en": "It belongs to my neighbour. I sometimes help her.",
+          "te": "అది మా పొరుగింటావిడది. నేను ఆమెకు అప్పుడప్పుడు సహాయం చేస్తాను.",
+          "hi": "यह मेरी पड़ोसन का है। मैं कभी-कभी उनकी मदद करती हूँ।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Ravi",
+        "de": "Das ist nett. Kann ich dir helfen?",
+        "meaning": {
+          "en": "That is nice. Can I help you?",
+          "te": "బాగుంది. నేను నీకు సహాయం చేయగలనా?",
+          "hi": "अच्छा है। क्या मैं तुम्हारी मदद कर सकता हूँ?"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: dative articles",
+      "te": "వ్యాకరణం: డేటివ్ ఆర్టికల్స్",
+      "hi": "व्याकरण: डेटिव आर्टिकल"
+    },
+    "body": {
+      "en": "Dative: der → dem, die → der, das → dem, die (plural) → den. Ein → einem, eine → einer. Dative pronouns: mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen.",
+      "te": "డేటివ్: der → dem, die → der, das → dem, బహువచనం → den. ein → einem, eine → einer. సర్వనామాలు: mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen.",
+      "hi": "डेटिव: der → dem, die → der, das → dem, बहुवचन → den। ein → einem, eine → einer। सर्वनाम: mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen।"
+    }
+  },
+  "deep_dive": {
+    "en": "Verbs such as helfen, gefallen, gehören and danken always take the dative for the person: Ich helfe dir (not dich). Prepositions mit, bei, nach, aus, seit, von, zu always take dative.",
+    "te": "helfen, gefallen, gehören, danken వంటి క్రియలు ఎల్లప్పుడూ వ్యక్తికి డేటివ్: Ich helfe dir (dich కాదు). mit, bei, nach, aus, seit, von, zu ఎల్లప్పుడూ డేటివ్.",
+    "hi": "helfen, gefallen, gehören, danken जैसे क्रियाएँ व्यक्ति के लिए हमेशा dative लेती हैं: Ich helfe dir (dich नहीं)। mit, bei, nach, aus, seit, von, zu हमेशा dative लेते हैं।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich helfe dich.",
+      "right": "Ich helfe dir.",
+      "why": {
+        "en": "helfen takes the dative.",
+        "te": "helfen కి డేటివ్.",
+        "hi": "helfen के साथ dative।"
+      }
+    },
+    {
+      "wrong": "mit der Bus",
+      "right": "mit dem Bus",
+      "why": {
+        "en": "mit always takes dative: dem.",
+        "te": "mit ఎల్లప్పుడూ డేటివ్: dem.",
+        "hi": "mit हमेशा dative: dem।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In Germany you usually say \"Danke\" and thank the host when invited. A small gift for the host is welcome.",
+    "te": "జర్మనీలో ఆహ్వానిస్తే \"Danke\" అని ధన్యవాదాలు చెప్పండి. ఇంటి యజమానికి చిన్న బహుమతి మంచిది.",
+    "hi": "जर्मनी में निमंत्रण पर \"Danke\" कहें। घर के मालिक के लिए छोटा उपहार अच्छा माना जाता है।"
+  },
+  "practice_tip": {
+    "en": "Write five sentences with mir, dir or ihm and the verbs gefallen or helfen.",
+    "te": "mir, dir లేదా ihm మరియు gefallen లేదా helfen తో ఐదు వాక్యాలు రాయండి.",
+    "hi": "mir, dir या ihm और gefallen या helfen के साथ पाँच वाक्य लिखें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"I help you.\" (informal)",
+        "te": "\"నేను నీకు సహాయం చేస్తాను\" అని చెప్పండి.",
+        "hi": "\"मैं तुम्हारी मदद करता हूँ\" कहें।"
+      },
+      "answer": {
+        "en": "Ich helfe dir.",
+        "te": "Ich helfe dir.",
+        "hi": "Ich helfe dir."
+      }
+    },
+    {
+      "question": {
+        "en": "What is the dative of \"der Mann\"?",
+        "te": "\"der Mann\" యొక్క డేటివ్?",
+        "hi": "\"der Mann\" का डेटिव?"
+      },
+      "answer": {
+        "en": "dem Mann",
+        "te": "dem Mann",
+        "hi": "dem Mann"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich helfe ___. (you, informal)",
+        "te": "Ich helfe ___. (you, informal)",
+        "hi": "Ich helfe ___. (you, informal)"
+      },
+      "options": [
+        {
+          "de": "dir"
+        },
+        {
+          "de": "dich"
+        },
+        {
+          "de": "du"
+        },
+        {
+          "de": "dein"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "helfen takes dative: dir.",
+        "te": "helfen takes dative: dir.",
+        "hi": "helfen takes dative: dir."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Wir fahren mit ___ Bus.",
+        "te": "Wir fahren mit ___ Bus.",
+        "hi": "Wir fahren mit ___ Bus."
+      },
+      "options": [
+        {
+          "de": "dem"
+        },
+        {
+          "de": "den"
+        },
+        {
+          "de": "der"
+        },
+        {
+          "de": "das"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "mit + dative: dem Bus.",
+        "te": "mit + dative: dem Bus.",
+        "hi": "mit + dative: dem Bus."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Das Buch gehört ___.",
+        "te": "Das Buch gehört ___.",
+        "hi": "Das Buch gehört ___."
+      },
+      "options": [
+        {
+          "de": "mir"
+        },
+        {
+          "de": "mich"
+        },
+        {
+          "de": "ich"
+        },
+        {
+          "de": "mein"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "gehören takes dative: mir.",
+        "te": "gehören takes dative: mir.",
+        "hi": "gehören takes dative: mir."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "nach Berlin is…",
+        "te": "nach Berlin is…",
+        "hi": "nach Berlin is…"
+      },
+      "options": [
+        {
+          "de": "dative after nach"
+        },
+        {
+          "de": "accusative"
+        },
+        {
+          "de": "nominative"
+        },
+        {
+          "de": "genitive"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "nach takes dative.",
+        "te": "nach takes dative.",
+        "hi": "nach takes dative."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "dative-l1",
+      "audio_de": "Das gefällt mir.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I like that.",
+            "te": "ఇది నాకు నచ్చింది.",
+            "hi": "यह मुझे पसंद है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I want that.",
+            "te": "నాకు ఇది కావాలి.",
+            "hi": "मुझे यह चाहिए।"
+          }
+        },
+        {
+          "text": {
+            "en": "I know that.",
+            "te": "నాకు ఇది తెలుసు.",
+            "hi": "मुझे यह पता है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I need that.",
+            "te": "నాకు ఇది అవసరం.",
+            "hi": "मुझे इसकी ज़रूरत है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "gefallen = to please; mir = to me.",
+        "te": "gefallen = నచ్చడం; mir = నాకు.",
+        "hi": "gefallen = पसंद आना; mir = मुझे।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "dative-l2",
+      "audio_de": "Er wohnt bei seinen Eltern.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "He lives with his parents.",
+            "te": "అతను తన తల్లిదండ్రులతో ఉంటాడు.",
+            "hi": "वह अपने माता-पिता के साथ रहता है।"
+          }
+        },
+        {
+          "text": {
+            "en": "He visits his parents.",
+            "te": "అతను తల్లిదండ్రులను చూడటానికి వెళ్తాడు.",
+            "hi": "वह माता-पिता से मिलने जाता है।"
+          }
+        },
+        {
+          "text": {
+            "en": "He works for his parents.",
+            "te": "అతను తల్లిదండ్రుల కోసం పని చేస్తాడు.",
+            "hi": "वह माता-पिता के लिए काम करता है।"
+          }
+        },
+        {
+          "text": {
+            "en": "He calls his parents.",
+            "te": "అతను తల్లిదండ్రులకు ఫోన్ చేస్తాడు.",
+            "hi": "वह माता-पिता को फ़ोन करता है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "bei = at/with someone.",
+        "te": "bei = దగ్గర.",
+        "hi": "bei = के पास।"
+      }
+    }
+  ],
+  "audio": []
+}

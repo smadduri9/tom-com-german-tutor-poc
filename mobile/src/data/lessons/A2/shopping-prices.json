@@ -1,0 +1,527 @@
+{
+  "id": "shopping-prices",
+  "slug": "shopping-prices",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Shopping & Prices",
+    "te": "షాపింగ్ & ధరలు",
+    "hi": "खरीदारी और कीमतें"
+  },
+  "subtitle": {
+    "en": "Asking prices and paying",
+    "te": "ధర అడగడం మరియు చెల్లించడం",
+    "hi": "कीमत पूछना और भुगतान"
+  },
+  "intro": {
+    "en": "Shop for groceries and clothes, ask about prices and sizes, and pay at the till.",
+    "te": "కిరాణా, బట్టలు కొనండి, ధరలు, సైజులు అడగండి, క్యాష్ కౌంటర్ వద్ద చెల్లించండి.",
+    "hi": "किराना और कपड़े ख़रीदें, कीमत और साइज़ पूछें, और काउंटर पर भुगतान करें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "der Preis",
+      "meaning": {
+        "en": "the price",
+        "te": "ధర",
+        "hi": "कीमत"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "im Angebot",
+      "meaning": {
+        "en": "on offer",
+        "te": "ఆఫర్‌లో",
+        "hi": "ऑफ़र पर"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "die Kasse",
+      "meaning": {
+        "en": "the till / checkout",
+        "te": "క్యాష్ కౌంటర్",
+        "hi": "कैश काउंटर"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "bar / mit Karte",
+      "meaning": {
+        "en": "cash / by card",
+        "te": "నగదు / కార్డ్",
+        "hi": "नकद / कार्ड से"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "die Tüte",
+      "meaning": {
+        "en": "the bag",
+        "te": "సంచి",
+        "hi": "थैली"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "anprobieren",
+      "meaning": {
+        "en": "to try on",
+        "te": "ప్రయత్నించి చూడటం",
+        "hi": "पहनकर देखना"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "zurückgeben",
+      "meaning": {
+        "en": "to return (an item)",
+        "te": "తిరిగి ఇవ్వడం",
+        "hi": "लौटाना"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Haben Sie das in einer anderen Größe?",
+      "meaning": {
+        "en": "Do you have this in another size?",
+        "te": "ఇది వేరే సైజులో ఉందా?",
+        "hi": "क्या यह दूसरे साइज़ में है?"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Ich zahle mit Karte.",
+      "meaning": {
+        "en": "I will pay by card.",
+        "te": "నేను కార్డ్‌తో చెల్లిస్తాను.",
+        "hi": "मैं कार्ड से भुगतान करूँगा।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Brauchen Sie eine Tüte?",
+      "meaning": {
+        "en": "Do you need a bag?",
+        "te": "మీకు సంచి కావాలా?",
+        "hi": "क्या आपको थैली चाहिए?"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Was kostet das Brot?",
+      "meaning": {
+        "en": "How much is the bread?",
+        "te": "బ్రెడ్ ధర ఎంత?",
+        "hi": "ब्रेड की कीमत क्या है?"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Die Jacke ist im Angebot.",
+      "meaning": {
+        "en": "The jacket is on offer.",
+        "te": "జాకెట్ ఆఫర్‌లో ఉంది.",
+        "hi": "जैकेट ऑफ़र पर है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Kann ich das anprobieren?",
+      "meaning": {
+        "en": "Can I try this on?",
+        "te": "నేను దీన్ని ప్రయత్నించి చూడవచ్చా?",
+        "hi": "क्या मैं इसे पहनकर देख सकता हूँ?"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Ich möchte das zurückgeben.",
+      "meaning": {
+        "en": "I would like to return this.",
+        "te": "నేను దీన్ని తిరిగి ఇవ్వాలనుకుంటున్నాను.",
+        "hi": "मैं इसे लौटाना चाहता हूँ।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Euro",
+      "meaning": {
+        "en": "the euro",
+        "te": "యూరో",
+        "hi": "यूरो"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "das Geld",
+      "meaning": {
+        "en": "the money",
+        "te": "డబ్బు",
+        "hi": "पैसा"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "der Kassenbon",
+      "meaning": {
+        "en": "the receipt",
+        "te": "రసీదు",
+        "hi": "रसीद"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "der Rabatt",
+      "meaning": {
+        "en": "the discount",
+        "te": "తగ్గింపు",
+        "hi": "छूट"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "IN A SUPERMARKET",
+      "te": "సూపర్‌మార్కెట్‌లో",
+      "hi": "सुपरमार्केट में"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Priya",
+        "de": "Das Brot und die Milch, bitte.",
+        "meaning": {
+          "en": "The bread and the milk, please.",
+          "te": "బ్రెడ్, పాలు, దయచేసి.",
+          "hi": "ब्रेड और दूध, कृपया।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Kassiererin",
+        "de": "Das macht zusammen 4,50 Euro.",
+        "meaning": {
+          "en": "That is 4.50 euros in total.",
+          "te": "మొత్తం 4.50 యూరోలు.",
+          "hi": "कुल 4.50 यूरो।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Priya",
+        "de": "Kann ich mit Karte zahlen?",
+        "meaning": {
+          "en": "Can I pay by card?",
+          "te": "నేను కార్డ్‌తో చెల్లించవచ్చా?",
+          "hi": "क्या मैं कार्ड से भुगतान कर सकती हूँ?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Kassiererin",
+        "de": "Ja, natürlich. Brauchen Sie eine Tüte?",
+        "meaning": {
+          "en": "Yes, of course. Do you need a bag?",
+          "te": "అవును, తప్పకుండా. మీకు సంచి కావాలా?",
+          "hi": "हाँ, बिल्कुल। क्या आपको थैली चाहिए?"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: Preis and price words",
+      "te": "వ్యాకరణం: ధర పదాలు",
+      "hi": "व्याकरण: कीमत के शब्द"
+    },
+    "body": {
+      "en": "\"Was kostet …?\" asks the price. In German numbers with decimals use a comma: 4,50 Euro. \"Das macht …\" means \"That comes to …\" at a till.",
+      "te": "\"Was kostet …?\" ధర అడుగుతుంది. దశాంశానికి కామా: 4,50 Euro. \"Das macht …\" అంటే \"మొత్తం …\".",
+      "hi": "\"Was kostet …?\" कीमत पूछता है। दशमलव में कॉमा: 4,50 Euro। \"Das macht …\" यानी \"कुल …\"।"
+    }
+  },
+  "deep_dive": {
+    "en": "German shops often close on Sundays and public holidays. Many shops use \"Kassenbon\" and ask if you want it. Small shops may not take cards, so keep some cash.",
+    "te": "జర్మన్ దుకాణాలు తరచుగా ఆదివారాలు, సెలవు రోజుల్లో మూసి ఉంటాయి. కొన్ని చిన్న దుకాణాలు కార్డ్ తీసుకోవు; కొంత నగదు ఉంచుకోండి.",
+    "hi": "जर्मन दुकानें अक्सर रविवार और छुट्टियों पर बंद रहती हैं। छोटी दुकानें कार्ड न लें, इसलिए कुछ नकद रखें।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "vier Komma fünf Euro",
+      "right": "vier Euro fünfzig",
+      "why": {
+        "en": "Everyday prices are said as Euro and cents.",
+        "te": "రోజువారీ ధరలను యూరో, సెంట్లుగా చెబుతారు.",
+        "hi": "रोज़मर्रा की कीमतें यूरो और सेंट में बोली जाती हैं।"
+      }
+    },
+    {
+      "wrong": "Ich will kaufen Brot.",
+      "right": "Ich möchte Brot kaufen.",
+      "why": {
+        "en": "Use \"möchte … kaufen\" politely.",
+        "te": "\"möchte … kaufen\" మర్యాదగా.",
+        "hi": "\"möchte … kaufen\" विनम्र।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Supermarkets in Germany expect you to bag your own shopping and to bring your own bag. Pay with cash or card; many places do not take cheques.",
+    "te": "జర్మనీలో సూపర్‌మార్కెట్లలో మీ సామాను మీరే సంచిలో పెట్టుకోవాలి. నగదు లేదా కార్డ్; చెక్కులు తీసుకోరు.",
+    "hi": "जर्मनी के सुपरमार्केट में सामान खुद थैले में रखना होता है। नकद या कार्ड से भुगतान करें।"
+  },
+  "practice_tip": {
+    "en": "On your next shopping trip, say every price aloud in German.",
+    "te": "మీ తదుపరి షాపింగ్‌లో ప్రతి ధరను జర్మన్‌లో గట్టిగా చెప్పండి.",
+    "hi": "अगली खरीदारी पर हर कीमत जर्मन में ज़ोर से बोलें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Ask \"How much is this?\"",
+        "te": "\"దీని ధర ఎంత?\" అని అడగండి.",
+        "hi": "\"यह कितने का है?\" पूछें।"
+      },
+      "answer": {
+        "en": "Was kostet das?",
+        "te": "Was kostet das?",
+        "hi": "Was kostet das?"
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"I will pay by card.\"",
+        "te": "\"నేను కార్డ్‌తో చెల్లిస్తాను\" అని చెప్పండి.",
+        "hi": "\"मैं कार्ड से भुगतान करूँगा\" कहें।"
+      },
+      "answer": {
+        "en": "Ich zahle mit Karte.",
+        "te": "Ich zahle mit Karte.",
+        "hi": "Ich zahle mit Karte."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Kann ich das ___?",
+        "te": "Kann ich das ___?",
+        "hi": "Kann ich das ___?"
+      },
+      "options": [
+        {
+          "de": "anprobieren"
+        },
+        {
+          "de": "anrufen"
+        },
+        {
+          "de": "einkaufen"
+        },
+        {
+          "de": "zurückkommen"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "anprobieren = try on.",
+        "te": "anprobieren = try on.",
+        "hi": "anprobieren = try on."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"im Angebot\" means…",
+        "te": "\"im Angebot\" means…",
+        "hi": "\"im Angebot\" means…"
+      },
+      "options": [
+        {
+          "de": "on offer"
+        },
+        {
+          "de": "sold out"
+        },
+        {
+          "de": "expensive"
+        },
+        {
+          "de": "new"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Angebot = offer.",
+        "te": "Angebot = offer.",
+        "hi": "Angebot = offer."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Das macht 4,50 Euro.\" means…",
+        "te": "\"Das macht 4,50 Euro.\" means…",
+        "hi": "\"Das macht 4,50 Euro.\" means…"
+      },
+      "options": [
+        {
+          "de": "That is 4.50 euros."
+        },
+        {
+          "de": "That is 45 euros."
+        },
+        {
+          "de": "It is free."
+        },
+        {
+          "de": "Wait 4.50 minutes."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "macht = comes to.",
+        "te": "macht = comes to.",
+        "hi": "macht = comes to."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Where do you pay?",
+        "te": "Where do you pay?",
+        "hi": "Where do you pay?"
+      },
+      "options": [
+        {
+          "de": "die Kasse"
+        },
+        {
+          "de": "das Gleis"
+        },
+        {
+          "de": "der Fahrplan"
+        },
+        {
+          "de": "die Haltestelle"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Kasse = till.",
+        "te": "Kasse = till.",
+        "hi": "Kasse = till."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "shopping-prices-l1",
+      "audio_de": "Was kostet das Brot?",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "How much is the bread?",
+            "te": "బ్రెడ్ ధర ఎంత?",
+            "hi": "ब्रेड की कीमत क्या है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Where is the bread?",
+            "te": "బ్రెడ్ ఎక్కడ?",
+            "hi": "ब्रेड कहाँ है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Who sells bread?",
+            "te": "బ్రెడ్ ఎవరు అమ్ముతారు?",
+            "hi": "ब्रेड कौन बेचता है?"
+          }
+        },
+        {
+          "text": {
+            "en": "Is the bread fresh?",
+            "te": "బ్రెడ్ తాజాగా ఉందా?",
+            "hi": "क्या ब्रेड ताज़ा है?"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "kostet = costs.",
+        "te": "kostet = ధర.",
+        "hi": "kostet = कीमत।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "v10",
+      "audio_de": "Brauchen Sie eine Tüte?",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Do you need a bag?",
+            "te": "మీకు సంచి కావాలా?",
+            "hi": "क्या आपको थैली चाहिए?"
+          }
+        },
+        {
+          "text": {
+            "en": "Do you need a receipt?",
+            "te": "మీకు రసీదు కావాలా?",
+            "hi": "क्या आपको रसीद चाहिए?"
+          }
+        },
+        {
+          "text": {
+            "en": "Do you need a card?",
+            "te": "మీకు కార్డ్ కావాలా?",
+            "hi": "क्या आपको कार्ड चाहिए?"
+          }
+        },
+        {
+          "text": {
+            "en": "Do you need help?",
+            "te": "మీకు సహాయం కావాలా?",
+            "hi": "क्या आपको मदद चाहिए?"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Tüte = bag.",
+        "te": "Tüte = సంచి.",
+        "hi": "Tüte = थैली।"
+      }
+    }
+  ],
+  "audio": []
+}

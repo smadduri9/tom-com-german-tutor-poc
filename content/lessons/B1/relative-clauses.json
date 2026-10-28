@@ -1,0 +1,527 @@
+{
+  "id": "relative-clauses",
+  "slug": "relative-clauses",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Relative Clauses",
+    "te": "సాపేక్ష ఉపవాక్యాలు",
+    "hi": "संबंधवाचक उपवाक्य"
+  },
+  "subtitle": {
+    "en": "The man who lives here",
+    "te": "ఇక్కడ నివసించే వ్యక్తి",
+    "hi": "जो आदमी यहाँ रहता है"
+  },
+  "intro": {
+    "en": "Relative clauses add information about a noun: the man who lives here, the job that I want.",
+    "te": "సాపేక్ష వాక్యాలు నామవాచకం గురించి సమాచారం జోడిస్తాయి: ఇక్కడ నివసించే వ్యక్తి.",
+    "hi": "संबंधवाचक उपवाक्य संज्ञा के बारे में जानकारी जोड़ते हैं: यहाँ रहने वाला आदमी।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "der / die / das",
+      "meaning": {
+        "en": "who / which (relative pronoun)",
+        "te": "ఎవరు / ఏది",
+        "hi": "जो"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "den / dem / deren",
+      "meaning": {
+        "en": "whom / to whom / whose",
+        "te": "ఎవరిని / ఎవరికి / ఎవరి",
+        "hi": "जिसे / जिसको / जिसका"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "der Mann, der hier wohnt",
+      "meaning": {
+        "en": "the man who lives here",
+        "te": "ఇక్కడ నివసించే వ్యక్తి",
+        "hi": "यहाँ रहने वाला आदमी"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "die Stelle, die ich suche",
+      "meaning": {
+        "en": "the job that I am looking for",
+        "te": "నేను వెతుకుతున్న ఉద్యోగం",
+        "hi": "वह नौकरी जो मैं ढूँढ रहा हूँ"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "das Land, in dem …",
+      "meaning": {
+        "en": "the country in which …",
+        "te": "ఏ దేశంలో …",
+        "hi": "जिस देश में …"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "die Firma, für die …",
+      "meaning": {
+        "en": "the company for which …",
+        "te": "ఏ కంపెనీకి …",
+        "hi": "जिस कंपनी के लिए …"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "der Kollege, dessen Name …",
+      "meaning": {
+        "en": "the colleague whose name …",
+        "te": "ఎవరి పేరు …",
+        "hi": "जिस सहकर्मी का नाम …"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "das Buch, das ich lese",
+      "meaning": {
+        "en": "the book that I am reading",
+        "te": "నేను చదువుతున్న పుస్తకం",
+        "hi": "वह किताब जो मैं पढ़ रहा हूँ"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "die Frau, die dort steht",
+      "meaning": {
+        "en": "the woman who stands there",
+        "te": "అక్కడ నిలబడిన స్త్రీ",
+        "hi": "वह औरत जो वहाँ खड़ी है"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "der Ort, wo …",
+      "meaning": {
+        "en": "the place where …",
+        "te": "ఎక్కడ …",
+        "hi": "वह जगह जहाँ …"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Der Mann, der dort steht, ist mein Chef.",
+      "meaning": {
+        "en": "The man who stands there is my boss.",
+        "te": "అక్కడ నిలబడిన వ్యక్తి నా బాస్.",
+        "hi": "वहाँ खड़ा आदमी मेरा बॉस है।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Die Stadt, in der ich lebe, ist groß.",
+      "meaning": {
+        "en": "The city in which I live is big.",
+        "te": "నేను నివసించే నగరం పెద్దది.",
+        "hi": "वह शहर जहाँ मैं रहता हूँ, बड़ा है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Das ist der Kurs, den ich gebucht habe.",
+      "meaning": {
+        "en": "That is the course that I booked.",
+        "te": "అది నేను బుక్ చేసిన కోర్సు.",
+        "hi": "यह वह कोर्स है जो मैंने बुक किया।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Ich kenne die Frau, deren Sohn Arzt ist.",
+      "meaning": {
+        "en": "I know the woman whose son is a doctor.",
+        "te": "కొడుకు డాక్టర్ అయిన ఆమెను నాకు తెలుసు.",
+        "hi": "मैं उस औरत को जानता हूँ जिसका बेटा डॉक्टर है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Chef",
+      "meaning": {
+        "en": "the boss",
+        "te": "బాస్",
+        "hi": "बॉस"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Arzt",
+      "meaning": {
+        "en": "the doctor",
+        "te": "డాక్టర్",
+        "hi": "डॉक्टर"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "buchen",
+      "meaning": {
+        "en": "to book",
+        "te": "బుక్ చేయడం",
+        "hi": "बुक करना"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "wohnen",
+      "meaning": {
+        "en": "to live",
+        "te": "నివసించడం",
+        "hi": "रहना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "MEETING A NEW COLLEAGUE",
+      "te": "కొత్త సహోద్యోగిని కలవడం",
+      "hi": "नए सहकर्मी से मिलना"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Herr Böhm",
+        "de": "Das ist die Kollegin, mit der Sie zusammenarbeiten.",
+        "meaning": {
+          "en": "This is the colleague you will work with.",
+          "te": "మీరు కలిసి పని చేయబోయే సహోద్యోగి ఈమె.",
+          "hi": "यह वह सहकर्मी हैं जिनके साथ आप काम करेंगी।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Lakshmi",
+        "de": "Danke! Der Ort, an dem wir arbeiten, ist sehr schön.",
+        "meaning": {
+          "en": "Thanks! The place where we work is very nice.",
+          "te": "ధన్యవాదాలు! మనం పని చేసే ప్రదేశం చాలా బాగుంది.",
+          "hi": "धन्यवाद! जिस जगह हम काम करते हैं, वह बहुत सुंदर है।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Herr Böhm",
+        "de": "Die Projekte, an denen wir arbeiten, sind wichtig.",
+        "meaning": {
+          "en": "The projects we work on are important.",
+          "te": "మనం పని చేసే ప్రాజెక్టులు ముఖ్యమైనవి.",
+          "hi": "जिन प्रोजेक्ट्स पर हम काम करते हैं, वे ज़रूरी हैं।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Lakshmi",
+        "de": "Ich freue mich auf die Arbeit, die ich hier machen werde.",
+        "meaning": {
+          "en": "I am looking forward to the work I will do here.",
+          "te": "ఇక్కడ నేను చేయబోయే పని కోసం నేను ఎదురుచూస్తున్నాను.",
+          "hi": "यहाँ जो काम मैं करूँगी, उसका मुझे इंतज़ार है।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: relative pronouns",
+      "te": "వ్యాకరణం: సాపేక్ష సర్వనామాలు",
+      "hi": "व्याकरण: संबंधवाचक सर्वनाम"
+    },
+    "body": {
+      "en": "The relative pronoun matches the noun in gender and number, but its case depends on its role in the relative clause: der (subject), den (object), dem (dative), dessen/deren (possession). The verb goes to the end.",
+      "te": "సాపేక్ష సర్వనామం నామవాచకంతో లింగం, సంఖ్యలో సరిపోతుంది; కారకం ఉపవాక్యంలో పాత్రను బట్టి. క్రియ చివర.",
+      "hi": "संबंधवाचक सर्वनाम संज्ञा के लिंग-वचन से मेल खाता है; कारक उपवाक्य में भूमिका से तय होता है। क्रिया अंत में।"
+    }
+  },
+  "deep_dive": {
+    "en": "Relative pronouns are the same as the definite articles, except for dative plural (denen) and the genitive (dessen, deren). Use wo for places and was after alles, nichts, das.",
+    "te": "సాపేక్ష సర్వనామాలు నిర్దిష్ట ఆర్టికల్స్‌లాగానే, డేటివ్ బహువచనం (denen) మరియు జెనిటివ్ (dessen, deren) మినహా. స్థలాలకు wo.",
+    "hi": "संबंधवाचक सर्वनाम निश्चित आर्टिकल जैसे हैं, सिवाय डेटिव बहुवचन (denen) और जेनिटिव (dessen, deren) के। स्थानों के लिए wo।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Der Mann, der ich kenne, …",
+      "right": "Der Mann, den ich kenne, …",
+      "why": {
+        "en": "Direct object of kenne takes den.",
+        "te": "kenne కి కర్మ den.",
+        "hi": "kenne का कर्म den।"
+      }
+    },
+    {
+      "wrong": "Die Stadt, wo ich lebe ist groß.",
+      "right": "Die Stadt, in der ich lebe, ist groß.",
+      "why": {
+        "en": "Use the right preposition with the relative pronoun.",
+        "te": "సాపేక్ష సర్వనామంతో సరైన పూర్వపదం.",
+        "hi": "संबंधवाचक सर्वनाम के साथ सही पूर्वसर्ग।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In German cover letters, relative clauses help you describe your experience in detail: \"Ich habe Erfahrungen, die …\" (I have experience that …).",
+    "te": "జర్మన్ కవర్ లెటర్లలో సాపేక్ష వాక్యాలు అనుభవాన్ని వివరంగా చెప్పడానికి సహాయపడతాయి.",
+    "hi": "जर्मन कवर लेटर में संबंधवाचक उपवाक्य अनुभव को विस्तार से बताने में मदद करते हैं।"
+  },
+  "practice_tip": {
+    "en": "Describe three people or places in your life with a relative clause each.",
+    "te": "మీ జీవితంలోని మూడు వ్యక్తులు లేదా స్థలాలను ఒక్కొక్క సాపేక్ష వాక్యంతో వివరించండి.",
+    "hi": "अपने जीवन के तीन लोगों या जगहों का वर्णन संबंधवाचक उपवाक्य से करें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Relative pronoun for \"der Mann\" as subject?",
+        "te": "\"der Mann\" కర్త అయితే సాపేక్ష సర్వనామం?",
+        "hi": "\"der Mann\" कर्ता हो तो सर्वनाम?"
+      },
+      "answer": {
+        "en": "der",
+        "te": "der",
+        "hi": "der"
+      }
+    },
+    {
+      "question": {
+        "en": "Relative pronoun for \"die Frau\" as object?",
+        "te": "\"die Frau\" కర్మ అయితే?",
+        "hi": "\"die Frau\" कर्म हो तो?"
+      },
+      "answer": {
+        "en": "die",
+        "te": "die",
+        "hi": "die"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Der Mann, ___ dort steht, ist nett.",
+        "te": "Der Mann, ___ dort steht, ist nett.",
+        "hi": "Der Mann, ___ dort steht, ist nett."
+      },
+      "options": [
+        {
+          "de": "der"
+        },
+        {
+          "de": "den"
+        },
+        {
+          "de": "dem"
+        },
+        {
+          "de": "die"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Subject: der.",
+        "te": "Subject: der.",
+        "hi": "Subject: der."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Das Buch, ___ ich lese, ist gut.",
+        "te": "Das Buch, ___ ich lese, ist gut.",
+        "hi": "Das Buch, ___ ich lese, ist gut."
+      },
+      "options": [
+        {
+          "de": "das"
+        },
+        {
+          "de": "den"
+        },
+        {
+          "de": "dem"
+        },
+        {
+          "de": "der"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Object of lese: das.",
+        "te": "Object of lese: das.",
+        "hi": "Object of lese: das."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Die Frau, ___ Sohn Arzt ist, …",
+        "te": "Die Frau, ___ Sohn Arzt ist, …",
+        "hi": "Die Frau, ___ Sohn Arzt ist, …"
+      },
+      "options": [
+        {
+          "de": "deren"
+        },
+        {
+          "de": "dessen"
+        },
+        {
+          "de": "der"
+        },
+        {
+          "de": "die"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Feminine possessive: deren.",
+        "te": "Feminine possessive: deren.",
+        "hi": "Feminine possessive: deren."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "The verb in a relative clause goes…",
+        "te": "The verb in a relative clause goes…",
+        "hi": "The verb in a relative clause goes…"
+      },
+      "options": [
+        {
+          "de": "to the end"
+        },
+        {
+          "de": "second"
+        },
+        {
+          "de": "first"
+        },
+        {
+          "de": "after the object"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Relative clauses: verb at the end.",
+        "te": "Relative clauses: verb at the end.",
+        "hi": "Relative clauses: verb at the end."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "relative-clauses-l1",
+      "audio_de": "Der Mann, der dort steht, ist mein Chef.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The man who stands there is my boss.",
+            "te": "అక్కడ నిలబడిన వ్యక్తి నా బాస్.",
+            "hi": "वहाँ खड़ा आदमी मेरा बॉस है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The man who sits there is my friend.",
+            "te": "అక్కడ కూర్చున్న వ్యక్తి నా స్నేహితుడు.",
+            "hi": "वहाँ बैठा आदमी मेरा दोस्त है।"
+          }
+        },
+        {
+          "text": {
+            "en": "My boss is not there.",
+            "te": "నా బాస్ అక్కడ లేడు.",
+            "hi": "मेरा बॉस वहाँ नहीं है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The man is my father.",
+            "te": "ఆ వ్యక్తి నా తండ్రి.",
+            "hi": "वह आदमी मेरे पिता हैं।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "der = who (subject).",
+        "te": "der = ఎవరు.",
+        "hi": "der = जो।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "relative-clauses-l2",
+      "audio_de": "Die Stadt, in der ich lebe, ist groß.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The city in which I live is big.",
+            "te": "నేను నివసించే నగరం పెద్దది.",
+            "hi": "वह शहर जहाँ मैं रहता हूँ, बड़ा है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The city where I work is small.",
+            "te": "నేను పని చేసే నగరం చిన్నది.",
+            "hi": "वह शहर जहाँ मैं काम करता हूँ, छोटा है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I visit the big city.",
+            "te": "నేను పెద్ద నగరాన్ని సందర్శిస్తాను.",
+            "hi": "मैं बड़े शहर जाता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "The city is very old.",
+            "te": "నగరం చాలా పాతది.",
+            "hi": "शहर बहुत पुराना है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "in der = in which.",
+        "te": "in der = దీనిలో.",
+        "hi": "in der = जिसमें।"
+      }
+    }
+  ],
+  "audio": []
+}

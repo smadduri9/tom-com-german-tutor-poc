@@ -1,0 +1,527 @@
+{
+  "id": "workplace-career",
+  "slug": "workplace-career",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Workplace & Career",
+    "te": "పని ప్రదేశం & కెరీర్",
+    "hi": "कार्यस्थल और करियर"
+  },
+  "subtitle": {
+    "en": "Job interviews and CVs",
+    "te": "ఇంటర్వ్యూలు మరియు రెజ్యూమ్‌లు",
+    "hi": "नौकरी इंटरव्यू और बायोडेटा"
+  },
+  "intro": {
+    "en": "Talk about work: job interviews, CVs, colleagues and career goals in a German workplace.",
+    "te": "పని గురించి మాట్లాడండి: ఉద్యోగ ఇంటర్వ్యూలు, రెజ్యూమ్‌లు, సహోద్యోగులు, కెరీర్ లక్ష్యాలు.",
+    "hi": "काम पर बात करें: नौकरी के इंटरव्यू, बायोडेटा, सहकर्मी और करियर के लक्ष्य।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "der Lebenslauf",
+      "meaning": {
+        "en": "the CV",
+        "te": "రెజ్యూమ్",
+        "hi": "बायोडेटा"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "das Vorstellungsgespräch",
+      "meaning": {
+        "en": "the job interview",
+        "te": "ఉద్యోగ ఇంటర్వ్యూ",
+        "hi": "नौकरी का इंटरव्यू"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "die Berufserfahrung",
+      "meaning": {
+        "en": "work experience",
+        "te": "పని అనుభవం",
+        "hi": "कार्य अनुभव"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "die Weiterbildung",
+      "meaning": {
+        "en": "further training",
+        "te": "అదనపు శిక్షణ",
+        "hi": "आगे की ट्रेनिंग"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "das Gehalt",
+      "meaning": {
+        "en": "the salary",
+        "te": "జీతం",
+        "hi": "वेतन"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "die Probezeit",
+      "meaning": {
+        "en": "the probation period",
+        "te": "పరిశీలన కాలం",
+        "hi": "परिवीक्षा अवधि"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "der Vorgesetzte",
+      "meaning": {
+        "en": "the supervisor",
+        "te": "పై అధికారి",
+        "hi": "वरिष्ठ अधिकारी"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "kündigen",
+      "meaning": {
+        "en": "to resign / to terminate",
+        "te": "రాజీనామా చేయడం",
+        "hi": "इस्तीफ़ा देना"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Ich bewerbe mich als Pflegekraft.",
+      "meaning": {
+        "en": "I am applying as a care worker.",
+        "te": "నేను కేర్ వర్కర్ ఉద్యోగానికి దరఖాస్తు చేస్తున్నాను.",
+        "hi": "मैं केयर वर्कर के पद के लिए आवेदन कर रहा हूँ।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Ich habe fünf Jahre Berufserfahrung.",
+      "meaning": {
+        "en": "I have five years of work experience.",
+        "te": "నాకు ఐదేళ్ల పని అనుభవం ఉంది.",
+        "hi": "मेरे पास पाँच साल का कार्य अनुभव है।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich habe in einem Krankenhaus in Hyderabad gearbeitet.",
+      "meaning": {
+        "en": "I worked in a hospital in Hyderabad.",
+        "te": "నేను హైదరాబాద్‌లో ఒక ఆసుపత్రిలో పని చేశాను.",
+        "hi": "मैंने हैदराबाद के एक अस्पताल में काम किया।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Die Probezeit dauert sechs Monate.",
+      "meaning": {
+        "en": "The probation period lasts six months.",
+        "te": "పరిశీలన కాలం ఆరు నెలలు.",
+        "hi": "परिवीक्षा अवधि छह महीने की है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Ich würde gern an einer Weiterbildung teilnehmen.",
+      "meaning": {
+        "en": "I would like to take part in further training.",
+        "te": "నేను అదనపు శిక్షణలో పాల్గొనాలనుకుంటాను.",
+        "hi": "मैं आगे की ट्रेनिंग में भाग लेना चाहूँगी।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Mein Vorgesetzter hilft mir sehr.",
+      "meaning": {
+        "en": "My supervisor helps me a lot.",
+        "te": "నా పై అధికారి నాకు చాలా సహాయం చేస్తారు.",
+        "hi": "मेरे वरिष्ठ अधिकारी मेरी बहुत मदद करते हैं।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Bewerbung",
+      "meaning": {
+        "en": "the application",
+        "te": "దరఖాస్తు",
+        "hi": "आवेदन"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Arbeitgeber",
+      "meaning": {
+        "en": "the employer",
+        "te": "యజమాని",
+        "hi": "नियोक्ता"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "die Schicht",
+      "meaning": {
+        "en": "the shift",
+        "te": "షిఫ్ట్",
+        "hi": "शिफ़्ट"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "die Arbeitszeit",
+      "meaning": {
+        "en": "working hours",
+        "te": "పని వేళలు",
+        "hi": "काम के घंटे"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A JOB INTERVIEW",
+      "te": "ఉద్యోగ ఇంటర్వ్యూ",
+      "hi": "नौकरी का इंटरव्यू"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Frau Stahl",
+        "de": "Erzählen Sie uns etwas über Ihre Berufserfahrung.",
+        "meaning": {
+          "en": "Tell us something about your work experience.",
+          "te": "మీ పని అనుభవం గురించి కొంత చెప్పండి.",
+          "hi": "अपने कार्य अनुभव के बारे में कुछ बताइए।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Lakshmi",
+        "de": "Ich habe fünf Jahre in der Pflege gearbeitet und im Team geführt.",
+        "meaning": {
+          "en": "I have worked five years in nursing and led a team.",
+          "te": "నేను ఐదేళ్లు నర్సింగ్‌లో పని చేశాను, టీమ్‌ను నడిపించాను.",
+          "hi": "मैंने पाँच साल नर्सिंग में काम किया और टीम का नेतृत्व किया।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Frau Stahl",
+        "de": "Warum möchten Sie zu uns wechseln?",
+        "meaning": {
+          "en": "Why do you want to change to us?",
+          "te": "మా దగ్గరికి ఎందుకు మారాలనుకుంటున్నారు?",
+          "hi": "आप हमारे पास क्यों आना चाहती हैं?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Lakshmi",
+        "de": "Ich suche eine Stelle, bei der ich mich weiterbilden kann.",
+        "meaning": {
+          "en": "I am looking for a job where I can keep learning.",
+          "te": "నేను నేర్చుకుంటూ ఎదగగలిగే ఉద్యోగం కోసం వెతుకుతున్నాను.",
+          "hi": "मुझे ऐसी नौकरी चाहिए जहाँ मैं आगे सीखती रह सकूँ।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: \"bei dem / bei der\" and \"wo\" in work talk",
+      "te": "వ్యాకరణం: పని మాటల్లో \"bei dem / bei der\" మరియు \"wo\"",
+      "hi": "व्याकरण: काम की बातचीत में \"bei dem / bei der\" और \"wo\""
+    },
+    "body": {
+      "en": "Prepositional relatives: eine Stelle, bei der ich … (a job where I …). Use \"wo\" for places and time in everyday speech: der Betrieb, wo ich arbeite.",
+      "te": "పూర్వపద సాపేక్షాలు: eine Stelle, bei der ich … (ఉద్యోగం, అందులో నేను …). రోజువారీ మాటల్లో \"wo\".",
+      "hi": "पूर्वसर्गी संबंधवाचक: eine Stelle, bei der ich … (नौकरी, जहाँ मैं …)। बोलचाल में \"wo\"।"
+    }
+  },
+  "deep_dive": {
+    "en": "German interviews value clear facts. Give a short answer with a concrete example, then stop. Germans appreciate people who are direct about strengths and honest about weaknesses.",
+    "te": "జర్మన్ ఇంటర్వ్యూలలో స్పష్టమైన వాస్తవాలు ముఖ్యం. చిన్న జవాబు, నిర్దిష్ట ఉదాహరణతో ఆపండి. బలాలు సూటిగా, బలహీనతలు నిజాయితీగా చెప్పడం మెచ్చుకుంటారు.",
+    "hi": "जर्मन इंटरव्यू में साफ़ तथ्य पसंद किए जाते हैं। छोटा जवाब और ठोस उदाहरण दें। खूबियाँ सीधे और कमज़ोरियाँ ईमानदारी से बताएँ।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich bin Krankenschwester seit fünf Jahre.",
+      "right": "Ich bin seit fünf Jahren Krankenschwester.",
+      "why": {
+        "en": "seit + dative for duration: seit fünf Jahren.",
+        "te": "seit + డేటివ్: seit fünf Jahren.",
+        "hi": "seit + dative: seit fünf Jahren।"
+      }
+    },
+    {
+      "wrong": "Ich habe ein Gehalt von 3000 Euro.",
+      "right": "Ich verdiene 3000 Euro im Monat.",
+      "why": {
+        "en": "Natural phrasing for a salary.",
+        "te": "జీతానికి సహజ పదప్రయోగం.",
+        "hi": "वेतन के लिए स्वाभाविक वाक्य।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "A German CV (Lebenslauf) is usually one to two pages, with a photo often optional. Dates are listed in reverse order, latest first.",
+    "te": "జర్మన్ రెజ్యూమ్ (Lebenslauf) సాధారణంగా ఒకటి లేదా రెండు పేజీలు; తేదీలు తాజా నుండి పాత వరకు.",
+    "hi": "जर्मन बायोडेटा (Lebenslauf) आम तौर पर एक-दो पन्ने का होता है; तारीखें नई से पुरानी।"
+  },
+  "practice_tip": {
+    "en": "Write three sentences about your work experience in German, using seit or vor.",
+    "te": "seit లేదా vor తో మీ పని అనుభవం గురించి మూడు వాక్యాలు జర్మన్‌లో రాయండి.",
+    "hi": "seit या vor से अपने कार्य अनुभव पर तीन वाक्य जर्मन में लिखें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"I have five years of experience.\"",
+        "te": "\"నాకు ఐదేళ్ల అనుభవం ఉంది\" అని చెప్పండి.",
+        "hi": "\"मेरे पास पाँच साल का अनुभव है\" कहें।"
+      },
+      "answer": {
+        "en": "Ich habe fünf Jahre Erfahrung.",
+        "te": "Ich habe fünf Jahre Erfahrung.",
+        "hi": "Ich habe fünf Jahre Erfahrung."
+      }
+    },
+    {
+      "question": {
+        "en": "What is \"der Arbeitgeber\"?",
+        "te": "\"der Arbeitgeber\" అంటే ఏమిటి?",
+        "hi": "\"der Arbeitgeber\" क्या है?"
+      },
+      "answer": {
+        "en": "the employer",
+        "te": "యజమాని",
+        "hi": "नियोक्ता"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich arbeite ___ fünf Jahren hier.",
+        "te": "Ich arbeite ___ fünf Jahren hier.",
+        "hi": "Ich arbeite ___ fünf Jahren hier."
+      },
+      "options": [
+        {
+          "de": "seit"
+        },
+        {
+          "de": "vor"
+        },
+        {
+          "de": "für"
+        },
+        {
+          "de": "nach"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "seit + dative = for/since.",
+        "te": "seit + dative = for/since.",
+        "hi": "seit + dative = for/since."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Das Gehalt\" means…",
+        "te": "\"Das Gehalt\" means…",
+        "hi": "\"Das Gehalt\" means…"
+      },
+      "options": [
+        {
+          "de": "the salary"
+        },
+        {
+          "de": "the contract"
+        },
+        {
+          "de": "the shift"
+        },
+        {
+          "de": "the holiday"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Gehalt = salary.",
+        "te": "Gehalt = salary.",
+        "hi": "Gehalt = salary."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Die Probezeit ___ sechs Monate.",
+        "te": "Die Probezeit ___ sechs Monate.",
+        "hi": "Die Probezeit ___ sechs Monate."
+      },
+      "options": [
+        {
+          "de": "dauert"
+        },
+        {
+          "de": "dauern"
+        },
+        {
+          "de": "dauerst"
+        },
+        {
+          "de": "dauere"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "die Probezeit dauert.",
+        "te": "die Probezeit dauert.",
+        "hi": "die Probezeit dauert."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Which is a job-interview word?",
+        "te": "Which is a job-interview word?",
+        "hi": "Which is a job-interview word?"
+      },
+      "options": [
+        {
+          "de": "das Vorstellungsgespräch"
+        },
+        {
+          "de": "der Fahrplan"
+        },
+        {
+          "de": "die Haltestelle"
+        },
+        {
+          "de": "das Gleis"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Vorstellungsgespräch = interview.",
+        "te": "Vorstellungsgespräch = interview.",
+        "hi": "Vorstellungsgespräch = interview."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "v09",
+      "audio_de": "Ich bewerbe mich als Pflegekraft.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I am applying as a care worker.",
+            "te": "నేను కేర్ వర్కర్ ఉద్యోగానికి దరఖాస్తు చేస్తున్నాను.",
+            "hi": "मैं केयर वर्कर के पद के लिए आवेदन कर रहा हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am applying as a teacher.",
+            "te": "నేను టీచర్ ఉద్యోగానికి దరఖాస్తు చేస్తున్నాను.",
+            "hi": "मैं शिक्षक के पद के लिए आवेदन कर रहा हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am working as a care worker.",
+            "te": "నేను కేర్ వర్కర్‌గా పని చేస్తున్నాను.",
+            "hi": "मैं केयर वर्कर के रूप में काम कर रहा हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am a manager.",
+            "te": "నేను మేనేజర్‌ను.",
+            "hi": "मैं मैनेजर हूँ।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "sich bewerben = to apply.",
+        "te": "sich bewerben = దరఖాస్తు.",
+        "hi": "sich bewerben = आवेदन।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "workplace-career-l2",
+      "audio_de": "Die Probezeit dauert sechs Monate.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The probation lasts six months.",
+            "te": "పరిశీలన కాలం ఆరు నెలలు.",
+            "hi": "परिवीक्षा अवधि छह महीने है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The probation lasts six weeks.",
+            "te": "పరిశీలన కాలం ఆరు వారాలు.",
+            "hi": "परिवीक्षा छह हफ़्ते है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The salary is six months.",
+            "te": "జీతం ఆరు నెలలు.",
+            "hi": "वेतन छह महीने है।"
+          }
+        },
+        {
+          "text": {
+            "en": "I quit after six months.",
+            "te": "ఆరు నెలల తర్వాత నేను రాజీనామా చేశాను.",
+            "hi": "छह महीने बाद मैंने इस्तीफ़ा दिया।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "dauert = lasts.",
+        "te": "dauert = ఉంటుంది.",
+        "hi": "dauert = चलती है।"
+      }
+    }
+  ],
+  "audio": []
+}

@@ -1,0 +1,527 @@
+{
+  "id": "connectors",
+  "slug": "connectors",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Connectors: und, aber, weil, dass",
+    "te": "సంయోజకాలు: und, aber, weil, dass",
+    "hi": "जोड़ने वाले शब्द: und, aber, weil, dass"
+  },
+  "subtitle": {
+    "en": "Linking ideas in sentences",
+    "te": "వాక్యాలలో భావాలను కలపడం",
+    "hi": "वाक्यों में विचार जोड़ना"
+  },
+  "intro": {
+    "en": "Join your ideas with und, aber, weil and dass, and learn where the verb goes in each sentence.",
+    "te": "und, aber, weil, dass తో మీ భావాలను కలపండి; ప్రతి వాక్యంలో క్రియ ఎక్కడ వస్తుందో నేర్చుకోండి.",
+    "hi": "und, aber, weil, dass से अपने विचार जोड़ें और जानें कि हर वाक्य में क्रिया कहाँ आती है।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "und",
+      "meaning": {
+        "en": "and",
+        "te": "మరియు",
+        "hi": "और"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "aber",
+      "meaning": {
+        "en": "but",
+        "te": "కానీ",
+        "hi": "लेकिन"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "oder",
+      "meaning": {
+        "en": "or",
+        "te": "లేదా",
+        "hi": "या"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "denn",
+      "meaning": {
+        "en": "because (main clause)",
+        "te": "ఎందుకంటే",
+        "hi": "क्योंकि"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "weil",
+      "meaning": {
+        "en": "because",
+        "te": "ఎందుకంటే",
+        "hi": "क्योंकि"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "dass",
+      "meaning": {
+        "en": "that",
+        "te": "అని",
+        "hi": "कि"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "deshalb / deswegen",
+      "meaning": {
+        "en": "therefore",
+        "te": "అందువల్ల",
+        "hi": "इसलिए"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "trotzdem",
+      "meaning": {
+        "en": "nevertheless",
+        "te": "అయినప్పటికీ",
+        "hi": "फिर भी"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Ich glaube, dass …",
+      "meaning": {
+        "en": "I think that …",
+        "te": "నేను అనుకుంటున్నాను …",
+        "hi": "मुझे लगता है कि …"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Ich bleibe zu Hause, weil es regnet.",
+      "meaning": {
+        "en": "I stay at home, because it is raining.",
+        "te": "వర్షం పడుతోంది కాబట్టి నేను ఇంట్లో ఉంటాను.",
+        "hi": "बारिश हो रही है इसलिए मैं घर पर रहूँगा।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich lerne Deutsch und arbeite.",
+      "meaning": {
+        "en": "I learn German and work.",
+        "te": "నేను జర్మన్ నేర్చుకుంటాను మరియు పని చేస్తాను.",
+        "hi": "मैं जर्मन सीखता हूँ और काम करता हूँ।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Ich möchte kommen, aber ich habe keine Zeit.",
+      "meaning": {
+        "en": "I would like to come, but I have no time.",
+        "te": "నేను రావాలనుకుంటున్నాను, కానీ సమయం లేదు.",
+        "hi": "मैं आना चाहता हूँ, पर मेरे पास समय नहीं है।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Ich bin müde, weil ich viel gearbeitet habe.",
+      "meaning": {
+        "en": "I am tired, because I worked a lot.",
+        "te": "నేను చాలా పని చేశాను కాబట్టి అలసిపోయాను.",
+        "hi": "मैं थका हूँ, क्योंकि मैंने बहुत काम किया।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Ich weiß, dass er kommt.",
+      "meaning": {
+        "en": "I know that he is coming.",
+        "te": "అతను వస్తాడని నాకు తెలుసు.",
+        "hi": "मुझे पता है कि वह आ रहा है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Grund",
+      "meaning": {
+        "en": "the reason",
+        "te": "కారణం",
+        "hi": "कारण"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "leider",
+      "meaning": {
+        "en": "unfortunately",
+        "te": "దురదృష్టవశాత్తూ",
+        "hi": "दुर्भाग्य से"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "wissen",
+      "meaning": {
+        "en": "to know (facts)",
+        "te": "తెలుసుకోవడం",
+        "hi": "जानना"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "glauben",
+      "meaning": {
+        "en": "to believe / think",
+        "te": "నమ్మడం / అనుకోవడం",
+        "hi": "मानना / सोचना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A MISSED MEETING",
+      "te": "తప్పిపోయిన సమావేశం",
+      "hi": "छूटी हुई मीटिंग"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Jonas",
+        "de": "Ich komme zu spät, weil der Bus Verspätung hatte.",
+        "meaning": {
+          "en": "I am late, because the bus was delayed.",
+          "te": "బస్సు ఆలస్యం కావడంతో నేను ఆలస్యంగా వస్తున్నాను.",
+          "hi": "बस देर से आने की वजह से मैं देर से आ रहा हूँ।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Sana",
+        "de": "Kein Problem, aber das nächste Mal bitte früher.",
+        "meaning": {
+          "en": "No problem, but next time earlier, please.",
+          "te": "సమస్య లేదు, కానీ తర్వాతసారి ముందుగా రండి.",
+          "hi": "कोई बात नहीं, पर अगली बार थोड़ा पहले आना।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Jonas",
+        "de": "Ich glaube, dass es nicht wieder passiert.",
+        "meaning": {
+          "en": "I believe it will not happen again.",
+          "te": "ఇది మళ్లీ జరగదని నేను అనుకుంటున్నాను.",
+          "hi": "मुझे लगता है कि यह फिर नहीं होगा।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Sana",
+        "de": "Gut, deshalb verschieben wir das Meeting nicht.",
+        "meaning": {
+          "en": "Good, so we will not postpone the meeting.",
+          "te": "సరే, అందువల్ల మీటింగ్ వాయిదా వేయము.",
+          "hi": "ठीक है, इसलिए हम मीटिंग नहीं टालेंगे।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: where the verb goes",
+      "te": "వ్యాకరణం: క్రియ ఎక్కడ వస్తుంది",
+      "hi": "व्याकरण: क्रिया कहाँ आती है"
+    },
+    "body": {
+      "en": "und, aber, oder, denn keep the verb in second place: Ich lerne, und ich arbeite. weil and dass send the conjugated verb to the end: Ich bleibe, weil es regnet. Ich weiß, dass er kommt.",
+      "te": "und, aber, oder, denn క్రియ రెండవ స్థానంలో. weil, dass క్రియను చివరకు పంపుతాయి: Ich bleibe, weil es regnet.",
+      "hi": "und, aber, oder, denn क्रिया दूसरे स्थान पर। weil, dass क्रिया को अंत में भेजते हैं: Ich bleibe, weil es regnet।"
+    }
+  },
+  "deep_dive": {
+    "en": "Denn means \"because\" but keeps the verb second, like und. Weil is more common in speech. Deshalb and trotzdem are adverbs: the verb stays second, so the subject and verb swap places.",
+    "te": "denn అంటే \"ఎందుకంటే\" కానీ und లాగా క్రియ రెండవ స్థానంలో. Weil మాటల్లో ఎక్కువ. deshalb, trotzdem క్రియ-విషయం స్థానాలు మారుస్తాయి.",
+    "hi": "denn का मतलब \"क्योंकि\" पर und की तरह क्रिया दूसरे स्थान पर। Weil बोलचाल में ज़्यादा। deshalb, trotzdem के बाद क्रिया दूसरे स्थान पर रहती है और कर्ता-क्रिया का क्रम बदलता है।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich bleibe, weil es regnet nicht.",
+      "right": "Ich bleibe nicht, weil es regnet.",
+      "why": {
+        "en": "Not is in the main clause; weil sends the verb to the end.",
+        "te": "nicht ముఖ్య వాక్యంలో; weil క్రియను చివరకు పంపుతుంది.",
+        "hi": "nicht मुख्य वाक्य में; weil क्रिया को अंत में भेजता है।"
+      }
+    },
+    {
+      "wrong": "Ich weiß, dass er kommt nicht.",
+      "right": "Ich weiß, dass er nicht kommt.",
+      "why": {
+        "en": "Negation before the verb at the end.",
+        "te": "అంతంలోని క్రియకు ముందు nicht.",
+        "hi": "अंत की क्रिया से पहले nicht।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Germans value clear reasons. Giving one with weil makes your message sound polite and complete.",
+    "te": "జర్మన్లు స్పష్టమైన కారణాలను ఇష్టపడతారు. weil తో కారణం చెప్పడం మర్యాదగా, పూర్తిగా ఉంటుంది.",
+    "hi": "जर्मन लोग साफ़ कारण पसंद करते हैं। weil से कारण बताना विनम्र और पूरा लगता है।"
+  },
+  "practice_tip": {
+    "en": "Write three sentences with weil and three with dass, checking the verb at the end.",
+    "te": "weil తో మూడు, dass తో మూడు వాక్యాలు రాయండి; చివర క్రియ చూసుకోండి.",
+    "hi": "weil के तीन और dass के तीन वाक्य लिखें; अंत में क्रिया जाँचें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Where does the verb go after \"weil\"?",
+        "te": "\"weil\" తర్వాత క్రియ ఎక్కడ?",
+        "hi": "\"weil\" के बाद क्रिया कहाँ?"
+      },
+      "answer": {
+        "en": "At the end of the clause.",
+        "te": "వాక్యం చివర.",
+        "hi": "वाक्य के अंत में।"
+      }
+    },
+    {
+      "question": {
+        "en": "Complete: Ich komme nicht, weil ich ___. (keine Zeit haben)",
+        "te": "పూర్తి చేయండి.",
+        "hi": "पूरा करें।"
+      },
+      "answer": {
+        "en": "keine Zeit habe",
+        "te": "keine Zeit habe",
+        "hi": "keine Zeit habe"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich lerne, ___ ich will Arbeit finden.",
+        "te": "Ich lerne, ___ ich will Arbeit finden.",
+        "hi": "Ich lerne, ___ ich will Arbeit finden."
+      },
+      "options": [
+        {
+          "de": "weil"
+        },
+        {
+          "de": "und"
+        },
+        {
+          "de": "oder"
+        },
+        {
+          "de": "denn sie"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "weil sends the verb to the end.",
+        "te": "weil sends the verb to the end.",
+        "hi": "weil sends the verb to the end."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Er kommt nicht, ___ er krank ist.",
+        "te": "Er kommt nicht, ___ er krank ist.",
+        "hi": "Er kommt nicht, ___ er krank ist."
+      },
+      "options": [
+        {
+          "de": "weil"
+        },
+        {
+          "de": "aber"
+        },
+        {
+          "de": "und"
+        },
+        {
+          "de": "oder"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "weil = because.",
+        "te": "weil = because.",
+        "hi": "weil = because."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich möchte gehen, ___ ich habe keine Zeit.",
+        "te": "Ich möchte gehen, ___ ich habe keine Zeit.",
+        "hi": "Ich möchte gehen, ___ ich habe keine Zeit."
+      },
+      "options": [
+        {
+          "de": "aber"
+        },
+        {
+          "de": "weil"
+        },
+        {
+          "de": "dass"
+        },
+        {
+          "de": "damit"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "aber = but.",
+        "te": "aber = but.",
+        "hi": "aber = but."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich weiß, ___ er Deutsch spricht.",
+        "te": "Ich weiß, ___ er Deutsch spricht.",
+        "hi": "Ich weiß, ___ er Deutsch spricht."
+      },
+      "options": [
+        {
+          "de": "dass"
+        },
+        {
+          "de": "und"
+        },
+        {
+          "de": "oder"
+        },
+        {
+          "de": "denn"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "dass introduces a clause.",
+        "te": "dass introduces a clause.",
+        "hi": "dass introduces a clause."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "connectors-l1",
+      "audio_de": "Ich bin müde, weil ich viel gearbeitet habe.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I am tired because I worked a lot.",
+            "te": "నేను చాలా పని చేశాను కాబట్టి అలసిపోయాను.",
+            "hi": "मैं थका हूँ क्योंकि मैंने बहुत काम किया।"
+          }
+        },
+        {
+          "text": {
+            "en": "I am tired and I worked a lot.",
+            "te": "నేను అలసిపోయాను, చాలా పని చేశాను.",
+            "hi": "मैं थका हूँ और मैंने बहुत काम किया।"
+          }
+        },
+        {
+          "text": {
+            "en": "I worked a lot but I am not tired.",
+            "te": "చాలా పని చేశాను కానీ అలసిపోలేదు.",
+            "hi": "मैंने बहुत काम किया पर थका नहीं।"
+          }
+        },
+        {
+          "text": {
+            "en": "I will work a lot.",
+            "te": "నేను చాలా పని చేస్తాను.",
+            "hi": "मैं बहुत काम करूँगा।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "weil = because.",
+        "te": "weil = కాబట్టి.",
+        "hi": "weil = क्योंकि।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "connectors-l2",
+      "audio_de": "Ich glaube, dass es morgen regnet.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I think it will rain tomorrow.",
+            "te": "రేపు వర్షం పడుతుందని అనుకుంటున్నాను.",
+            "hi": "मुझे लगता है कल बारिश होगी।"
+          }
+        },
+        {
+          "text": {
+            "en": "I think it rained yesterday.",
+            "te": "నిన్న వర్షం పడిందని అనుకుంటున్నాను.",
+            "hi": "मुझे लगता है कल बारिश हुई।"
+          }
+        },
+        {
+          "text": {
+            "en": "I know it will be sunny.",
+            "te": "ఎండ ఉంటుందని నాకు తెలుసు.",
+            "hi": "मुझे पता है धूप होगी।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is raining now.",
+            "te": "ఇప్పుడు వర్షం పడుతోంది.",
+            "hi": "अभी बारिश हो रही है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "dass = that.",
+        "te": "dass = అని.",
+        "hi": "dass = कि।"
+      }
+    }
+  ],
+  "audio": []
+}

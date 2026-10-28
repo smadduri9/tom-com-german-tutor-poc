@@ -1,0 +1,527 @@
+{
+  "id": "travel-transport",
+  "slug": "travel-transport",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Travel & Transport",
+    "te": "ప్రయాణం & రవాణా",
+    "hi": "यात्रा और परिवहन"
+  },
+  "subtitle": {
+    "en": "Trains, tickets and timetables",
+    "te": "రైళ్లు, టికెట్లు మరియు సమయపట్టికలు",
+    "hi": "ट्रेन, टिकट और समय-सारणी"
+  },
+  "intro": {
+    "en": "Buy a train or bus ticket, ask about platforms and timetables, and get around a German city.",
+    "te": "రైలు లేదా బస్సు టికెట్ కొనండి, ప్లాట్‌ఫామ్, సమయపట్టిక గురించి అడగండి, జర్మన్ నగరంలో తిరగండి.",
+    "hi": "ट्रेन या बस का टिकट लें, प्लेटफ़ॉर्म और समय-सारणी पूछें, और जर्मन शहर में घूमें।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "der Fahrplan",
+      "meaning": {
+        "en": "the timetable",
+        "te": "సమయపట్టిక",
+        "hi": "समय-सारणी"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "das Gleis",
+      "meaning": {
+        "en": "the platform",
+        "te": "ప్లాట్‌ఫామ్",
+        "hi": "प्लेटफ़ॉर्म"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "die Fahrkarte",
+      "meaning": {
+        "en": "the ticket",
+        "te": "టికెట్",
+        "hi": "टिकट"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "einfach / hin und zurück",
+      "meaning": {
+        "en": "single / return",
+        "te": "ఒకవైపు / రిటర్న్",
+        "hi": "एकतरफ़ा / आना-जाना"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "umsteigen",
+      "meaning": {
+        "en": "to change (trains)",
+        "te": "మార్చడం",
+        "hi": "बदलना"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "die Verspätung",
+      "meaning": {
+        "en": "the delay",
+        "te": "ఆలస్యం",
+        "hi": "देरी"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "der Zug",
+      "meaning": {
+        "en": "the train",
+        "te": "రైలు",
+        "hi": "ट्रेन"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "die U-Bahn",
+      "meaning": {
+        "en": "the underground",
+        "te": "మెట్రో",
+        "hi": "मेट्रो"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Von welchem Gleis fährt der Zug?",
+      "meaning": {
+        "en": "From which platform does the train leave?",
+        "te": "రైలు ఏ ప్లాట్‌ఫామ్ నుండి బయలుదేరుతుంది?",
+        "hi": "ट्रेन किस प्लेटफ़ॉर्म से चलती है?"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Wann kommt der nächste Bus?",
+      "meaning": {
+        "en": "When is the next bus?",
+        "te": "తదుపరి బస్సు ఎప్పుడు?",
+        "hi": "अगली बस कब आएगी?"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Eine Fahrkarte nach München, bitte.",
+      "meaning": {
+        "en": "One ticket to Munich, please.",
+        "te": "మ్యూనిక్‌కు ఒక టికెట్, దయచేసి.",
+        "hi": "म्यूनिख़ का एक टिकट, कृपया।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Sie müssen in Hannover umsteigen.",
+      "meaning": {
+        "en": "You have to change in Hanover.",
+        "te": "మీరు హనోవర్‌లో మారాలి.",
+        "hi": "आपको हनोवर में बदलना होगा।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Der Zug hat zehn Minuten Verspätung.",
+      "meaning": {
+        "en": "The train is ten minutes late.",
+        "te": "రైలు పది నిమిషాలు ఆలస్యం.",
+        "hi": "ट्रेन दस मिनट देर से है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Wo ist die Haltestelle?",
+      "meaning": {
+        "en": "Where is the stop?",
+        "te": "స్టాప్ ఎక్కడ?",
+        "hi": "स्टॉप कहाँ है?"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Haltestelle",
+      "meaning": {
+        "en": "the stop",
+        "te": "స్టాప్",
+        "hi": "स्टॉप"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Bahnsteig",
+      "meaning": {
+        "en": "the platform (area)",
+        "te": "ప్లాట్‌ఫామ్",
+        "hi": "प्लेटफ़ॉर्म"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "das Ticket",
+      "meaning": {
+        "en": "the ticket (also used)",
+        "te": "టికెట్",
+        "hi": "टिकट"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "pünktlich",
+      "meaning": {
+        "en": "on time",
+        "te": "సమయానికి",
+        "hi": "समय पर"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "AT THE TICKET COUNTER",
+      "te": "టికెట్ కౌంటర్ వద్ద",
+      "hi": "टिकट काउंटर पर"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Anil",
+        "de": "Eine Fahrkarte nach Frankfurt, hin und zurück, bitte.",
+        "meaning": {
+          "en": "A return ticket to Frankfurt, please.",
+          "te": "ఫ్రాంక్‌ఫర్ట్‌కు రిటర్న్ టికెట్, దయచేసి.",
+          "hi": "फ़्रैंकफ़र्ट का आना-जाना टिकट, कृपया।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Schalterbeamter",
+        "de": "Der Zug fährt um neun von Gleis drei.",
+        "meaning": {
+          "en": "The train leaves at nine from platform three.",
+          "te": "రైలు తొమ్మిదికి మూడవ ప్లాట్‌ఫామ్ నుండి బయలుదేరుతుంది.",
+          "hi": "ट्रेन नौ बजे तीन नंबर प्लेटफ़ॉर्म से चलेगी।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Anil",
+        "de": "Muss ich umsteigen?",
+        "meaning": {
+          "en": "Do I have to change?",
+          "te": "నేను మారాలా?",
+          "hi": "क्या मुझे बदलना होगा?"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Schalterbeamter",
+        "de": "Nein, der Zug fährt direkt. Vorsicht, es gibt eine Verspätung.",
+        "meaning": {
+          "en": "No, the train is direct. Careful, there is a delay.",
+          "te": "లేదు, రైలు నేరుగా వెళ్తుంది. జాగ్రత్త, ఆలస్యం ఉంది.",
+          "hi": "नहीं, ट्रेन सीधी है। सावधान, थोड़ी देरी है।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: von, nach, aus",
+      "te": "వ్యాకరణం: von, nach, aus",
+      "hi": "व्याकरण: von, nach, aus"
+    },
+    "body": {
+      "en": "Use nach for destinations (nach Frankfurt), von for the starting point (von Gleis drei), and aus for origin or \"out of\" (aus Indien). All three take dative.",
+      "te": "గమ్యానికి nach (nach Frankfurt), ప్రారంభానికి von (von Gleis drei), మూలానికి aus (aus Indien). మూడూ డేటివ్.",
+      "hi": "गंतव्य के लिए nach (nach Frankfurt), आरंभ के लिए von (von Gleis drei), मूल के लिए aus (aus Indien)। तीनों dative लेते हैं।"
+    }
+  },
+  "deep_dive": {
+    "en": "German trains are punctual most of the time, but delays happen. Listen for \"Verspätung\" in announcements and check the app (DB Navigator) for live times.",
+    "te": "జర్మన్ రైళ్లు సాధారణంగా సమయానికి నడుస్తాయి, కానీ ఆలస్యాలు జరుగుతాయి. ప్రకటనల్లో \"Verspätung\" వినండి; ప్రత్యక్ష సమయాల కోసం యాప్ చూడండి.",
+    "hi": "जर्मन ट्रेनें ज़्यादातर समय पर चलती हैं, पर देरी होती है। घोषणाओं में \"Verspätung\" सुनें और लाइव समय के लिए ऐप देखें।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "nach der Bahnhof",
+      "right": "zum Bahnhof",
+      "why": {
+        "en": "Use zum for places with der/das (zum Bahnhof).",
+        "te": "der/das స్థలాలకు zum.",
+        "hi": "der/das स्थानों के लिए zum।"
+      }
+    },
+    {
+      "wrong": "Ich fahre mit Bus.",
+      "right": "Ich fahre mit dem Bus.",
+      "why": {
+        "en": "mit takes dative: dem Bus.",
+        "te": "mit కి డేటివ్: dem Bus.",
+        "hi": "mit के साथ dative: dem Bus।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In German trains you must validate or hold a ticket before boarding. Inspectors check tickets randomly and fines are high.",
+    "te": "జర్మన్ రైళ్లలో ఎక్కే ముందు టికెట్ చెక్ చేయించుకోవాలి. తనిఖీ అధికారులు యాదృచ్ఛికంగా చెక్ చేస్తారు; జరిమానా ఎక్కువ.",
+    "hi": "जर्मन ट्रेनों में चढ़ने से पहले टिकट होना ज़रूरी है। निरीक्षक किसी भी समय जाँच करते हैं और जुर्माना ज़्यादा है।"
+  },
+  "practice_tip": {
+    "en": "Look up one train route from your city in German on a timetable and read the times aloud.",
+    "te": "మీ నగరం నుండి ఒక రైలు మార్గాన్ని సమయపట్టికలో చూసి సమయాలను గట్టిగా చదవండి.",
+    "hi": "अपने शहर से एक ट्रेन मार्ग की समय-सारणी देखें और समय ज़ोर से पढ़ें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Ask \"Which platform?\" (formal)",
+        "te": "\"ఏ ప్లాట్‌ఫామ్?\" (గౌరవంగా) అని అడగండి.",
+        "hi": "\"कौन-सा प्लेटफ़ॉर्म?\" (औपचारिक) पूछें।"
+      },
+      "answer": {
+        "en": "Von welchem Gleis?",
+        "te": "Von welchem Gleis?",
+        "hi": "Von welchem Gleis?"
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"return ticket\".",
+        "te": "\"రిటర్న్ టికెట్\" అని చెప్పండి.",
+        "hi": "\"आना-जाना टिकट\" कहें।"
+      },
+      "answer": {
+        "en": "hin und zurück",
+        "te": "hin und zurück",
+        "hi": "hin und zurück"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich fahre ___ Berlin.",
+        "te": "Ich fahre ___ Berlin.",
+        "hi": "Ich fahre ___ Berlin."
+      },
+      "options": [
+        {
+          "de": "nach"
+        },
+        {
+          "de": "zu"
+        },
+        {
+          "de": "aus"
+        },
+        {
+          "de": "in den"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "nach for cities and countries.",
+        "te": "nach for cities and countries.",
+        "hi": "nach for cities and countries."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Sie müssen in Köln ___.",
+        "te": "Sie müssen in Köln ___.",
+        "hi": "Sie müssen in Köln ___."
+      },
+      "options": [
+        {
+          "de": "umsteigen"
+        },
+        {
+          "de": "aussteigen"
+        },
+        {
+          "de": "einsteigen"
+        },
+        {
+          "de": "anrufen"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "umsteigen = to change.",
+        "te": "umsteigen = to change.",
+        "hi": "umsteigen = to change."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Verspätung\" means…",
+        "te": "\"Verspätung\" means…",
+        "hi": "\"Verspätung\" means…"
+      },
+      "options": [
+        {
+          "de": "delay"
+        },
+        {
+          "de": "ticket"
+        },
+        {
+          "de": "platform"
+        },
+        {
+          "de": "timetable"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Verspätung = delay.",
+        "te": "Verspätung = delay.",
+        "hi": "Verspätung = delay."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Which is a return ticket?",
+        "te": "Which is a return ticket?",
+        "hi": "Which is a return ticket?"
+      },
+      "options": [
+        {
+          "de": "hin und zurück"
+        },
+        {
+          "de": "einfach"
+        },
+        {
+          "de": "Gleis"
+        },
+        {
+          "de": "Fahrplan"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "hin und zurück = return.",
+        "te": "hin und zurück = return.",
+        "hi": "hin und zurück = return."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "travel-transport-l1",
+      "audio_de": "Der Zug hat zehn Minuten Verspätung.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The train is ten minutes late.",
+            "te": "రైలు పది నిమిషాలు ఆలస్యం.",
+            "hi": "ट्रेन दस मिनट देर से है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The train is ten minutes early.",
+            "te": "రైలు పది నిమిషాలు ముందు.",
+            "hi": "ट्रेन दस मिनट पहले है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The train is cancelled.",
+            "te": "రైలు రద్దు.",
+            "hi": "ट्रेन रद्द है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The train is on time.",
+            "te": "రైలు సమయానికి.",
+            "hi": "ट्रेन समय पर है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Verspätung = delay.",
+        "te": "Verspätung = ఆలస్యం.",
+        "hi": "Verspätung = देरी।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "travel-transport-l2",
+      "audio_de": "Eine Fahrkarte nach München, bitte.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "One ticket to Munich, please.",
+            "te": "మ్యూనిక్‌కు ఒక టికెట్, దయచేసి.",
+            "hi": "म्यूनिख़ का एक टिकट, कृपया।"
+          }
+        },
+        {
+          "text": {
+            "en": "One ticket from Munich, please.",
+            "te": "మ్యూనిక్ నుండి ఒక టికెట్, దయచేసి.",
+            "hi": "म्यूनिख़ से एक टिकट, कृपया।"
+          }
+        },
+        {
+          "text": {
+            "en": "Two tickets to Munich, please.",
+            "te": "మ్యూనిక్‌కు రెండు టికెట్లు, దయచేసి.",
+            "hi": "म्यूनिख़ के दो टिकट, कृपया।"
+          }
+        },
+        {
+          "text": {
+            "en": "Where is Munich?",
+            "te": "మ్యూనిక్ ఎక్కడ?",
+            "hi": "म्यूनिख़ कहाँ है?"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "nach = to.",
+        "te": "nach = వైపు.",
+        "hi": "nach = की ओर।"
+      }
+    }
+  ],
+  "audio": []
+}

@@ -1,0 +1,527 @@
+{
+  "id": "environment",
+  "slug": "environment",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Environment",
+    "te": "పర్యావరణం",
+    "hi": "पर्यावरण"
+  },
+  "subtitle": {
+    "en": "Recycling and energy",
+    "te": "రీసైక్లింగ్ మరియు శక్తి",
+    "hi": "पुनर्चक्रण और ऊर्जा"
+  },
+  "intro": {
+    "en": "Discuss climate, recycling and energy: how we can protect the environment at home and at work.",
+    "te": "వాతావరణ మార్పు, పునర్వినియోగం, శక్తి గురించి చర్చించండి: ఇంట్లో, పనిలో పర్యావరణాన్ని ఎలా కాపాడాలి.",
+    "hi": "जलवायु, पुनर्चक्रण और ऊर्जा पर चर्चा करें: घर और काम पर पर्यावरण कैसे बचाएँ।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "die Umwelt",
+      "meaning": {
+        "en": "the environment",
+        "te": "పర్యావరణం",
+        "hi": "पर्यावरण"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "das Klima",
+      "meaning": {
+        "en": "the climate",
+        "te": "వాతావరణం",
+        "hi": "जलवायु"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "der Müll",
+      "meaning": {
+        "en": "the rubbish",
+        "te": "చెత్త",
+        "hi": "कूड़ा"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "trennen",
+      "meaning": {
+        "en": "to separate (waste)",
+        "te": "వేరు చేయడం",
+        "hi": "अलग करना"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "recyceln",
+      "meaning": {
+        "en": "to recycle",
+        "te": "పునర్వినియోగం చేయడం",
+        "hi": "रीसायकल करना"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "die Energie",
+      "meaning": {
+        "en": "energy",
+        "te": "శక్తి",
+        "hi": "ऊर्जा"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "der Strom",
+      "meaning": {
+        "en": "electricity",
+        "te": "విద్యుత్తు",
+        "hi": "बिजली"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "sparen",
+      "meaning": {
+        "en": "to save",
+        "te": "ఆదా చేయడం",
+        "hi": "बचाना"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Man sollte Energie sparen.",
+      "meaning": {
+        "en": "One should save energy.",
+        "te": "శక్తిని ఆదా చేయాలి.",
+        "hi": "ऊर्जा बचानी चाहिए।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Der Müll wird getrennt.",
+      "meaning": {
+        "en": "The rubbish is separated.",
+        "te": "చెత్త వేరు చేయబడుతుంది.",
+        "hi": "कूड़ा अलग किया जाता है।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Wir müssen das Klima schützen.",
+      "meaning": {
+        "en": "We must protect the climate.",
+        "te": "మనం వాతావరణాన్ని కాపాడాలి.",
+        "hi": "हमें जलवायु की रक्षा करनी होगी।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Ich trenne den Müll jeden Tag.",
+      "meaning": {
+        "en": "I separate the rubbish every day.",
+        "te": "నేను ప్రతిరోజూ చెత్తను వేరు చేస్తాను.",
+        "hi": "मैं हर दिन कूड़ा अलग करता हूँ।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Solarenergie ist eine saubere Energie.",
+      "meaning": {
+        "en": "Solar energy is a clean energy.",
+        "te": "సౌరశక్తి శుభ్రమైన శక్తి.",
+        "hi": "सौर ऊर्जा एक स्वच्छ ऊर्जा है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Das Licht sollte ausgeschaltet werden.",
+      "meaning": {
+        "en": "The light should be switched off.",
+        "te": "లైట్ ఆఫ్ చేయాలి.",
+        "hi": "लाइट बंद करनी चाहिए।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Solarenergie",
+      "meaning": {
+        "en": "solar energy",
+        "te": "సౌరశక్తి",
+        "hi": "सौर ऊर्जा"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Abfall",
+      "meaning": {
+        "en": "the waste",
+        "te": "వ్యర్థం",
+        "hi": "अपशिष्ट"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "die Verschmutzung",
+      "meaning": {
+        "en": "pollution",
+        "te": "కాలుష్యం",
+        "hi": "प्रदूषण"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "schützen",
+      "meaning": {
+        "en": "to protect",
+        "te": "రక్షించడం",
+        "hi": "बचाना"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "A NEIGHBOURHOOD MEETING",
+      "te": "పరిసరాల సమావేశం",
+      "hi": "मोहल्ले की बैठक"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Frau Haas",
+        "de": "Wir sollten mehr für das Klima tun. Der Müll im Hof ist zu viel.",
+        "meaning": {
+          "en": "We should do more for the climate. There is too much rubbish in the yard.",
+          "te": "వాతావరణం కోసం మనం ఇంకా చేయాలి. ఆవరణలో చెత్త చాలా ఎక్కువ.",
+          "hi": "हमें जलवायु के लिए और करना चाहिए। आँगन में कूड़ा बहुत है।"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Priya",
+        "de": "Ich trenne den Müll schon. Aber man könnte mehr recyceln.",
+        "meaning": {
+          "en": "I already separate the rubbish. But one could recycle more.",
+          "te": "నేను చెత్తను ఇప్పటికే వేరు చేస్తాను. కానీ ఇంకా పునర్వినియోగం చేయవచ్చు.",
+          "hi": "मैं पहले से कूड़ा अलग करती हूँ। पर और रीसायकल किया जा सकता है।"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Frau Haas",
+        "de": "Gute Idee. Wir könnten auch Energie sparen.",
+        "meaning": {
+          "en": "Good idea. We could also save energy.",
+          "te": "మంచి ఆలోచన. శక్తిని కూడా ఆదా చేయవచ్చు.",
+          "hi": "अच्छा विचार। हम ऊर्जा भी बचा सकते हैं।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Priya",
+        "de": "Ja, das Licht sollte im Treppenhaus nicht immer brennen.",
+        "meaning": {
+          "en": "Yes, the light in the stairwell should not always be on.",
+          "te": "అవును, మెట్ల దగ్గర లైట్ ఎప్పుడూ వెలగకూడదు.",
+          "hi": "हाँ, सीढ़ियों की लाइट हमेशा नहीं जलनी चाहिए।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: sollte and könnte for suggestions",
+      "te": "వ్యాకరణం: సలహాలకు sollte మరియు könnte",
+      "hi": "व्याकरण: सुझाव के लिए sollte और könnte"
+    },
+    "body": {
+      "en": "Use sollte (should) and könnte (could) with the infinitive: Wir sollten sparen. Passive with a modal: Das Licht sollte ausgeschaltet werden.",
+      "te": "sollte, könnte మూల క్రియతో: Wir sollten sparen. మోడల్ + కర్మణి: Das Licht sollte ausgeschaltet werden.",
+      "hi": "sollte और könnte मूल क्रिया के साथ: Wir sollten sparen। मोडल + कर्मवाच्य: Das Licht sollte ausgeschaltet werden।"
+    }
+  },
+  "deep_dive": {
+    "en": "Germany has strict recycling rules: bins for paper, plastic, glass and biowaste. Bottles with a deposit (Pfand) can be returned for money at shops.",
+    "te": "జర్మనీలో కఠినమైన పునర్వినియోగ నియమాలు: కాగితం, ప్లాస్టిక్, గాజు, జీవ వ్యర్థాలకు వేర్వేరు డబ్బాలు. Pfand ఉన్న సీసాలు దుకాణాల్లో డబ్బుకు తిరిగి ఇవ్వవచ్చు.",
+    "hi": "जर्मनी में सख़्त रीसायकल नियम हैं: कागज़, प्लास्टिक, काँच और जैविक कचरे के अलग डिब्बे। Pfand वाली बोतलें दुकान में पैसे लेकर लौटाई जा सकती हैं।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Man müsst Energie sparen.",
+      "right": "Man sollte Energie sparen.",
+      "why": {
+        "en": "Use sollte for advice.",
+        "te": "సలహాకు sollte.",
+        "hi": "सलाह के लिए sollte।"
+      }
+    },
+    {
+      "wrong": "Das Licht soll ausgeschaltet werden.",
+      "right": "Das Licht sollte ausgeschaltet werden.",
+      "why": {
+        "en": "With the advice form, use sollte.",
+        "te": "సలహా రూపంలో sollte.",
+        "hi": "सलाह के रूप में sollte।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "In Germany many households sort rubbish carefully, and neighbours may remind you if a bin is wrong. This is normal and friendly.",
+    "te": "జర్మనీలో చాలామంది చెత్తను జాగ్రత్తగా విభజిస్తారు; డబ్బా తప్పుగా ఉంటే పొరుగువారు గుర్తు చేయవచ్చు. ఇది సాధారణం.",
+    "hi": "जर्मनी में कई घर कूड़ा सावधानी से अलग करते हैं; डिब्बा गलत हो तो पड़ोसी याद दिला सकते हैं। यह आम और दोस्ताना है।"
+  },
+  "practice_tip": {
+    "en": "Name three things you do to save energy at home, using \"Ich sollte …\" or \"Ich könnte …\".",
+    "te": "ఇంట్లో శక్తి ఆదా చేయడానికి మీరు చేసే మూడు పనులు \"Ich sollte …\" లేదా \"Ich könnte …\" తో చెప్పండి.",
+    "hi": "घर पर ऊर्जा बचाने के तीन काम \"Ich sollte …\" या \"Ich könnte …\" से बताएँ।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Say \"We should save energy.\"",
+        "te": "\"మనం శక్తిని ఆదా చేయాలి\" అని చెప్పండి.",
+        "hi": "\"हमें ऊर्जा बचानी चाहिए\" कहें।"
+      },
+      "answer": {
+        "en": "Wir sollten Energie sparen.",
+        "te": "Wir sollten Energie sparen.",
+        "hi": "Wir sollten Energie sparen."
+      }
+    },
+    {
+      "question": {
+        "en": "What is \"der Müll\"?",
+        "te": "\"der Müll\" అంటే ఏమిటి?",
+        "hi": "\"der Müll\" क्या है?"
+      },
+      "answer": {
+        "en": "the rubbish",
+        "te": "చెత్త",
+        "hi": "कूड़ा"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Wir ___ mehr recyceln.",
+        "te": "Wir ___ mehr recyceln.",
+        "hi": "Wir ___ mehr recyceln."
+      },
+      "options": [
+        {
+          "de": "sollten"
+        },
+        {
+          "de": "sollen"
+        },
+        {
+          "de": "soll"
+        },
+        {
+          "de": "solltest"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wir sollten = we should.",
+        "te": "wir sollten = we should.",
+        "hi": "wir sollten = we should."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"trennen\" means…",
+        "te": "\"trennen\" means…",
+        "hi": "\"trennen\" means…"
+      },
+      "options": [
+        {
+          "de": "to separate"
+        },
+        {
+          "de": "to protect"
+        },
+        {
+          "de": "to pay"
+        },
+        {
+          "de": "to grow"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "trennen = to separate.",
+        "te": "trennen = to separate.",
+        "hi": "trennen = to separate."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Strom\" is…",
+        "te": "\"Strom\" is…",
+        "hi": "\"Strom\" is…"
+      },
+      "options": [
+        {
+          "de": "electricity"
+        },
+        {
+          "de": "water"
+        },
+        {
+          "de": "rubbish"
+        },
+        {
+          "de": "air"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Strom = electricity.",
+        "te": "Strom = electricity.",
+        "hi": "Strom = electricity."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Man könnte Energie sparen\" means…",
+        "te": "\"Man könnte Energie sparen\" means…",
+        "hi": "\"Man könnte Energie sparen\" means…"
+      },
+      "options": [
+        {
+          "de": "One could save energy."
+        },
+        {
+          "de": "One must buy energy."
+        },
+        {
+          "de": "One saves energy."
+        },
+        {
+          "de": "One stops energy."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "könnte = could.",
+        "te": "könnte = could.",
+        "hi": "könnte = could."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "environment-l1",
+      "audio_de": "Wir sollten mehr für das Klima tun.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "We should do more for the climate.",
+            "te": "వాతావరణం కోసం మనం ఇంకా చేయాలి.",
+            "hi": "हमें जलवायु के लिए और करना चाहिए।"
+          }
+        },
+        {
+          "text": {
+            "en": "We should drink more water.",
+            "te": "మనం ఇంకా నీళ్లు తాగాలి.",
+            "hi": "हमें ज़्यादा पानी पीना चाहिए।"
+          }
+        },
+        {
+          "text": {
+            "en": "We did enough for the climate.",
+            "te": "వాతావరణం కోసం మనం చాలా చేశాం.",
+            "hi": "हमने जलवायु के लिए काफ़ी किया।"
+          }
+        },
+        {
+          "text": {
+            "en": "The climate is cold.",
+            "te": "వాతావరణం చలిగా ఉంది.",
+            "hi": "जलवायु ठंडी है।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "sollten = should.",
+        "te": "sollten = చేయాలి.",
+        "hi": "sollten = चाहिए।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "environment-l2",
+      "audio_de": "Ich trenne den Müll jeden Tag.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I separate the rubbish every day.",
+            "te": "నేను ప్రతిరోజూ చెత్తను వేరు చేస్తాను.",
+            "hi": "मैं हर दिन कूड़ा अलग करता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I throw away the rubbish.",
+            "te": "నేను చెత్త పారేస్తాను.",
+            "hi": "मैं कूड़ा फेंकता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I buy rubbish bags.",
+            "te": "నేను చెత్త సంచులు కొంటాను.",
+            "hi": "मैं कूड़े के थैले ख़रीदता हूँ।"
+          }
+        },
+        {
+          "text": {
+            "en": "I count the rubbish.",
+            "te": "నేను చెత్త లెక్కిస్తాను.",
+            "hi": "मैं कूड़ा गिनता हूँ।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "trenne = separate.",
+        "te": "trenne = వేరు చేస్తాను.",
+        "hi": "trenne = अलग करता हूँ।"
+      }
+    }
+  ],
+  "audio": []
+}

@@ -1,0 +1,486 @@
+{
+  "id": "b1-review",
+  "slug": "b1-review",
+  "level": "B1",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "B1 Review",
+    "te": "B1 పునశ్చరణ",
+    "hi": "B1 पुनरावृत्ति"
+  },
+  "subtitle": {
+    "en": "Everything from B1 together",
+    "te": "B1 అంశాలన్నీ ఒకేచోట",
+    "hi": "B1 की सभी बातें एक साथ"
+  },
+  "intro": {
+    "en": "Review B1: genitive, passive, Konjunktiv II, relative clauses, reported speech and advanced connectors.",
+    "te": "B1 పునశ్చరణ: జెనిటివ్, కర్మణి, Konjunktiv II, సాపేక్ష వాక్యాలు, పరోక్ష ప్రసంగం, అధునాతన సంయోజకాలు.",
+    "hi": "B1 पुनरावृत्ति: genitive, कर्मवाच्य, Konjunktiv II, संबंधवाचक उपवाक्य, परोक्ष कथन और उन्नत जोड़ने वाले शब्द।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "Wegen des Regens bleiben wir zu Hause.",
+      "meaning": {
+        "en": "Because of the rain we stay at home.",
+        "te": "వర్షం కారణంగా మేము ఇంట్లోనే ఉంటాము.",
+        "hi": "बारिश की वजह से हम घर पर रहेंगे।"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "Das Haus wird gebaut.",
+      "meaning": {
+        "en": "The house is being built.",
+        "te": "ఇల్లు కడుతున్నారు.",
+        "hi": "घर बनाया जा रहा है।"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "Wenn ich Zeit hätte, würde ich reisen.",
+      "meaning": {
+        "en": "If I had time, I would travel.",
+        "te": "నాకు సమయం ఉంటే, నేను ప్రయాణిస్తాను.",
+        "hi": "अगर मेरे पास समय होता, तो मैं यात्रा करता।"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "Der Mann, der dort steht, ist mein Chef.",
+      "meaning": {
+        "en": "The man who stands there is my boss.",
+        "te": "అక్కడ నిలబడిన వ్యక్తి నా బాస్.",
+        "hi": "वहाँ खड़ा आदमी मेरा बॉस है।"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "Er sagt, er sei krank.",
+      "meaning": {
+        "en": "He says he is ill.",
+        "te": "తాను అనారోగ్యంగా ఉన్నానని అతను చెబుతున్నాడు.",
+        "hi": "वह कहता है कि वह बीमार है।"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "Ich lerne, damit ich die Prüfung bestehe.",
+      "meaning": {
+        "en": "I study so that I pass the exam.",
+        "te": "పరీక్ష పాస్ అవ్వడానికి నేను చదువుతున్నాను.",
+        "hi": "मैं पढ़ता हूँ ताकि परीक्षा पास कर सकूँ।"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "Obwohl es regnet, gehe ich.",
+      "meaning": {
+        "en": "Although it is raining, I go.",
+        "te": "వర్షం పడుతున్నా నేను వెళ్తాను.",
+        "hi": "बारिश हो रही है फिर भी मैं जाता हूँ।"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "Ich drücke dir die Daumen!",
+      "meaning": {
+        "en": "I am keeping my fingers crossed for you!",
+        "te": "నీకు మంచి జరగాలని కోరుకుంటున్నాను!",
+        "hi": "मैं तुम्हारे लिए दुआ कर रहा हूँ!"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Laut dem Bericht steigen die Preise.",
+      "meaning": {
+        "en": "According to the report prices are rising.",
+        "te": "నివేదిక ప్రకారం ధరలు పెరుగుతున్నాయి.",
+        "hi": "रिपोर्ट के अनुसार कीमतें बढ़ रही हैं।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Man sollte Energie sparen.",
+      "meaning": {
+        "en": "One should save energy.",
+        "te": "శక్తిని ఆదా చేయాలి.",
+        "hi": "ऊर्जा बचानी चाहिए।"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Trotz des Wetters gehen wir spazieren.",
+      "meaning": {
+        "en": "Despite the weather we go for a walk.",
+        "te": "వాతావరణం ఉన్నా మేము నడకకు వెళ్తాము.",
+        "hi": "मौसम के बावजूद हम टहलने जाते हैं।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Ich würde gern mehr Zeit haben.",
+      "meaning": {
+        "en": "I would like to have more time.",
+        "te": "నాకు ఇంకా సమయం కావాలి.",
+        "hi": "मुझे और समय चाहिए।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Die Frau, deren Sohn Arzt ist, wohnt hier.",
+      "meaning": {
+        "en": "The woman whose son is a doctor lives here.",
+        "te": "కొడుకు డాక్టర్ అయిన ఆమె ఇక్కడ ఉంటుంది.",
+        "hi": "जिस औरत का बेटा डॉक्टर है, वह यहाँ रहती है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Sie behauptet, sie habe keine Zeit.",
+      "meaning": {
+        "en": "She claims she has no time.",
+        "te": "తనకు సమయం లేదని ఆమె వాదిస్తోంది.",
+        "hi": "वह दावा करती है कि उसके पास समय नहीं है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "die Unterlage",
+      "meaning": {
+        "en": "the document",
+        "te": "పత్రం",
+        "hi": "कागज़"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "bestehen",
+      "meaning": {
+        "en": "to pass",
+        "te": "పాస్ అవ్వడం",
+        "hi": "पास होना"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "der Vertrag",
+      "meaning": {
+        "en": "the contract",
+        "te": "ఒప్పందం",
+        "hi": "अनुबंध"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "der Nachteil",
+      "meaning": {
+        "en": "the disadvantage",
+        "te": "నష్టం",
+        "hi": "नुकसान"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "B1 REVIEW",
+      "te": "B1 పునశ్చరణ",
+      "hi": "B1 पुनरावृत्ति"
+    },
+    "lines": []
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Review: the main patterns",
+      "te": "పునశ్చరణ: ముఖ్య నియమాలు",
+      "hi": "पुनरावृत्ति: मुख्य नियम"
+    },
+    "body": {
+      "en": "Genitive: wegen, trotz, während + des/der. Passive: wird/wurde + participle. Konjunktiv II: würde/hätte/wäre. Relative: der/den/dem/dessen. Reported: Konjunktiv I (er sei). Subordinate connectors send the verb to the end.",
+      "te": "Genitive: wegen, trotz, während. Passive: wird/wurde + participle. Konjunktiv II: würde/hätte/wäre. Relative: der/den/dem/dessen. Reported: Konjunktiv I. అధీన సంయోజకాలు: క్రియ చివర.",
+      "hi": "Genitive: wegen, trotz, während। Passive: wird/wurde + participle। Konjunktiv II: würde/hätte/wäre। Relative: der/den/dem/dessen। Reported: Konjunktiv I। अधीनस्थ जोड़ने वाले: क्रिया अंत में।"
+    }
+  },
+  "deep_dive": {
+    "en": "This lesson adds no new words. Choose the grammar point you find hardest and practise it with a short written paragraph about your work or studies.",
+    "te": "ఈ పాఠంలో కొత్త పదాలు లేవు. మీకు కష్టమైన అంశాన్ని ఎంచుకుని మీ పని లేదా చదువు గురించి చిన్న పేరా రాసి అభ్యాసం చేయండి.",
+    "hi": "इस पाठ में नए शब्द नहीं हैं। जो व्याकरण सबसे कठिन लगे उसे चुनें और अपने काम या पढ़ाई पर छोटा अनुच्छेद लिखकर अभ्यास करें।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Obwohl ich bin müde.",
+      "right": "Obwohl ich müde bin.",
+      "why": {
+        "en": "Verb at the end after obwohl.",
+        "te": "obwohl తర్వాత క్రియ చివర.",
+        "hi": "obwohl के बाद क्रिया अंत में।"
+      }
+    },
+    {
+      "wrong": "Er sagt, er ist krank.",
+      "right": "Er sagt, er sei krank.",
+      "why": {
+        "en": "Reported speech: Konjunktiv I.",
+        "te": "నివేదిక: Konjunktiv I.",
+        "hi": "परोक्ष कथन: Konjunktiv I।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "At B1 you can follow German news, handle a job interview and discuss a topic in a team. Keep practising with real German every day.",
+    "te": "B1 స్థాయిలో మీరు జర్మన్ వార్తలు అనుసరించవచ్చు, ఉద్యోగ ఇంటర్వ్యూ నిర్వహించవచ్చు, టీమ్‌లో చర్చించవచ్చు. ప్రతిరోజూ అభ్యాసం కొనసాగించండి.",
+    "hi": "B1 स्तर पर आप जर्मन समाचार समझ सकते हैं, नौकरी का इंटरव्यू दे सकते हैं और टीम में चर्चा कर सकते हैं। रोज़ अभ्यास जारी रखें।"
+  },
+  "practice_tip": {
+    "en": "Write a short paragraph about your work and study plans, using at least three connectors from this unit.",
+    "te": "మీ పని, చదువు ప్రణాళికల గురించి ఈ యూనిట్‌లోని కనీసం మూడు సంయోజకాలతో చిన్న పేరా రాయండి.",
+    "hi": "अपने काम और पढ़ाई की योजना पर इस यूनिट के कम से कम तीन जोड़ने वाले शब्दों के साथ छोटा अनुच्छेद लिखें।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Verb position after \"damit\"?",
+        "te": "\"damit\" తర్వాత క్రియ స్థానం?",
+        "hi": "\"damit\" के बाद क्रिया का स्थान?"
+      },
+      "answer": {
+        "en": "At the end.",
+        "te": "చివర.",
+        "hi": "अंत में।"
+      }
+    },
+    {
+      "question": {
+        "en": "Say \"If I were rich, I would buy a house.\"",
+        "te": "\"నేను ధనవంతుడినైతే ఇల్లు కొంటాను\" అని చెప్పండి.",
+        "hi": "\"अगर मैं अमीर होता तो घर ख़रीदता\" कहें।"
+      },
+      "answer": {
+        "en": "Wenn ich reich wäre, würde ich ein Haus kaufen.",
+        "te": "Wenn ich reich wäre, würde ich ein Haus kaufen.",
+        "hi": "Wenn ich reich wäre, würde ich ein Haus kaufen."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Trotz ___ Regens gehen wir.",
+        "te": "Trotz ___ Regens gehen wir.",
+        "hi": "Trotz ___ Regens gehen wir."
+      },
+      "options": [
+        {
+          "de": "des"
+        },
+        {
+          "de": "dem"
+        },
+        {
+          "de": "der"
+        },
+        {
+          "de": "den"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "trotz + genitive.",
+        "te": "trotz + genitive.",
+        "hi": "trotz + genitive."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Das Haus ___ gebaut.",
+        "te": "Das Haus ___ gebaut.",
+        "hi": "Das Haus ___ gebaut."
+      },
+      "options": [
+        {
+          "de": "wird"
+        },
+        {
+          "de": "hat"
+        },
+        {
+          "de": "ist"
+        },
+        {
+          "de": "werden"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Present passive: wird.",
+        "te": "Present passive: wird.",
+        "hi": "Present passive: wird."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Wenn ich Zeit ___, würde ich kommen.",
+        "te": "Wenn ich Zeit ___, würde ich kommen.",
+        "hi": "Wenn ich Zeit ___, würde ich kommen."
+      },
+      "options": [
+        {
+          "de": "hätte"
+        },
+        {
+          "de": "habe"
+        },
+        {
+          "de": "hatte"
+        },
+        {
+          "de": "haben"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Konjunktiv II of haben: hätte.",
+        "te": "Konjunktiv II of haben: hätte.",
+        "hi": "Konjunktiv II of haben: hätte."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Er sagt, er ___ müde.",
+        "te": "Er sagt, er ___ müde.",
+        "hi": "Er sagt, er ___ müde."
+      },
+      "options": [
+        {
+          "de": "sei"
+        },
+        {
+          "de": "ist"
+        },
+        {
+          "de": "war"
+        },
+        {
+          "de": "wäre"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Konjunktiv I of sein: sei.",
+        "te": "Konjunktiv I of sein: sei.",
+        "hi": "Konjunktiv I of sein: sei."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "b1-review-l1",
+      "audio_de": "Obwohl es kalt ist, gehen wir spazieren.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "Although it is cold, we go for a walk.",
+            "te": "చలిగా ఉన్నా మేము నడకకు వెళ్తాము.",
+            "hi": "ठंड है फिर भी हम टहलने जाते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "Because it is cold, we stay in.",
+            "te": "చలిగా ఉంది కాబట్టి మేము ఇంట్లోనే ఉంటాము.",
+            "hi": "ठंड है इसलिए हम घर पर रहते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "It is warm, so we go out.",
+            "te": "వెచ్చగా ఉంది, అందుకే బయటకు వెళ్తాము.",
+            "hi": "गर्मी है इसलिए बाहर जाते हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "We went for a walk yesterday.",
+            "te": "నిన్న మేము నడకకు వెళ్లాము.",
+            "hi": "कल हम टहलने गए थे।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "obwohl = although.",
+        "te": "obwohl = అయినప్పటికీ.",
+        "hi": "obwohl = फिर भी।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "b1-review-l2",
+      "audio_de": "Die Preise werden erhöht.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The prices are being raised.",
+            "te": "ధరలు పెంచుతున్నారు.",
+            "hi": "कीमतें बढ़ाई जा रही हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "The prices are being lowered.",
+            "te": "ధరలు తగ్గిస్తున్నారు.",
+            "hi": "कीमतें घटाई जा रही हैं।"
+          }
+        },
+        {
+          "text": {
+            "en": "I raised the prices.",
+            "te": "నేను ధరలు పెంచాను.",
+            "hi": "मैंने कीमतें बढ़ाईं।"
+          }
+        },
+        {
+          "text": {
+            "en": "The prices are high.",
+            "te": "ధరలు ఎక్కువగా ఉన్నాయి.",
+            "hi": "कीमतें ऊँची हैं।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "wird erhöht = is being raised (passive).",
+        "te": "wird erhöht = పెంచబడుతున్నాయి.",
+        "hi": "wird erhöht = बढ़ाई जा रही हैं।"
+      }
+    }
+  ],
+  "audio": []
+}

@@ -1,0 +1,527 @@
+{
+  "id": "separable-verbs",
+  "slug": "separable-verbs",
+  "level": "A2",
+  "review": {
+    "te": false,
+    "hi": false
+  },
+  "title": {
+    "en": "Separable Verbs",
+    "te": "విభజన క్రియలు",
+    "hi": "विभाज्य क्रियाएँ"
+  },
+  "subtitle": {
+    "en": "aufstehen, anrufen, einkaufen",
+    "te": "aufstehen, anrufen, einkaufen",
+    "hi": "aufstehen, anrufen, einkaufen"
+  },
+  "intro": {
+    "en": "Many German verbs have a prefix that splits off and goes to the end of the sentence: aufstehen, anrufen, einkaufen.",
+    "te": "చాలా జర్మన్ క్రియలకు విడిపోయే ముందు భాగం ఉంటుంది; అది వాక్యం చివరకు వెళ్తుంది: aufstehen, anrufen, einkaufen.",
+    "hi": "कई जर्मन क्रियाओं का उपसर्ग अलग होकर वाक्य के अंत में जाता है: aufstehen, anrufen, einkaufen।"
+  },
+  "vocabulary": [
+    {
+      "id": "v01",
+      "de": "aufstehen",
+      "meaning": {
+        "en": "to get up",
+        "te": "లేవడం",
+        "hi": "उठना"
+      }
+    },
+    {
+      "id": "v02",
+      "de": "anrufen",
+      "meaning": {
+        "en": "to call (phone)",
+        "te": "ఫోన్ చేయడం",
+        "hi": "फ़ोन करना"
+      }
+    },
+    {
+      "id": "v03",
+      "de": "einkaufen",
+      "meaning": {
+        "en": "to shop",
+        "te": "షాపింగ్ చేయడం",
+        "hi": "ख़रीदारी करना"
+      }
+    },
+    {
+      "id": "v04",
+      "de": "anfangen",
+      "meaning": {
+        "en": "to begin",
+        "te": "మొదలుపెట్టడం",
+        "hi": "शुरू करना"
+      }
+    },
+    {
+      "id": "v05",
+      "de": "mitkommen",
+      "meaning": {
+        "en": "to come along",
+        "te": "వెంట రావడం",
+        "hi": "साथ आना"
+      }
+    },
+    {
+      "id": "v06",
+      "de": "zurückkommen",
+      "meaning": {
+        "en": "to come back",
+        "te": "తిరిగి రావడం",
+        "hi": "वापस आना"
+      }
+    },
+    {
+      "id": "v07",
+      "de": "fernsehen",
+      "meaning": {
+        "en": "to watch TV",
+        "te": "టీవీ చూడటం",
+        "hi": "टीवी देखना"
+      }
+    },
+    {
+      "id": "v08",
+      "de": "vorbereiten",
+      "meaning": {
+        "en": "to prepare",
+        "te": "సిద్ధం చేయడం",
+        "hi": "तैयारी करना"
+      }
+    },
+    {
+      "id": "v09",
+      "de": "Ich rufe dich morgen an.",
+      "meaning": {
+        "en": "I will call you tomorrow.",
+        "te": "నేను రేపు నీకు ఫోన్ చేస్తాను.",
+        "hi": "मैं कल तुम्हें फ़ोन करूँगा।"
+      }
+    },
+    {
+      "id": "v10",
+      "de": "Kommst du mit?",
+      "meaning": {
+        "en": "Are you coming along?",
+        "te": "నువ్వు వస్తున్నావా?",
+        "hi": "क्या तुम साथ चलोगे?"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "e01",
+      "de": "Ich stehe um sechs Uhr auf.",
+      "meaning": {
+        "en": "I get up at six.",
+        "te": "నేను ఆరు గంటలకు లేస్తాను.",
+        "hi": "मैं छह बजे उठता हूँ।"
+      }
+    },
+    {
+      "id": "e02",
+      "de": "Wir kaufen am Samstag ein.",
+      "meaning": {
+        "en": "We shop on Saturday.",
+        "te": "మేము శనివారం షాపింగ్ చేస్తాము.",
+        "hi": "हम शनिवार को ख़रीदारी करते हैं।"
+      }
+    },
+    {
+      "id": "e03",
+      "de": "Der Kurs fängt um neun an.",
+      "meaning": {
+        "en": "The course starts at nine.",
+        "te": "కోర్సు తొమ్మిదికి మొదలవుతుంది.",
+        "hi": "कोर्स नौ बजे शुरू होता है।"
+      }
+    },
+    {
+      "id": "e04",
+      "de": "Er kommt heute Abend zurück.",
+      "meaning": {
+        "en": "He comes back this evening.",
+        "te": "అతను ఈ సాయంత్రం తిరిగి వస్తాడు.",
+        "hi": "वह आज शाम वापस आता है।"
+      }
+    }
+  ],
+  "more_vocabulary": [
+    {
+      "id": "m01",
+      "de": "der Anruf",
+      "meaning": {
+        "en": "the call",
+        "te": "ఫోన్ కాల్",
+        "hi": "फ़ोन कॉल"
+      }
+    },
+    {
+      "id": "m02",
+      "de": "der Einkauf",
+      "meaning": {
+        "en": "the shopping",
+        "te": "కొనుగోలు",
+        "hi": "ख़रीदारी"
+      }
+    },
+    {
+      "id": "m03",
+      "de": "pünktlich",
+      "meaning": {
+        "en": "on time",
+        "te": "సమయానికి",
+        "hi": "समय पर"
+      }
+    },
+    {
+      "id": "m04",
+      "de": "der Kurs",
+      "meaning": {
+        "en": "the course",
+        "te": "కోర్సు",
+        "hi": "कोर्स"
+      }
+    }
+  ],
+  "dialogue": {
+    "scene": {
+      "en": "PLANNING A WEEKEND",
+      "te": "వారాంతం ప్లాన్ చేస్తూ",
+      "hi": "वीकेंड की योजना बनाते हुए"
+    },
+    "lines": [
+      {
+        "id": "d01",
+        "speaker": "Anna",
+        "de": "Ich rufe dich am Abend an. Kommst du mit einkaufen?",
+        "meaning": {
+          "en": "I will call you in the evening. Are you coming shopping?",
+          "te": "సాయంత్రం నీకు ఫోన్ చేస్తాను. షాపింగ్‌కు వస్తావా?",
+          "hi": "मैं शाम को तुम्हें फ़ोन करूँगी। ख़रीदारी के लिए चलोगे?"
+        }
+      },
+      {
+        "id": "d02",
+        "speaker": "Kiran",
+        "de": "Ja, um wie viel Uhr fängst du an?",
+        "meaning": {
+          "en": "Yes, what time do you start?",
+          "te": "అవును, ఎన్ని గంటలకు మొదలుపెడతావు?",
+          "hi": "हाँ, कितने बजे शुरू करोगी?"
+        }
+      },
+      {
+        "id": "d03",
+        "speaker": "Anna",
+        "de": "Ich stehe um neun auf. Dann gehen wir zusammen los.",
+        "meaning": {
+          "en": "I get up at nine. Then we leave together.",
+          "te": "నేను తొమ్మిదికి లేస్తాను. తర్వాత కలిసి బయలుదేరుదాం.",
+          "hi": "मैं नौ बजे उठती हूँ। फिर साथ निकलते हैं।"
+        }
+      },
+      {
+        "id": "d04",
+        "speaker": "Kiran",
+        "de": "Gut, ich komme mit.",
+        "meaning": {
+          "en": "Good, I will come along.",
+          "te": "సరే, నేను వస్తాను.",
+          "hi": "ठीक है, मैं साथ चलूँगा।"
+        }
+      }
+    ]
+  },
+  "grammar_note": {
+    "title": {
+      "en": "Grammar: where the prefix goes",
+      "te": "వ్యాకరణం: ముందు భాగం ఎక్కడ",
+      "hi": "व्याकरण: उपसर्ग कहाँ जाए"
+    },
+    "body": {
+      "en": "In a main clause the prefix goes to the end: Ich stehe um sechs auf. In a question or with a modal, the prefix stays at the end of the clause: Ich möchte früh aufstehen.",
+      "te": "ప్రధాన వాక్యంలో ముందు భాగం చివరకు: Ich stehe um sechs auf. మోడల్‌తో: Ich möchte früh aufstehen.",
+      "hi": "मुख्य वाक्य में उपसर्ग अंत में: Ich stehe um sechs auf। मोडल के साथ: Ich möchte früh aufstehen।"
+    }
+  },
+  "deep_dive": {
+    "en": "Prefixes such as an-, auf-, aus-, ein-, mit-, vor-, zu-, zurück- are separable. Be-, ver-, er- are inseparable (verstehen, besuchen). With a separable verb, add zu in the middle: anzurufen, aufzustehen.",
+    "te": "an-, auf-, aus-, ein-, mit-, vor-, zu-, zurück- విడిపోతాయి. be-, ver-, er- విడిపోవు (verstehen, besuchen). zu మధ్యలో: anzurufen, aufzustehen.",
+    "hi": "an-, auf-, aus-, ein-, mit-, vor-, zu-, zurück- अलग होते हैं। be-, ver-, er- अलग नहीं होते (verstehen, besuchen)। zu बीच में: anzurufen, aufzustehen।"
+  },
+  "common_mistakes": [
+    {
+      "wrong": "Ich rufe an dich.",
+      "right": "Ich rufe dich an.",
+      "why": {
+        "en": "The prefix goes to the end.",
+        "te": "ముందు భాగం చివరకు.",
+        "hi": "उपसर्ग अंत में।"
+      }
+    },
+    {
+      "wrong": "Er steht um sechs auf nicht.",
+      "right": "Er steht um sechs nicht auf.",
+      "why": {
+        "en": "Negation goes before the prefix.",
+        "te": "నిరాకరణ ముందు భాగం ముందు.",
+        "hi": "निषेध उपसर्ग से पहले।"
+      }
+    }
+  ],
+  "cultural_note": {
+    "en": "Germans take phone calls before 8 pm; calling later can feel rude unless it is urgent.",
+    "te": "జర్మనీలో రాత్రి 8 లోపు ఫోన్ చేయడం మంచిది; అత్యవసరం కాకపోతే తర్వాత చేయడం అమర్యాద.",
+    "hi": "जर्मनी में रात 8 बजे से पहले फ़ोन करना ठीक माना जाता है; ज़रूरी न हो तो बाद में करना असभ्य लगता है।"
+  },
+  "practice_tip": {
+    "en": "Pick three verbs with separable prefixes and make a sentence with each, prefix at the end.",
+    "te": "మూడు విడిపోయే క్రియలు తీసుకుని ప్రతిదానితో వాక్యం రాయండి, ముందు భాగం చివర.",
+    "hi": "तीन विभाज्य क्रियाएँ लें और हर एक से वाक्य बनाएँ, उपसर्ग अंत में।"
+  },
+  "self_check": [
+    {
+      "question": {
+        "en": "Where does \"auf\" go in \"Ich stehe auf\"?",
+        "te": "\"Ich stehe auf\" లో \"auf\" ఎక్కడ?",
+        "hi": "\"Ich stehe auf\" में \"auf\" कहाँ?"
+      },
+      "answer": {
+        "en": "At the end of the sentence.",
+        "te": "వాక్యం చివర.",
+        "hi": "वाक्य के अंत में।"
+      }
+    },
+    {
+      "question": {
+        "en": "Make \"anrufen\" with zu.",
+        "te": "\"anrufen\" ను zu తో చెప్పండి.",
+        "hi": "\"anrufen\" को zu के साथ बनाएँ।"
+      },
+      "answer": {
+        "en": "anzurufen",
+        "te": "anzurufen",
+        "hi": "anzurufen"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Ich ___ um sieben ___. (aufstehen)",
+        "te": "Ich ___ um sieben ___. (aufstehen)",
+        "hi": "Ich ___ um sieben ___. (aufstehen)"
+      },
+      "options": [
+        {
+          "de": "stehe … auf"
+        },
+        {
+          "de": "stehe auf … "
+        },
+        {
+          "de": "aufstehe … "
+        },
+        {
+          "de": "stehe … aufen"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Prefix auf goes to the end.",
+        "te": "Prefix auf goes to the end.",
+        "hi": "Prefix auf goes to the end."
+      }
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Wir ___ am Samstag ___. (einkaufen)",
+        "te": "Wir ___ am Samstag ___. (einkaufen)",
+        "hi": "Wir ___ am Samstag ___. (einkaufen)"
+      },
+      "options": [
+        {
+          "de": "kaufen … ein"
+        },
+        {
+          "de": "einkaufen … "
+        },
+        {
+          "de": "kaufen ein … "
+        },
+        {
+          "de": "kaufen … einen"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Prefix ein goes to the end.",
+        "te": "Prefix ein goes to the end.",
+        "hi": "Prefix ein goes to the end."
+      }
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": {
+        "en": "Which verb is separable?",
+        "te": "Which verb is separable?",
+        "hi": "Which verb is separable?"
+      },
+      "options": [
+        {
+          "de": "anrufen"
+        },
+        {
+          "de": "verstehen"
+        },
+        {
+          "de": "besuchen"
+        },
+        {
+          "de": "bekommen"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "an- is a separable prefix.",
+        "te": "an- is a separable prefix.",
+        "hi": "an- is a separable prefix."
+      }
+    },
+    {
+      "id": "q4",
+      "kind": "mcq",
+      "prompt": {
+        "en": "\"Kommst du mit?\" means…",
+        "te": "\"Kommst du mit?\" means…",
+        "hi": "\"Kommst du mit?\" means…"
+      },
+      "options": [
+        {
+          "de": "Are you coming along?"
+        },
+        {
+          "de": "Did you come?"
+        },
+        {
+          "de": "Will you come?"
+        },
+        {
+          "de": "Can you come?"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "mitkommen = come along.",
+        "te": "mitkommen = come along.",
+        "hi": "mitkommen = come along."
+      }
+    },
+    {
+      "id": "q5",
+      "kind": "listening",
+      "audioId": "v09",
+      "audio_de": "Ich rufe dich morgen an.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "I will call you tomorrow.",
+            "te": "నేను రేపు నీకు ఫోన్ చేస్తాను.",
+            "hi": "मैं कल तुम्हें फ़ोन करूँगा।"
+          }
+        },
+        {
+          "text": {
+            "en": "I will visit you tomorrow.",
+            "te": "నేను రేపు నిన్ను కలవడానికి వస్తాను.",
+            "hi": "मैं कल तुमसे मिलूँगा।"
+          }
+        },
+        {
+          "text": {
+            "en": "I called you yesterday.",
+            "te": "నేను నిన్న నీకు ఫోన్ చేశాను.",
+            "hi": "मैंने कल तुम्हें फ़ोन किया।"
+          }
+        },
+        {
+          "text": {
+            "en": "I will buy you tomorrow.",
+            "te": "నేను రేపు నీకు కొంటాను.",
+            "hi": "मैं कल तुम्हारे लिए ख़रीदूँगा।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "anrufen = to call.",
+        "te": "anrufen = ఫోన్ చేయడం.",
+        "hi": "anrufen = फ़ोन करना।"
+      }
+    },
+    {
+      "id": "q6",
+      "kind": "listening",
+      "audioId": "separable-verbs-l2",
+      "audio_de": "Der Kurs fängt um neun an.",
+      "prompt": {
+        "en": "Listen. What does it mean?",
+        "te": "వినండి. దీని అర్థం ఏమిటి?",
+        "hi": "सुनें। इसका क्या अर्थ है?"
+      },
+      "options": [
+        {
+          "text": {
+            "en": "The course starts at nine.",
+            "te": "కోర్సు తొమ్మిదికి మొదలవుతుంది.",
+            "hi": "कोर्स नौ बजे शुरू होता है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The course ends at nine.",
+            "te": "కోర్సు తొమ్మిదికి ముగుస్తుంది.",
+            "hi": "कोर्स नौ बजे ख़त्म होता है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The course is at nine.",
+            "te": "కోర్సు తొమ్మిది గంటలకు ఉంది.",
+            "hi": "कोर्स नौ बजे है।"
+          }
+        },
+        {
+          "text": {
+            "en": "The course was nine.",
+            "te": "కోర్సు తొమ్మిది.",
+            "hi": "कोर्स नौ था।"
+          }
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "anfangen = to begin.",
+        "te": "anfangen = మొదలుపెట్టడం.",
+        "hi": "anfangen = शुरू करना।"
+      }
+    }
+  ],
+  "audio": []
+}
