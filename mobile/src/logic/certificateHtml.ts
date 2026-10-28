@@ -1,6 +1,6 @@
 import type { Certificate } from '../backend/types';
 
-export const BRAND = 'TOMCOM Deutsch';
+export const BRAND = 'TomCom';
 export const ISSUER = 'Telangana Overseas Manpower Company Limited (TOMCOM)';
 
 const LEVEL_NAMES = { A1: 'A1 · Beginner', A2: 'A2 · Elementary', B1: 'B1 · Intermediate' } as const;
@@ -11,7 +11,7 @@ function esc(s: string): string {
 
 export function certificateFileName(c: Certificate): string {
   const name = c.fullName.trim().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '') || 'Learner';
-  return `TOMCOM-Deutsch-${c.level}-${name}.pdf`;
+  return `TomCom-${c.level}-${name}.pdf`;
 }
 
 export function formatDate(iso: string): string {

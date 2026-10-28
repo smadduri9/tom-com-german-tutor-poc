@@ -33,14 +33,14 @@ describe('certificate', () => {
   const cert: Certificate = { id: '1', level: 'A1', score: 92, issuedAt: '2026-10-27T10:00:00Z', publicSlug: 'abcd2345efgh', fullName: 'Ravi <Kumar>' };
   it('builds the PDF HTML with brand, name, level and score, escaping the name', () => {
     const html = certificateHtml(cert);
-    expect(html).toContain('TOMCOM Deutsch');
+    expect(html).toContain('TomCom');
     expect(html).toContain('Certificate of Achievement');
     expect(html).toContain('Ravi &lt;Kumar&gt;');
     expect(html).toContain('A1 · Beginner');
     expect(html).toContain('92%');
     expect(html).toContain('Telangana Overseas Manpower Company Limited (TOMCOM)');
   });
-  it('names the file TOMCOM-Deutsch-<level>-<Name>.pdf', () => {
-    expect(certificateFileName({ ...cert, fullName: 'Ravi Kumar' })).toBe('TOMCOM-Deutsch-A1-Ravi-Kumar.pdf');
+  it('names the file TomCom-<level>-<Name>.pdf', () => {
+    expect(certificateFileName({ ...cert, fullName: 'Ravi Kumar' })).toBe('TomCom-A1-Ravi-Kumar.pdf');
   });
 });
